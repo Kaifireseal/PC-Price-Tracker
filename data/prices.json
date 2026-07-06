@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-07-06T20:00:00+00:00",
+  "currency": "AUD",
+  "parts": [
+    {
+      "part_key": "AMD Ryzen 7 7800X3D",
+      "category": "CPU",
+      "best_price": 549.0,
+      "best_retailer": "Scorptec",
+      "best_url": "https://www.scorptec.com.au/product/example-7800x3d",
+      "offers": [
+        { "retailer": "Scorptec", "price": 549.0, "url": "https://www.scorptec.com.au/product/example-7800x3d", "title": "AMD Ryzen 7 7800X3D" },
+        { "retailer": "Centre Com", "price": 559.0, "url": "https://www.centrecom.com.au/product/example-7800x3d", "title": "AMD Ryzen 7 7800X3D CPU" },
+        { "retailer": "Umart", "price": 565.0, "url": "https://www.umart.com.au/example-7800x3d.html", "title": "AMD Ryzen 7 7800X3D Processor" }
+      ]
+    },
+    {
+      "part_key": "NVIDIA RTX 4070 Super",
+      "category": "GPU",
+      "best_price": 899.0,
+      "best_retailer": "PC Case Gear",
+      "best_url": "https://www.pccasegear.com/product/example-4070-super",
+      "offers": [
+        { "retailer": "PC Case Gear", "price": 899.0, "url": "https://www.pccasegear.com/product/example-4070-super", "title": "NVIDIA GeForce RTX 4070 Super 12GB" },
+        { "retailer": "Scorptec", "price": 919.0, "url": "https://www.scorptec.com.au/product/example-4070-super", "title": "RTX 4070 Super 12GB Graphics Card" }
+      ]
+    },
+    {
+      "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
+      "category": "RAM",
+      "best_price": 129.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/example-vengeance-32gb.html",
+      "offers": [
+        { "retailer": "Umart", "price": 129.0, "url": "https://www.umart.com.au/example-vengeance-32gb.html", "title": "Corsair Vengeance 32GB (2x16GB) DDR5 6000MHz" },
+        { "retailer": "PC Case Gear", "price": 135.0, "url": "https://www.pccasegear.com/product/example-vengeance-32gb", "title": "Corsair Vengeance DDR5 32GB Kit" }
+      ]
+    }
+  ],
+  "raw_records": []
+}

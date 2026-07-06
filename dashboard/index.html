@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AU PC Part Price Tracker</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #12151c;
+    --panel: #1a1f2b;
+    --panel-border: #2a3140;
+    --copper: #c9793d;
+    --copper-bright: #e89a5c;
+    --teal: #45d4b8;
+    --text-main: #e7e9ee;
+    --text-dim: #8891a3;
+  }
+  body{
+    background:
+      radial-gradient(circle at 15% 0%, rgba(201,121,61,0.08), transparent 40%),
+      radial-gradient(circle at 85% 20%, rgba(69,212,184,0.06), transparent 40%),
+      var(--bg);
+    color: var(--text-main);
+    font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh;
+  }
+  .mono{ font-family: 'JetBrains Mono', monospace; }
+
+  /* PCB trace divider motif */
+  .trace{
+    height: 1px;
+    background: repeating-linear-gradient(90deg, var(--panel-border) 0 6px, transparent 6px 10px);
+  }
+  .chip-badge{
+    position: relative;
+    background: linear-gradient(180deg, #22283a, #171b26);
+    border: 1px solid var(--panel-border);
+  }
+  .chip-badge::before, .chip-badge::after{
+    content:"";
+    position:absolute;
+    left:10px; right:10px; height:2px;
+    background: var(--panel-border);
+  }
+  .chip-badge::before{ top:-3px; }
+  .chip-badge::after{ bottom:-3px; }
+
+  .card{
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    transition: border-color .15s ease, transform .15s ease;
+  }
+  .card:hover{ border-color: rgba(201,121,61,0.5); }
+
+  .best-price{ color: var(--teal); }
+  .pill{
+    font-size: .68rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    border: 1px solid var(--panel-border);
+    color: var(--text-dim);
+  }
+  .pill.active{
+    border-color: var(--copper);
+    color: var(--copper-bright);
+    background: rgba(201,121,61,0.1);
+  }
+  ::-webkit-scrollbar{ width:8px; height:8px; }
+  ::-webkit-scrollbar-thumb{ background: var(--panel-border); border-radius: 4px; }
+
+  details > summary{ list-style:none; cursor:pointer; }
+  details > summary::-webkit-details-marker{ display:none; }
+  details[open] .chevron{ transform: rotate(90deg); }
+  .chevron{ transition: transform .15s ease; }
+</style>
+</head>
+<body class="pb-24">
+
+  <!-- Header -->
+  <header class="border-b border-[var(--panel-border)] sticky top-0 z-10 backdrop-blur bg-[rgba(18,21,28,0.85)]">
+    <div class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between gap-4 flex-wrap">
+      <div class="flex items-center gap-3">
+        <div class="chip-badge w-9 h-9 rounded-md flex items-center justify-center">
+          <span class="mono text-[var(--copper-bright)] text-sm font-bold">$AU</span>
+        </div>
+        <div>
+          <h1 class="text-lg font-semibold leading-tight">PC Part Price Tracker</h1>
+          <p class="text-xs text-[var(--text-dim)] mono" id="lastUpdated">Loading last update time…</p>
+        </div>
+      </div>
+      <div class="flex-1 min-w-[220px] max-w-sm">
+        <input id="searchInput" type="text" placeholder="Search a part, e.g. 7800X3D"
+          class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
+                 focus:outline-none focus:border-[var(--copper)] placeholder:text-[var(--text-dim)]" />
+      </div>
+    </div>
+    <div class="trace"></div>
+  </header>
+
+  <!-- Filters -->
+  <div class="max-w-6xl mx-auto px-5 pt-5 flex flex-wrap gap-2" id="categoryFilters">
+    <!-- populated by JS -->
+  </div>
+
+  <!-- Content -->
+  <main class="max-w-6xl mx-auto px-5 pt-5">
+    <div id="emptyState" class="hidden text-center py-24 text-[var(--text-dim)]">
+      <p class="mono text-sm">// no matching parts found</p>
+    </div>
+    <div id="loadingState" class="text-center py-24 text-[var(--text-dim)] mono text-sm">
+      Fetching latest prices…
+    </div>
+    <div id="cardsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+  </main>
+
+  <footer class="max-w-6xl mx-auto px-5 mt-10 text-xs text-[var(--text-dim)] mono">
+    Prices refresh every 24 hours via an automated scraper. Always confirm the final price
+    and stock on the retailer's own page before purchasing — prices can change between refreshes.
+  </footer>
+
+<script>
+const DATA_URL = '../data/prices.json';
+let ALL_PARTS = [];
+let activeCategory = 'All';
+
+const categoryOrder = ['All', 'CPU', 'GPU', 'RAM'];
+
+function formatPrice(n){
+  return new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(n);
+}
+
+function renderFilters(categoriesPresent){
+  const wrap = document.getElementById('categoryFilters');
+  wrap.innerHTML = '';
+  categoryOrder
+    .filter(c => c === 'All' || categoriesPresent.has(c))
+    .forEach(cat => {
+      const btn = document.createElement('button');
+      btn.textContent = cat;
+      btn.className = 'pill px-3 py-1.5 rounded-full' + (cat === activeCategory ? ' active' : '');
+      btn.onclick = () => { activeCategory = cat; renderAll(); };
+      wrap.appendChild(btn);
+    });
+}
+
+function offerRow(offer, isBest){
+  return `
+    <a href="${offer.url}" target="_blank" rel="noopener"
+       class="flex items-center justify-between gap-3 py-2 px-2 rounded-md hover:bg-white/5 transition">
+      <span class="text-sm ${isBest ? 'font-semibold' : 'text-[var(--text-dim)]'}">${offer.retailer}</span>
+      <span class="mono text-sm ${isBest ? 'best-price font-semibold' : ''}">${formatPrice(offer.price)}</span>
+    </a>`;
+}
+
+function partCard(part){
+  const otherOffers = part.offers.slice(1);
+  return `
+    <div class="card rounded-lg p-4">
+      <div class="flex items-start justify-between gap-3">
+        <div>
+          <span class="pill inline-block px-2 py-0.5 rounded mb-2">${part.category}</span>
+          <h3 class="font-semibold leading-snug">${part.part_key}</h3>
+        </div>
+      </div>
+
+      <div class="trace my-3"></div>
+
+      <a href="${part.best_url}" target="_blank" rel="noopener" class="block group">
+        <div class="flex items-end justify-between">
+          <div>
+            <p class="text-xs text-[var(--text-dim)] mono mb-0.5">best price · ${part.best_retailer}</p>
+            <p class="mono text-2xl font-bold best-price">${formatPrice(part.best_price)}</p>
+          </div>
+          <span class="pill px-2 py-1 rounded group-hover:active">Visit store →</span>
+        </div>
+      </a>
+
+      ${otherOffers.length ? `
+      <details class="mt-3">
+        <summary class="flex items-center gap-1.5 text-xs text-[var(--text-dim)] mono py-1">
+          <svg class="chevron w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+          compare ${otherOffers.length} more offer${otherOffers.length > 1 ? 's' : ''}
+        </summary>
+        <div class="mt-1 divide-y divide-[var(--panel-border)]">
+          ${otherOffers.map(o => offerRow(o, false)).join('')}
+        </div>
+      </details>` : `
+      <p class="mt-3 text-xs text-[var(--text-dim)] mono">only one retailer matched this run</p>
+      `}
+    </div>`;
+}
+
+function renderAll(){
+  const query = document.getElementById('searchInput').value.trim().toLowerCase();
+  const filtered = ALL_PARTS.filter(p => {
+    const matchesCategory = activeCategory === 'All' || p.category === activeCategory;
+    const matchesQuery = !query || p.part_key.toLowerCase().includes(query);
+    return matchesCategory && matchesQuery;
+  });
+
+  const categoriesPresent = new Set(ALL_PARTS.map(p => p.category));
+  renderFilters(categoriesPresent);
+
+  const grid = document.getElementById('cardsGrid');
+  const empty = document.getElementById('emptyState');
+  if (!filtered.length){
+    grid.innerHTML = '';
+    empty.classList.remove('hidden');
+    return;
+  }
+  empty.classList.add('hidden');
+  grid.innerHTML = filtered.map(partCard).join('');
+}
+
+async function init(){
+  try{
+    const res = await fetch(DATA_URL, { cache: 'no-store' });
+    const data = await res.json();
+    ALL_PARTS = data.parts || [];
+
+    const updated = new Date(data.generated_at);
+    document.getElementById('lastUpdated').textContent =
+      'last updated ' + updated.toLocaleString('en-AU', { dateStyle: 'medium', timeStyle: 'short' });
+
+    document.getElementById('loadingState').classList.add('hidden');
+    document.getElementById('searchInput').addEventListener('input', renderAll);
+    renderAll();
+  } catch (err){
+    document.getElementById('loadingState').textContent =
+      'Could not load prices.json — has the scraper run yet? (' + err.message + ')';
+  }
+}
+
+init();
+</script>
+</body>
+</html>
