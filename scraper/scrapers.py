@@ -61,6 +61,32 @@ CHALLENGE_MARKERS = (
     "cf-browser-verification", "cloudflare-challenge", "verify you are human",
 )
 
+# Captures ONE raw-HTML snippet per retailer (the first time we see it),
+# centered on the first "$" found on the page. This gets written out to
+# debug_snippets.json at the end of a run so real markup can be inspected
+# without any manual steps — same idea as the Apps Script "Debug" sheet.
+DEBUG_SNIPPETS = {}
+
+
+def _record_snippet(retailer_name: str, html: str):
+    if retailer_name in DEBUG_SNIPPETS:
+        return  # already captured one for this retailer this run
+    dollar_index = html.find("$")
+    if dollar_index == -1:
+        DEBUG_SNIPPETS[retailer_name] = {
+            "note": "No '$' found anywhere on the page.",
+            "html_length": len(html),
+            "snippet": html[:2000],
+        }
+        return
+    start = max(0, dollar_index - 1500)
+    end = min(len(html), dollar_index + 1500)
+    DEBUG_SNIPPETS[retailer_name] = {
+        "note": "Snippet centered on the first '$' found on the page.",
+        "html_length": len(html),
+        "snippet": html[start:end],
+    }
+
 
 def _clean_price(raw_text: str):
     match = PRICE_RE.search(raw_text.replace("\xa0", " "))
@@ -143,6 +169,7 @@ def fetch_with_requests(retailer_name: str, query: str, max_retries: int = 3):
             if resp.status_code in (403, 429):
                 raise RuntimeError(f"HTTP {resp.status_code} (likely bot-blocked)")
             resp.raise_for_status()
+            _record_snippet(retailer_name, resp.text)
             return _parse_html(resp.text, base_domain)
         except Exception as exc:
             last_exc = exc
@@ -193,6 +220,7 @@ def fetch_with_playwright(retailer_name: str, query: str, max_retries: int = 2):
                 html = page.content()
                 browser.close()
 
+            _record_snippet(retailer_name, html)
             return _parse_html(html, base_domain)
 
         except Exception as exc:
