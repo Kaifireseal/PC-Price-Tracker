@@ -1,41 +1,440 @@
 {
-  "generated_at": "2026-07-06T20:00:00+00:00",
+  "generated_at": "2026-07-06T10:48:43.325069+00:00",
   "currency": "AUD",
-  "parts": [
+  "parts": [],
+  "raw_records": [
+    {
+      "part_key": "AMD Ryzen 5 5600",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 5 5600",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 7 5800X3D",
+      "category": "CPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Ryzen 7 5800X3D",
+      "category": "CPU",
+      "retailer": "PC Case Gear",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Ryzen 5 7600",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 5 7600",
+      "category": "CPU",
+      "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
     {
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
-      "best_price": 549.0,
-      "best_retailer": "Scorptec",
-      "best_url": "https://www.scorptec.com.au/product/example-7800x3d",
-      "offers": [
-        { "retailer": "Scorptec", "price": 549.0, "url": "https://www.scorptec.com.au/product/example-7800x3d", "title": "AMD Ryzen 7 7800X3D" },
-        { "retailer": "Centre Com", "price": 559.0, "url": "https://www.centrecom.com.au/product/example-7800x3d", "title": "AMD Ryzen 7 7800X3D CPU" },
-        { "retailer": "Umart", "price": 565.0, "url": "https://www.umart.com.au/example-7800x3d.html", "title": "AMD Ryzen 7 7800X3D Processor" }
-      ]
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Ryzen 7 7800X3D",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 9 9950X3D",
+      "category": "CPU",
+      "retailer": "PC Case Gear",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Ryzen 9 9950X3D",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i5-14600K",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i5-14600K",
+      "category": "CPU",
+      "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i7-14700K",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i7-14700K",
+      "category": "CPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "Intel Core Ultra 7 265K",
+      "category": "CPU",
+      "retailer": "PC Case Gear",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "Intel Core Ultra 7 265K",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core Ultra 9 285K",
+      "category": "CPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "Intel Core Ultra 9 285K",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4060",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4060",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "NVIDIA RTX 4070 Super",
       "category": "GPU",
-      "best_price": 899.0,
-      "best_retailer": "PC Case Gear",
-      "best_url": "https://www.pccasegear.com/product/example-4070-super",
-      "offers": [
-        { "retailer": "PC Case Gear", "price": 899.0, "url": "https://www.pccasegear.com/product/example-4070-super", "title": "NVIDIA GeForce RTX 4070 Super 12GB" },
-        { "retailer": "Scorptec", "price": 919.0, "url": "https://www.scorptec.com.au/product/example-4070-super", "title": "RTX 4070 Super 12GB Graphics Card" }
-      ]
+      "retailer": "PC Case Gear",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "NVIDIA RTX 4070 Super",
+      "category": "GPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "NVIDIA RTX 4080 Super",
+      "category": "GPU",
+      "retailer": "Computer Alliance",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Computer Alliance (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "NVIDIA RTX 4080 Super",
+      "category": "GPU",
+      "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5070",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5070",
+      "category": "GPU",
+      "retailer": "PC Case Gear",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "NVIDIA RTX 5080",
+      "category": "GPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "NVIDIA RTX 5080",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7800 XT",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7800 XT",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 XTX",
+      "category": "GPU",
+      "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 XTX",
+      "category": "GPU",
+      "retailer": "PC Case Gear",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Radeon RX 9070 XT",
+      "category": "GPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Radeon RX 9070 XT",
+      "category": "GPU",
+      "retailer": "Computer Alliance",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Computer Alliance (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Radeon RX 9070",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 9070",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200",
+      "category": "RAM",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200",
+      "category": "RAM",
+      "retailer": "PC Case Gear",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
+      "category": "RAM",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
+      "category": "RAM",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
     },
     {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
-      "best_price": 129.0,
-      "best_retailer": "Umart",
-      "best_url": "https://www.umart.com.au/example-vengeance-32gb.html",
-      "offers": [
-        { "retailer": "Umart", "price": 129.0, "url": "https://www.umart.com.au/example-vengeance-32gb.html", "title": "Corsair Vengeance 32GB (2x16GB) DDR5 6000MHz" },
-        { "retailer": "PC Case Gear", "price": 135.0, "url": "https://www.pccasegear.com/product/example-vengeance-32gb", "title": "Corsair Vengeance DDR5 32GB Kit" }
-      ]
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
+      "category": "RAM",
+      "retailer": "PC Case Gear",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
+      "category": "RAM",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
+      "category": "RAM",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
+      "category": "RAM",
+      "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
+      "category": "RAM",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     }
-  ],
-  "raw_records": []
+  ]
 }
