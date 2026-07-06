@@ -171,3 +171,90 @@
 2026-07-06 11:07:52,165 [WARNING] NO MATCH: Kingston Fury Beast 128GB (2x64GB) DDR5 5600 | Umart | query='fury beast 128gb ddr5 5600' (got 15 raw results)
 2026-07-06 11:07:52,166 [INFO] Wrote debug snippets for 6 retailer(s) to /home/runner/work/PC-Price-Tracker/PC-Price-Tracker/debug_snippets.json
 2026-07-06 11:07:52,166 [INFO] Done. 0/46 fetches succeeded. Wrote /home/runner/work/PC-Price-Tracker/PC-Price-Tracker/data/prices.json
+2026-07-06 23:44:06,535 [INFO] Starting daily scrape for 23 parts...
+2026-07-06 23:44:13,080 [WARNING] NO MATCH: AMD Ryzen 5 5600 | Centre Com | query='ryzen 5 5600' (got 5 raw results)
+2026-07-06 23:44:14,909 [WARNING] NO MATCH: AMD Ryzen 5 5600 | Umart | query='ryzen 5 5600' (got 15 raw results)
+2026-07-06 23:44:18,910 [WARNING] Playwright attempt 1/2 failed for Scorptec (5800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:44:24,891 [WARNING] Playwright attempt 2/2 failed for Scorptec (5800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:44:28,891 [ERROR] FAILED (BOT_BLOCKED): AMD Ryzen 7 5800X3D | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:44:32,890 [WARNING] Playwright attempt 1/2 failed for PC Case Gear (ryzen 7 5800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:44:38,888 [WARNING] Playwright attempt 2/2 failed for PC Case Gear (ryzen 7 5800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:44:42,888 [ERROR] FAILED (BOT_BLOCKED): AMD Ryzen 7 5800X3D | PC Case Gear | PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:44:48,041 [WARNING] NO MATCH: AMD Ryzen 5 7600 | Centre Com | query='ryzen 5 7600' (got 5 raw results)
+2026-07-06 23:44:48,083 [WARNING] NO MATCH: AMD Ryzen 5 7600 | Mwave | query='ryzen 5 7600' (got 0 raw results)
+2026-07-06 23:44:52,063 [WARNING] Playwright attempt 1/2 failed for Scorptec (7800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:44:58,051 [WARNING] Playwright attempt 2/2 failed for Scorptec (7800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:02,051 [ERROR] FAILED (BOT_BLOCKED): AMD Ryzen 7 7800X3D | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:03,931 [WARNING] NO MATCH: AMD Ryzen 7 7800X3D | Umart | query='7800x3d' (got 15 raw results)
+2026-07-06 23:45:07,956 [WARNING] Playwright attempt 1/2 failed for PC Case Gear (ryzen 9 9950x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:13,940 [WARNING] Playwright attempt 2/2 failed for PC Case Gear (ryzen 9 9950x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:17,940 [ERROR] FAILED (BOT_BLOCKED): AMD Ryzen 9 9950X3D | PC Case Gear | PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:24,123 [WARNING] NO MATCH: AMD Ryzen 9 9950X3D | Centre Com | query='9950x3d' (got 5 raw results)
+2026-07-06 23:45:29,849 [WARNING] NO MATCH: Intel Core i5-14600K | Centre Com | query='i5-14600k' (got 0 raw results)
+2026-07-06 23:45:29,865 [WARNING] NO MATCH: Intel Core i5-14600K | Mwave | query='i5 14600k' (got 0 raw results)
+2026-07-06 23:45:31,717 [WARNING] NO MATCH: Intel Core i7-14700K | Umart | query='14700k' (got 15 raw results)
+2026-07-06 23:45:35,711 [WARNING] Playwright attempt 1/2 failed for Scorptec (i7-14700k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:41,728 [WARNING] Playwright attempt 2/2 failed for Scorptec (i7-14700k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:45,728 [ERROR] FAILED (BOT_BLOCKED): Intel Core i7-14700K | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:49,745 [WARNING] Playwright attempt 1/2 failed for PC Case Gear (core ultra 7 265k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:55,736 [WARNING] Playwright attempt 2/2 failed for PC Case Gear (core ultra 7 265k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:45:59,736 [ERROR] FAILED (BOT_BLOCKED): Intel Core Ultra 7 265K | PC Case Gear | PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:05,479 [WARNING] NO MATCH: Intel Core Ultra 7 265K | Centre Com | query='ultra 7 265k' (got 0 raw results)
+2026-07-06 23:46:09,475 [WARNING] Playwright attempt 1/2 failed for Scorptec (core ultra 9 285k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:15,472 [WARNING] Playwright attempt 2/2 failed for Scorptec (core ultra 9 285k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:19,473 [ERROR] FAILED (BOT_BLOCKED): Intel Core Ultra 9 285K | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:20,803 [WARNING] NO MATCH: Intel Core Ultra 9 285K | Umart | query='ultra 9 285k' (got 15 raw results)
+2026-07-06 23:46:26,570 [WARNING] NO MATCH: NVIDIA RTX 4060 | Centre Com | query='rtx 4060' (got 0 raw results)
+2026-07-06 23:46:28,478 [WARNING] NO MATCH: NVIDIA RTX 4060 | Umart | query='rtx 4060' (got 15 raw results)
+2026-07-06 23:46:32,453 [WARNING] Playwright attempt 1/2 failed for PC Case Gear (rtx 4070 super): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:38,457 [WARNING] Playwright attempt 2/2 failed for PC Case Gear (rtx 4070 super): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:42,457 [ERROR] FAILED (BOT_BLOCKED): NVIDIA RTX 4070 Super | PC Case Gear | PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:46,440 [WARNING] Playwright attempt 1/2 failed for Scorptec (rtx 4070 super): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:52,433 [WARNING] Playwright attempt 2/2 failed for Scorptec (rtx 4070 super): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:46:56,433 [ERROR] FAILED (BOT_BLOCKED): NVIDIA RTX 4070 Super | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:00,451 [WARNING] Playwright attempt 1/2 failed for Computer Alliance (rtx 4080 super): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:06,423 [WARNING] Playwright attempt 2/2 failed for Computer Alliance (rtx 4080 super): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:10,423 [ERROR] FAILED (BOT_BLOCKED): NVIDIA RTX 4080 Super | Computer Alliance | Computer Alliance (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:10,486 [WARNING] NO MATCH: NVIDIA RTX 4080 Super | Mwave | query='rtx 4080 super' (got 0 raw results)
+2026-07-06 23:47:15,261 [WARNING] NO MATCH: NVIDIA RTX 5070 | Centre Com | query='rtx 5070' (got 0 raw results)
+2026-07-06 23:47:19,255 [WARNING] Playwright attempt 1/2 failed for PC Case Gear (rtx 5070): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:25,238 [WARNING] Playwright attempt 2/2 failed for PC Case Gear (rtx 5070): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:29,238 [ERROR] FAILED (BOT_BLOCKED): NVIDIA RTX 5070 | PC Case Gear | PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:33,215 [WARNING] Playwright attempt 1/2 failed for Scorptec (rtx 5080): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:39,200 [WARNING] Playwright attempt 2/2 failed for Scorptec (rtx 5080): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:43,200 [ERROR] FAILED (BOT_BLOCKED): NVIDIA RTX 5080 | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:47:45,202 [WARNING] NO MATCH: NVIDIA RTX 5080 | Umart | query='rtx 5080' (got 15 raw results)
+2026-07-06 23:47:49,875 [WARNING] NO MATCH: AMD Radeon RX 7800 XT | Centre Com | query='rx 7800 xt' (got 0 raw results)
+2026-07-06 23:47:51,694 [WARNING] NO MATCH: AMD Radeon RX 7800 XT | Umart | query='7800 xt' (got 15 raw results)
+2026-07-06 23:47:51,708 [WARNING] NO MATCH: AMD Radeon RX 7900 XTX | Mwave | query='rx 7900 xtx' (got 0 raw results)
+2026-07-06 23:47:55,711 [WARNING] Playwright attempt 1/2 failed for PC Case Gear (rx 7900 xtx): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:01,731 [WARNING] Playwright attempt 2/2 failed for PC Case Gear (rx 7900 xtx): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:05,731 [ERROR] FAILED (BOT_BLOCKED): AMD Radeon RX 7900 XTX | PC Case Gear | PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:09,703 [WARNING] Playwright attempt 1/2 failed for Scorptec (rx 9070 xt): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:15,696 [WARNING] Playwright attempt 2/2 failed for Scorptec (rx 9070 xt): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:19,697 [ERROR] FAILED (BOT_BLOCKED): AMD Radeon RX 9070 XT | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:23,674 [WARNING] Playwright attempt 1/2 failed for Computer Alliance (rx 9070 xt): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:29,655 [WARNING] Playwright attempt 2/2 failed for Computer Alliance (rx 9070 xt): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:33,655 [ERROR] FAILED (BOT_BLOCKED): AMD Radeon RX 9070 XT | Computer Alliance | Computer Alliance (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:39,398 [WARNING] NO MATCH: AMD Radeon RX 9070 | Centre Com | query='rx 9070' (got 0 raw results)
+2026-07-06 23:48:41,234 [WARNING] NO MATCH: AMD Radeon RX 9070 | Umart | query='rx 9070' (got 15 raw results)
+2026-07-06 23:48:42,585 [WARNING] NO MATCH: Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200 | Umart | query='vengeance lpx 16gb ddr4 3200' (got 15 raw results)
+2026-07-06 23:48:46,564 [WARNING] Playwright attempt 1/2 failed for PC Case Gear (vengeance lpx 16gb ddr4 3200): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:52,550 [WARNING] Playwright attempt 2/2 failed for PC Case Gear (vengeance lpx 16gb ddr4 3200): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:48:56,550 [ERROR] FAILED (BOT_BLOCKED): Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200 | PC Case Gear | PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:02,319 [WARNING] NO MATCH: G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600 | Centre Com | query='ripjaws v 32gb ddr4 3600' (got 0 raw results)
+2026-07-06 23:49:06,324 [WARNING] Playwright attempt 1/2 failed for Scorptec (ripjaws v 32gb ddr4 3600): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:12,304 [WARNING] Playwright attempt 2/2 failed for Scorptec (ripjaws v 32gb ddr4 3600): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:16,304 [ERROR] FAILED (BOT_BLOCKED): G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600 | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:17,997 [WARNING] NO MATCH: Corsair Vengeance 32GB (2x16GB) DDR5 6000 | Umart | query='vengeance 32gb ddr5 6000' (got 15 raw results)
+2026-07-06 23:49:21,987 [WARNING] Playwright attempt 1/2 failed for PC Case Gear (vengeance 32gb ddr5 6000): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:27,964 [WARNING] Playwright attempt 2/2 failed for PC Case Gear (vengeance 32gb ddr5 6000): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:31,965 [ERROR] FAILED (BOT_BLOCKED): Corsair Vengeance 32GB (2x16GB) DDR5 6000 | PC Case Gear | PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:35,987 [WARNING] Playwright attempt 1/2 failed for Scorptec (trident z5 64gb ddr5 6000): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:41,973 [WARNING] Playwright attempt 2/2 failed for Scorptec (trident z5 64gb ddr5 6000): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:45,973 [ERROR] FAILED (BOT_BLOCKED): G.Skill Trident Z5 64GB (2x32GB) DDR5 6000 | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-06 23:49:51,708 [WARNING] NO MATCH: G.Skill Trident Z5 64GB (2x32GB) DDR5 6000 | Centre Com | query='trident z5 64gb ddr5 6000' (got 0 raw results)
+2026-07-06 23:49:51,773 [WARNING] NO MATCH: Kingston Fury Beast 128GB (2x64GB) DDR5 5600 | Mwave | query='fury beast 128gb ddr5 5600' (got 0 raw results)
+2026-07-06 23:49:54,260 [WARNING] NO MATCH: Kingston Fury Beast 128GB (2x64GB) DDR5 5600 | Umart | query='fury beast 128gb ddr5 5600' (got 15 raw results)
+2026-07-06 23:49:54,261 [INFO] Wrote debug snippets for 6 retailer(s) to /home/runner/work/PC-Price-Tracker/PC-Price-Tracker/debug_snippets.json
+2026-07-06 23:49:54,261 [INFO] Done. 0/46 fetches succeeded. Wrote /home/runner/work/PC-Price-Tracker/PC-Price-Tracker/data/prices.json
