@@ -21,11 +21,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from config import TRACKED_PARTS
-from scrapers import fetch_search_results
+from scrapers import fetch_search_results, DEBUG_SNIPPETS
 from matcher import pick_best_match, build_dashboard
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "prices.json"
+DEBUG_PATH = ROOT / "debug_snippets.json"
 LOG_PATH = ROOT / "scrape_errors.log"
 
 logging.basicConfig(
@@ -101,6 +102,10 @@ def main():
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(output, indent=2), encoding="utf-8")
+
+    if DEBUG_SNIPPETS:
+        DEBUG_PATH.write_text(json.dumps(DEBUG_SNIPPETS, indent=2), encoding="utf-8")
+        logger.info("Wrote debug snippets for %d retailer(s) to %s", len(DEBUG_SNIPPETS), DEBUG_PATH)
 
     ok_count = sum(1 for r in records if r["status"] == "OK")
     logger.info(
