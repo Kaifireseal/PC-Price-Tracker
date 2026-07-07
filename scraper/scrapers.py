@@ -56,6 +56,13 @@ SKIP_HREF_PATTERNS = (
     "/cart", "/account", "/login", "/wishlist", "/compare",
     "/checkout", "/customer", "/register",
 )
+# Real product cards are essentially never inside these structural
+# landmarks — nav bars and mega-menus are, though, and their category
+# links (e.g. "GeForce RTX 4060") can be long enough to pass the title
+# filter and end up loosely associated with some unrelated price elsewhere
+# on the page (a promo banner, etc.), flooding the results cap with noise
+# before the real product grid is ever reached.
+NAV_ANCESTOR_TAGS = ("nav", "header", "footer", "aside")
 CHALLENGE_MARKERS = (
     "checking your browser", "just a moment", "attention required",
     "cf-browser-verification", "cloudflare-challenge", "verify you are human",
@@ -119,6 +126,9 @@ def _parse_html(html: str, base_domain: str):
     seen_urls = set()
 
     for a in soup.find_all("a", href=True):
+        if a.find_parent(NAV_ANCESTOR_TAGS):
+            continue
+
         title = a.get_text(strip=True)
         if not (MIN_TITLE_LEN <= len(title) <= MAX_TITLE_LEN):
             continue
@@ -148,8 +158,8 @@ def _parse_html(html: str, base_domain: str):
         seen_urls.add(url)
         results.append({"title": title, "price": price, "url": url})
 
-        if len(results) >= 60:  # generous cap — MSY's category pages list
-            break                # many products, so the target part may not
+        if len(results) >= 100:  # generous cap — MSY's category pages list
+            break                 # many products, so the target part may not
                                   # be among the first handful of matches
 
     return results
