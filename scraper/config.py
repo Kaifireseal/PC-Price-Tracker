@@ -89,7 +89,9 @@ CATEGORY_URLS = {
     "amd_cpu": "https://www.msy.com.au/pc-parts/computer-parts/cpu-processors/amd-cpu-646",
     "intel_cpu": "https://www.msy.com.au/pc-parts/computer-parts/cpu-processors/intel-cpu-645",
     "gpu_rtx_4060": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-4060-1141",
+    "gpu_rtx_4070_super": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-4070-super-1166",
     "gpu_rtx_5070": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5070-1388",
+    "gpu_rtx_5080": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5080-1385",
     "gpu_rx_7900xtx": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/radeon-rx-7900-xtx-1124",
     "gpu_rx_9060xt": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/radeon-rx-9060-xt-1398",
     "gpu_all": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu-610",  # fallback for models without a confirmed sub-category ID (RTX 4070 Super, RTX 5080, RX 9070/9070 XT) — lower match precision since it lists everything, but matcher.py's similarity scoring filters for the right one
@@ -135,8 +137,8 @@ TRACKED_PARTS = [
     # --- GPU: RTX 40-series ---
     {"part_key": "NVIDIA RTX 4060", "category": "GPU", "socket": None,
      "retailers": {"Centre Com": "rtx 4060", "Umart": "rtx 4060", "MSY": "gpu_rtx_4060"}},
-    {"part_key": "NVIDIA RTX 4070 Super", "category": "GPU", "socket": None,
-     "retailers": {"Scorptec": "rtx 4070 super", "MSY": "gpu_all"}},
+   {"part_key": "NVIDIA RTX 5080", "category": "GPU", "socket": None,
+     "retailers": {"Scorptec": "rtx 5080", "Umart": "rtx 5080", "MSY": "gpu_rtx_5080"}},
     {"part_key": "NVIDIA RTX 4080 Super", "category": "GPU", "socket": None,
      "retailers": {"Mwave": "rtx 4080 super", "MSY": "gpu_all"}},
 
