@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T06:01:40.183119+00:00",
+  "generated_at": "2026-07-07T06:26:35.196608+00:00",
   "currency": "AUD",
   "parts": [],
   "raw_records": [
@@ -22,6 +22,15 @@
       "status": "NO_MATCH"
     },
     {
+      "part_key": "AMD Ryzen 5 5600",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
       "retailer": "Scorptec",
@@ -34,12 +43,11 @@
     {
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
-      "retailer": "PC Case Gear",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "AMD Ryzen 5 7600",
@@ -54,6 +62,15 @@
       "part_key": "AMD Ryzen 5 7600",
       "category": "CPU",
       "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 5 7600",
+      "category": "CPU",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
@@ -79,19 +96,27 @@
       "status": "NO_MATCH"
     },
     {
-      "part_key": "AMD Ryzen 9 9950X3D",
+      "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
-      "retailer": "PC Case Gear",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
       "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 9 9950X3D",
+      "category": "CPU",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
@@ -110,6 +135,15 @@
       "part_key": "Intel Core i5-14600K",
       "category": "CPU",
       "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i5-14600K",
+      "category": "CPU",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
@@ -135,19 +169,27 @@
       "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
     },
     {
-      "part_key": "Intel Core Ultra 7 265K",
+      "part_key": "Intel Core i7-14700K",
       "category": "CPU",
-      "retailer": "PC Case Gear",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "Intel Core Ultra 7 265K",
       "category": "CPU",
       "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core Ultra 7 265K",
+      "category": "CPU",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
@@ -173,6 +215,15 @@
       "status": "NO_MATCH"
     },
     {
+      "part_key": "Intel Core Ultra 9 285K",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
       "retailer": "Centre Com",
@@ -191,14 +242,13 @@
       "status": "NO_MATCH"
     },
     {
-      "part_key": "NVIDIA RTX 4070 Super",
+      "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
-      "retailer": "PC Case Gear",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "NVIDIA RTX 4070 Super",
@@ -211,14 +261,13 @@
       "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
     },
     {
-      "part_key": "NVIDIA RTX 4080 Super",
+      "part_key": "NVIDIA RTX 4070 Super",
       "category": "GPU",
-      "retailer": "Computer Alliance",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Computer Alliance (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "NVIDIA RTX 4080 Super",
@@ -230,6 +279,15 @@
       "status": "NO_MATCH"
     },
     {
+      "part_key": "NVIDIA RTX 4080 Super",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "retailer": "Centre Com",
@@ -241,12 +299,11 @@
     {
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
-      "retailer": "PC Case Gear",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "NVIDIA RTX 5080",
@@ -262,6 +319,15 @@
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
       "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5080",
+      "category": "GPU",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
@@ -286,6 +352,15 @@
       "status": "NO_MATCH"
     },
     {
+      "part_key": "AMD Radeon RX 7800 XT",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "AMD Radeon RX 7900 XTX",
       "category": "GPU",
       "retailer": "Mwave",
@@ -297,12 +372,11 @@
     {
       "part_key": "AMD Radeon RX 7900 XTX",
       "category": "GPU",
-      "retailer": "PC Case Gear",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "AMD Radeon RX 9070 XT",
@@ -317,12 +391,11 @@
     {
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
-      "retailer": "Computer Alliance",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Computer Alliance (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "AMD Radeon RX 9070",
@@ -343,6 +416,15 @@
       "status": "NO_MATCH"
     },
     {
+      "part_key": "AMD Radeon RX 9070",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
       "retailer": "Umart",
@@ -354,12 +436,11 @@
     {
       "part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
-      "retailer": "PC Case Gear",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
@@ -381,6 +462,15 @@
       "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
     },
     {
+      "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
+      "category": "RAM",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "retailer": "Umart",
@@ -392,12 +482,11 @@
     {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
-      "retailer": "PC Case Gear",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "PC Case Gear (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+      "status": "NO_MATCH"
     },
     {
       "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
@@ -419,6 +508,15 @@
       "status": "NO_MATCH"
     },
     {
+      "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
+      "category": "RAM",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
       "category": "RAM",
       "retailer": "Mwave",
@@ -431,6 +529,15 @@
       "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
       "category": "RAM",
       "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
+      "category": "RAM",
+      "retailer": "MSY",
       "title": null,
       "price": null,
       "url": null,
