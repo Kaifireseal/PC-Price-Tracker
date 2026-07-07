@@ -56,28 +56,18 @@ SKIP_HREF_PATTERNS = (
     "/cart", "/account", "/login", "/wishlist", "/compare",
     "/checkout", "/customer", "/register",
 )
-# Real product cards are essentially never inside these structural
-# landmarks — nav bars and mega-menus are, though, and their category
-# links (e.g. "GeForce RTX 4060") can be long enough to pass the title
-# filter and end up loosely associated with some unrelated price elsewhere
-# on the page (a promo banner, etc.), flooding the results cap with noise
-# before the real product grid is ever reached.
 NAV_ANCESTOR_TAGS = ("nav", "header", "footer", "aside")
 CHALLENGE_MARKERS = (
     "checking your browser", "just a moment", "attention required",
     "cf-browser-verification", "cloudflare-challenge", "verify you are human",
 )
 
-# Captures ONE raw-HTML snippet per retailer (the first time we see it),
-# centered on the first real price-shaped match on the page. This gets
-# written out to debug_snippets.json at the end of a run so real markup can
-# be inspected without any manual steps.
 DEBUG_SNIPPETS = {}
 
 
 def _record_snippet(retailer_name: str, html: str):
     if retailer_name in DEBUG_SNIPPETS:
-        return  # already captured one for this retailer this run
+        return
     match = PRICE_RE.search(html)
     if not match:
         DEBUG_SNIPPETS[retailer_name] = {
@@ -141,15 +131,28 @@ def _parse_html(html: str, base_domain: str):
         if url in seen_urls:
             continue
 
+        # Walk up a few parent containers looking for a nearby price. Take
+        # the LARGEST price found rather than the first — product cards
+        # often also show a smaller incidental figure nearby (a "4
+        # payments of $X" installment plan, a warranty add-on, a "was $Y"
+        # strikethrough), and grabbing the first match sometimes picked up
+        # one of those instead of the real price.
         price = None
         node = a
         for _ in range(5):
             node = node.parent
             if node is None:
                 break
-            match = PRICE_RE.search(node.get_text(" ", strip=True))
-            if match:
-                price = _clean_price(match.group(0))
+            matches = PRICE_RE.findall(node.get_text(" ", strip=True))
+            if matches:
+                candidates = []
+                for m in matches:
+                    try:
+                        candidates.append(float(m.replace(",", "")))
+                    except ValueError:
+                        pass
+                if candidates:
+                    price = max(candidates)
                 break
 
         if price is None:
@@ -158,22 +161,13 @@ def _parse_html(html: str, base_domain: str):
         seen_urls.add(url)
         results.append({"title": title, "price": price, "url": url})
 
-        if len(results) >= 100:  # generous cap — MSY's category pages list
-            break                 # many products, so the target part may not
-                                  # be among the first handful of matches
+        if len(results) >= 100:
+            break
 
     return results
 
 
 def _build_url(rule: dict, query: str) -> str:
-    """
-    Builds the request URL for a given retailer + query/label.
-    - url_mode "search" (default/most retailers): fills {query} into a
-      search URL template, e.g. "...?q=ryzen+5+7600".
-    - url_mode "category" (MSY): `query` is actually a label into
-      CATEGORY_URLS, and the resulting URL is used as-is — no quote_plus,
-      since it's already a real URL, not a search term to encode.
-    """
     if rule.get("url_mode") == "category":
         from config import CATEGORY_URLS
         return CATEGORY_URLS[query]
@@ -205,10 +199,6 @@ def fetch_with_requests(retailer_name: str, query: str, max_retries: int = 3):
 
 
 def fetch_with_playwright(retailer_name: str, query: str, max_retries: int = 2):
-    """
-    Uses a real headless browser for sites that block plain HTTP clients.
-    Requires: pip install playwright && playwright install chromium
-    """
     from playwright.sync_api import sync_playwright
 
     rule = RETAILERS[retailer_name]
@@ -257,7 +247,6 @@ def fetch_with_playwright(retailer_name: str, query: str, max_retries: int = 2):
 
 
 def fetch_search_results(retailer_name: str, query: str):
-    """Dispatches to the right engine based on config.py's 'mode' field."""
     rule = RETAILERS[retailer_name]
     if rule["mode"] == "playwright":
         return fetch_with_playwright(retailer_name, query)
