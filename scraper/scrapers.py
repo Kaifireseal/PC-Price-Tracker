@@ -15,24 +15,13 @@ Instead, this version finds products by *shape*, not by class name:
   - a plausible price is a "$1,234.56"-shaped string found in the nearest
     surrounding container (walking up a few parent levels from the link)
 
-This is less surgically precise than a verified selector, but it doesn't
-depend on guessing implementation details we can't see, and it keeps working
-across most storefront redesigns since the *shape* of "title link next to a
-price" is far more stable than any specific class name.
-
 TWO FETCH ENGINES
 ------------------
   - fetch_with_requests(): plain HTTP GET. Only used for retailers confirmed
-    to NOT block non-browser clients (see config.py comments for how that
-    was determined).
+    to NOT block non-browser clients.
   - fetch_with_playwright(): a real headless Chromium instance, for sites
     that block plain HTTP clients at the connection level (Cloudflare-style
-    bot management). This presents a genuine browser fingerprint, which
-    such systems check for — but it is NOT a guaranteed bypass. Some
-    Cloudflare configurations (interactive "Turnstile" challenges) can still
-    detect and block headless automation. When that happens, this function
-    detects the tell-tale challenge page and raises a clear, distinct error
-    (BOT_CHALLENGE) so it's never confused with a broken parser.
+    bot management).
 """
 
 import re
@@ -57,10 +46,38 @@ SKIP_HREF_PATTERNS = (
     "/checkout", "/customer", "/register",
 )
 NAV_ANCESTOR_TAGS = ("nav", "header", "footer", "aside")
+# Some sites style their nav bar as a <div> rather than a semantic <nav>
+# tag (Umart/MSY both do this — a <div class="navigation"> wrapping their
+# top promo bar). Tag-name checking alone missed this, letting a "Checkout
+# Today's Hot Deals!" promo link through as if it were a product — which
+# then caused a much bigger bug, see MAX_PRICE_CLIMB below.
+NAV_CLASS_KEYWORDS = ("nav", "menu", "header", "footer", "promo", "banner", "hello")
+# How many parent levels to climb looking for a price. Kept intentionally
+# tight: when a stray link (nav, promo banner) isn't caught by the checks
+# above, climbing too far risks reaching <body> and grabbing whatever the
+# LARGEST price anywhere on the entire page happens to be — confirmed via
+# debug_snippets.json to be exactly what was producing wildly wrong prices
+# (e.g. $16,999 from an unrelated laptop, for a completely different
+# product's search). A real product card's price is essentially always
+# within 1-3 DOM levels of its title link; if nothing turns up in that
+# range, treating it as "no price found" is far safer than falling back to
+# an unrelated price further up the page.
+MAX_PRICE_CLIMB = 3
 CHALLENGE_MARKERS = (
     "checking your browser", "just a moment", "attention required",
     "cf-browser-verification", "cloudflare-challenge", "verify you are human",
 )
+
+
+def _is_nav_like(tag) -> bool:
+    """True if this tag or its class list looks like a nav/menu/header/footer
+    container, whether it's a semantic tag or just styled to look like one."""
+    if tag.name in NAV_ANCESTOR_TAGS:
+        return True
+    classes = tag.get("class") or []
+    class_str = " ".join(classes).lower()
+    return any(keyword in class_str for keyword in NAV_CLASS_KEYWORDS)
+
 
 DEBUG_SNIPPETS = {}
 
@@ -117,7 +134,7 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
     price_context_key = f"{retailer_name}_price_context" if retailer_name else None
 
     for a in soup.find_all("a", href=True):
-        if a.find_parent(NAV_ANCESTOR_TAGS):
+        if any(_is_nav_like(parent) for parent in a.find_parents()):
             continue
 
         title = a.get_text(strip=True)
@@ -135,7 +152,7 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
         price = None
         node = a
         matched_node = None
-        for _ in range(5):
+        for _ in range(MAX_PRICE_CLIMB):
             node = node.parent
             if node is None:
                 break
@@ -155,10 +172,6 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
         if price is None:
             continue
 
-        # One-time diagnostic: capture the EXACT ancestor HTML the price
-        # search actually used for the first product found this run, so we
-        # can see directly whether it's pulling in unrelated content (e.g.
-        # a price-range filter sidebar) instead of guessing further.
         if price_context_key and price_context_key not in DEBUG_SNIPPETS and matched_node is not None:
             DEBUG_SNIPPETS[price_context_key] = {
                 "note": f"Ancestor HTML used to find the price for the first product on this page: '{title}' -> matched price ${price}",
