@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T07:48:37.854231+00:00",
+  "generated_at": "2026-07-08T08:03:22.533492+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -89,51 +89,6 @@
           "price": 190.0,
           "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
-        }
-      ]
-    },
-    {
-      "part_key": "NVIDIA RTX 4060",
-      "category": "GPU",
-      "best_price": 499.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-4060-1141",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 499.0,
-          "url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-4060-1141",
-          "title": "GeForce RTX 4060"
-        }
-      ]
-    },
-    {
-      "part_key": "NVIDIA RTX 5070",
-      "category": "GPU",
-      "best_price": 1269.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5070-1388",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 1269.0,
-          "url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5070-1388",
-          "title": "GeForce RTX 5070"
-        }
-      ]
-    },
-    {
-      "part_key": "NVIDIA RTX 5080",
-      "category": "GPU",
-      "best_price": 2699.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5080-1385",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 2699.0,
-          "url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5080-1385",
-          "title": "GeForce RTX 5080"
         }
       ]
     }
@@ -381,10 +336,10 @@
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
       "retailer": "MSY",
-      "title": "GeForce RTX 4060",
-      "price": 499.0,
-      "url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-4060-1141",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "NVIDIA RTX 5080",
@@ -409,10 +364,10 @@
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
       "retailer": "MSY",
-      "title": "GeForce RTX 5080",
-      "price": 2699.0,
-      "url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5080-1385",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "NVIDIA RTX 4080 Super",
@@ -445,10 +400,10 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "retailer": "MSY",
-      "title": "GeForce RTX 5070",
-      "price": 1269.0,
-      "url": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5070-1388",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "NVIDIA RTX 5080",
