@@ -106,7 +106,7 @@ def _looks_like_bot_challenge(html: str) -> bool:
     return any(marker in lowered for marker in CHALLENGE_MARKERS)
 
 
-def _parse_html(html: str, base_domain: str):
+def _parse_html(html: str, base_domain: str, retailer_name: str = None):
     """Generic, selector-free product extraction. See module docstring."""
     if _looks_like_bot_challenge(html):
         raise RuntimeError("BOT_CHALLENGE: page returned a bot-verification challenge instead of results")
@@ -114,6 +114,7 @@ def _parse_html(html: str, base_domain: str):
     soup = BeautifulSoup(html, "html.parser")
     results = []
     seen_urls = set()
+    price_context_key = f"{retailer_name}_price_context" if retailer_name else None
 
     for a in soup.find_all("a", href=True):
         if a.find_parent(NAV_ANCESTOR_TAGS):
@@ -131,14 +132,9 @@ def _parse_html(html: str, base_domain: str):
         if url in seen_urls:
             continue
 
-        # Walk up a few parent containers looking for a nearby price. Take
-        # the LARGEST price found rather than the first — product cards
-        # often also show a smaller incidental figure nearby (a "4
-        # payments of $X" installment plan, a warranty add-on, a "was $Y"
-        # strikethrough), and grabbing the first match sometimes picked up
-        # one of those instead of the real price.
         price = None
         node = a
+        matched_node = None
         for _ in range(5):
             node = node.parent
             if node is None:
@@ -153,10 +149,21 @@ def _parse_html(html: str, base_domain: str):
                         pass
                 if candidates:
                     price = max(candidates)
+                    matched_node = node
                 break
 
         if price is None:
             continue
+
+        # One-time diagnostic: capture the EXACT ancestor HTML the price
+        # search actually used for the first product found this run, so we
+        # can see directly whether it's pulling in unrelated content (e.g.
+        # a price-range filter sidebar) instead of guessing further.
+        if price_context_key and price_context_key not in DEBUG_SNIPPETS and matched_node is not None:
+            DEBUG_SNIPPETS[price_context_key] = {
+                "note": f"Ancestor HTML used to find the price for the first product on this page: '{title}' -> matched price ${price}",
+                "raw_ancestor_html": str(matched_node)[:4000],
+            }
 
         seen_urls.add(url)
         results.append({"title": title, "price": price, "url": url})
@@ -187,7 +194,7 @@ def fetch_with_requests(retailer_name: str, query: str, max_retries: int = 3):
                 raise RuntimeError(f"HTTP {resp.status_code} (likely bot-blocked)")
             resp.raise_for_status()
             _record_snippet(retailer_name, resp.text)
-            return _parse_html(resp.text, base_domain)
+            return _parse_html(resp.text, base_domain, retailer_name)
         except Exception as exc:
             last_exc = exc
             logger.warning(
@@ -234,7 +241,7 @@ def fetch_with_playwright(retailer_name: str, query: str, max_retries: int = 2):
                 browser.close()
 
             _record_snippet(retailer_name, html)
-            return _parse_html(html, base_domain)
+            return _parse_html(html, base_domain, retailer_name)
 
         except Exception as exc:
             last_exc = exc
