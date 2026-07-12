@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T22:38:11.198514+00:00",
+  "generated_at": "2026-07-12T22:39:11.804605+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -65,13 +65,13 @@
     {
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
-      "best_price": 110.0,
+      "best_price": 939.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 110.0,
+          "price": 939.0,
           "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
           "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)"
         }
@@ -80,13 +80,13 @@
     {
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
-      "best_price": 190.0,
+      "best_price": 1089.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 190.0,
+          "price": 1089.0,
           "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
         }
@@ -493,7 +493,7 @@
       "category": "GPU",
       "retailer": "MSY",
       "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
-      "price": 190.0,
+      "price": 1089.0,
       "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK"
     },
@@ -520,7 +520,7 @@
       "category": "GPU",
       "retailer": "MSY",
       "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
-      "price": 110.0,
+      "price": 939.0,
       "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
       "status": "OK"
     },
