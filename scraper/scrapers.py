@@ -15,13 +15,24 @@ Instead, this version finds products by *shape*, not by class name:
   - a plausible price is a "$1,234.56"-shaped string found in the nearest
     surrounding container (walking up a few parent levels from the link)
 
+This is less surgically precise than a verified selector, but it doesn't
+depend on guessing implementation details we can't see, and it keeps working
+across most storefront redesigns since the *shape* of "title link next to a
+price" is far more stable than any specific class name.
+
 TWO FETCH ENGINES
 ------------------
   - fetch_with_requests(): plain HTTP GET. Only used for retailers confirmed
-    to NOT block non-browser clients.
+    to NOT block non-browser clients (see config.py comments for how that
+    was determined).
   - fetch_with_playwright(): a real headless Chromium instance, for sites
     that block plain HTTP clients at the connection level (Cloudflare-style
-    bot management).
+    bot management). This presents a genuine browser fingerprint, which
+    such systems check for — but it is NOT a guaranteed bypass. Some
+    Cloudflare configurations (interactive "Turnstile" challenges) can still
+    detect and block headless automation. When that happens, this function
+    detects the tell-tale challenge page and raises a clear, distinct error
+    (BOT_CHALLENGE) so it's never confused with a broken parser.
 """
 
 import re
@@ -46,22 +57,7 @@ SKIP_HREF_PATTERNS = (
     "/checkout", "/customer", "/register",
 )
 NAV_ANCESTOR_TAGS = ("nav", "header", "footer", "aside")
-# Some sites style their nav bar as a <div> rather than a semantic <nav>
-# tag (Umart/MSY both do this — a <div class="navigation"> wrapping their
-# top promo bar). Tag-name checking alone missed this, letting a "Checkout
-# Today's Hot Deals!" promo link through as if it were a product — which
-# then caused a much bigger bug, see MAX_PRICE_CLIMB below.
 NAV_CLASS_KEYWORDS = ("nav", "menu", "header", "footer", "promo", "banner", "hello")
-# How many parent levels to climb looking for a price. Kept intentionally
-# tight: when a stray link (nav, promo banner) isn't caught by the checks
-# above, climbing too far risks reaching <body> and grabbing whatever the
-# LARGEST price anywhere on the entire page happens to be — confirmed via
-# debug_snippets.json to be exactly what was producing wildly wrong prices
-# (e.g. $16,999 from an unrelated laptop, for a completely different
-# product's search). A real product card's price is essentially always
-# within 1-3 DOM levels of its title link; if nothing turns up in that
-# range, treating it as "no price found" is far safer than falling back to
-# an unrelated price further up the page.
 MAX_PRICE_CLIMB = 3
 CHALLENGE_MARKERS = (
     "checking your browser", "just a moment", "attention required",
@@ -80,6 +76,13 @@ def _is_nav_like(tag) -> bool:
 
 
 DEBUG_SNIPPETS = {}
+
+# Keywords that, if found in a matched product's title, trigger a dedicated
+# debug capture for THAT specific product — not just "the first product on
+# the page" like price_context below. Used to chase down a specific
+# persistently-wrong price (e.g. AMD Ryzen 9 9950X3D consistently showing
+# $119 on MSY, which is far too low to be the real price).
+TARGET_DEBUG_KEYWORDS = ("9950X3D",)
 
 
 def _record_snippet(retailer_name: str, html: str):
@@ -178,6 +181,16 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
                 "raw_ancestor_html": str(matched_node)[:4000],
             }
 
+        if retailer_name and matched_node is not None:
+            for keyword in TARGET_DEBUG_KEYWORDS:
+                if keyword.lower() in title.lower():
+                    target_key = f"{retailer_name}_TARGET_{keyword}"
+                    if target_key not in DEBUG_SNIPPETS:
+                        DEBUG_SNIPPETS[target_key] = {
+                            "note": f"Ancestor HTML used to find the price for '{title}' -> matched price ${price}",
+                            "raw_ancestor_html": str(matched_node)[:4000],
+                        }
+
         seen_urls.add(url)
         results.append({"title": title, "price": price, "url": url})
 
@@ -219,6 +232,10 @@ def fetch_with_requests(retailer_name: str, query: str, max_retries: int = 3):
 
 
 def fetch_with_playwright(retailer_name: str, query: str, max_retries: int = 2):
+    """
+    Uses a real headless browser for sites that block plain HTTP clients.
+    Requires: pip install playwright && playwright install chromium
+    """
     from playwright.sync_api import sync_playwright
 
     rule = RETAILERS[retailer_name]
@@ -267,6 +284,7 @@ def fetch_with_playwright(retailer_name: str, query: str, max_retries: int = 2):
 
 
 def fetch_search_results(retailer_name: str, query: str):
+    """Dispatches to the right engine based on config.py's 'mode' field."""
     rule = RETAILERS[retailer_name]
     if rule["mode"] == "playwright":
         return fetch_with_playwright(retailer_name, query)
