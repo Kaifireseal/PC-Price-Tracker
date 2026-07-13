@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T03:37:05.372972+00:00",
+  "generated_at": "2026-07-13T03:48:34.197419+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -50,13 +50,13 @@
     {
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
-      "best_price": 119.0,
+      "best_price": 1029.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 119.0,
+          "price": 1029.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
           "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)"
         }
@@ -209,7 +209,7 @@
       "category": "CPU",
       "retailer": "MSY",
       "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
-      "price": 119.0,
+      "price": 1029.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
       "status": "OK"
     },
