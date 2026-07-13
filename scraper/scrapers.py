@@ -58,7 +58,7 @@ SKIP_HREF_PATTERNS = (
 )
 NAV_ANCESTOR_TAGS = ("nav", "header", "footer", "aside")
 NAV_CLASS_KEYWORDS = ("nav", "menu", "header", "footer", "promo", "banner", "hello")
-MAX_PRICE_CLIMB = 3
+MAX_PRICE_CLIMB = 4
 CHALLENGE_MARKERS = (
     "checking your browser", "just a moment", "attention required",
     "cf-browser-verification", "cloudflare-challenge", "verify you are human",
@@ -74,14 +74,8 @@ def _is_nav_like(tag) -> bool:
     class_str = " ".join(classes).lower()
     return any(keyword in class_str for keyword in NAV_CLASS_KEYWORDS)
 
-
 DEBUG_SNIPPETS = {}
 
-# Keywords that, if found in a matched product's title, trigger a dedicated
-# debug capture for THAT specific product — not just "the first product on
-# the page" like price_context below. Used to chase down a specific
-# persistently-wrong price (e.g. AMD Ryzen 9 9950X3D consistently showing
-# $119 on MSY, which is far too low to be the real price).
 TARGET_DEBUG_KEYWORDS = ("9950X3D",)
 
 
@@ -159,7 +153,9 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
             node = node.parent
             if node is None:
                 break
-            matches = PRICE_RE.findall(node.get_text(" ", strip=True))
+            text = node.get_text(" ", strip=True)
+            text = re.sub(r"(?:you\s+)?save\s*:?\s*\$\s?[\d,]+(?:\.\d{2})?", "", text, flags=re.I)
+            matches = PRICE_RE.findall(text)
             if matches:
                 candidates = []
                 for m in matches:
@@ -170,7 +166,7 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
                 if candidates:
                     price = max(candidates)
                     matched_node = node
-                break
+                    break
 
         if price is None:
             continue
