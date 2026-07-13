@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T22:39:11.804605+00:00",
+  "generated_at": "2026-07-13T03:37:05.372972+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -80,15 +80,15 @@
     {
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
-      "best_price": 1089.0,
+      "best_price": 929.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+      "best_url": "https://www.msy.com.au/product/xfx-swift-amd-radeon-rx-9070-xt-triple-fan-gaming-edition-16g-graphics-card-rx-97tswf3b9-85560",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1089.0,
-          "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
-          "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
+          "price": 929.0,
+          "url": "https://www.msy.com.au/product/xfx-swift-amd-radeon-rx-9070-xt-triple-fan-gaming-edition-16g-graphics-card-rx-97tswf3b9-85560",
+          "title": "XFX Swift AMD Radeon RX 9070 XT Triple Fan Gaming Edition 16G Graphics Card (RX-97TSWF3B9)"
         }
       ]
     }
@@ -492,9 +492,9 @@
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
       "retailer": "MSY",
-      "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
-      "price": 1089.0,
-      "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+      "title": "XFX Swift AMD Radeon RX 9070 XT Triple Fan Gaming Edition 16G Graphics Card (RX-97TSWF3B9)",
+      "price": 929.0,
+      "url": "https://www.msy.com.au/product/xfx-swift-amd-radeon-rx-9070-xt-triple-fan-gaming-edition-16g-graphics-card-rx-97tswf3b9-85560",
       "status": "OK"
     },
     {
