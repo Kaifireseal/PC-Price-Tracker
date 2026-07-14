@@ -102,31 +102,43 @@ CATEGORY_URLS = {
 # ---------------------------------------------------------------------------
 # Shopping list.
 #
-# CPU coverage: AM4, AM5, LGA1700, LGA1851 — expanded Intel lineup per
-# request (budget F-suffix chips through flagship i9/Ultra 9).
+# CPU coverage: AM4, AM5, LGA1700, LGA1851 — expanded lineup covering both
+# AMD Ryzen and Intel, budget through flagship.
 #
-# GPU coverage: RTX 40-series trimmed to just the RTX 4060 (kept as a
-# budget reference point); RTX 50-series fully covered 5060 through 5090;
-# Radeon RX 7000-series added (7600 through 7900 XTX); RX 9000-series kept.
+# GPU coverage: NVIDIA RTX 30/40/50-series and AMD Radeon RX 7000/9000-series.
 #
-# RAM coverage: DDR4/DDR5, 16GB-128GB, unchanged from before.
+# RAM coverage: DDR4/DDR5, 16GB-128GB.
 # ---------------------------------------------------------------------------
 TRACKED_PARTS = [
     # --- CPU: AM4 ---
+    {"part_key": "AMD Ryzen 5 5500", "category": "CPU", "socket": "AM4",
+     "retailers": {"Umart": "ryzen 5 5500", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 5 5600", "category": "CPU", "socket": "AM4",
      "retailers": {"Centre Com": "ryzen 5 5600", "Umart": "ryzen 5 5600", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 7 5700X3D", "category": "CPU", "socket": "AM4",
+     "retailers": {"Umart": "5700x3d", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 7 5800X3D", "category": "CPU", "socket": "AM4",
      "retailers": {"Scorptec": "5800x3d", "Umart": "5800x3d", "MSY": "amd_cpu"}},
 
     # --- CPU: AM5 ---
+    {"part_key": "AMD Ryzen 5 7500F", "category": "CPU", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 5 7500f", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 5 7600", "category": "CPU", "socket": "AM5",
      "retailers": {"Centre Com": "ryzen 5 7600", "Mwave": "ryzen 5 7600", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 5 9600X", "category": "CPU", "socket": "AM5",
      "retailers": {"Umart": "ryzen 5 9600x", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 7 7700X", "category": "CPU", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 7 7700x", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 7 7800X3D", "category": "CPU", "socket": "AM5",
      "retailers": {"Scorptec": "7800x3d", "Umart": "7800x3d", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 7 9800X3D", "category": "CPU", "socket": "AM5",
      "retailers": {"Centre Com": "9800x3d", "Umart": "9800x3d", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 9 7900X", "category": "CPU", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 9 7900x", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 9 7950X", "category": "CPU", "socket": "AM5",
+     "retailers": {"Centre Com": "ryzen 9 7950x", "Umart": "ryzen 9 7950x", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 9 9900X3D", "category": "CPU", "socket": "AM5",
+     "retailers": {"Umart": "9900x3d", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 9 9950X3D", "category": "CPU", "socket": "AM5",
      "retailers": {"Centre Com": "9950x3d", "MSY": "amd_cpu"}},
 
@@ -150,9 +162,15 @@ TRACKED_PARTS = [
     {"part_key": "Intel Core Ultra 9 285K", "category": "CPU", "socket": "LGA1851",
      "retailers": {"Scorptec": "core ultra 9 285k", "Umart": "ultra 9 285k", "MSY": "intel_cpu"}},
 
-    # --- GPU: RTX 40-series (trimmed — kept as a budget reference point) ---
+    # --- GPU: RTX 30/40-series (kept as budget/mid reference points) ---
+    {"part_key": "NVIDIA RTX 3060", "category": "GPU", "socket": None,
+     "retailers": {"Umart": "rtx 3060", "MSY": "gpu_all"}},
     {"part_key": "NVIDIA RTX 4060", "category": "GPU", "socket": None,
      "retailers": {"Centre Com": "rtx 4060", "Umart": "rtx 4060", "MSY": "gpu_rtx_4060"}},
+    {"part_key": "NVIDIA RTX 4070", "category": "GPU", "socket": None,
+     "retailers": {"Umart": "rtx 4070", "MSY": "gpu_all"}},
+    {"part_key": "NVIDIA RTX 4070 Ti Super", "category": "GPU", "socket": None,
+     "retailers": {"Centre Com": "rtx 4070 ti super", "Umart": "rtx 4070 ti super", "MSY": "gpu_all"}},
 
     # --- GPU: RTX 50-series (full lineup) ---
     {"part_key": "NVIDIA RTX 5060", "category": "GPU", "socket": None,
