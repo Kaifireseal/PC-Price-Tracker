@@ -84,7 +84,7 @@ def build_dashboard(records: list) -> list:
     Returns a list of dashboard-ready dicts:
       {
         "part_key", "category",
-        "best_price", "best_retailer", "best_url",
+        "best_price", "best_retailer", "best_url", "best_title",
         "offers": [{"retailer", "price", "url", "title"}, ...]  # sorted cheapest first
       }
     """
@@ -117,6 +117,7 @@ def build_dashboard(records: list) -> list:
             "best_price": best["price"],
             "best_retailer": best["retailer"],
             "best_url": best["url"],
+            "best_title": best["title"],
             "offers": entry["offers"],
         })
 
