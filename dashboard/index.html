@@ -29,7 +29,6 @@
   }
   .mono{ font-family: 'JetBrains Mono', monospace; }
 
-  /* PCB trace divider motif */
   .trace{
     height: 1px;
     background: repeating-linear-gradient(90deg, var(--panel-border) 0 6px, transparent 6px 10px);
@@ -150,8 +149,11 @@ function offerRow(offer, isBest){
   return `
     <a href="${offer.url}" target="_blank" rel="noopener"
        class="flex items-center justify-between gap-3 py-2 px-2 rounded-md hover:bg-white/5 transition">
-      <span class="text-sm ${isBest ? 'font-semibold' : 'text-[var(--text-dim)]'}">${offer.retailer}</span>
-      <span class="mono text-sm ${isBest ? 'best-price font-semibold' : ''}">${formatPrice(offer.price)}</span>
+      <span class="min-w-0">
+        <span class="block text-sm ${isBest ? 'font-semibold' : 'text-[var(--text-dim)]'}">${offer.retailer}</span>
+        <span class="block text-xs text-[var(--text-dim)] truncate" title="${offer.title}">${offer.title}</span>
+      </span>
+      <span class="mono text-sm shrink-0 ${isBest ? 'best-price font-semibold' : ''}">${formatPrice(offer.price)}</span>
     </a>`;
 }
 
@@ -163,6 +165,7 @@ function partCard(part){
         <div>
           <span class="pill inline-block px-2 py-0.5 rounded mb-2">${part.category}</span>
           <h3 class="font-semibold leading-snug">${part.part_key}</h3>
+          <p class="text-xs text-[var(--text-dim)] mt-0.5">${part.best_title}</p>
         </div>
       </div>
 
