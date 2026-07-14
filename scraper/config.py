@@ -8,37 +8,30 @@ engine to use.
                         Only viable for sites that don't block non-browser
                         clients outright.
   mode: "playwright"  -> real headless Chromium. Needed for sites that sit
-                        behind Cloudflare-style bot protection, which blocks
-                        plain HTTP clients at the connection/TLS level before
-                        the page even loads — no header trick fixes that,
-                        only a real browser engine has a shot.
+                        behind Cloudflare-style bot protection.
 
   url_mode: "search"  -> "search_url" is a template with {query}, filled in
                         per-part with a search term (e.g. "ryzen 5 7600").
   url_mode: "category" -> "search_url" is used AS-IS (no {query} filling).
                         Used for MSY, which doesn't have a simple search
                         endpoint we could confirm — instead we point
-                        straight at MSY's stable category listing pages
-                        (e.g. "AMD CPU"), which already show every product
-                        + price in that category without needing a query.
-                        For these, the "query" value in TRACKED_PARTS is
-                        actually just a label (ignored for URL-building) —
-                        the actual category page is set in CATEGORY_URLS
-                        below and referenced by that label.
+                        straight at MSY's stable category listing pages,
+                        which already show every product + price in that
+                        category. For these, the "query" value in
+                        TRACKED_PARTS is a label into CATEGORY_URLS below.
 
-CONFIRMED STATUS (from an actual diagnostic run, not guesswork):
+CONFIRMED STATUS (from actual diagnostic runs):
   - Centre Com, Scorptec: confirmed blocked by Cloudflare's interactive
-    "Turnstile" challenge even through Playwright. Included per request,
-    but expect BOT_BLOCKED most days — this is a genuinely hard wall, not
-    a bug in this code.
+    "Turnstile" challenge even through Playwright. Expect BOT_BLOCKED most
+    days — a genuinely hard wall, not a bug in this code.
   - Mwave: confirmed blocked by an AWS WAF JS challenge, also even through
-    Playwright. Same expectation as above.
-  - Umart: confirmed working via plain "requests" once the correct search
-    URL was found (search.php?keywords=, not a Magento-style path).
-  - MSY: UNTESTED for bot protection. First run will tell us whether
-    "requests" mode (set below) works, or whether it needs to move to
-    "playwright" like the others. Check debug_snippets.json after the
-    first run to find out.
+    Playwright.
+  - Umart, MSY: confirmed working reliably via plain "requests".
+
+BRAND VISIBILITY: the actual matched product title (e.g. "Gigabyte Radeon
+RX 9070 Gaming 16G OC") is what gets shown on the dashboard under each
+part's generic name — brand/model comes through automatically from
+whatever the real top-matching listing is, no extra config needed here.
 
 TRACKED_PARTS — the shopping list: canonical part name, category, and the
 search query (or MSY category label) to use per retailer. Every retailer
@@ -57,108 +50,143 @@ COMMON_HEADERS = {
 
 RETAILERS = {
     "Centre Com": {
-        "mode": "playwright",  # confirmed: still hits Cloudflare Turnstile
+        "mode": "playwright",
         "url_mode": "search",
         "search_url": "https://www.centrecom.com.au/catalogsearch/result/?q={query}",
     },
     "Scorptec": {
-        "mode": "playwright",  # confirmed: still hits Cloudflare Turnstile
+        "mode": "playwright",
         "url_mode": "search",
         "search_url": "https://www.scorptec.com.au/search?query={query}",
     },
     "Mwave": {
-        "mode": "playwright",  # confirmed: still hits AWS WAF challenge
+        "mode": "playwright",
         "url_mode": "search",
         "search_url": "https://www.mwave.com.au/searchresult/index/keyword/{query}",
     },
     "Umart": {
-        "mode": "requests",  # confirmed working
+        "mode": "requests",
         "url_mode": "search",
         "search_url": "https://www.umart.com.au/search.php?keywords={query}",
     },
     "MSY": {
-        "mode": "requests",  # UNVERIFIED — check first run's debug_snippets.json
+        "mode": "requests",
         "url_mode": "category",
-        "search_url": None,  # unused in category mode; see CATEGORY_URLS
+        "search_url": None,
     },
 }
 
 # MSY category listing pages, verified live. Referenced by label from
-# TRACKED_PARTS entries below (e.g. "amd_cpu", "ddr5_ram").
+# TRACKED_PARTS entries below.
 CATEGORY_URLS = {
     "amd_cpu": "https://www.msy.com.au/pc-parts/computer-parts/cpu-processors/amd-cpu-646",
     "intel_cpu": "https://www.msy.com.au/pc-parts/computer-parts/cpu-processors/intel-cpu-645",
     "gpu_rtx_4060": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-4060-1141",
-    "gpu_rtx_4070_super": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-4070-super-1166",
+    "gpu_rtx_5060": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5060-1396",
+    "gpu_rtx_5060ti": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5060-ti-1395",
     "gpu_rtx_5070": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5070-1388",
     "gpu_rtx_5080": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5080-1385",
+    "gpu_rtx_5090": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5090-1386",
     "gpu_rx_7900xtx": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/radeon-rx-7900-xtx-1124",
     "gpu_rx_9060xt": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/radeon-rx-9060-xt-1398",
-    "gpu_all": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu-610",  # fallback for models without a confirmed sub-category ID (RTX 4070 Super, RTX 5080, RX 9070/9070 XT) — lower match precision since it lists everything, but matcher.py's similarity scoring filters for the right one
+    # Fallback for models without a confirmed sub-category ID (RTX 5070 Ti,
+    # RX 7600/7700 XT/7900 GRE/7900 XT, RX 9070/9070 XT) — lists everything,
+    # but matcher.py's hard model-number + suffix gate (fixed after the
+    # earlier RTX-3060-Ti false-match bug) keeps this safe from wrong-model
+    # mismatches even on a big unfiltered page.
+    "gpu_all": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu-610",
     "ddr4_ram": "https://www.msy.com.au/pc-parts/computer-parts/memory-ram/ddr4-ram-659",
     "ddr5_ram": "https://www.msy.com.au/pc-parts/computer-parts/memory-ram/ddr5-ram-1085",
 }
 
 # ---------------------------------------------------------------------------
-# Shopping list. Add/remove rows freely. `retailers` maps retailer name ->
-# the search query string (or, for MSY, a CATEGORY_URLS label) to use for
-# this exact part. Covers AM4/AM5/LGA1700/LGA1851 CPUs, RTX 40/50-series +
-# Radeon RX 7000/9000-series GPUs (AMD hasn't shipped a desktop RX
-# 8000-series — that number was mobile-only; RDNA4 desktop is the RX
-# 9000-series), and DDR4/DDR5 kits from 16GB to 128GB.
+# Shopping list.
+#
+# CPU coverage: AM4, AM5, LGA1700, LGA1851 — expanded Intel lineup per
+# request (budget F-suffix chips through flagship i9/Ultra 9).
+#
+# GPU coverage: RTX 40-series trimmed to just the RTX 4060 (kept as a
+# budget reference point); RTX 50-series fully covered 5060 through 5090;
+# Radeon RX 7000-series added (7600 through 7900 XTX); RX 9000-series kept.
+#
+# RAM coverage: DDR4/DDR5, 16GB-128GB, unchanged from before.
 # ---------------------------------------------------------------------------
 TRACKED_PARTS = [
     # --- CPU: AM4 ---
     {"part_key": "AMD Ryzen 5 5600", "category": "CPU", "socket": "AM4",
      "retailers": {"Centre Com": "ryzen 5 5600", "Umart": "ryzen 5 5600", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 7 5800X3D", "category": "CPU", "socket": "AM4",
-     "retailers": {"Scorptec": "5800x3d", "MSY": "amd_cpu"}},
+     "retailers": {"Scorptec": "5800x3d", "Umart": "5800x3d", "MSY": "amd_cpu"}},
 
     # --- CPU: AM5 ---
     {"part_key": "AMD Ryzen 5 7600", "category": "CPU", "socket": "AM5",
      "retailers": {"Centre Com": "ryzen 5 7600", "Mwave": "ryzen 5 7600", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 5 9600X", "category": "CPU", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 5 9600x", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 7 7800X3D", "category": "CPU", "socket": "AM5",
      "retailers": {"Scorptec": "7800x3d", "Umart": "7800x3d", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 7 9800X3D", "category": "CPU", "socket": "AM5",
+     "retailers": {"Centre Com": "9800x3d", "Umart": "9800x3d", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 9 9950X3D", "category": "CPU", "socket": "AM5",
      "retailers": {"Centre Com": "9950x3d", "MSY": "amd_cpu"}},
 
-    # --- CPU: LGA1700 ---
+    # --- CPU: LGA1700 (Intel, older/budget-friendly through flagship) ---
+    {"part_key": "Intel Core i5-13400F", "category": "CPU", "socket": "LGA1700",
+     "retailers": {"Umart": "i5-13400f", "MSY": "intel_cpu"}},
+    {"part_key": "Intel Core i5-14400F", "category": "CPU", "socket": "LGA1700",
+     "retailers": {"Centre Com": "i5-14400f", "Umart": "i5-14400f", "MSY": "intel_cpu"}},
     {"part_key": "Intel Core i5-14600K", "category": "CPU", "socket": "LGA1700",
      "retailers": {"Centre Com": "i5-14600k", "Mwave": "i5 14600k", "MSY": "intel_cpu"}},
     {"part_key": "Intel Core i7-14700K", "category": "CPU", "socket": "LGA1700",
      "retailers": {"Umart": "14700k", "Scorptec": "i7-14700k", "MSY": "intel_cpu"}},
+    {"part_key": "Intel Core i9-14900K", "category": "CPU", "socket": "LGA1700",
+     "retailers": {"Centre Com": "i9-14900k", "Umart": "14900k", "MSY": "intel_cpu"}},
 
-    # --- CPU: LGA1851 ---
+    # --- CPU: LGA1851 (Intel current-gen) ---
+    {"part_key": "Intel Core Ultra 5 245K", "category": "CPU", "socket": "LGA1851",
+     "retailers": {"Umart": "ultra 5 245k", "MSY": "intel_cpu"}},
     {"part_key": "Intel Core Ultra 7 265K", "category": "CPU", "socket": "LGA1851",
      "retailers": {"Centre Com": "ultra 7 265k", "MSY": "intel_cpu"}},
     {"part_key": "Intel Core Ultra 9 285K", "category": "CPU", "socket": "LGA1851",
      "retailers": {"Scorptec": "core ultra 9 285k", "Umart": "ultra 9 285k", "MSY": "intel_cpu"}},
 
-    # --- GPU: RTX 40-series ---
+    # --- GPU: RTX 40-series (trimmed — kept as a budget reference point) ---
     {"part_key": "NVIDIA RTX 4060", "category": "GPU", "socket": None,
      "retailers": {"Centre Com": "rtx 4060", "Umart": "rtx 4060", "MSY": "gpu_rtx_4060"}},
-   {"part_key": "NVIDIA RTX 5080", "category": "GPU", "socket": None,
-     "retailers": {"Scorptec": "rtx 5080", "Umart": "rtx 5080", "MSY": "gpu_rtx_5080"}},
-    {"part_key": "NVIDIA RTX 4080 Super", "category": "GPU", "socket": None,
-     "retailers": {"Mwave": "rtx 4080 super", "MSY": "gpu_all"}},
 
-    # --- GPU: RTX 50-series ---
+    # --- GPU: RTX 50-series (full lineup) ---
+    {"part_key": "NVIDIA RTX 5060", "category": "GPU", "socket": None,
+     "retailers": {"Umart": "rtx 5060", "MSY": "gpu_rtx_5060"}},
+    {"part_key": "NVIDIA RTX 5060 Ti", "category": "GPU", "socket": None,
+     "retailers": {"Centre Com": "rtx 5060 ti", "Umart": "rtx 5060 ti", "MSY": "gpu_rtx_5060ti"}},
     {"part_key": "NVIDIA RTX 5070", "category": "GPU", "socket": None,
      "retailers": {"Centre Com": "rtx 5070", "MSY": "gpu_rtx_5070"}},
+    {"part_key": "NVIDIA RTX 5070 Ti", "category": "GPU", "socket": None,
+     "retailers": {"Umart": "rtx 5070 ti", "Scorptec": "rtx 5070 ti", "MSY": "gpu_all"}},
     {"part_key": "NVIDIA RTX 5080", "category": "GPU", "socket": None,
-     "retailers": {"Scorptec": "rtx 5080", "Umart": "rtx 5080", "MSY": "gpu_all"}},
+     "retailers": {"Scorptec": "rtx 5080", "Umart": "rtx 5080", "MSY": "gpu_rtx_5080"}},
+    {"part_key": "NVIDIA RTX 5090", "category": "GPU", "socket": None,
+     "retailers": {"Centre Com": "rtx 5090", "Umart": "rtx 5090", "MSY": "gpu_rtx_5090"}},
 
-    # --- GPU: Radeon RX 7000-series ---
+    # --- GPU: Radeon RX 7000-series (full lineup) ---
+    {"part_key": "AMD Radeon RX 7600", "category": "GPU", "socket": None,
+     "retailers": {"Umart": "rx 7600", "MSY": "gpu_all"}},
+    {"part_key": "AMD Radeon RX 7700 XT", "category": "GPU", "socket": None,
+     "retailers": {"Centre Com": "rx 7700 xt", "Umart": "rx 7700 xt", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 7800 XT", "category": "GPU", "socket": None,
      "retailers": {"Centre Com": "rx 7800 xt", "Umart": "7800 xt", "MSY": "gpu_all"}},
+    {"part_key": "AMD Radeon RX 7900 GRE", "category": "GPU", "socket": None,
+     "retailers": {"Umart": "rx 7900 gre", "MSY": "gpu_all"}},
+    {"part_key": "AMD Radeon RX 7900 XT", "category": "GPU", "socket": None,
+     "retailers": {"Scorptec": "rx 7900 xt", "Umart": "rx 7900 xt", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 7900 XTX", "category": "GPU", "socket": None,
      "retailers": {"Mwave": "rx 7900 xtx", "MSY": "gpu_rx_7900xtx"}},
 
     # --- GPU: Radeon RX 9000-series ---
-    {"part_key": "AMD Radeon RX 9070 XT", "category": "GPU", "socket": None,
-     "retailers": {"Scorptec": "rx 9070 xt", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 9070", "category": "GPU", "socket": None,
      "retailers": {"Centre Com": "rx 9070", "Umart": "rx 9070", "MSY": "gpu_all"}},
+    {"part_key": "AMD Radeon RX 9070 XT", "category": "GPU", "socket": None,
+     "retailers": {"Scorptec": "rx 9070 xt", "MSY": "gpu_all"}},
 
     # --- RAM: DDR4 (16GB-128GB range) ---
     {"part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200", "category": "RAM", "socket": None,
