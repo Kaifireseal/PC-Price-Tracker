@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T23:22:36.530796+00:00",
+  "generated_at": "2026-07-14T05:54:02.855459+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -8,6 +8,7 @@
       "best_price": 285.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-5-7600-6-core-am5-5-1ghz-cpu-processor-with-wraith-stealth-cooler-100-100001015box-68285",
+      "best_title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)",
       "offers": [
         {
           "retailer": "MSY",
@@ -23,6 +24,7 @@
       "best_price": 549.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
+      "best_title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
       "offers": [
         {
           "retailer": "MSY",
@@ -38,6 +40,7 @@
       "best_price": 549.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
+      "best_title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
       "offers": [
         {
           "retailer": "MSY",
@@ -48,11 +51,28 @@
       ]
     },
     {
+      "part_key": "AMD Ryzen 7 9800X3D",
+      "category": "CPU",
+      "best_price": 648.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125",
+      "best_title": "AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 648.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125",
+          "title": "AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)"
+        }
+      ]
+    },
+    {
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
       "best_price": 1029.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
+      "best_title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
       "offers": [
         {
           "retailer": "MSY",
@@ -63,11 +83,82 @@
       ]
     },
     {
+      "part_key": "Intel Core Ultra 5 245K",
+      "category": "CPU",
+      "best_price": 339.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
+      "best_title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 339.0,
+          "url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
+          "title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)"
+        }
+      ]
+    },
+    {
+      "part_key": "Intel Core i5-13400F",
+      "category": "CPU",
+      "best_price": 249.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
+      "best_title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
+      "offers": [
+        {
+          "retailer": "Umart",
+          "price": 249.0,
+          "url": "https://www.umart.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
+          "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)"
+        }
+      ]
+    },
+    {
+      "part_key": "Intel Core i5-14400F",
+      "category": "CPU",
+      "best_price": 255.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/intel-core-i5-14400f-10-core-4-70-ghz-lga-1700-boxed-cpu-processor-bx8071514400f-75272",
+      "best_title": "Intel Core i5-14400F 10 Core 4.70 GHz LGA 1700 Boxed CPU Processor (BX8071514400F)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 255.0,
+          "url": "https://www.msy.com.au/product/intel-core-i5-14400f-10-core-4-70-ghz-lga-1700-boxed-cpu-processor-bx8071514400f-75272",
+          "title": "Intel Core i5-14400F 10 Core 4.70 GHz LGA 1700 Boxed CPU Processor (BX8071514400F)"
+        },
+        {
+          "retailer": "Umart",
+          "price": 1849.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437"
+        }
+      ]
+    },
+    {
+      "part_key": "Intel Core i9-14900K",
+      "category": "CPU",
+      "best_price": 729.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
+      "best_title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 729.0,
+          "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
+          "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)"
+        }
+      ]
+    },
+    {
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
       "best_price": 829.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
+      "best_title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
       "offers": [
         {
           "retailer": "MSY",
@@ -83,6 +174,7 @@
       "best_price": 899.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+      "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
       "offers": [
         {
           "retailer": "MSY",
@@ -134,6 +226,15 @@
     {
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 7 5800X3D",
+      "category": "CPU",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
       "price": 549.0,
@@ -168,6 +269,24 @@
       "status": "OK"
     },
     {
+      "part_key": "AMD Ryzen 5 9600X",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 5 9600X",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
       "retailer": "Scorptec",
@@ -196,6 +315,33 @@
       "status": "OK"
     },
     {
+      "part_key": "AMD Ryzen 7 9800X3D",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 7 9800X3D",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 7 9800X3D",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": "AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)",
+      "price": 648.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125",
+      "status": "OK"
+    },
+    {
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
       "retailer": "Centre Com",
@@ -214,288 +360,504 @@
       "status": "OK"
     },
     {
-      "part_key": "Intel Core i5-14600K",
-      "category": "CPU",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "Intel Core i5-14600K",
-      "category": "CPU",
-      "retailer": "Mwave",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "Intel Core i5-14600K",
-      "category": "CPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "Intel Core i7-14700K",
+      "part_key": "Intel Core i5-13400F",
       "category": "CPU",
       "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "Intel Core i7-14700K",
-      "category": "CPU",
-      "retailer": "Scorptec",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
-    },
-    {
-      "part_key": "Intel Core i7-14700K",
-      "category": "CPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "Intel Core Ultra 7 265K",
-      "category": "CPU",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "Intel Core Ultra 7 265K",
-      "category": "CPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "Intel Core Ultra 9 285K",
-      "category": "CPU",
-      "retailer": "Scorptec",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
-    },
-    {
-      "part_key": "Intel Core Ultra 9 285K",
-      "category": "CPU",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "Intel Core Ultra 9 285K",
-      "category": "CPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 4060",
-      "category": "GPU",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 4060",
-      "category": "GPU",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 4060",
-      "category": "GPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 5080",
-      "category": "GPU",
-      "retailer": "Scorptec",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
-    },
-    {
-      "part_key": "NVIDIA RTX 5080",
-      "category": "GPU",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 5080",
-      "category": "GPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 4080 Super",
-      "category": "GPU",
-      "retailer": "Mwave",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 4080 Super",
-      "category": "GPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 5070",
-      "category": "GPU",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 5070",
-      "category": "GPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 5080",
-      "category": "GPU",
-      "retailer": "Scorptec",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
-    },
-    {
-      "part_key": "NVIDIA RTX 5080",
-      "category": "GPU",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "NVIDIA RTX 5080",
-      "category": "GPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "AMD Radeon RX 7800 XT",
-      "category": "GPU",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "AMD Radeon RX 7800 XT",
-      "category": "GPU",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "AMD Radeon RX 7800 XT",
-      "category": "GPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "AMD Radeon RX 7900 XTX",
-      "category": "GPU",
-      "retailer": "Mwave",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "AMD Radeon RX 7900 XTX",
-      "category": "GPU",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
-    },
-    {
-      "part_key": "AMD Radeon RX 9070 XT",
-      "category": "GPU",
-      "retailer": "Scorptec",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
-    },
-    {
-      "part_key": "AMD Radeon RX 9070 XT",
-      "category": "GPU",
-      "retailer": "MSY",
-      "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
-      "price": 899.0,
-      "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+      "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
+      "price": 249.0,
+      "url": "https://www.umart.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
       "status": "OK"
+    },
+    {
+      "part_key": "Intel Core i5-13400F",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i5-14400F",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i5-14400F",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
+      "price": 1849.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+      "status": "OK"
+    },
+    {
+      "part_key": "Intel Core i5-14400F",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": "Intel Core i5-14400F 10 Core 4.70 GHz LGA 1700 Boxed CPU Processor (BX8071514400F)",
+      "price": 255.0,
+      "url": "https://www.msy.com.au/product/intel-core-i5-14400f-10-core-4-70-ghz-lga-1700-boxed-cpu-processor-bx8071514400f-75272",
+      "status": "OK"
+    },
+    {
+      "part_key": "Intel Core i5-14600K",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i5-14600K",
+      "category": "CPU",
+      "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i5-14600K",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i7-14700K",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i7-14700K",
+      "category": "CPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "Intel Core i7-14700K",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i9-14900K",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i9-14900K",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core i9-14900K",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
+      "price": 729.0,
+      "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
+      "status": "OK"
+    },
+    {
+      "part_key": "Intel Core Ultra 5 245K",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core Ultra 5 245K",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)",
+      "price": 339.0,
+      "url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
+      "status": "OK"
+    },
+    {
+      "part_key": "Intel Core Ultra 7 265K",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core Ultra 7 265K",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core Ultra 9 285K",
+      "category": "CPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "Intel Core Ultra 9 285K",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Intel Core Ultra 9 285K",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4060",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4060",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4060",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5060",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5060",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5060 Ti",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5060 Ti",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5060 Ti",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5070",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5070",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5070 Ti",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5070 Ti",
+      "category": "GPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "NVIDIA RTX 5070 Ti",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5080",
+      "category": "GPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "NVIDIA RTX 5080",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5080",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5090",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5090",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 5090",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7600",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7600",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7700 XT",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7700 XT",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7700 XT",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7800 XT",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7800 XT",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7800 XT",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 GRE",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 GRE",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 XT",
+      "category": "GPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 XT",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 XT",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 XTX",
+      "category": "GPU",
+      "retailer": "Mwave",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Radeon RX 7900 XTX",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "AMD Radeon RX 9070",
@@ -522,6 +884,25 @@
       "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
       "price": 829.0,
       "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
+      "status": "OK"
+    },
+    {
+      "part_key": "AMD Radeon RX 9070 XT",
+      "category": "GPU",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results"
+    },
+    {
+      "part_key": "AMD Radeon RX 9070 XT",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
+      "price": 899.0,
+      "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK"
     },
     {
