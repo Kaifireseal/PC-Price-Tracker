@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-07-14T05:54:02.855459+00:00",
+  "generated_at": "2026-07-14T22:17:25.024742+00:00",
   "currency": "AUD",
   "parts": [
+    {
+      "part_key": "AMD Ryzen 5 5500",
+      "category": "CPU",
+      "best_price": 120.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-100-100000457box-62861",
+      "best_title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 120.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-100-100000457box-62861",
+          "title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)"
+        }
+      ]
+    },
     {
       "part_key": "AMD Ryzen 5 7600",
       "category": "CPU",
@@ -35,6 +51,22 @@
       ]
     },
     {
+      "part_key": "AMD Ryzen 7 7700X",
+      "category": "CPU",
+      "best_price": 449.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
+      "best_title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 449.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
+          "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)"
+        }
+      ]
+    },
+    {
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
       "best_price": 549.0,
@@ -63,6 +95,22 @@
           "price": 648.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125",
           "title": "AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)"
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 9 9900X3D",
+      "category": "CPU",
+      "best_price": 885.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
+      "best_title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 885.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
+          "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)"
         }
       ]
     },
@@ -130,9 +178,9 @@
         },
         {
           "retailer": "Umart",
-          "price": 1849.0,
-          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
-          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437"
+          "price": 1999.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675"
         }
       ]
     },
@@ -187,6 +235,24 @@
   ],
   "raw_records": [
     {
+      "part_key": "AMD Ryzen 5 5500",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 5 5500",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)",
+      "price": 120.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-100-100000457box-62861",
+      "status": "OK"
+    },
+    {
       "part_key": "AMD Ryzen 5 5600",
       "category": "CPU",
       "retailer": "Centre Com",
@@ -206,6 +272,24 @@
     },
     {
       "part_key": "AMD Ryzen 5 5600",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 7 5700X3D",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 7 5700X3D",
       "category": "CPU",
       "retailer": "MSY",
       "title": null,
@@ -240,6 +324,24 @@
       "price": 549.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
       "status": "OK"
+    },
+    {
+      "part_key": "AMD Ryzen 5 7500F",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 5 7500F",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "AMD Ryzen 5 7600",
@@ -285,6 +387,24 @@
       "price": null,
       "url": null,
       "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 7 7700X",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 7 7700X",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
+      "price": 449.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
+      "status": "OK"
     },
     {
       "part_key": "AMD Ryzen 7 7800X3D",
@@ -342,6 +462,69 @@
       "status": "OK"
     },
     {
+      "part_key": "AMD Ryzen 9 7900X",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 9 7900X",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 9 7950X",
+      "category": "CPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 9 7950X",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 9 7950X",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 9 9900X3D",
+      "category": "CPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "AMD Ryzen 9 9900X3D",
+      "category": "CPU",
+      "retailer": "MSY",
+      "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
+      "price": 885.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
+      "status": "OK"
+    },
+    {
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
       "retailer": "Centre Com",
@@ -390,9 +573,9 @@
       "part_key": "Intel Core i5-14400F",
       "category": "CPU",
       "retailer": "Umart",
-      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
-      "price": 1849.0,
-      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675",
+      "price": 1999.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
       "status": "OK"
     },
     {
@@ -551,6 +734,24 @@
       "status": "NO_MATCH"
     },
     {
+      "part_key": "NVIDIA RTX 3060",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 3060",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
       "retailer": "Centre Com",
@@ -570,6 +771,51 @@
     },
     {
       "part_key": "NVIDIA RTX 4060",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4070",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4070",
+      "category": "GPU",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4070 Ti Super",
+      "category": "GPU",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4070 Ti Super",
+      "category": "GPU",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "NVIDIA RTX 4070 Ti Super",
       "category": "GPU",
       "retailer": "MSY",
       "title": null,
