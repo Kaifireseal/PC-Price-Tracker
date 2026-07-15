@@ -20,6 +20,21 @@ import re
 # from title, or vice versa, means it's a different SKU.
 DISTINGUISHING_SUFFIXES = {"xt", "ti", "super", "gre", "plus"}
 
+# Real product titles use the brand's marketing name, not the manufacturer
+# name our canonical part_key uses — e.g. a listing says "GeForce RTX 4060",
+# never literally "NVIDIA RTX 4060". Without this, "nvidia" could never be
+# credited as matched, which combined with SequenceMatcher's harsh penalty
+# for long AIB-branded titles (brand + cooler name + capacity + SKU code)
+# was pushing correct matches below the similarity threshold entirely.
+BRAND_ALIASES = {"nvidia": "geforce", "amd": "radeon"}
+
+
+def _numeric_token_present(token: str, title_words: set) -> bool:
+    """True if `token` (e.g. '6000') appears as a whole word OR as part of
+    a merged word (e.g. '6000mhz', from a title with no space before the
+    unit) in the title."""
+    return any(token in w for w in title_words)
+
 
 def _normalize(text: str) -> str:
     text = text.lower()
@@ -27,16 +42,17 @@ def _normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def pick_best_match(results: list, part_key: str, min_similarity: float = 0.55):
+def pick_best_match(results: list, part_key: str, min_similarity: float = 0.5):
     """
     Returns the single best-matching result dict, or None if nothing clears
     the bar (better to show "no match found" than a wrong part).
 
     HARD GATE: every digit-containing token in the target (model numbers
     like "4070", "265k", "7800x3d"; capacities like "16gb"; DDR generation
-    like "ddr5") must appear somewhere in the candidate title. Word-overlap
-    alone was letting a completely different model through — e.g. "RTX 3060
-    Ti" scoring as a match for a search for "RTX 4070 Super" purely because
+    like "ddr5") must appear somewhere in the candidate title — as a whole
+    word, or as part of a merged word like "6000mhz". Word-overlap alone was
+    letting a completely different model through — e.g. "RTX 3060 Ti"
+    scoring as a match for a search for "RTX 4070 Super" purely because
     "nvidia" and "rtx" overlapped, even though the actual defining number
     (4070) was nowhere in the title. A wrong price is worse than a missing
     one for a price tracker, so this gate is intentionally strict.
@@ -53,7 +69,7 @@ def pick_best_match(results: list, part_key: str, min_similarity: float = 0.55):
         title = _normalize(r["title"])
         title_words = set(title.split())
 
-        if not required_numeric_tokens.issubset(title_words):
+        if not all(_numeric_token_present(t, title_words) for t in required_numeric_tokens):
             continue  # missing a model number/capacity/DDR-gen — not the same product
 
         target_suffixes = target_words & DISTINGUISHING_SUFFIXES
@@ -61,9 +77,21 @@ def pick_best_match(results: list, part_key: str, min_similarity: float = 0.55):
         if target_suffixes != title_suffixes:
             continue  # e.g. target "RX 9070" vs title "RX 9070 XT" — different card
 
+        # Credit brand-name matches even when the title uses the marketing
+        # name instead of the manufacturer name (NVIDIA -> GeForce, AMD ->
+        # Radeon), so overlap isn't unfairly docked for correct matches.
+        effective_title_words = set(title_words)
+        for canonical, alias in BRAND_ALIASES.items():
+            if alias in title_words:
+                effective_title_words.add(canonical)
+
         ratio = difflib.SequenceMatcher(None, target, title).ratio()
-        overlap = len(target_words & title_words) / max(len(target_words), 1)
-        combined = (ratio * 0.5) + (overlap * 0.5)
+        overlap = len(target_words & effective_title_words) / max(len(target_words), 1)
+        # Overlap (does the title contain the target's key words?) is a far
+        # more reliable signal here than raw character-sequence similarity,
+        # which penalizes long real-world titles (brand + cooler name +
+        # capacity + SKU code) even for a fully correct match.
+        combined = (overlap * 0.75) + (ratio * 0.25)
         scored.append((combined, r))
 
     if not scored:
@@ -84,7 +112,7 @@ def build_dashboard(records: list) -> list:
     Returns a list of dashboard-ready dicts:
       {
         "part_key", "category",
-        "best_price", "best_retailer", "best_url", "best_title",
+        "best_price", "best_retailer", "best_url",
         "offers": [{"retailer", "price", "url", "title"}, ...]  # sorted cheapest first
       }
     """
