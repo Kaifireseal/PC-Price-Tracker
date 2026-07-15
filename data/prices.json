@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T23:21:19.692997+00:00",
+  "generated_at": "2026-07-15T03:45:22.772987+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -15,6 +15,22 @@
           "price": 120.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-100-100000457box-62861",
           "title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)"
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 5 5600",
+      "category": "CPU",
+      "best_price": 168.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
+      "best_title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 168.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
+          "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)"
         }
       ]
     },
@@ -147,6 +163,22 @@
       ]
     },
     {
+      "part_key": "Intel Core Ultra 7 265K",
+      "category": "CPU",
+      "best_price": 515.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
+      "best_title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 515.0,
+          "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
+          "title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)"
+        }
+      ]
+    },
+    {
       "part_key": "Intel Core i5-13400F",
       "category": "CPU",
       "best_price": 249.0,
@@ -181,6 +213,22 @@
           "price": 1999.0,
           "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
           "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675"
+        }
+      ]
+    },
+    {
+      "part_key": "Intel Core i7-14700K",
+      "category": "CPU",
+      "best_price": 545.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
+      "best_title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 545.0,
+          "url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
+          "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)"
         }
       ]
     },
@@ -231,6 +279,150 @@
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
         }
       ]
+    },
+    {
+      "part_key": "NVIDIA RTX 4060",
+      "category": "GPU",
+      "best_price": 499.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
+      "best_title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 499.0,
+          "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
+          "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)"
+        }
+      ]
+    },
+    {
+      "part_key": "NVIDIA RTX 5060",
+      "category": "GPU",
+      "best_price": 479.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
+      "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 479.0,
+          "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
+          "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)"
+        }
+      ]
+    },
+    {
+      "part_key": "NVIDIA RTX 5060 Ti",
+      "category": "GPU",
+      "best_price": 549.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
+      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 549.0,
+          "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
+          "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)"
+        }
+      ]
+    },
+    {
+      "part_key": "NVIDIA RTX 5070",
+      "category": "GPU",
+      "best_price": 949.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
+      "best_title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 949.0,
+          "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
+          "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)"
+        }
+      ]
+    },
+    {
+      "part_key": "NVIDIA RTX 5070 Ti",
+      "category": "GPU",
+      "best_price": 1449.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
+      "best_title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 1449.0,
+          "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
+          "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)"
+        }
+      ]
+    },
+    {
+      "part_key": "NVIDIA RTX 5080",
+      "category": "GPU",
+      "best_price": 1879.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-graphics-card-prime-rtx5080-16g-81418",
+      "best_title": "Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 1879.0,
+          "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-graphics-card-prime-rtx5080-16g-81418",
+          "title": "Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)"
+        }
+      ]
+    },
+    {
+      "part_key": "NVIDIA RTX 5090",
+      "category": "GPU",
+      "best_price": 6299.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
+      "best_title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 6299.0,
+          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
+          "title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)"
+        }
+      ]
+    },
+    {
+      "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
+      "category": "RAM",
+      "best_price": 679.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
+      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 679.0,
+          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
+          "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White"
+        }
+      ]
+    },
+    {
+      "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
+      "category": "RAM",
+      "best_price": 379.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
+      "best_title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 379.0,
+          "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
+          "title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM"
+        }
+      ]
     }
   ],
   "raw_records": [
@@ -274,10 +466,10 @@
       "part_key": "AMD Ryzen 5 5600",
       "category": "CPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
+      "price": 168.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
+      "status": "OK"
     },
     {
       "part_key": "AMD Ryzen 7 5700X3D",
@@ -637,10 +829,10 @@
       "part_key": "Intel Core i7-14700K",
       "category": "CPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
+      "price": 545.0,
+      "url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
+      "status": "OK"
     },
     {
       "part_key": "Intel Core i9-14900K",
@@ -700,10 +892,10 @@
       "part_key": "Intel Core Ultra 7 265K",
       "category": "CPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)",
+      "price": 515.0,
+      "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
+      "status": "OK"
     },
     {
       "part_key": "Intel Core Ultra 9 285K",
@@ -773,10 +965,10 @@
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
+      "price": 499.0,
+      "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
+      "status": "OK"
     },
     {
       "part_key": "NVIDIA RTX 4070",
@@ -836,10 +1028,10 @@
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
+      "price": 479.0,
+      "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
+      "status": "OK"
     },
     {
       "part_key": "NVIDIA RTX 5060 Ti",
@@ -863,10 +1055,10 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+      "price": 549.0,
+      "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
+      "status": "OK"
     },
     {
       "part_key": "NVIDIA RTX 5070",
@@ -881,10 +1073,10 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
+      "price": 949.0,
+      "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
+      "status": "OK"
     },
     {
       "part_key": "NVIDIA RTX 5070 Ti",
@@ -909,10 +1101,10 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
+      "price": 1449.0,
+      "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
+      "status": "OK"
     },
     {
       "part_key": "NVIDIA RTX 5080",
@@ -937,10 +1129,10 @@
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)",
+      "price": 1879.0,
+      "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-graphics-card-prime-rtx5080-16g-81418",
+      "status": "OK"
     },
     {
       "part_key": "NVIDIA RTX 5090",
@@ -964,10 +1156,10 @@
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)",
+      "price": 6299.0,
+      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
+      "status": "OK"
     },
     {
       "part_key": "AMD Radeon RX 7600",
@@ -1192,10 +1384,10 @@
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
       "category": "RAM",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+      "price": 379.0,
+      "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
+      "status": "OK"
     },
     {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
@@ -1210,10 +1402,10 @@
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
+      "price": 679.0,
+      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
+      "status": "OK"
     },
     {
       "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
