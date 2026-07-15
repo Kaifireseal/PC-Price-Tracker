@@ -125,8 +125,7 @@ const DATA_URL = '../data/prices.json';
 let ALL_PARTS = [];
 let activeCategory = 'All';
 
-const categoryOrder = ['All', 'CPU', 'GPU', 'RAM'];
-
+const categoryOrder = ['All', 'CPU', 'GPU', 'RAM', 'Motherboard', 'Monitor'];
 function formatPrice(n){
   return new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(n);
 }
