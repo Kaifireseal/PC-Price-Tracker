@@ -2004,3 +2004,165 @@
 2026-07-15 03:45:22,772 [WARNING] NO MATCH: Kingston Fury Beast 128GB (2x64GB) DDR5 5600 | MSY | query='ddr5_ram' (got 21 raw results)
 2026-07-15 03:45:22,774 [INFO] Wrote debug snippets for 9 retailer(s) to /home/runner/work/PC-Price-Tracker/PC-Price-Tracker/debug_snippets.json
 2026-07-15 03:45:22,774 [INFO] Done. 27/114 fetches succeeded. Wrote /home/runner/work/PC-Price-Tracker/PC-Price-Tracker/data/prices.json
+2026-07-15 23:04:43,315 [INFO] Starting daily scrape for 55 parts...
+2026-07-15 23:04:45,088 [WARNING] NO MATCH: AMD Ryzen 5 5500 | Umart | query='ryzen 5 5500' (got 5 raw results)
+2026-07-15 23:04:47,224 [INFO] OK: AMD Ryzen 5 5500 | MSY | $120.00 | AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)
+2026-07-15 23:04:50,863 [WARNING] NO MATCH: AMD Ryzen 5 5600 | Centre Com | query='ryzen 5 5600' (got 0 raw results)
+2026-07-15 23:04:52,734 [WARNING] NO MATCH: AMD Ryzen 5 5600 | Umart | query='ryzen 5 5600' (got 18 raw results)
+2026-07-15 23:04:54,859 [INFO] OK: AMD Ryzen 5 5600 | MSY | $168.00 | AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)
+2026-07-15 23:04:56,705 [WARNING] NO MATCH: AMD Ryzen 7 5700X3D | Umart | query='5700x3d' (got 1 raw results)
+2026-07-15 23:04:58,832 [WARNING] NO MATCH: AMD Ryzen 7 5700X3D | MSY | query='amd_cpu' (got 20 raw results)
+2026-07-15 23:05:09,367 [WARNING] Playwright attempt 1/2 failed for Scorptec (5800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:05:21,894 [WARNING] Playwright attempt 2/2 failed for Scorptec (5800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:05:25,895 [ERROR] FAILED (BOT_BLOCKED): AMD Ryzen 7 5800X3D | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:05:27,493 [WARNING] NO MATCH: AMD Ryzen 7 5800X3D | Umart | query='5800x3d' (got 1 raw results)
+2026-07-15 23:05:29,746 [INFO] OK: AMD Ryzen 7 5800X3D | MSY | $549.00 | AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)
+2026-07-15 23:05:31,493 [WARNING] NO MATCH: AMD Ryzen 5 7500F | Umart | query='ryzen 5 7500f' (got 10 raw results)
+2026-07-15 23:05:33,592 [WARNING] NO MATCH: AMD Ryzen 5 7500F | MSY | query='amd_cpu' (got 20 raw results)
+2026-07-15 23:05:36,668 [WARNING] NO MATCH: AMD Ryzen 5 7600 | Centre Com | query='ryzen 5 7600' (got 0 raw results)
+2026-07-15 23:05:37,532 [WARNING] NO MATCH: AMD Ryzen 5 7600 | Mwave | query='ryzen 5 7600' (got 0 raw results)
+2026-07-15 23:05:39,581 [INFO] OK: AMD Ryzen 5 7600 | MSY | $285.00 | AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)
+2026-07-15 23:05:41,406 [WARNING] NO MATCH: AMD Ryzen 5 9600X | Umart | query='ryzen 5 9600x' (got 20 raw results)
+2026-07-15 23:05:43,479 [WARNING] NO MATCH: AMD Ryzen 5 9600X | MSY | query='amd_cpu' (got 20 raw results)
+2026-07-15 23:05:45,427 [WARNING] NO MATCH: AMD Ryzen 7 7700X | Umart | query='ryzen 7 7700x' (got 20 raw results)
+2026-07-15 23:05:47,423 [INFO] OK: AMD Ryzen 7 7700X | MSY | $449.00 | AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)
+2026-07-15 23:05:57,948 [WARNING] Playwright attempt 1/2 failed for Scorptec (7800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:06:10,499 [WARNING] Playwright attempt 2/2 failed for Scorptec (7800x3d): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:06:14,499 [ERROR] FAILED (BOT_BLOCKED): AMD Ryzen 7 7800X3D | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:06:16,308 [WARNING] NO MATCH: AMD Ryzen 7 7800X3D | Umart | query='7800x3d' (got 20 raw results)
+2026-07-15 23:06:18,519 [INFO] OK: AMD Ryzen 7 7800X3D | MSY | $549.00 | AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)
+2026-07-15 23:06:21,567 [WARNING] NO MATCH: AMD Ryzen 7 9800X3D | Centre Com | query='9800x3d' (got 0 raw results)
+2026-07-15 23:06:24,572 [WARNING] NO MATCH: AMD Ryzen 7 9800X3D | Umart | query='9800x3d' (got 14 raw results)
+2026-07-15 23:06:26,846 [INFO] OK: AMD Ryzen 7 9800X3D | MSY | $648.00 | AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)
+2026-07-15 23:06:28,717 [WARNING] NO MATCH: AMD Ryzen 9 7900X | Umart | query='ryzen 9 7900x' (got 20 raw results)
+2026-07-15 23:06:30,739 [WARNING] NO MATCH: AMD Ryzen 9 7900X | MSY | query='amd_cpu' (got 20 raw results)
+2026-07-15 23:06:32,095 [WARNING] NO MATCH: AMD Ryzen 9 7950X | Centre Com | query='ryzen 9 7950x' (got 0 raw results)
+2026-07-15 23:06:33,720 [WARNING] NO MATCH: AMD Ryzen 9 7950X | Umart | query='ryzen 9 7950x' (got 5 raw results)
+2026-07-15 23:06:35,750 [WARNING] NO MATCH: AMD Ryzen 9 7950X | MSY | query='amd_cpu' (got 20 raw results)
+2026-07-15 23:06:37,657 [WARNING] NO MATCH: AMD Ryzen 9 9900X3D | Umart | query='9900x3d' (got 16 raw results)
+2026-07-15 23:06:39,798 [INFO] OK: AMD Ryzen 9 9900X3D | MSY | $885.00 | AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)
+2026-07-15 23:06:42,779 [WARNING] NO MATCH: AMD Ryzen 9 9950X3D | Centre Com | query='9950x3d' (got 0 raw results)
+2026-07-15 23:06:44,885 [INFO] OK: AMD Ryzen 9 9950X3D | MSY | $1029.00 | AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)
+2026-07-15 23:06:46,688 [INFO] OK: Intel Core i5-13400F | Umart | $249.00 | Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)
+2026-07-15 23:06:48,751 [WARNING] NO MATCH: Intel Core i5-13400F | MSY | query='intel_cpu' (got 20 raw results)
+2026-07-15 23:06:50,314 [WARNING] NO MATCH: Intel Core i5-14400F | Centre Com | query='i5-14400f' (got 0 raw results)
+2026-07-15 23:06:52,142 [INFO] OK: Intel Core i5-14400F | Umart | $1999.00 | G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675
+2026-07-15 23:06:54,146 [INFO] OK: Intel Core i5-14400F | MSY | $255.00 | Intel Core i5-14400F 10 Core 4.70 GHz LGA 1700 Boxed CPU Processor (BX8071514400F)
+2026-07-15 23:06:55,514 [WARNING] NO MATCH: Intel Core i5-14600K | Centre Com | query='i5-14600k' (got 0 raw results)
+2026-07-15 23:06:56,459 [WARNING] NO MATCH: Intel Core i5-14600K | Mwave | query='i5 14600k' (got 0 raw results)
+2026-07-15 23:06:58,468 [WARNING] NO MATCH: Intel Core i5-14600K | MSY | query='intel_cpu' (got 20 raw results)
+2026-07-15 23:07:00,479 [WARNING] NO MATCH: Intel Core i7-14700K | Umart | query='14700k' (got 20 raw results)
+2026-07-15 23:07:10,984 [WARNING] Playwright attempt 1/2 failed for Scorptec (i7-14700k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:07:23,494 [WARNING] Playwright attempt 2/2 failed for Scorptec (i7-14700k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:07:27,494 [ERROR] FAILED (BOT_BLOCKED): Intel Core i7-14700K | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:07:29,567 [INFO] OK: Intel Core i7-14700K | MSY | $545.00 | Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)
+2026-07-15 23:07:31,019 [WARNING] NO MATCH: Intel Core i9-14900K | Centre Com | query='i9-14900k' (got 0 raw results)
+2026-07-15 23:07:32,917 [WARNING] NO MATCH: Intel Core i9-14900K | Umart | query='14900k' (got 20 raw results)
+2026-07-15 23:07:34,877 [INFO] OK: Intel Core i9-14900K | MSY | $729.00 | Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)
+2026-07-15 23:07:36,510 [WARNING] NO MATCH: Intel Core Ultra 5 245K | Umart | query='ultra 5 245k' (got 4 raw results)
+2026-07-15 23:07:38,473 [INFO] OK: Intel Core Ultra 5 245K | MSY | $339.00 | Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)
+2026-07-15 23:07:41,459 [WARNING] NO MATCH: Intel Core Ultra 7 265K | Centre Com | query='ultra 7 265k' (got 0 raw results)
+2026-07-15 23:07:43,564 [INFO] OK: Intel Core Ultra 7 265K | MSY | $469.00 | Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)
+2026-07-15 23:07:54,087 [WARNING] Playwright attempt 1/2 failed for Scorptec (core ultra 9 285k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:08:06,644 [WARNING] Playwright attempt 2/2 failed for Scorptec (core ultra 9 285k): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:08:10,644 [ERROR] FAILED (BOT_BLOCKED): Intel Core Ultra 9 285K | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:08:12,434 [WARNING] NO MATCH: Intel Core Ultra 9 285K | Umart | query='ultra 9 285k' (got 1 raw results)
+2026-07-15 23:08:14,606 [WARNING] NO MATCH: Intel Core Ultra 9 285K | MSY | query='intel_cpu' (got 20 raw results)
+2026-07-15 23:08:16,529 [WARNING] NO MATCH: NVIDIA RTX 3060 | Umart | query='rtx 3060' (got 21 raw results)
+2026-07-15 23:08:18,893 [WARNING] NO MATCH: NVIDIA RTX 3060 | MSY | query='gpu_all' (got 26 raw results)
+2026-07-15 23:08:20,464 [WARNING] NO MATCH: NVIDIA RTX 4060 | Centre Com | query='rtx 4060' (got 0 raw results)
+2026-07-15 23:08:22,409 [WARNING] NO MATCH: NVIDIA RTX 4060 | Umart | query='rtx 4060' (got 21 raw results)
+2026-07-15 23:08:24,151 [INFO] OK: NVIDIA RTX 4060 | MSY | $499.00 | Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)
+2026-07-15 23:08:26,193 [WARNING] NO MATCH: NVIDIA RTX 4070 | Umart | query='rtx 4070' (got 21 raw results)
+2026-07-15 23:08:28,602 [WARNING] NO MATCH: NVIDIA RTX 4070 | MSY | query='gpu_all' (got 26 raw results)
+2026-07-15 23:08:29,983 [WARNING] NO MATCH: NVIDIA RTX 4070 Ti Super | Centre Com | query='rtx 4070 ti super' (got 0 raw results)
+2026-07-15 23:08:31,552 [WARNING] NO MATCH: NVIDIA RTX 4070 Ti Super | Umart | query='rtx 4070 ti super' (got 0 raw results)
+2026-07-15 23:08:33,987 [WARNING] NO MATCH: NVIDIA RTX 4070 Ti Super | MSY | query='gpu_all' (got 26 raw results)
+2026-07-15 23:08:36,080 [WARNING] NO MATCH: NVIDIA RTX 5060 | Umart | query='rtx 5060' (got 20 raw results)
+2026-07-15 23:08:38,009 [INFO] OK: NVIDIA RTX 5060 | MSY | $479.00 | Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)
+2026-07-15 23:08:41,002 [WARNING] NO MATCH: NVIDIA RTX 5060 Ti | Centre Com | query='rtx 5060 ti' (got 0 raw results)
+2026-07-15 23:08:42,903 [WARNING] NO MATCH: NVIDIA RTX 5060 Ti | Umart | query='rtx 5060 ti' (got 20 raw results)
+2026-07-15 23:08:44,938 [INFO] OK: NVIDIA RTX 5060 Ti | MSY | $549.00 | Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)
+2026-07-15 23:08:47,929 [WARNING] NO MATCH: NVIDIA RTX 5070 | Centre Com | query='rtx 5070' (got 0 raw results)
+2026-07-15 23:08:49,905 [INFO] OK: NVIDIA RTX 5070 | MSY | $949.00 | Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)
+2026-07-15 23:08:51,794 [WARNING] NO MATCH: NVIDIA RTX 5070 Ti | Umart | query='rtx 5070 ti' (got 20 raw results)
+2026-07-15 23:09:02,310 [WARNING] Playwright attempt 1/2 failed for Scorptec (rtx 5070 ti): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:09:14,838 [WARNING] Playwright attempt 2/2 failed for Scorptec (rtx 5070 ti): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:09:18,838 [ERROR] FAILED (BOT_BLOCKED): NVIDIA RTX 5070 Ti | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:09:21,450 [INFO] OK: NVIDIA RTX 5070 Ti | MSY | $1449.00 | Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)
+2026-07-15 23:09:31,959 [WARNING] Playwright attempt 1/2 failed for Scorptec (rtx 5080): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:09:44,487 [WARNING] Playwright attempt 2/2 failed for Scorptec (rtx 5080): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:09:48,488 [ERROR] FAILED (BOT_BLOCKED): NVIDIA RTX 5080 | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:09:50,455 [WARNING] NO MATCH: NVIDIA RTX 5080 | Umart | query='rtx 5080' (got 21 raw results)
+2026-07-15 23:09:52,485 [INFO] OK: NVIDIA RTX 5080 | MSY | $1879.00 | Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)
+2026-07-15 23:09:54,116 [WARNING] NO MATCH: NVIDIA RTX 5090 | Centre Com | query='rtx 5090' (got 0 raw results)
+2026-07-15 23:09:56,043 [WARNING] NO MATCH: NVIDIA RTX 5090 | Umart | query='rtx 5090' (got 20 raw results)
+2026-07-15 23:09:57,943 [INFO] OK: NVIDIA RTX 5090 | MSY | $6299.00 | Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)
+2026-07-15 23:09:59,536 [WARNING] NO MATCH: AMD Radeon RX 7600 | Umart | query='rx 7600' (got 6 raw results)
+2026-07-15 23:10:01,947 [WARNING] NO MATCH: AMD Radeon RX 7600 | MSY | query='gpu_all' (got 26 raw results)
+2026-07-15 23:10:05,076 [WARNING] NO MATCH: AMD Radeon RX 7700 XT | Centre Com | query='rx 7700 xt' (got 0 raw results)
+2026-07-15 23:10:06,692 [WARNING] NO MATCH: AMD Radeon RX 7700 XT | Umart | query='rx 7700 xt' (got 1 raw results)
+2026-07-15 23:10:09,181 [WARNING] NO MATCH: AMD Radeon RX 7700 XT | MSY | query='gpu_all' (got 26 raw results)
+2026-07-15 23:10:12,195 [WARNING] NO MATCH: AMD Radeon RX 7800 XT | Centre Com | query='rx 7800 xt' (got 0 raw results)
+2026-07-15 23:10:14,029 [WARNING] NO MATCH: AMD Radeon RX 7800 XT | Umart | query='7800 xt' (got 17 raw results)
+2026-07-15 23:10:16,443 [WARNING] NO MATCH: AMD Radeon RX 7800 XT | MSY | query='gpu_all' (got 26 raw results)
+2026-07-15 23:10:19,042 [WARNING] NO MATCH: AMD Radeon RX 7900 GRE | Umart | query='rx 7900 gre' (got 20 raw results)
+2026-07-15 23:10:21,554 [WARNING] NO MATCH: AMD Radeon RX 7900 GRE | MSY | query='gpu_all' (got 26 raw results)
+2026-07-15 23:10:32,295 [WARNING] Playwright attempt 1/2 failed for Scorptec (rx 7900 xt): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:10:44,821 [WARNING] Playwright attempt 2/2 failed for Scorptec (rx 7900 xt): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:10:48,821 [ERROR] FAILED (BOT_BLOCKED): AMD Radeon RX 7900 XT | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:10:50,499 [WARNING] NO MATCH: AMD Radeon RX 7900 XT | Umart | query='rx 7900 xt' (got 2 raw results)
+2026-07-15 23:10:52,993 [WARNING] NO MATCH: AMD Radeon RX 7900 XT | MSY | query='gpu_all' (got 26 raw results)
+2026-07-15 23:10:53,936 [WARNING] NO MATCH: AMD Radeon RX 7900 XTX | Mwave | query='rx 7900 xtx' (got 0 raw results)
+2026-07-15 23:10:55,933 [WARNING] NO MATCH: AMD Radeon RX 7900 XTX | MSY | query='gpu_rx_7900xtx' (got 0 raw results)
+2026-07-15 23:10:58,978 [WARNING] NO MATCH: AMD Radeon RX 9070 | Centre Com | query='rx 9070' (got 0 raw results)
+2026-07-15 23:11:00,853 [WARNING] NO MATCH: AMD Radeon RX 9070 | Umart | query='rx 9070' (got 20 raw results)
+2026-07-15 23:11:03,399 [INFO] OK: AMD Radeon RX 9070 | MSY | $829.00 | Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)
+2026-07-15 23:11:13,927 [WARNING] Playwright attempt 1/2 failed for Scorptec (rx 9070 xt): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:11:26,460 [WARNING] Playwright attempt 2/2 failed for Scorptec (rx 9070 xt): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:11:30,460 [ERROR] FAILED (BOT_BLOCKED): AMD Radeon RX 9070 XT | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:11:32,979 [INFO] OK: AMD Radeon RX 9070 XT | MSY | $899.00 | Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)
+2026-07-15 23:11:34,606 [WARNING] NO MATCH: Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200 | Umart | query='vengeance lpx 16gb ddr4 3200' (got 1 raw results)
+2026-07-15 23:11:36,946 [WARNING] NO MATCH: Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200 | MSY | query='ddr4_ram' (got 21 raw results)
+2026-07-15 23:11:40,085 [WARNING] NO MATCH: G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600 | Centre Com | query='ripjaws v 32gb ddr4 3600' (got 0 raw results)
+2026-07-15 23:11:50,601 [WARNING] Playwright attempt 1/2 failed for Scorptec (ripjaws v 32gb ddr4 3600): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:12:03,129 [WARNING] Playwright attempt 2/2 failed for Scorptec (ripjaws v 32gb ddr4 3600): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:12:07,130 [ERROR] FAILED (BOT_BLOCKED): G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600 | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:12:09,280 [INFO] OK: G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600 | MSY | $379.00 | G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM
+2026-07-15 23:12:11,055 [WARNING] NO MATCH: Corsair Vengeance 32GB (2x16GB) DDR5 6000 | Umart | query='vengeance 32gb ddr5 6000' (got 15 raw results)
+2026-07-15 23:12:13,064 [INFO] OK: Corsair Vengeance 32GB (2x16GB) DDR5 6000 | MSY | $679.00 | Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White
+2026-07-15 23:12:23,608 [WARNING] Playwright attempt 1/2 failed for Scorptec (trident z5 64gb ddr5 6000): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:12:36,143 [WARNING] Playwright attempt 2/2 failed for Scorptec (trident z5 64gb ddr5 6000): BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:12:40,144 [ERROR] FAILED (BOT_BLOCKED): G.Skill Trident Z5 64GB (2x32GB) DDR5 6000 | Scorptec | Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results
+2026-07-15 23:12:43,214 [WARNING] NO MATCH: G.Skill Trident Z5 64GB (2x32GB) DDR5 6000 | Centre Com | query='trident z5 64gb ddr5 6000' (got 0 raw results)
+2026-07-15 23:12:45,508 [WARNING] NO MATCH: G.Skill Trident Z5 64GB (2x32GB) DDR5 6000 | MSY | query='ddr5_ram' (got 21 raw results)
+2026-07-15 23:12:46,256 [WARNING] NO MATCH: Kingston Fury Beast 128GB (2x64GB) DDR5 5600 | Mwave | query='fury beast 128gb ddr5 5600' (got 0 raw results)
+2026-07-15 23:12:48,975 [WARNING] NO MATCH: Kingston Fury Beast 128GB (2x64GB) DDR5 5600 | Umart | query='fury beast 128gb ddr5 5600' (got 20 raw results)
+2026-07-15 23:12:51,138 [WARNING] NO MATCH: Kingston Fury Beast 128GB (2x64GB) DDR5 5600 | MSY | query='ddr5_ram' (got 21 raw results)
+2026-07-15 23:12:52,940 [INFO] OK: Gigabyte B550M K | Umart | $109.00 | GigabyteB550MKmATX AM4 Motherboard (GA-B550M-K)
+2026-07-15 23:12:54,777 [INFO] OK: Gigabyte B550M K | MSY | $109.00 | Gigabyte B550M K mATX AM4 Motherboard (GA-B550M-K)
+2026-07-15 23:12:57,377 [WARNING] NO MATCH: MSI MAG B650 Tomahawk WiFi | Centre Com | query='mag b650 tomahawk' (got 0 raw results)
+2026-07-15 23:12:58,983 [WARNING] NO MATCH: MSI MAG B650 Tomahawk WiFi | Umart | query='mag b650 tomahawk' (got 1 raw results)
+2026-07-15 23:13:01,184 [INFO] OK: MSI MAG B650 Tomahawk WiFi | MSY | $278.00 | MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)
+2026-07-15 23:13:02,767 [INFO] OK: MSI B850 Gaming Plus WiFi | Umart | $335.00 | Asus TUFGamingB850PlusWiFiAM5 ATX Motherboard (TUF-GAMING-B850-PLUS-WIFI)
+2026-07-15 23:13:04,941 [INFO] OK: MSI B850 Gaming Plus WiFi | MSY | $299.00 | MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)
+2026-07-15 23:13:07,997 [WARNING] NO MATCH: Asus Prime X870-P WiFi CSM | Centre Com | query='prime x870-p wifi' (got 0 raw results)
+2026-07-15 23:13:09,805 [WARNING] NO MATCH: Asus Prime X870-P WiFi CSM | Umart | query='x870-p wifi' (got 20 raw results)
+2026-07-15 23:13:11,998 [INFO] OK: Asus Prime X870-P WiFi CSM | MSY | $339.00 | Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)
+2026-07-15 23:13:13,838 [WARNING] NO MATCH: Asus Prime Z790-P WiFi CSM | Umart | query='prime z790-p wifi' (got 1 raw results)
+2026-07-15 23:13:15,849 [INFO] OK: Asus Prime Z790-P WiFi CSM | MSY | $239.00 | ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)
+2026-07-15 23:13:18,934 [WARNING] NO MATCH: Gigabyte B860M Eagle WiFi6 | Centre Com | query='b860m eagle wifi6' (got 0 raw results)
+2026-07-15 23:13:20,525 [WARNING] NO MATCH: Gigabyte B860M Eagle WiFi6 | Umart | query='b860m eagle wifi6' (got 5 raw results)
+2026-07-15 23:13:22,655 [INFO] OK: Gigabyte B860M Eagle WiFi6 | MSY | $188.00 | Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)
+2026-07-15 23:13:24,437 [WARNING] NO MATCH: Samsung 27in FHD IPS 120Hz Monitor | Umart | query='samsung 27in fhd ips 120hz' (got 6 raw results)
+2026-07-15 23:13:27,171 [INFO] OK: Samsung 27in FHD IPS 120Hz Monitor | MSY | $149.00 | Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)
+2026-07-15 23:13:28,576 [WARNING] NO MATCH: MSI MAG 275QF-E20 WQHD Monitor | Centre Com | query='mag 275qf-e20' (got 0 raw results)
+2026-07-15 23:13:30,141 [WARNING] NO MATCH: MSI MAG 275QF-E20 WQHD Monitor | Umart | query='mag 275qf e20' (got 2 raw results)
+2026-07-15 23:13:32,761 [INFO] OK: MSI MAG 275QF-E20 WQHD Monitor | MSY | $209.00 | MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)
+2026-07-15 23:13:34,291 [INFO] OK: LG UltraFine 27UP600K-W 4K Monitor | Umart | $359.00 | LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)
+2026-07-15 23:13:36,155 [WARNING] NO MATCH: LG UltraFine 27UP600K-W 4K Monitor | MSY | query='monitor_4k' (got 21 raw results)
+2026-07-15 23:13:39,183 [WARNING] NO MATCH: Asus ROG Swift PG27UCDM 4K QD-OLED Monitor | Centre Com | query='pg27ucdm' (got 0 raw results)
+2026-07-15 23:13:40,829 [INFO] OK: Asus ROG Swift PG27UCDM 4K QD-OLED Monitor | Umart | $1799.00 | AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)
+2026-07-15 23:13:42,706 [WARNING] NO MATCH: Asus ROG Swift PG27UCDM 4K QD-OLED Monitor | MSY | query='monitor_oled' (got 21 raw results)
+2026-07-15 23:13:42,708 [INFO] Wrote debug snippets for 9 retailer(s) to /home/runner/work/PC-Price-Tracker/PC-Price-Tracker/debug_snippets.json
+2026-07-15 23:13:42,708 [INFO] Done. 39/139 fetches succeeded. Wrote /home/runner/work/PC-Price-Tracker/PC-Price-Tracker/data/prices.json

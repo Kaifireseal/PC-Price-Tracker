@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:45:22.772987+00:00",
+  "generated_at": "2026-07-15T23:13:42.706967+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -165,16 +165,16 @@
     {
       "part_key": "Intel Core Ultra 7 265K",
       "category": "CPU",
-      "best_price": 515.0,
+      "best_price": 469.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
-      "best_title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)",
+      "best_url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
+      "best_title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 515.0,
-          "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
-          "title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)"
+          "price": 469.0,
+          "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
+          "title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)"
         }
       ]
     },
@@ -389,6 +389,178 @@
           "price": 6299.0,
           "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
           "title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)"
+        }
+      ]
+    },
+    {
+      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "category": "Monitor",
+      "best_price": 1799.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
+      "best_title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)",
+      "offers": [
+        {
+          "retailer": "Umart",
+          "price": 1799.0,
+          "url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
+          "title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)"
+        }
+      ]
+    },
+    {
+      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
+      "category": "Monitor",
+      "best_price": 359.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
+      "best_title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)",
+      "offers": [
+        {
+          "retailer": "Umart",
+          "price": 359.0,
+          "url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
+          "title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)"
+        }
+      ]
+    },
+    {
+      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
+      "category": "Monitor",
+      "best_price": 209.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
+      "best_title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 209.0,
+          "url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
+          "title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)"
+        }
+      ]
+    },
+    {
+      "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
+      "category": "Monitor",
+      "best_price": 149.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
+      "best_title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 149.0,
+          "url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
+          "title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)"
+        }
+      ]
+    },
+    {
+      "part_key": "Asus Prime X870-P WiFi CSM",
+      "category": "Motherboard",
+      "best_price": 339.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
+      "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 339.0,
+          "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
+          "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)"
+        }
+      ]
+    },
+    {
+      "part_key": "Asus Prime Z790-P WiFi CSM",
+      "category": "Motherboard",
+      "best_price": 239.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
+      "best_title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 239.0,
+          "url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
+          "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)"
+        }
+      ]
+    },
+    {
+      "part_key": "Gigabyte B550M K",
+      "category": "Motherboard",
+      "best_price": 109.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
+      "best_title": "GigabyteB550MKmATX AM4 Motherboard (GA-B550M-K)",
+      "offers": [
+        {
+          "retailer": "Umart",
+          "price": 109.0,
+          "url": "https://www.umart.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
+          "title": "GigabyteB550MKmATX AM4 Motherboard (GA-B550M-K)"
+        },
+        {
+          "retailer": "MSY",
+          "price": 109.0,
+          "url": "https://www.msy.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
+          "title": "Gigabyte B550M K mATX AM4 Motherboard (GA-B550M-K)"
+        }
+      ]
+    },
+    {
+      "part_key": "Gigabyte B860M Eagle WiFi6",
+      "category": "Motherboard",
+      "best_price": 188.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/gigabyte-b860m-eagle-wifi6-lga-1851-matx-motherboard-b860m-eagle-wifi6-90058",
+      "best_title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 188.0,
+          "url": "https://www.msy.com.au/product/gigabyte-b860m-eagle-wifi6-lga-1851-matx-motherboard-b860m-eagle-wifi6-90058",
+          "title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)"
+        }
+      ]
+    },
+    {
+      "part_key": "MSI B850 Gaming Plus WiFi",
+      "category": "Motherboard",
+      "best_price": 299.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
+      "best_title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 299.0,
+          "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
+          "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)"
+        },
+        {
+          "retailer": "Umart",
+          "price": 335.0,
+          "url": "https://www.umart.com.au/product/asus-tuf-gaming-b850-plus-wifi-am5-atx-motherboard-tuf-gaming-b850-plus-wifi-81267",
+          "title": "Asus TUFGamingB850PlusWiFiAM5 ATX Motherboard (TUF-GAMING-B850-PLUS-WIFI)"
+        }
+      ]
+    },
+    {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "best_price": 278.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
+      "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 278.0,
+          "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
+          "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)"
         }
       ]
     },
@@ -892,9 +1064,9 @@
       "part_key": "Intel Core Ultra 7 265K",
       "category": "CPU",
       "retailer": "MSY",
-      "title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)",
-      "price": 515.0,
-      "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
+      "title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)",
+      "price": 469.0,
+      "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
       "status": "OK"
     },
     {
@@ -1456,6 +1628,231 @@
     {
       "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
       "category": "RAM",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Gigabyte B550M K",
+      "category": "Motherboard",
+      "retailer": "Umart",
+      "title": "GigabyteB550MKmATX AM4 Motherboard (GA-B550M-K)",
+      "price": 109.0,
+      "url": "https://www.umart.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
+      "status": "OK"
+    },
+    {
+      "part_key": "Gigabyte B550M K",
+      "category": "Motherboard",
+      "retailer": "MSY",
+      "title": "Gigabyte B550M K mATX AM4 Motherboard (GA-B550M-K)",
+      "price": 109.0,
+      "url": "https://www.msy.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
+      "status": "OK"
+    },
+    {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "retailer": "MSY",
+      "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
+      "price": 278.0,
+      "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
+      "status": "OK"
+    },
+    {
+      "part_key": "MSI B850 Gaming Plus WiFi",
+      "category": "Motherboard",
+      "retailer": "Umart",
+      "title": "Asus TUFGamingB850PlusWiFiAM5 ATX Motherboard (TUF-GAMING-B850-PLUS-WIFI)",
+      "price": 335.0,
+      "url": "https://www.umart.com.au/product/asus-tuf-gaming-b850-plus-wifi-am5-atx-motherboard-tuf-gaming-b850-plus-wifi-81267",
+      "status": "OK"
+    },
+    {
+      "part_key": "MSI B850 Gaming Plus WiFi",
+      "category": "Motherboard",
+      "retailer": "MSY",
+      "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
+      "price": 299.0,
+      "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
+      "status": "OK"
+    },
+    {
+      "part_key": "Asus Prime X870-P WiFi CSM",
+      "category": "Motherboard",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Asus Prime X870-P WiFi CSM",
+      "category": "Motherboard",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Asus Prime X870-P WiFi CSM",
+      "category": "Motherboard",
+      "retailer": "MSY",
+      "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
+      "price": 339.0,
+      "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
+      "status": "OK"
+    },
+    {
+      "part_key": "Asus Prime Z790-P WiFi CSM",
+      "category": "Motherboard",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Asus Prime Z790-P WiFi CSM",
+      "category": "Motherboard",
+      "retailer": "MSY",
+      "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
+      "price": 239.0,
+      "url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
+      "status": "OK"
+    },
+    {
+      "part_key": "Gigabyte B860M Eagle WiFi6",
+      "category": "Motherboard",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Gigabyte B860M Eagle WiFi6",
+      "category": "Motherboard",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Gigabyte B860M Eagle WiFi6",
+      "category": "Motherboard",
+      "retailer": "MSY",
+      "title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)",
+      "price": 188.0,
+      "url": "https://www.msy.com.au/product/gigabyte-b860m-eagle-wifi6-lga-1851-matx-motherboard-b860m-eagle-wifi6-90058",
+      "status": "OK"
+    },
+    {
+      "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
+      "category": "Monitor",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
+      "category": "Monitor",
+      "retailer": "MSY",
+      "title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)",
+      "price": 149.0,
+      "url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
+      "status": "OK"
+    },
+    {
+      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
+      "category": "Monitor",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
+      "category": "Monitor",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
+      "category": "Monitor",
+      "retailer": "MSY",
+      "title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)",
+      "price": 209.0,
+      "url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
+      "status": "OK"
+    },
+    {
+      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
+      "category": "Monitor",
+      "retailer": "Umart",
+      "title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)",
+      "price": 359.0,
+      "url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
+      "status": "OK"
+    },
+    {
+      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
+      "category": "Monitor",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "category": "Monitor",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "category": "Monitor",
+      "retailer": "Umart",
+      "title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)",
+      "price": 1799.0,
+      "url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
+      "status": "OK"
+    },
+    {
+      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "category": "Monitor",
       "retailer": "MSY",
       "title": null,
       "price": null,
