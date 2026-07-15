@@ -89,26 +89,23 @@ CATEGORY_URLS = {
     "gpu_rtx_5090": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/geforce-rtx-5090-1386",
     "gpu_rx_7900xtx": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/radeon-rx-7900-xtx-1124",
     "gpu_rx_9060xt": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu/radeon-rx-9060-xt-1398",
-    # Fallback for models without a confirmed sub-category ID (RTX 5070 Ti,
-    # RX 7600/7700 XT/7900 GRE/7900 XT, RX 9070/9070 XT) — lists everything,
-    # but matcher.py's hard model-number + suffix gate (fixed after the
-    # earlier RTX-3060-Ti false-match bug) keeps this safe from wrong-model
-    # mismatches even on a big unfiltered page.
     "gpu_all": "https://www.msy.com.au/pc-parts/computer-parts/graphics-cards-gpu-610",
     "ddr4_ram": "https://www.msy.com.au/pc-parts/computer-parts/memory-ram/ddr4-ram-659",
     "ddr5_ram": "https://www.msy.com.au/pc-parts/computer-parts/memory-ram/ddr5-ram-1085",
+    # Motherboards — MSY organizes these by socket, not chipset, so a B550
+    # vs B650 vs B850 board all live on the same per-socket page; the
+    # specific board's model number is what the matcher gates on.
+    "mobo_amd_am4": "https://www.msy.com.au/pc-parts/computer-parts/motherboards/amd-am4-966",
+    "mobo_amd_am5": "https://www.msy.com.au/pc-parts/computer-parts/motherboards/amd-am5-1115",
+    "mobo_intel_lga1700": "https://www.msy.com.au/pc-parts/computer-parts/motherboards/intel-lga-1700-1086",
+    "mobo_intel_lga1851": "https://www.msy.com.au/pc-parts/computer-parts/motherboards/intel-lga-1851-1380",
+    # Monitors — MSY doesn't have separate 1080p/1440p sub-categories, only
+    # a general list plus dedicated 4K and OLED ones.
+    "monitor_general": "https://www.msy.com.au/pc-parts/peripherals/monitors/monitors-680",
+    "monitor_4k": "https://www.msy.com.au/pc-parts/peripherals/monitors/4k-uhd-monitors-1109",
+    "monitor_oled": "https://www.msy.com.au/pc-parts/peripherals/monitors/oled-monitors-1206",
 }
 
-# ---------------------------------------------------------------------------
-# Shopping list.
-#
-# CPU coverage: AM4, AM5, LGA1700, LGA1851 — expanded lineup covering both
-# AMD Ryzen and Intel, budget through flagship.
-#
-# GPU coverage: NVIDIA RTX 30/40/50-series and AMD Radeon RX 7000/9000-series.
-#
-# RAM coverage: DDR4/DDR5, 16GB-128GB.
-# ---------------------------------------------------------------------------
 TRACKED_PARTS = [
     # --- CPU: AM4 ---
     {"part_key": "AMD Ryzen 5 5500", "category": "CPU", "socket": "AM4",
@@ -219,4 +216,38 @@ TRACKED_PARTS = [
      "retailers": {"Scorptec": "trident z5 64gb ddr5 6000", "Centre Com": "trident z5 64gb ddr5 6000", "MSY": "ddr5_ram"}},
     {"part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600", "category": "RAM", "socket": None,
      "retailers": {"Mwave": "fury beast 128gb ddr5 5600", "Umart": "fury beast 128gb ddr5 5600", "MSY": "ddr5_ram"}},
+
+    # --- Motherboard: AM4 (B550) ---
+    {"part_key": "Gigabyte B550M K", "category": "Motherboard", "socket": "AM4",
+     "retailers": {"Umart": "b550m k", "MSY": "mobo_amd_am4"}},
+
+    # --- Motherboard: AM5 (B650, B850, X870) ---
+    {"part_key": "MSI MAG B650 Tomahawk WiFi", "category": "Motherboard", "socket": "AM5",
+     "retailers": {"Centre Com": "mag b650 tomahawk", "Umart": "mag b650 tomahawk", "MSY": "mobo_amd_am5"}},
+    {"part_key": "MSI B850 Gaming Plus WiFi", "category": "Motherboard", "socket": "AM5",
+     "retailers": {"Umart": "b850 gaming plus wifi", "MSY": "mobo_amd_am5"}},
+    {"part_key": "Asus Prime X870-P WiFi CSM", "category": "Motherboard", "socket": "AM5",
+     "retailers": {"Centre Com": "prime x870-p wifi", "Umart": "x870-p wifi", "MSY": "mobo_amd_am5"}},
+
+    # --- Motherboard: Intel (LGA1700, LGA1851) ---
+    {"part_key": "Asus Prime Z790-P WiFi CSM", "category": "Motherboard", "socket": "LGA1700",
+     "retailers": {"Umart": "prime z790-p wifi", "MSY": "mobo_intel_lga1700"}},
+    {"part_key": "Gigabyte B860M Eagle WiFi6", "category": "Motherboard", "socket": "LGA1851",
+     "retailers": {"Centre Com": "b860m eagle wifi6", "Umart": "b860m eagle wifi6", "MSY": "mobo_intel_lga1851"}},
+
+    # --- Monitor: 1080p ---
+    {"part_key": "Samsung 27in FHD IPS 120Hz Monitor", "category": "Monitor", "socket": None,
+     "retailers": {"Umart": "samsung 27in fhd ips 120hz", "MSY": "monitor_general"}},
+
+    # --- Monitor: 1440p ---
+    {"part_key": "MSI MAG 275QF-E20 WQHD Monitor", "category": "Monitor", "socket": None,
+     "retailers": {"Centre Com": "mag 275qf-e20", "Umart": "mag 275qf e20", "MSY": "monitor_general"}},
+
+    # --- Monitor: 4K ---
+    {"part_key": "LG UltraFine 27UP600K-W 4K Monitor", "category": "Monitor", "socket": None,
+     "retailers": {"Umart": "lg 27up600k", "MSY": "monitor_4k"}},
+
+    # --- Monitor: OLED ---
+    {"part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor", "category": "Monitor", "socket": None,
+     "retailers": {"Centre Com": "pg27ucdm", "Umart": "rog swift pg27ucdm", "MSY": "monitor_oled"}},
 ]
