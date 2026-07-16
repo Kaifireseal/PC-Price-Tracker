@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T23:41:49.960685+00:00",
+  "generated_at": "2026-07-16T23:23:06.006773+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -235,14 +235,14 @@
     {
       "part_key": "Intel Core i9-14900K",
       "category": "CPU",
-      "best_price": 729.0,
+      "best_price": 715.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
       "best_title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 729.0,
+          "price": 715.0,
           "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
           "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)"
         }
@@ -299,14 +299,14 @@
     {
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
-      "best_price": 479.0,
+      "best_price": 459.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
       "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 479.0,
+          "price": 459.0,
           "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
           "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)"
         }
@@ -1029,7 +1029,7 @@
       "category": "CPU",
       "retailer": "MSY",
       "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
-      "price": 729.0,
+      "price": 715.0,
       "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
       "status": "OK"
     },
@@ -1201,7 +1201,7 @@
       "category": "GPU",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
-      "price": 479.0,
+      "price": 459.0,
       "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
       "status": "OK"
     },
