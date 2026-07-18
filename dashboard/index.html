@@ -103,6 +103,9 @@
   <div class="max-w-6xl mx-auto px-5 pt-5 flex flex-wrap gap-2" id="categoryFilters">
     <!-- populated by JS -->
   </div>
+  <div class="max-w-6xl mx-auto px-5 pt-2 flex flex-wrap gap-1.5 hidden" id="subcategoryFilters">
+    <!-- populated by JS, shown once a specific category is selected -->
+  </div>
 
   <!-- Content -->
   <main class="max-w-6xl mx-auto px-5 pt-5">
@@ -124,8 +127,10 @@
 const DATA_URL = '../data/prices.json';
 let ALL_PARTS = [];
 let activeCategory = 'All';
+let activeSubcategory = 'All';
 
-const categoryOrder = ['All', 'CPU', 'GPU', 'RAM', 'Motherboard', 'Monitor'];
+const categoryOrder = ['All', 'CPU', 'GPU', 'RAM', 'SSD', 'Motherboard', 'Monitor'];
+
 function formatPrice(n){
   return new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(n);
 }
@@ -139,9 +144,40 @@ function renderFilters(categoriesPresent){
       const btn = document.createElement('button');
       btn.textContent = cat;
       btn.className = 'pill px-3 py-1.5 rounded-full' + (cat === activeCategory ? ' active' : '');
-      btn.onclick = () => { activeCategory = cat; renderAll(); };
+      btn.onclick = () => {
+        activeCategory = cat;
+        activeSubcategory = 'All';
+        renderAll();
+      };
       wrap.appendChild(btn);
     });
+}
+
+function renderSubcategoryFilters(){
+  const wrap = document.getElementById('subcategoryFilters');
+  wrap.innerHTML = '';
+
+  if (activeCategory === 'All'){
+    wrap.classList.add('hidden');
+    return;
+  }
+
+  const subsPresent = [...new Set(
+    ALL_PARTS.filter(p => p.category === activeCategory).map(p => p.subcategory).filter(Boolean)
+  )];
+  if (!subsPresent.length){
+    wrap.classList.add('hidden');
+    return;
+  }
+
+  wrap.classList.remove('hidden');
+  ['All', ...subsPresent].forEach(sub => {
+    const btn = document.createElement('button');
+    btn.textContent = sub;
+    btn.className = 'pill px-2.5 py-1 rounded-full text-[0.65rem]' + (sub === activeSubcategory ? ' active' : '');
+    btn.onclick = () => { activeSubcategory = sub; renderAll(); };
+    wrap.appendChild(btn);
+  });
 }
 
 function offerRow(offer, isBest){
@@ -201,12 +237,14 @@ function renderAll(){
   const query = document.getElementById('searchInput').value.trim().toLowerCase();
   const filtered = ALL_PARTS.filter(p => {
     const matchesCategory = activeCategory === 'All' || p.category === activeCategory;
+    const matchesSubcategory = activeSubcategory === 'All' || p.subcategory === activeSubcategory;
     const matchesQuery = !query || p.part_key.toLowerCase().includes(query);
-    return matchesCategory && matchesQuery;
+    return matchesCategory && matchesSubcategory && matchesQuery;
   });
 
   const categoriesPresent = new Set(ALL_PARTS.map(p => p.category));
   renderFilters(categoriesPresent);
+  renderSubcategoryFilters();
 
   const grid = document.getElementById('cardsGrid');
   const empty = document.getElementById('emptyState');
