@@ -87,10 +87,6 @@ def pick_best_match(results: list, part_key: str, min_similarity: float = 0.5):
 
         ratio = difflib.SequenceMatcher(None, target, title).ratio()
         overlap = len(target_words & effective_title_words) / max(len(target_words), 1)
-        # Overlap (does the title contain the target's key words?) is a far
-        # more reliable signal here than raw character-sequence similarity,
-        # which penalizes long real-world titles (brand + cooler name +
-        # capacity + SKU code) even for a fully correct match.
         combined = (overlap * 0.75) + (ratio * 0.25)
         scored.append((combined, r))
 
@@ -107,12 +103,12 @@ def pick_best_match(results: list, part_key: str, min_similarity: float = 0.5):
 def build_dashboard(records: list) -> list:
     """
     records: list of dicts like:
-      {"part_key", "category", "socket", "retailer", "title", "price", "url", "status"}
+      {"part_key", "category", "subcategory", "socket", "retailer", "title", "price", "url", "status"}
 
     Returns a list of dashboard-ready dicts:
       {
-        "part_key", "category",
-        "best_price", "best_retailer", "best_url",
+        "part_key", "category", "subcategory",
+        "best_price", "best_retailer", "best_url", "best_title",
         "offers": [{"retailer", "price", "url", "title"}, ...]  # sorted cheapest first
       }
     """
@@ -124,6 +120,7 @@ def build_dashboard(records: list) -> list:
         grouped.setdefault(key, {
             "part_key": key,
             "category": r["category"],
+            "subcategory": r.get("subcategory"),
             "offers": [],
         })
         grouped[key]["offers"].append({
@@ -142,6 +139,7 @@ def build_dashboard(records: list) -> list:
         dashboard.append({
             "part_key": entry["part_key"],
             "category": entry["category"],
+            "subcategory": entry["subcategory"],
             "best_price": best["price"],
             "best_retailer": best["retailer"],
             "best_url": best["url"],
@@ -149,5 +147,5 @@ def build_dashboard(records: list) -> list:
             "offers": entry["offers"],
         })
 
-    dashboard.sort(key=lambda d: (d["category"], d["part_key"]))
+    dashboard.sort(key=lambda d: (d["category"], d["subcategory"] or "", d["part_key"]))
     return dashboard
