@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-07-17T22:43:19.384733+00:00",
+  "generated_at": "2026-07-18T11:20:05.441793+00:00",
   "currency": "AUD",
   "parts": [
     {
       "part_key": "AMD Ryzen 5 5500",
       "category": "CPU",
+      "subcategory": "AM4",
       "best_price": 120.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-100-100000457box-62861",
@@ -21,6 +22,7 @@
     {
       "part_key": "AMD Ryzen 5 5600",
       "category": "CPU",
+      "subcategory": "AM4",
       "best_price": 168.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
@@ -35,24 +37,9 @@
       ]
     },
     {
-      "part_key": "AMD Ryzen 5 7600",
-      "category": "CPU",
-      "best_price": 285.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-7600-6-core-am5-5-1ghz-cpu-processor-with-wraith-stealth-cooler-100-100001015box-68285",
-      "best_title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 285.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-7600-6-core-am5-5-1ghz-cpu-processor-with-wraith-stealth-cooler-100-100001015box-68285",
-          "title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)"
-        }
-      ]
-    },
-    {
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
+      "subcategory": "AM4",
       "best_price": 549.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
@@ -67,8 +54,26 @@
       ]
     },
     {
+      "part_key": "AMD Ryzen 5 7600",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "best_price": 285.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-7600-6-core-am5-5-1ghz-cpu-processor-with-wraith-stealth-cooler-100-100001015box-68285",
+      "best_title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 285.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-7600-6-core-am5-5-1ghz-cpu-processor-with-wraith-stealth-cooler-100-100001015box-68285",
+          "title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)"
+        }
+      ]
+    },
+    {
       "part_key": "AMD Ryzen 7 7700X",
       "category": "CPU",
+      "subcategory": "AM5",
       "best_price": 449.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
@@ -85,6 +90,7 @@
     {
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "best_price": 549.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
@@ -101,6 +107,7 @@
     {
       "part_key": "AMD Ryzen 7 9800X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "best_price": 648.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125",
@@ -117,6 +124,7 @@
     {
       "part_key": "AMD Ryzen 9 9900X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "best_price": 885.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
@@ -133,6 +141,7 @@
     {
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "best_price": 1029.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
@@ -147,40 +156,9 @@
       ]
     },
     {
-      "part_key": "Intel Core Ultra 5 245K",
-      "category": "CPU",
-      "best_price": 339.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
-      "best_title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 339.0,
-          "url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
-          "title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)"
-        }
-      ]
-    },
-    {
-      "part_key": "Intel Core Ultra 7 265K",
-      "category": "CPU",
-      "best_price": 469.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
-      "best_title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 469.0,
-          "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
-          "title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)"
-        }
-      ]
-    },
-    {
       "part_key": "Intel Core i5-13400F",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "best_price": 249.0,
       "best_retailer": "Umart",
       "best_url": "https://www.umart.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
@@ -197,6 +175,7 @@
     {
       "part_key": "Intel Core i5-14400F",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "best_price": 255.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/intel-core-i5-14400f-10-core-4-70-ghz-lga-1700-boxed-cpu-processor-bx8071514400f-75272",
@@ -219,6 +198,7 @@
     {
       "part_key": "Intel Core i7-14700K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "best_price": 545.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
@@ -235,6 +215,7 @@
     {
       "part_key": "Intel Core i9-14900K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "best_price": 715.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
@@ -249,40 +230,43 @@
       ]
     },
     {
-      "part_key": "AMD Radeon RX 9070",
-      "category": "GPU",
-      "best_price": 829.0,
+      "part_key": "Intel Core Ultra 5 245K",
+      "category": "CPU",
+      "subcategory": "LGA1851",
+      "best_price": 339.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
-      "best_title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
+      "best_url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
+      "best_title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 829.0,
-          "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
-          "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)"
+          "price": 339.0,
+          "url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
+          "title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)"
         }
       ]
     },
     {
-      "part_key": "AMD Radeon RX 9070 XT",
-      "category": "GPU",
-      "best_price": 899.0,
+      "part_key": "Intel Core Ultra 7 265K",
+      "category": "CPU",
+      "subcategory": "LGA1851",
+      "best_price": 515.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
-      "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
+      "best_url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
+      "best_title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 899.0,
-          "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
-          "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
+          "price": 515.0,
+          "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
+          "title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)"
         }
       ]
     },
     {
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "best_price": 499.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
@@ -299,6 +283,7 @@
     {
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "best_price": 459.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
@@ -315,6 +300,7 @@
     {
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "best_price": 549.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
@@ -331,6 +317,7 @@
     {
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "best_price": 949.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
@@ -347,6 +334,7 @@
     {
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "best_price": 1449.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
@@ -363,6 +351,7 @@
     {
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "best_price": 1879.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-graphics-card-prime-rtx5080-16g-81418",
@@ -379,6 +368,7 @@
     {
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "best_price": 6299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
@@ -393,56 +383,43 @@
       ]
     },
     {
-      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
-      "category": "Monitor",
-      "best_price": 1799.0,
-      "best_retailer": "Umart",
-      "best_url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
-      "best_title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)",
-      "offers": [
-        {
-          "retailer": "Umart",
-          "price": 1799.0,
-          "url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
-          "title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)"
-        }
-      ]
-    },
-    {
-      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
-      "category": "Monitor",
-      "best_price": 359.0,
-      "best_retailer": "Umart",
-      "best_url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
-      "best_title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)",
-      "offers": [
-        {
-          "retailer": "Umart",
-          "price": 359.0,
-          "url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
-          "title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)"
-        }
-      ]
-    },
-    {
-      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
-      "category": "Monitor",
-      "best_price": 209.0,
+      "part_key": "AMD Radeon RX 9070",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "best_price": 829.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
-      "best_title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)",
+      "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
+      "best_title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 209.0,
-          "url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
-          "title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)"
+          "price": 829.0,
+          "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
+          "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)"
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Radeon RX 9070 XT",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "best_price": 899.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+      "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 899.0,
+          "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+          "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
         }
       ]
     },
     {
       "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
       "category": "Monitor",
+      "subcategory": "1080p",
       "best_price": 149.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
@@ -457,40 +434,60 @@
       ]
     },
     {
-      "part_key": "Asus Prime X870-P WiFi CSM",
-      "category": "Motherboard",
-      "best_price": 339.0,
+      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
+      "category": "Monitor",
+      "subcategory": "1440p",
+      "best_price": 209.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
-      "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
+      "best_url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
+      "best_title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 339.0,
-          "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
-          "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)"
+          "price": 209.0,
+          "url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
+          "title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)"
         }
       ]
     },
     {
-      "part_key": "Asus Prime Z790-P WiFi CSM",
-      "category": "Motherboard",
-      "best_price": 239.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
-      "best_title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
+      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "best_price": 359.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
+      "best_title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)",
       "offers": [
         {
-          "retailer": "MSY",
-          "price": 239.0,
-          "url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
-          "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)"
+          "retailer": "Umart",
+          "price": 359.0,
+          "url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
+          "title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)"
+        }
+      ]
+    },
+    {
+      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "category": "Monitor",
+      "subcategory": "OLED",
+      "best_price": 1799.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
+      "best_title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)",
+      "offers": [
+        {
+          "retailer": "Umart",
+          "price": 1799.0,
+          "url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
+          "title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)"
         }
       ]
     },
     {
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
+      "subcategory": "AM4",
       "best_price": 109.0,
       "best_retailer": "Umart",
       "best_url": "https://www.umart.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
@@ -511,24 +508,26 @@
       ]
     },
     {
-      "part_key": "Gigabyte B860M Eagle WiFi6",
+      "part_key": "Asus Prime X870-P WiFi CSM",
       "category": "Motherboard",
-      "best_price": 188.0,
+      "subcategory": "AM5",
+      "best_price": 339.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-b860m-eagle-wifi6-lga-1851-matx-motherboard-b860m-eagle-wifi6-90058",
-      "best_title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)",
+      "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
+      "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 188.0,
-          "url": "https://www.msy.com.au/product/gigabyte-b860m-eagle-wifi6-lga-1851-matx-motherboard-b860m-eagle-wifi6-90058",
-          "title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)"
+          "price": 339.0,
+          "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
+          "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)"
         }
       ]
     },
     {
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "best_price": 299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
@@ -551,6 +550,7 @@
     {
       "part_key": "MSI MAG B650 Tomahawk WiFi",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "best_price": 278.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
@@ -565,8 +565,60 @@
       ]
     },
     {
+      "part_key": "Asus Prime Z790-P WiFi CSM",
+      "category": "Motherboard",
+      "subcategory": "LGA1700",
+      "best_price": 239.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
+      "best_title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 239.0,
+          "url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
+          "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)"
+        }
+      ]
+    },
+    {
+      "part_key": "Gigabyte B860M Eagle WiFi6",
+      "category": "Motherboard",
+      "subcategory": "LGA1851",
+      "best_price": 188.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/gigabyte-b860m-eagle-wifi6-lga-1851-matx-motherboard-b860m-eagle-wifi6-90058",
+      "best_title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 188.0,
+          "url": "https://www.msy.com.au/product/gigabyte-b860m-eagle-wifi6-lga-1851-matx-motherboard-b860m-eagle-wifi6-90058",
+          "title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)"
+        }
+      ]
+    },
+    {
+      "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "best_price": 379.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
+      "best_title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 379.0,
+          "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
+          "title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM"
+        }
+      ]
+    },
+    {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
+      "subcategory": "DDR5",
       "best_price": 679.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
@@ -581,18 +633,59 @@
       ]
     },
     {
-      "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
-      "category": "RAM",
-      "best_price": 379.0,
+      "part_key": "Kingston NV3 1TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "1TB",
+      "best_price": 249.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
-      "best_title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+      "best_url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
+      "best_title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 379.0,
-          "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
-          "title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM"
+          "price": 249.0,
+          "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
+          "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)"
+        }
+      ]
+    },
+    {
+      "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "best_price": 1199.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
+      "best_title": "Samsung990Pro4TBPCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
+      "offers": [
+        {
+          "retailer": "Umart",
+          "price": 1199.0,
+          "url": "https://www.umart.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
+          "title": "Samsung990Pro4TBPCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)"
+        },
+        {
+          "retailer": "MSY",
+          "price": 1199.0,
+          "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
+          "title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)"
+        }
+      ]
+    },
+    {
+      "part_key": "Kingston NV3 500GB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "500GB",
+      "best_price": 168.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
+      "best_title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 168.0,
+          "url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
+          "title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)"
         }
       ]
     }
@@ -601,6 +694,7 @@
     {
       "part_key": "AMD Ryzen 5 5500",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -610,6 +704,7 @@
     {
       "part_key": "AMD Ryzen 5 5500",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)",
       "price": 120.0,
@@ -619,6 +714,7 @@
     {
       "part_key": "AMD Ryzen 5 5600",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -628,6 +724,7 @@
     {
       "part_key": "AMD Ryzen 5 5600",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -637,6 +734,7 @@
     {
       "part_key": "AMD Ryzen 5 5600",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
       "price": 168.0,
@@ -646,6 +744,7 @@
     {
       "part_key": "AMD Ryzen 7 5700X3D",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -655,6 +754,7 @@
     {
       "part_key": "AMD Ryzen 7 5700X3D",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -664,6 +764,7 @@
     {
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -674,6 +775,7 @@
     {
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -683,6 +785,7 @@
     {
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
+      "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
       "price": 549.0,
@@ -692,6 +795,7 @@
     {
       "part_key": "AMD Ryzen 5 7500F",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -701,6 +805,7 @@
     {
       "part_key": "AMD Ryzen 5 7500F",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -710,6 +815,7 @@
     {
       "part_key": "AMD Ryzen 5 7600",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -719,6 +825,7 @@
     {
       "part_key": "AMD Ryzen 5 7600",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Mwave",
       "title": null,
       "price": null,
@@ -728,6 +835,7 @@
     {
       "part_key": "AMD Ryzen 5 7600",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)",
       "price": 285.0,
@@ -737,6 +845,7 @@
     {
       "part_key": "AMD Ryzen 5 9600X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -746,6 +855,7 @@
     {
       "part_key": "AMD Ryzen 5 9600X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -755,6 +865,7 @@
     {
       "part_key": "AMD Ryzen 7 7700X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -764,6 +875,7 @@
     {
       "part_key": "AMD Ryzen 7 7700X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
       "price": 449.0,
@@ -773,6 +885,7 @@
     {
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -783,6 +896,7 @@
     {
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -792,6 +906,7 @@
     {
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
       "price": 549.0,
@@ -801,6 +916,7 @@
     {
       "part_key": "AMD Ryzen 7 9800X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -810,6 +926,7 @@
     {
       "part_key": "AMD Ryzen 7 9800X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -819,6 +936,7 @@
     {
       "part_key": "AMD Ryzen 7 9800X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)",
       "price": 648.0,
@@ -828,6 +946,7 @@
     {
       "part_key": "AMD Ryzen 9 7900X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -837,6 +956,7 @@
     {
       "part_key": "AMD Ryzen 9 7900X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -846,6 +966,7 @@
     {
       "part_key": "AMD Ryzen 9 7950X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -855,6 +976,7 @@
     {
       "part_key": "AMD Ryzen 9 7950X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -864,6 +986,7 @@
     {
       "part_key": "AMD Ryzen 9 7950X",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -873,6 +996,7 @@
     {
       "part_key": "AMD Ryzen 9 9900X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -882,6 +1006,7 @@
     {
       "part_key": "AMD Ryzen 9 9900X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
       "price": 885.0,
@@ -891,6 +1016,7 @@
     {
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -900,6 +1026,7 @@
     {
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
       "price": 1029.0,
@@ -909,6 +1036,7 @@
     {
       "part_key": "Intel Core i5-13400F",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Umart",
       "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
       "price": 249.0,
@@ -918,6 +1046,7 @@
     {
       "part_key": "Intel Core i5-13400F",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -927,6 +1056,7 @@
     {
       "part_key": "Intel Core i5-14400F",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -936,6 +1066,7 @@
     {
       "part_key": "Intel Core i5-14400F",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Umart",
       "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675",
       "price": 1999.0,
@@ -945,6 +1076,7 @@
     {
       "part_key": "Intel Core i5-14400F",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": "Intel Core i5-14400F 10 Core 4.70 GHz LGA 1700 Boxed CPU Processor (BX8071514400F)",
       "price": 255.0,
@@ -954,6 +1086,7 @@
     {
       "part_key": "Intel Core i5-14600K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -963,6 +1096,7 @@
     {
       "part_key": "Intel Core i5-14600K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Mwave",
       "title": null,
       "price": null,
@@ -972,6 +1106,7 @@
     {
       "part_key": "Intel Core i5-14600K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -981,6 +1116,7 @@
     {
       "part_key": "Intel Core i7-14700K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -990,6 +1126,7 @@
     {
       "part_key": "Intel Core i7-14700K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -1000,6 +1137,7 @@
     {
       "part_key": "Intel Core i7-14700K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
       "price": 545.0,
@@ -1009,6 +1147,7 @@
     {
       "part_key": "Intel Core i9-14900K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1018,6 +1157,7 @@
     {
       "part_key": "Intel Core i9-14900K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1027,6 +1167,7 @@
     {
       "part_key": "Intel Core i9-14900K",
       "category": "CPU",
+      "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
       "price": 715.0,
@@ -1036,6 +1177,7 @@
     {
       "part_key": "Intel Core Ultra 5 245K",
       "category": "CPU",
+      "subcategory": "LGA1851",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1045,6 +1187,7 @@
     {
       "part_key": "Intel Core Ultra 5 245K",
       "category": "CPU",
+      "subcategory": "LGA1851",
       "retailer": "MSY",
       "title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)",
       "price": 339.0,
@@ -1054,6 +1197,7 @@
     {
       "part_key": "Intel Core Ultra 7 265K",
       "category": "CPU",
+      "subcategory": "LGA1851",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1063,15 +1207,17 @@
     {
       "part_key": "Intel Core Ultra 7 265K",
       "category": "CPU",
+      "subcategory": "LGA1851",
       "retailer": "MSY",
-      "title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)",
-      "price": 469.0,
-      "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
+      "title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)",
+      "price": 515.0,
+      "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
       "status": "OK"
     },
     {
       "part_key": "Intel Core Ultra 9 285K",
       "category": "CPU",
+      "subcategory": "LGA1851",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -1082,6 +1228,7 @@
     {
       "part_key": "Intel Core Ultra 9 285K",
       "category": "CPU",
+      "subcategory": "LGA1851",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1091,6 +1238,7 @@
     {
       "part_key": "Intel Core Ultra 9 285K",
       "category": "CPU",
+      "subcategory": "LGA1851",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1100,6 +1248,7 @@
     {
       "part_key": "NVIDIA RTX 3060",
       "category": "GPU",
+      "subcategory": "RTX 30-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1109,6 +1258,7 @@
     {
       "part_key": "NVIDIA RTX 3060",
       "category": "GPU",
+      "subcategory": "RTX 30-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1118,6 +1268,7 @@
     {
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1127,6 +1278,7 @@
     {
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1136,6 +1288,7 @@
     {
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "retailer": "MSY",
       "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
       "price": 499.0,
@@ -1145,6 +1298,7 @@
     {
       "part_key": "NVIDIA RTX 4070",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1154,6 +1308,7 @@
     {
       "part_key": "NVIDIA RTX 4070",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1163,6 +1318,7 @@
     {
       "part_key": "NVIDIA RTX 4070 Ti Super",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1172,6 +1328,7 @@
     {
       "part_key": "NVIDIA RTX 4070 Ti Super",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1181,6 +1338,7 @@
     {
       "part_key": "NVIDIA RTX 4070 Ti Super",
       "category": "GPU",
+      "subcategory": "RTX 40-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1190,6 +1348,7 @@
     {
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1199,6 +1358,7 @@
     {
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
       "price": 459.0,
@@ -1208,6 +1368,7 @@
     {
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1217,6 +1378,7 @@
     {
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1226,6 +1388,7 @@
     {
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
       "price": 549.0,
@@ -1235,6 +1398,7 @@
     {
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1244,6 +1408,7 @@
     {
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
       "price": 949.0,
@@ -1253,6 +1418,7 @@
     {
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1262,6 +1428,7 @@
     {
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -1272,6 +1439,7 @@
     {
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
       "price": 1449.0,
@@ -1281,6 +1449,7 @@
     {
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -1291,6 +1460,7 @@
     {
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1300,6 +1470,7 @@
     {
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)",
       "price": 1879.0,
@@ -1309,6 +1480,7 @@
     {
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1318,6 +1490,7 @@
     {
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1327,6 +1500,7 @@
     {
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
+      "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)",
       "price": 6299.0,
@@ -1336,6 +1510,7 @@
     {
       "part_key": "AMD Radeon RX 7600",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1345,6 +1520,7 @@
     {
       "part_key": "AMD Radeon RX 7600",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1354,6 +1530,7 @@
     {
       "part_key": "AMD Radeon RX 7700 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1363,6 +1540,7 @@
     {
       "part_key": "AMD Radeon RX 7700 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1372,6 +1550,7 @@
     {
       "part_key": "AMD Radeon RX 7700 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1381,6 +1560,7 @@
     {
       "part_key": "AMD Radeon RX 7800 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1390,6 +1570,7 @@
     {
       "part_key": "AMD Radeon RX 7800 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1399,6 +1580,7 @@
     {
       "part_key": "AMD Radeon RX 7800 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1408,6 +1590,7 @@
     {
       "part_key": "AMD Radeon RX 7900 GRE",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1417,6 +1600,7 @@
     {
       "part_key": "AMD Radeon RX 7900 GRE",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1426,6 +1610,7 @@
     {
       "part_key": "AMD Radeon RX 7900 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -1436,6 +1621,7 @@
     {
       "part_key": "AMD Radeon RX 7900 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1445,6 +1631,7 @@
     {
       "part_key": "AMD Radeon RX 7900 XT",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1454,6 +1641,7 @@
     {
       "part_key": "AMD Radeon RX 7900 XTX",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "Mwave",
       "title": null,
       "price": null,
@@ -1463,6 +1651,7 @@
     {
       "part_key": "AMD Radeon RX 7900 XTX",
       "category": "GPU",
+      "subcategory": "RX 7000-series",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1472,6 +1661,7 @@
     {
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
+      "subcategory": "RX 9000-series",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1481,6 +1671,7 @@
     {
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
+      "subcategory": "RX 9000-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1490,6 +1681,7 @@
     {
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
+      "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
       "price": 829.0,
@@ -1499,6 +1691,7 @@
     {
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
+      "subcategory": "RX 9000-series",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -1509,6 +1702,7 @@
     {
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
+      "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
       "price": 899.0,
@@ -1516,8 +1710,29 @@
       "status": "OK"
     },
     {
+      "part_key": "Corsair Vengeance LPX 8GB DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Corsair Vengeance LPX 8GB DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
+      "subcategory": "DDR4",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1527,6 +1742,7 @@
     {
       "part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
+      "subcategory": "DDR4",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1536,6 +1752,7 @@
     {
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
       "category": "RAM",
+      "subcategory": "DDR4",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1545,6 +1762,7 @@
     {
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
       "category": "RAM",
+      "subcategory": "DDR4",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -1555,6 +1773,7 @@
     {
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
       "category": "RAM",
+      "subcategory": "DDR4",
       "retailer": "MSY",
       "title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
       "price": 379.0,
@@ -1562,8 +1781,49 @@
       "status": "OK"
     },
     {
+      "part_key": "Kingston Fury Beast 64GB (2x32GB) DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Kingston Fury Beast 64GB (2x32GB) DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Corsair Vengeance 16GB (2x8GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Corsair Vengeance 16GB (2x8GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
+      "subcategory": "DDR5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1573,6 +1833,7 @@
     {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
+      "subcategory": "DDR5",
       "retailer": "MSY",
       "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
       "price": 679.0,
@@ -1580,8 +1841,29 @@
       "status": "OK"
     },
     {
+      "part_key": "G.Skill Trident Z5 96GB (2x48GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "G.Skill Trident Z5 96GB (2x48GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
       "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
       "category": "RAM",
+      "subcategory": "DDR5",
       "retailer": "Scorptec",
       "title": null,
       "price": null,
@@ -1592,6 +1874,7 @@
     {
       "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
       "category": "RAM",
+      "subcategory": "DDR5",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1601,6 +1884,7 @@
     {
       "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
       "category": "RAM",
+      "subcategory": "DDR5",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1610,6 +1894,7 @@
     {
       "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
       "category": "RAM",
+      "subcategory": "DDR5",
       "retailer": "Mwave",
       "title": null,
       "price": null,
@@ -1619,6 +1904,7 @@
     {
       "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
       "category": "RAM",
+      "subcategory": "DDR5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1628,6 +1914,7 @@
     {
       "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
       "category": "RAM",
+      "subcategory": "DDR5",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1635,8 +1922,99 @@
       "status": "NO_MATCH"
     },
     {
+      "part_key": "Kingston NV3 500GB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "500GB",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Kingston NV3 500GB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "500GB",
+      "retailer": "MSY",
+      "title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)",
+      "price": 168.0,
+      "url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
+      "status": "OK"
+    },
+    {
+      "part_key": "Kingston NV3 1TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "1TB",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Kingston NV3 1TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "1TB",
+      "retailer": "MSY",
+      "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
+      "price": 249.0,
+      "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
+      "status": "OK"
+    },
+    {
+      "part_key": "Kingston NV3 2TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "2TB",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Kingston NV3 2TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "2TB",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
+    },
+    {
+      "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "retailer": "Umart",
+      "title": "Samsung990Pro4TBPCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
+      "price": 1199.0,
+      "url": "https://www.umart.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
+      "status": "OK"
+    },
+    {
+      "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "retailer": "MSY",
+      "title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
+      "price": 1199.0,
+      "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
+      "status": "OK"
+    },
+    {
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
+      "subcategory": "AM4",
       "retailer": "Umart",
       "title": "GigabyteB550MKmATX AM4 Motherboard (GA-B550M-K)",
       "price": 109.0,
@@ -1646,6 +2024,7 @@
     {
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
+      "subcategory": "AM4",
       "retailer": "MSY",
       "title": "Gigabyte B550M K mATX AM4 Motherboard (GA-B550M-K)",
       "price": 109.0,
@@ -1655,6 +2034,7 @@
     {
       "part_key": "MSI MAG B650 Tomahawk WiFi",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1664,6 +2044,7 @@
     {
       "part_key": "MSI MAG B650 Tomahawk WiFi",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1673,6 +2054,7 @@
     {
       "part_key": "MSI MAG B650 Tomahawk WiFi",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
       "price": 278.0,
@@ -1682,6 +2064,7 @@
     {
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": "Asus TUFGamingB850PlusWiFiAM5 ATX Motherboard (TUF-GAMING-B850-PLUS-WIFI)",
       "price": 335.0,
@@ -1691,6 +2074,7 @@
     {
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
       "price": 299.0,
@@ -1700,6 +2084,7 @@
     {
       "part_key": "Asus Prime X870-P WiFi CSM",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1709,6 +2094,7 @@
     {
       "part_key": "Asus Prime X870-P WiFi CSM",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1718,6 +2104,7 @@
     {
       "part_key": "Asus Prime X870-P WiFi CSM",
       "category": "Motherboard",
+      "subcategory": "AM5",
       "retailer": "MSY",
       "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "price": 339.0,
@@ -1727,6 +2114,7 @@
     {
       "part_key": "Asus Prime Z790-P WiFi CSM",
       "category": "Motherboard",
+      "subcategory": "LGA1700",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1736,6 +2124,7 @@
     {
       "part_key": "Asus Prime Z790-P WiFi CSM",
       "category": "Motherboard",
+      "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
       "price": 239.0,
@@ -1745,6 +2134,7 @@
     {
       "part_key": "Gigabyte B860M Eagle WiFi6",
       "category": "Motherboard",
+      "subcategory": "LGA1851",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1754,6 +2144,7 @@
     {
       "part_key": "Gigabyte B860M Eagle WiFi6",
       "category": "Motherboard",
+      "subcategory": "LGA1851",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1763,6 +2154,7 @@
     {
       "part_key": "Gigabyte B860M Eagle WiFi6",
       "category": "Motherboard",
+      "subcategory": "LGA1851",
       "retailer": "MSY",
       "title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)",
       "price": 188.0,
@@ -1772,6 +2164,7 @@
     {
       "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
       "category": "Monitor",
+      "subcategory": "1080p",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1781,6 +2174,7 @@
     {
       "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
       "category": "Monitor",
+      "subcategory": "1080p",
       "retailer": "MSY",
       "title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)",
       "price": 149.0,
@@ -1790,6 +2184,7 @@
     {
       "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
       "category": "Monitor",
+      "subcategory": "1440p",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1799,6 +2194,7 @@
     {
       "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
       "category": "Monitor",
+      "subcategory": "1440p",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -1808,6 +2204,7 @@
     {
       "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
       "category": "Monitor",
+      "subcategory": "1440p",
       "retailer": "MSY",
       "title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)",
       "price": 209.0,
@@ -1817,6 +2214,7 @@
     {
       "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
       "category": "Monitor",
+      "subcategory": "4K",
       "retailer": "Umart",
       "title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)",
       "price": 359.0,
@@ -1826,6 +2224,7 @@
     {
       "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
       "category": "Monitor",
+      "subcategory": "4K",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -1835,6 +2234,7 @@
     {
       "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
       "category": "Monitor",
+      "subcategory": "OLED",
       "retailer": "Centre Com",
       "title": null,
       "price": null,
@@ -1844,6 +2244,7 @@
     {
       "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
       "category": "Monitor",
+      "subcategory": "OLED",
       "retailer": "Umart",
       "title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)",
       "price": 1799.0,
@@ -1853,6 +2254,7 @@
     {
       "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
       "category": "Monitor",
+      "subcategory": "OLED",
       "retailer": "MSY",
       "title": null,
       "price": null,
