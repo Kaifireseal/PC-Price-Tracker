@@ -16,7 +16,9 @@ Output:
 
 import json
 import logging
+import random
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -46,6 +48,7 @@ def scrape_all() -> list:
     for part in TRACKED_PARTS:
         part_key = part["part_key"]
         category = part["category"]
+        subcategory = part.get("subcategory")
 
         for retailer_name, query in part["retailers"].items():
             try:
@@ -58,14 +61,14 @@ def scrape_all() -> list:
                         part_key, retailer_name, query, len(results),
                     )
                     records.append({
-                        "part_key": part_key, "category": category,
+                        "part_key": part_key, "category": category, "subcategory": subcategory,
                         "retailer": retailer_name, "title": None,
                         "price": None, "url": None, "status": "NO_MATCH",
                     })
                     continue
 
                 records.append({
-                    "part_key": part_key, "category": category,
+                    "part_key": part_key, "category": category, "subcategory": subcategory,
                     "retailer": retailer_name,
                     "title": match["title"], "price": match["price"],
                     "url": match["url"], "status": "OK",
@@ -79,11 +82,17 @@ def scrape_all() -> list:
                 status = "BOT_BLOCKED" if "BOT_CHALLENGE" in str(exc) or "403" in str(exc) else "ERROR"
                 logger.error("FAILED (%s): %s | %s | %s", status, part_key, retailer_name, exc)
                 records.append({
-                    "part_key": part_key, "category": category,
+                    "part_key": part_key, "category": category, "subcategory": subcategory,
                     "retailer": retailer_name, "title": None,
                     "price": None, "url": None, "status": status,
                     "error": str(exc),
                 })
+
+            # Human-ish pacing between requests. Bot-scoring systems (Mwave's
+            # AWS WAF included) weigh request rhythm, not just headers — a
+            # burst of perfectly-timed requests is itself a signal. This
+            # slows the daily run down but meaningfully softens that signal.
+            time.sleep(random.uniform(2.5, 5.5))
 
     return records
 
