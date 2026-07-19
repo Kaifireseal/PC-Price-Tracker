@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T22:47:22.014664+00:00",
+  "generated_at": "2026-07-19T22:50:01.951072+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -189,9 +189,9 @@
         },
         {
           "retailer": "Umart",
-          "price": 1999.0,
-          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
-          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675"
+          "price": 1899.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58938-85039",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58938"
         }
       ]
     },
@@ -216,14 +216,14 @@
       "part_key": "Intel Core i9-14900K",
       "category": "CPU",
       "subcategory": "LGA1700",
-      "best_price": 715.0,
+      "best_price": 739.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
       "best_title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 715.0,
+          "price": 739.0,
           "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
           "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)"
         }
@@ -284,14 +284,14 @@
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 459.0,
+      "best_price": 479.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
       "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 459.0,
+          "price": 479.0,
           "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
           "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)"
         }
@@ -301,14 +301,14 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 549.0,
+      "best_price": 629.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
       "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 549.0,
+          "price": 629.0,
           "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
           "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)"
         }
@@ -318,14 +318,14 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 949.0,
+      "best_price": 1048.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "best_title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 949.0,
+          "price": 1048.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
           "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)"
         }
@@ -335,14 +335,14 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1449.0,
+      "best_price": 1569.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "best_title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1449.0,
+          "price": 1569.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
           "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)"
         }
@@ -386,14 +386,14 @@
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 829.0,
+      "best_price": 939.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
       "best_title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 829.0,
+          "price": 939.0,
           "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
           "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)"
         }
@@ -403,14 +403,14 @@
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 899.0,
+      "best_price": 1089.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 899.0,
+          "price": 1089.0,
           "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
         }
@@ -1068,9 +1068,9 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "Umart",
-      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675",
-      "price": 1999.0,
-      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58938",
+      "price": 1899.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58938-85039",
       "status": "OK"
     },
     {
@@ -1170,7 +1170,7 @@
       "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
-      "price": 715.0,
+      "price": 739.0,
       "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
       "status": "OK"
     },
@@ -1361,7 +1361,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
-      "price": 459.0,
+      "price": 479.0,
       "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
       "status": "OK"
     },
@@ -1391,7 +1391,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
-      "price": 549.0,
+      "price": 629.0,
       "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
       "status": "OK"
     },
@@ -1411,7 +1411,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
-      "price": 949.0,
+      "price": 1048.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "status": "OK"
     },
@@ -1442,7 +1442,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
-      "price": 1449.0,
+      "price": 1569.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "status": "OK"
     },
@@ -1684,7 +1684,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
-      "price": 829.0,
+      "price": 939.0,
       "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
       "status": "OK"
     },
@@ -1705,7 +1705,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
-      "price": 899.0,
+      "price": 1089.0,
       "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK"
     },
