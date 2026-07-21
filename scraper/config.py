@@ -23,12 +23,18 @@ CONFIRMED STATUS (from actual diagnostic runs):
     Playwright.
   - Umart, MSY: confirmed working reliably via plain "requests".
 
-SUBCATEGORY: every part now carries a "subcategory" alongside "category" —
+SUBCATEGORY: every part carries a "subcategory" alongside "category" —
 socket for CPUs/motherboards (AM4/AM5/LGA1700/LGA1851), generation for GPUs
 (RTX 30/40/50-series, RX 7000/9000-series), DDR generation for RAM,
 capacity for SSDs, and display type for monitors. This drives the
-dashboard's second-level filter pills (e.g. selecting "GPU" then narrowing
-to just "RTX 50-series").
+dashboard's second-level filter pills.
+
+MULTIPLE BRANDS PER TIER: many capacity/chip tiers now have 2-3 different
+brands tracked as separate part_key entries (e.g. three different 32GB
+DDR5 6000 kits, three different RX 7800 XT AIB cards). Each one still only
+returns its single best real-world match per retailer — the "multiple
+brands visible" comes from these being separate tracked items that each
+show up as their own card, not from one query returning several results.
 
 TRACKED_PARTS — the shopping list: canonical part name, category,
 subcategory, and the search query (or MSY category label) to use per
@@ -98,6 +104,9 @@ CATEGORY_URLS = {
 
 TRACKED_PARTS = [
     # ============================== CPU ==============================
+    # --- AM4 ---
+    {"part_key": "AMD Ryzen 5 3600", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
+     "retailers": {"Umart": "ryzen 5 3600", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 5 5500", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
      "retailers": {"Umart": "ryzen 5 5500", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 5 5600", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
@@ -106,13 +115,20 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "5700x3d", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 7 5800X3D", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
      "retailers": {"Scorptec": "5800x3d", "Umart": "5800x3d", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 9 5900X", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
+     "retailers": {"Umart": "ryzen 9 5900x", "MSY": "amd_cpu"}},
 
+    # --- AM5 ---
+    {"part_key": "AMD Ryzen 5 8400F", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 5 8400f", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 5 7500F", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 5 7500f", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 5 7600", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Centre Com": "ryzen 5 7600", "Mwave": "ryzen 5 7600", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 5 9600X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 5 9600x", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 7 8700F", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 7 8700f", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 7 7700X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 7 7700x", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 7 7800X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
@@ -125,9 +141,12 @@ TRACKED_PARTS = [
      "retailers": {"Centre Com": "ryzen 9 7950x", "Umart": "ryzen 9 7950x", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 9 9900X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "9900x3d", "MSY": "amd_cpu"}},
+    {"part_key": "AMD Ryzen 9 9950X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 9 9950x", "MSY": "amd_cpu"}},
     {"part_key": "AMD Ryzen 9 9950X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Centre Com": "9950x3d", "MSY": "amd_cpu"}},
 
+    # --- LGA1700 ---
     {"part_key": "Intel Core i5-13400F", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"Umart": "i5-13400f", "MSY": "intel_cpu"}},
     {"part_key": "Intel Core i5-14400F", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
@@ -139,6 +158,7 @@ TRACKED_PARTS = [
     {"part_key": "Intel Core i9-14900K", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"Centre Com": "i9-14900k", "Umart": "14900k", "MSY": "intel_cpu"}},
 
+    # --- LGA1851 ---
     {"part_key": "Intel Core Ultra 5 245K", "category": "CPU", "subcategory": "LGA1851", "socket": "LGA1851",
      "retailers": {"Umart": "ultra 5 245k", "MSY": "intel_cpu"}},
     {"part_key": "Intel Core Ultra 7 265K", "category": "CPU", "subcategory": "LGA1851", "socket": "LGA1851",
@@ -147,16 +167,23 @@ TRACKED_PARTS = [
      "retailers": {"Scorptec": "core ultra 9 285k", "Umart": "ultra 9 285k", "MSY": "intel_cpu"}},
 
     # ============================== GPU ==============================
+    # --- RTX 30-series ---
     {"part_key": "NVIDIA RTX 3060", "category": "GPU", "subcategory": "RTX 30-series", "socket": None,
      "retailers": {"Umart": "rtx 3060", "MSY": "gpu_all"}},
 
+    # --- RTX 40-series ---
     {"part_key": "NVIDIA RTX 4060", "category": "GPU", "subcategory": "RTX 40-series", "socket": None,
      "retailers": {"Centre Com": "rtx 4060", "Umart": "rtx 4060", "MSY": "gpu_rtx_4060"}},
+    {"part_key": "NVIDIA RTX 4060 Ti", "category": "GPU", "subcategory": "RTX 40-series", "socket": None,
+     "retailers": {"Umart": "rtx 4060 ti", "MSY": "gpu_all"}},
     {"part_key": "NVIDIA RTX 4070", "category": "GPU", "subcategory": "RTX 40-series", "socket": None,
      "retailers": {"Umart": "rtx 4070", "MSY": "gpu_all"}},
     {"part_key": "NVIDIA RTX 4070 Ti Super", "category": "GPU", "subcategory": "RTX 40-series", "socket": None,
      "retailers": {"Centre Com": "rtx 4070 ti super", "Umart": "rtx 4070 ti super", "MSY": "gpu_all"}},
+    {"part_key": "NVIDIA RTX 4090", "category": "GPU", "subcategory": "RTX 40-series", "socket": None,
+     "retailers": {"Centre Com": "rtx 4090", "Umart": "rtx 4090", "MSY": "gpu_all"}},
 
+    # --- RTX 50-series ---
     {"part_key": "NVIDIA RTX 5060", "category": "GPU", "subcategory": "RTX 50-series", "socket": None,
      "retailers": {"Umart": "rtx 5060", "MSY": "gpu_rtx_5060"}},
     {"part_key": "NVIDIA RTX 5060 Ti", "category": "GPU", "subcategory": "RTX 50-series", "socket": None,
@@ -170,46 +197,101 @@ TRACKED_PARTS = [
     {"part_key": "NVIDIA RTX 5090", "category": "GPU", "subcategory": "RTX 50-series", "socket": None,
      "retailers": {"Centre Com": "rtx 5090", "Umart": "rtx 5090", "MSY": "gpu_rtx_5090"}},
 
+    # --- RX 7000-series (with brand variants) ---
     {"part_key": "AMD Radeon RX 7600", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Umart": "rx 7600", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 7700 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Centre Com": "rx 7700 xt", "Umart": "rx 7700 xt", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 7800 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Centre Com": "rx 7800 xt", "Umart": "7800 xt", "MSY": "gpu_all"}},
+    {"part_key": "Sapphire Pulse RX 7800 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
+     "retailers": {"Umart": "sapphire pulse rx 7800 xt", "MSY": "gpu_all"}},
+    {"part_key": "PowerColor Fighter RX 7800 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
+     "retailers": {"Umart": "powercolor fighter rx 7800 xt", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 7900 GRE", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Umart": "rx 7900 gre", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 7900 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Scorptec": "rx 7900 xt", "Umart": "rx 7900 xt", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 7900 XTX", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Mwave": "rx 7900 xtx", "MSY": "gpu_rx_7900xtx"}},
+    {"part_key": "XFX Speedster RX 7900 XTX", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
+     "retailers": {"Umart": "xfx speedster rx 7900 xtx", "MSY": "gpu_all"}},
+    {"part_key": "PowerColor Red Devil RX 7900 XTX", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
+     "retailers": {"Centre Com": "powercolor red devil rx 7900 xtx", "Umart": "powercolor red devil rx 7900 xtx", "MSY": "gpu_all"}},
 
+    # --- RX 9000-series (with brand variants) ---
+    {"part_key": "AMD Radeon RX 9060 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
+     "retailers": {"Umart": "rx 9060 xt", "MSY": "gpu_rx_9060xt"}},
     {"part_key": "AMD Radeon RX 9070", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
      "retailers": {"Centre Com": "rx 9070", "Umart": "rx 9070", "MSY": "gpu_all"}},
+    {"part_key": "Gigabyte Gaming RX 9070", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
+     "retailers": {"Umart": "gigabyte gaming rx 9070", "MSY": "gpu_all"}},
     {"part_key": "AMD Radeon RX 9070 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
      "retailers": {"Scorptec": "rx 9070 xt", "MSY": "gpu_all"}},
+    {"part_key": "Asus Prime RX 9070 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
+     "retailers": {"Umart": "asus prime rx 9070 xt", "MSY": "gpu_all"}},
+    {"part_key": "Sapphire Pulse RX 9070 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
+     "retailers": {"Centre Com": "sapphire pulse rx 9070 xt", "Umart": "sapphire pulse rx 9070 xt", "MSY": "gpu_all"}},
 
     # ============================== RAM ==============================
-    {"part_key": "Corsair Vengeance LPX 8GB DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
-     "retailers": {"Umart": "vengeance lpx 8gb ddr4 3200", "MSY": "ddr4_ram"}},
+    # --- DDR4 16GB (2x8GB) ---
     {"part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Umart": "vengeance lpx 16gb ddr4 3200", "MSY": "ddr4_ram"}},
+    {"part_key": "Kingston Fury Beast 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
+     "retailers": {"Umart": "fury beast 16gb ddr4 3200", "MSY": "ddr4_ram"}},
+    {"part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600", "category": "RAM", "subcategory": "DDR4", "socket": None,
+     "retailers": {"Centre Com": "ripjaws v 16gb ddr4 3600", "Umart": "ripjaws v 16gb ddr4 3600", "MSY": "ddr4_ram"}},
+
+    # --- DDR4 32GB (2x16GB) ---
     {"part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Centre Com": "ripjaws v 32gb ddr4 3600", "Scorptec": "ripjaws v 32gb ddr4 3600", "MSY": "ddr4_ram"}},
+    {"part_key": "Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
+     "retailers": {"Umart": "vengeance lpx 32gb ddr4 3200", "MSY": "ddr4_ram"}},
+    {"part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
+     "retailers": {"Umart": "fury beast 32gb ddr4 3200", "MSY": "ddr4_ram"}},
+
+    # --- DDR4 64GB (2x32GB) ---
     {"part_key": "Kingston Fury Beast 64GB (2x32GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Umart": "fury beast 64gb ddr4 3200", "MSY": "ddr4_ram"}},
+    {"part_key": "Corsair Vengeance LPX 64GB (2x32GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
+     "retailers": {"Umart": "vengeance lpx 64gb ddr4 3200", "MSY": "ddr4_ram"}},
+    {"part_key": "G.Skill Ripjaws V 64GB (2x32GB) DDR4 3600", "category": "RAM", "subcategory": "DDR4", "socket": None,
+     "retailers": {"Centre Com": "ripjaws v 64gb ddr4 3600", "Umart": "ripjaws v 64gb ddr4 3600", "MSY": "ddr4_ram"}},
 
+    # --- DDR5 16GB (2x8GB) ---
     {"part_key": "Corsair Vengeance 16GB (2x8GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Umart": "vengeance 16gb ddr5 6000", "MSY": "ddr5_ram"}},
+    {"part_key": "Kingston Fury Beast 16GB (2x8GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Umart": "fury beast 16gb ddr5 6000", "MSY": "ddr5_ram"}},
+    {"part_key": "G.Skill Trident Z5 16GB (2x8GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Centre Com": "trident z5 16gb ddr5 6000", "Umart": "trident z5 16gb ddr5 6000", "MSY": "ddr5_ram"}},
+
+    # --- DDR5 32GB (2x16GB) ---
     {"part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Umart": "vengeance 32gb ddr5 6000", "MSY": "ddr5_ram"}},
-    {"part_key": "G.Skill Trident Z5 96GB (2x48GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
-     "retailers": {"Umart": "trident z5 96gb ddr5 6000", "MSY": "ddr5_ram"}},
+    {"part_key": "Kingston Fury Beast 32GB (2x16GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Umart": "fury beast 32gb ddr5 6000", "MSY": "ddr5_ram"}},
+    {"part_key": "G.Skill Trident Z5 32GB (2x16GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Centre Com": "trident z5 32gb ddr5 6000", "Scorptec": "trident z5 32gb ddr5 6000", "MSY": "ddr5_ram"}},
+
+    # --- DDR5 64GB (2x32GB) ---
     {"part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Scorptec": "trident z5 64gb ddr5 6000", "Centre Com": "trident z5 64gb ddr5 6000", "MSY": "ddr5_ram"}},
+    {"part_key": "Corsair Vengeance 64GB (2x32GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Umart": "vengeance 64gb ddr5 6000", "MSY": "ddr5_ram"}},
+    {"part_key": "Kingston Fury Beast 64GB (2x32GB) DDR5 5600", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Umart": "fury beast 64gb ddr5 5600", "MSY": "ddr5_ram"}},
+
+    # --- DDR5 96GB / 128GB (high-capacity) ---
+    {"part_key": "G.Skill Trident Z5 96GB (2x48GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Umart": "trident z5 96gb ddr5 6000", "MSY": "ddr5_ram"}},
     {"part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Mwave": "fury beast 128gb ddr5 5600", "Umart": "fury beast 128gb ddr5 5600", "MSY": "ddr5_ram"}},
 
     # ============================== SSD ==============================
+    # Real listings use "500GB" as the label for this capacity tier, not
+    # "512GB" — that's a marketing rounding that doesn't appear in actual
+    # product titles.
     {"part_key": "Kingston NV3 500GB NVMe SSD", "category": "SSD", "subcategory": "500GB", "socket": None,
      "retailers": {"Umart": "kingston nv3 500gb", "MSY": "ssd"}},
     {"part_key": "Kingston NV3 1TB NVMe SSD", "category": "SSD", "subcategory": "1TB", "socket": None,
@@ -222,16 +304,29 @@ TRACKED_PARTS = [
     # ========================== Motherboard ===========================
     {"part_key": "Gigabyte B550M K", "category": "Motherboard", "subcategory": "AM4", "socket": "AM4",
      "retailers": {"Umart": "b550m k", "MSY": "mobo_amd_am4"}},
+    {"part_key": "ASRock B550M Pro4", "category": "Motherboard", "subcategory": "AM4", "socket": "AM4",
+     "retailers": {"Umart": "b550m pro4", "MSY": "mobo_amd_am4"}},
+
     {"part_key": "MSI MAG B650 Tomahawk WiFi", "category": "Motherboard", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Centre Com": "mag b650 tomahawk", "Umart": "mag b650 tomahawk", "MSY": "mobo_amd_am5"}},
+    {"part_key": "Asus TUF Gaming B650-Plus WiFi", "category": "Motherboard", "subcategory": "AM5", "socket": "AM5",
+     "retailers": {"Umart": "tuf gaming b650-plus wifi", "MSY": "mobo_amd_am5"}},
     {"part_key": "MSI B850 Gaming Plus WiFi", "category": "Motherboard", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "b850 gaming plus wifi", "MSY": "mobo_amd_am5"}},
     {"part_key": "Asus Prime X870-P WiFi CSM", "category": "Motherboard", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Centre Com": "prime x870-p wifi", "Umart": "x870-p wifi", "MSY": "mobo_amd_am5"}},
+    {"part_key": "MSI MAG X870 Tomahawk WiFi", "category": "Motherboard", "subcategory": "AM5", "socket": "AM5",
+     "retailers": {"Umart": "mag x870 tomahawk wifi", "MSY": "mobo_amd_am5"}},
+
     {"part_key": "Asus Prime Z790-P WiFi CSM", "category": "Motherboard", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"Umart": "prime z790-p wifi", "MSY": "mobo_intel_lga1700"}},
+    {"part_key": "MSI PRO B760M-A WiFi", "category": "Motherboard", "subcategory": "LGA1700", "socket": "LGA1700",
+     "retailers": {"Umart": "pro b760m-a wifi", "MSY": "mobo_intel_lga1700"}},
+
     {"part_key": "Gigabyte B860M Eagle WiFi6", "category": "Motherboard", "subcategory": "LGA1851", "socket": "LGA1851",
      "retailers": {"Centre Com": "b860m eagle wifi6", "Umart": "b860m eagle wifi6", "MSY": "mobo_intel_lga1851"}},
+    {"part_key": "Asus TUF Gaming B860-Plus WiFi", "category": "Motherboard", "subcategory": "LGA1851", "socket": "LGA1851",
+     "retailers": {"Umart": "tuf gaming b860-plus wifi", "MSY": "mobo_intel_lga1851"}},
 
     # ============================= Monitor ============================
     {"part_key": "Samsung 27in FHD IPS 120Hz Monitor", "category": "Monitor", "subcategory": "1080p", "socket": None,
