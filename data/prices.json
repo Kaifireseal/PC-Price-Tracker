@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T09:49:58.190485+00:00",
+  "generated_at": "2026-07-21T23:33:13.733881+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -23,16 +23,16 @@
       "part_key": "AMD Ryzen 5 5600",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 218.0,
+      "best_price": 172.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600x-6-core-am4-4-6ghz-cpu-processor-100-100000065box-57284",
-      "best_title": "AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor (100-100000065BOX)",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
+      "best_title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 218.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600x-6-core-am4-4-6ghz-cpu-processor-100-100000065box-57284",
-          "title": "AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor (100-100000065BOX)"
+          "price": 172.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
+          "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)"
         }
       ]
     },
@@ -335,14 +335,14 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 949.0,
+      "best_price": 1048.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "best_title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 949.0,
+          "price": 1048.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
           "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)"
         }
@@ -505,14 +505,14 @@
       "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
       "category": "Monitor",
       "subcategory": "1080p",
-      "best_price": 149.0,
+      "best_price": 299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
       "best_title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 149.0,
+          "price": 299.0,
           "url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
           "title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)"
         }
@@ -977,9 +977,9 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": "AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor (100-100000065BOX)",
-      "price": 218.0,
-      "url": "https://www.msy.com.au/product/amd-ryzen-5-5600x-6-core-am4-4-6ghz-cpu-processor-100-100000065box-57284",
+      "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
+      "price": 172.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
       "status": "OK"
     },
     {
@@ -1782,7 +1782,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
-      "price": 949.0,
+      "price": 1048.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "status": "OK"
     },
@@ -3089,7 +3089,7 @@
       "subcategory": "1080p",
       "retailer": "MSY",
       "title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)",
-      "price": 149.0,
+      "price": 299.0,
       "url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
       "status": "OK"
     },
