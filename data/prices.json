@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T23:33:53.232834+00:00",
+  "generated_at": "2026-07-24T23:54:55.638297+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -335,14 +335,14 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 949.0,
+      "best_price": 1048.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "best_title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 949.0,
+          "price": 1048.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
           "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)"
         }
@@ -386,16 +386,16 @@
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 6299.0,
+      "best_price": 6899.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
-      "best_title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)",
+      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
+      "best_title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 6299.0,
-          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
-          "title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)"
+          "price": 6899.0,
+          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
+          "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)"
         }
       ]
     },
@@ -420,14 +420,14 @@
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 829.0,
+      "best_price": 899.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
       "best_title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 829.0,
+          "price": 899.0,
           "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
           "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)"
         }
@@ -437,14 +437,14 @@
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 949.0,
+      "best_price": 999.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 949.0,
+          "price": 999.0,
           "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
         }
@@ -454,14 +454,14 @@
       "part_key": "Asus Prime RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 949.0,
+      "best_price": 999.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 949.0,
+          "price": 999.0,
           "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)"
         }
@@ -471,14 +471,14 @@
       "part_key": "Gigabyte Gaming RX 9070",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 829.0,
+      "best_price": 899.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
       "best_title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 829.0,
+          "price": 899.0,
           "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
           "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)"
         }
@@ -515,23 +515,6 @@
           "price": 149.0,
           "url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
           "title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)"
-        }
-      ]
-    },
-    {
-      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
-      "category": "Monitor",
-      "subcategory": "1440p",
-      "best_price": 209.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
-      "best_title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 209.0,
-          "url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
-          "title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)"
         }
       ]
     },
@@ -850,6 +833,23 @@
           "price": 249.0,
           "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
           "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)"
+        }
+      ]
+    },
+    {
+      "part_key": "Kingston NV3 2TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "2TB",
+      "best_price": 449.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/kingston-2tb-snv3s-2000g-nv3-pcie-4-0-nvme-m-2-2280-ssd-80520",
+      "best_title": "Kingston 2TB SNV3S/2000G NV3 PCIe 4.0 NVMe M.2 2280 SSD",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 449.0,
+          "url": "https://www.msy.com.au/product/kingston-2tb-snv3s-2000g-nv3-pcie-4-0-nvme-m-2-2280-ssd-80520",
+          "title": "Kingston 2TB SNV3S/2000G NV3 PCIe 4.0 NVMe M.2 2280 SSD"
         }
       ]
     },
@@ -1765,7 +1765,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
-      "price": 949.0,
+      "price": 1048.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "status": "OK"
     },
@@ -1856,9 +1856,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)",
-      "price": 6299.0,
-      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
+      "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
+      "price": 6899.0,
+      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
       "status": "OK"
     },
     {
@@ -2148,7 +2148,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
-      "price": 829.0,
+      "price": 899.0,
       "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
       "status": "OK"
     },
@@ -2168,7 +2168,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
-      "price": 829.0,
+      "price": 899.0,
       "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
       "status": "OK"
     },
@@ -2189,7 +2189,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
-      "price": 949.0,
+      "price": 999.0,
       "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK"
     },
@@ -2209,7 +2209,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
-      "price": 949.0,
+      "price": 999.0,
       "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK"
     },
@@ -2771,10 +2771,10 @@
       "category": "SSD",
       "subcategory": "2TB",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Kingston 2TB SNV3S/2000G NV3 PCIe 4.0 NVMe M.2 2280 SSD",
+      "price": 449.0,
+      "url": "https://www.msy.com.au/product/kingston-2tb-snv3s-2000g-nv3-pcie-4-0-nvme-m-2-2280-ssd-80520",
+      "status": "OK"
     },
     {
       "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
@@ -3101,10 +3101,10 @@
       "category": "Monitor",
       "subcategory": "1440p",
       "retailer": "MSY",
-      "title": "MSI MAG 27in WQHD Rapid IPS 200Hz FreeSync Premium Gaming Monitor (MAG 275QF E20)",
-      "price": 209.0,
-      "url": "https://www.msy.com.au/product/msi-mag-27in-wqhd-rapid-ips-200hz-freesync-premium-gaming-monitor-mag-275qf-e20-93296",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
