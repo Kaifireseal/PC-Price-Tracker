@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T22:57:48.231454+00:00",
+  "generated_at": "2026-07-26T23:34:28.296730+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -206,9 +206,9 @@
         },
         {
           "retailer": "Umart",
-          "price": 1899.0,
-          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58938-85039",
-          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58938"
+          "price": 1849.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437"
         }
       ]
     },
@@ -233,14 +233,14 @@
       "part_key": "Intel Core i9-14900K",
       "category": "CPU",
       "subcategory": "LGA1700",
-      "best_price": 715.0,
+      "best_price": 739.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
       "best_title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 715.0,
+          "price": 739.0,
           "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
           "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)"
         }
@@ -352,14 +352,14 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1449.0,
+      "best_price": 1569.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "best_title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1449.0,
+          "price": 1569.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
           "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)"
         }
@@ -1372,9 +1372,9 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "Umart",
-      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58938",
-      "price": 1899.0,
-      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58938-85039",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
+      "price": 1849.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
       "status": "OK"
     },
     {
@@ -1474,7 +1474,7 @@
       "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
-      "price": 715.0,
+      "price": 739.0,
       "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
       "status": "OK"
     },
@@ -1796,7 +1796,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
-      "price": 1449.0,
+      "price": 1569.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "status": "OK"
     },
