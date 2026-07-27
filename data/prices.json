@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T23:34:28.296730+00:00",
+  "generated_at": "2026-07-27T09:21:32.850147+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -502,71 +502,14 @@
       ]
     },
     {
-      "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
-      "category": "Monitor",
-      "subcategory": "1080p",
-      "best_price": 149.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
-      "best_title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 149.0,
-          "url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
-          "title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)"
-        }
-      ]
-    },
-    {
-      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
-      "category": "Monitor",
-      "subcategory": "4K",
-      "best_price": 359.0,
-      "best_retailer": "Umart",
-      "best_url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
-      "best_title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)",
-      "offers": [
-        {
-          "retailer": "Umart",
-          "price": 359.0,
-          "url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
-          "title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)"
-        }
-      ]
-    },
-    {
-      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
-      "category": "Monitor",
-      "subcategory": "OLED",
-      "best_price": 1799.0,
-      "best_retailer": "Umart",
-      "best_url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
-      "best_title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)",
-      "offers": [
-        {
-          "retailer": "Umart",
-          "price": 1799.0,
-          "url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
-          "title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)"
-        }
-      ]
-    },
-    {
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
       "subcategory": "AM4",
       "best_price": 109.0,
-      "best_retailer": "Umart",
-      "best_url": "https://www.umart.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
-      "best_title": "GigabyteB550MKmATX AM4 Motherboard (GA-B550M-K)",
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
+      "best_title": "Gigabyte B550M K mATX AM4 Motherboard (GA-B550M-K)",
       "offers": [
-        {
-          "retailer": "Umart",
-          "price": 109.0,
-          "url": "https://www.umart.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
-          "title": "GigabyteB550MKmATX AM4 Motherboard (GA-B550M-K)"
-        },
         {
           "retailer": "MSY",
           "price": 109.0,
@@ -623,12 +566,23 @@
           "price": 229.0,
           "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
           "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)"
-        },
+        }
+      ]
+    },
+    {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "best_price": 278.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
+      "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
+      "offers": [
         {
-          "retailer": "Umart",
-          "price": 335.0,
-          "url": "https://www.umart.com.au/product/asus-tuf-gaming-b850-plus-wifi-am5-atx-motherboard-tuf-gaming-b850-plus-wifi-81267",
-          "title": "Asus TUFGamingB850PlusWiFiAM5 ATX Motherboard (TUF-GAMING-B850-PLUS-WIFI)"
+          "retailer": "MSY",
+          "price": 278.0,
+          "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
+          "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)"
         }
       ]
     },
@@ -858,16 +812,10 @@
       "category": "SSD",
       "subcategory": "4TB",
       "best_price": 1299.0,
-      "best_retailer": "Umart",
-      "best_url": "https://www.umart.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
-      "best_title": "Samsung990Pro4TBPCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
+      "best_title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
       "offers": [
-        {
-          "retailer": "Umart",
-          "price": 1299.0,
-          "url": "https://www.umart.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
-          "title": "Samsung990Pro4TBPCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)"
-        },
         {
           "retailer": "MSY",
           "price": 1299.0,
@@ -2791,10 +2739,10 @@
       "category": "SSD",
       "subcategory": "4TB",
       "retailer": "Umart",
-      "title": "Samsung990Pro4TBPCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
-      "price": 1299.0,
-      "url": "https://www.umart.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
@@ -2811,10 +2759,10 @@
       "category": "Motherboard",
       "subcategory": "AM4",
       "retailer": "Umart",
-      "title": "GigabyteB550MKmATX AM4 Motherboard (GA-B550M-K)",
-      "price": 109.0,
-      "url": "https://www.umart.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "Gigabyte B550M K",
@@ -2871,10 +2819,10 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
+      "price": 278.0,
+      "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
+      "status": "OK"
     },
     {
       "part_key": "Asus TUF Gaming B650-Plus WiFi",
@@ -2901,10 +2849,10 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "Umart",
-      "title": "Asus TUFGamingB850PlusWiFiAM5 ATX Motherboard (TUF-GAMING-B850-PLUS-WIFI)",
-      "price": 335.0,
-      "url": "https://www.umart.com.au/product/asus-tuf-gaming-b850-plus-wifi-am5-atx-motherboard-tuf-gaming-b850-plus-wifi-81267",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "MSI B850 Gaming Plus WiFi",
@@ -3071,10 +3019,10 @@
       "category": "Monitor",
       "subcategory": "1080p",
       "retailer": "MSY",
-      "title": "Philips 27in FHD IPS 120Hz Adaptive Sync USB-C Monitor (27E1N2300A)",
-      "price": 149.0,
-      "url": "https://www.msy.com.au/product/philips-27in-fhd-ips-120hz-adaptive-sync-usb-c-monitor-27e1n2300a-84807",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
@@ -3111,10 +3059,10 @@
       "category": "Monitor",
       "subcategory": "4K",
       "retailer": "Umart",
-      "title": "LGUltraFine 27in 4K UHD IPS 60Hz FreeSync Gaming Monitor (27UP600K-W)",
-      "price": 359.0,
-      "url": "https://www.umart.com.au/product/lg-ultrafine-27in-4k-uhd-ips-60hz-freesync-gaming-monitor-27up600k-w-82279",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
@@ -3141,10 +3089,10 @@
       "category": "Monitor",
       "subcategory": "OLED",
       "retailer": "Umart",
-      "title": "AsusROGSwift27in 4K QD-OLED 240Hz FreeSync Premium ProGaming Monitor (PG27UCDM)",
-      "price": 1799.0,
-      "url": "https://www.umart.com.au/product/asus-rog-swift-27in-4k-qd-oled-240hz-freesync-premium-pro-gaming-monitor-pg27ucdm-82213",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
