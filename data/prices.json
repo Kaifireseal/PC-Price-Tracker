@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T23:50:00.090259+00:00",
+  "generated_at": "2026-07-29T23:53:50.663381+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -301,14 +301,14 @@
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 469.0,
+      "best_price": 479.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
       "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 469.0,
+          "price": 479.0,
           "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
           "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)"
         }
@@ -318,14 +318,14 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 599.0,
+      "best_price": 629.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
       "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 599.0,
+          "price": 629.0,
           "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
           "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)"
         }
@@ -335,14 +335,14 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1048.0,
+      "best_price": 1099.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "best_title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1048.0,
+          "price": 1099.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
           "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)"
         }
@@ -352,14 +352,14 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1569.0,
+      "best_price": 1599.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "best_title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1569.0,
+          "price": 1599.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
           "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)"
         }
@@ -369,14 +369,14 @@
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1879.0,
+      "best_price": 2199.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-graphics-card-prime-rtx5080-16g-81418",
       "best_title": "Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1879.0,
+          "price": 2199.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-graphics-card-prime-rtx5080-16g-81418",
           "title": "Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)"
         }
@@ -403,14 +403,14 @@
       "part_key": "AMD Radeon RX 9060 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 549.0,
+      "best_price": 639.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
       "best_title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 549.0,
+          "price": 639.0,
           "url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
           "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)"
         }
@@ -1663,7 +1663,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
-      "price": 469.0,
+      "price": 479.0,
       "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
       "status": "OK"
     },
@@ -1693,7 +1693,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
-      "price": 599.0,
+      "price": 629.0,
       "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
       "status": "OK"
     },
@@ -1713,7 +1713,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
-      "price": 1048.0,
+      "price": 1099.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "status": "OK"
     },
@@ -1744,7 +1744,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
-      "price": 1569.0,
+      "price": 1599.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "status": "OK"
     },
@@ -1775,7 +1775,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)",
-      "price": 1879.0,
+      "price": 2199.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-graphics-card-prime-rtx5080-16g-81418",
       "status": "OK"
     },
@@ -2066,7 +2066,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
-      "price": 549.0,
+      "price": 639.0,
       "url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
       "status": "OK"
     },
