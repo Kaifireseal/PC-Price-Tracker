@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T00:06:10.684957+00:00",
+  "generated_at": "2026-08-04T23:52:48.856024+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -216,16 +216,16 @@
       "part_key": "Intel Core i7-14700K",
       "category": "CPU",
       "subcategory": "LGA1700",
-      "best_price": 545.0,
+      "best_price": 569.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
-      "best_title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
+      "best_url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
+      "best_title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 545.0,
-          "url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
-          "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)"
+          "price": 569.0,
+          "url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
+          "title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)"
         }
       ]
     },
@@ -260,23 +260,6 @@
           "price": 339.0,
           "url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
           "title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)"
-        }
-      ]
-    },
-    {
-      "part_key": "Intel Core Ultra 7 265K",
-      "category": "CPU",
-      "subcategory": "LGA1851",
-      "best_price": 515.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
-      "best_title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 515.0,
-          "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
-          "title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)"
         }
       ]
     },
@@ -566,23 +549,6 @@
           "price": 299.0,
           "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
           "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)"
-        }
-      ]
-    },
-    {
-      "part_key": "MSI MAG B650 Tomahawk WiFi",
-      "category": "Motherboard",
-      "subcategory": "AM5",
-      "best_price": 278.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-      "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 278.0,
-          "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-          "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)"
         }
       ]
     },
@@ -1391,9 +1357,9 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
-      "price": 545.0,
-      "url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
+      "title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)",
+      "price": 569.0,
+      "url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
       "status": "OK"
     },
     {
@@ -1461,10 +1427,10 @@
       "category": "CPU",
       "subcategory": "LGA1851",
       "retailer": "MSY",
-      "title": "Intel Core Ultra 7 20 Core LGA 1851 265K 5.50GHz CPU Processor (BX80768265K)",
-      "price": 515.0,
-      "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265k-5-50ghz-cpu-processor-bx80768265k-79605",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "Intel Core Ultra 9 285K",
@@ -2819,10 +2785,10 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "price": 278.0,
-      "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-      "status": "OK"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH"
     },
     {
       "part_key": "Asus TUF Gaming B650-Plus WiFi",
