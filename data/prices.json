@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T23:47:06.692809+00:00",
+  "generated_at": "2026-08-07T01:06:37.394378+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -223,9 +223,9 @@
         },
         {
           "retailer": "Umart",
-          "price": 1999.0,
-          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
-          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675"
+          "price": 1849.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437"
         }
       ]
     },
@@ -706,6 +706,23 @@
       ]
     },
     {
+      "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "best_price": 389.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf432c16bb2ak2-32-fury-beast-rgb-3200mhz-ddr4-ram-75220",
+      "best_title": "Kingston 32GB (2x16GB) KF432C16BB2AK2/32 Fury Beast RGB 3200MHz DDR4 RAM",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 389.0,
+          "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf432c16bb2ak2-32-fury-beast-rgb-3200mhz-ddr4-ram-75220",
+          "title": "Kingston 32GB (2x16GB) KF432C16BB2AK2/32 Fury Beast RGB 3200MHz DDR4 RAM"
+        }
+      ]
+    },
+    {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
@@ -736,6 +753,23 @@
           "price": 1199.0,
           "url": "https://www.msy.com.au/product/corsair-64gb-2x32gb-vengeance-cmk64gx5m2d6000z40-cl40-6000mhz-ddr5-ram-90590",
           "title": "Corsair 64GB (2x32GB) Vengeance CMK64GX5M2D6000Z40 CL40 6000MHz DDR5 RAM"
+        }
+      ]
+    },
+    {
+      "part_key": "Kingston Fury Beast 16GB (2x8GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "best_price": 399.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+      "best_title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 399.0,
+          "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+          "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black"
         }
       ]
     },
@@ -1303,9 +1337,9 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "Umart",
-      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675",
-      "price": 1999.0,
-      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
+      "price": 1849.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
       "status": "OK"
     },
     {
@@ -2310,10 +2344,10 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Kingston 32GB (2x16GB) KF432C16BB2AK2/32 Fury Beast RGB 3200MHz DDR4 RAM",
+      "price": 389.0,
+      "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf432c16bb2ak2-32-fury-beast-rgb-3200mhz-ddr4-ram-75220",
+      "status": "OK"
     },
     {
       "part_key": "Kingston Fury Beast 64GB (2x32GB) DDR4 3200",
@@ -2420,10 +2454,10 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH"
+      "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
+      "price": 399.0,
+      "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+      "status": "OK"
     },
     {
       "part_key": "G.Skill Trident Z5 16GB (2x8GB) DDR5 6000",
