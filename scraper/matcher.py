@@ -80,7 +80,7 @@ def pick_best_match(results: list, part_key: str, min_similarity: float = 0.5):
             continue
 
         if target_brand_words and not target_brand_words.issubset(title_words):
-            continue  # target names a brand the candidate doesn't have
+            continue
 
         effective_title_words = set(title_words)
         for canonical, alias in BRAND_ALIASES.items():
@@ -103,6 +103,15 @@ def pick_best_match(results: list, part_key: str, min_similarity: float = 0.5):
 
 
 def build_dashboard(records: list) -> list:
+    """
+    records: list of dicts like:
+      {"part_key", "category", "subcategory", "retailer", "title", "price",
+       "url", "status", "stock_status", "stock_qty"}
+
+    Returns dashboard-ready dicts, each with a "best_stock_status" /
+    "best_stock_qty" for the cheapest offer, and per-offer stock info too
+    (so the "compare N more offers" list can show stock per retailer).
+    """
     grouped = {}
     for r in records:
         if r["status"] != "OK":
@@ -119,6 +128,8 @@ def build_dashboard(records: list) -> list:
             "price": r["price"],
             "url": r["url"],
             "title": r["title"],
+            "stock_status": r.get("stock_status", "unknown"),
+            "stock_qty": r.get("stock_qty"),
         })
 
     dashboard = []
@@ -135,6 +146,8 @@ def build_dashboard(records: list) -> list:
             "best_retailer": best["retailer"],
             "best_url": best["url"],
             "best_title": best["title"],
+            "best_stock_status": best["stock_status"],
+            "best_stock_qty": best["stock_qty"],
             "offers": entry["offers"],
         })
 
