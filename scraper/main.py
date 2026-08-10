@@ -11,7 +11,7 @@ Run automatically:
 
 Output:
     ../data/prices.json   <- consumed by the dashboard/index.html frontend
-    scrape_errors.log     <- one line per failure, for debugging selectors
+    scrape_errors.log     <- one line per failure, for debugging
 """
 
 import json
@@ -64,6 +64,7 @@ def scrape_all() -> list:
                         "part_key": part_key, "category": category, "subcategory": subcategory,
                         "retailer": retailer_name, "title": None,
                         "price": None, "url": None, "status": "NO_MATCH",
+                        "stock_status": None, "stock_qty": None,
                     })
                     continue
 
@@ -72,10 +73,13 @@ def scrape_all() -> list:
                     "retailer": retailer_name,
                     "title": match["title"], "price": match["price"],
                     "url": match["url"], "status": "OK",
+                    "stock_status": match.get("stock_status", "unknown"),
+                    "stock_qty": match.get("stock_qty"),
                 })
                 logger.info(
-                    "OK: %s | %s | $%.2f | %s",
-                    part_key, retailer_name, match["price"], match["title"],
+                    "OK: %s | %s | $%.2f | stock=%s | %s",
+                    part_key, retailer_name, match["price"],
+                    match.get("stock_status", "unknown"), match["title"],
                 )
 
             except Exception as exc:
@@ -86,12 +90,10 @@ def scrape_all() -> list:
                     "retailer": retailer_name, "title": None,
                     "price": None, "url": None, "status": status,
                     "error": str(exc),
+                    "stock_status": None, "stock_qty": None,
                 })
 
-            # Human-ish pacing between requests. Bot-scoring systems (Mwave's
-            # AWS WAF included) weigh request rhythm, not just headers — a
-            # burst of perfectly-timed requests is itself a signal. This
-            # slows the daily run down but meaningfully softens that signal.
+            # Human-ish pacing between requests.
             time.sleep(random.uniform(2.5, 5.5))
 
     return records
@@ -106,7 +108,7 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "currency": "AUD",
         "parts": dashboard,
-        "raw_records": records,  # kept for debugging / auditing failed scrapes
+        "raw_records": records,
     }
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
