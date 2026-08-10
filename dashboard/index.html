@@ -15,6 +15,8 @@
     --copper: #c9793d;
     --copper-bright: #e89a5c;
     --teal: #45d4b8;
+    --red: #e0605a;
+    --amber: #e8c05c;
     --text-main: #e7e9ee;
     --text-dim: #8891a3;
   }
@@ -67,6 +69,15 @@
     color: var(--copper-bright);
     background: rgba(201,121,61,0.1);
   }
+  .stock-dot{
+    width: 6px; height: 6px; border-radius: 50%;
+    display: inline-block; margin-right: 4px;
+  }
+  .stock-in{ background: var(--teal); }
+  .stock-out{ background: var(--red); }
+  .stock-pre{ background: var(--amber); }
+  .stock-unknown{ background: var(--text-dim); }
+
   ::-webkit-scrollbar{ width:8px; height:8px; }
   ::-webkit-scrollbar-thumb{ background: var(--panel-border); border-radius: 4px; }
 
@@ -119,8 +130,9 @@
   </main>
 
   <footer class="max-w-6xl mx-auto px-5 mt-10 text-xs text-[var(--text-dim)] mono">
-    Prices refresh every 24 hours via an automated scraper. Always confirm the final price
-    and stock on the retailer's own page before purchasing — prices can change between refreshes.
+    Prices refresh every 24 hours via an automated scraper. Stock status is best-effort —
+    detected from phrases on the retailer's page, not a live inventory feed — so always confirm
+    stock and final price on the retailer's own page before purchasing.
   </footer>
 
 <script>
@@ -133,6 +145,24 @@ const categoryOrder = ['All', 'CPU', 'GPU', 'RAM', 'SSD', 'Motherboard', 'Monito
 
 function formatPrice(n){
   return new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(n);
+}
+
+function stockLabel(status, qty){
+  if (status === 'in_stock') return qty ? `In stock (${qty})` : 'In stock';
+  if (status === 'out_of_stock') return 'Out of stock';
+  if (status === 'preorder') return 'Pre-order';
+  return 'Stock unknown';
+}
+function stockDotClass(status){
+  if (status === 'in_stock') return 'stock-in';
+  if (status === 'out_of_stock') return 'stock-out';
+  if (status === 'preorder') return 'stock-pre';
+  return 'stock-unknown';
+}
+function stockBadge(status, qty){
+  return `<span class="inline-flex items-center text-[0.65rem] text-[var(--text-dim)] mono">
+    <span class="stock-dot ${stockDotClass(status)}"></span>${stockLabel(status, qty)}
+  </span>`;
 }
 
 function renderFilters(categoriesPresent){
@@ -187,6 +217,7 @@ function offerRow(offer, isBest){
       <span class="min-w-0">
         <span class="block text-sm ${isBest ? 'font-semibold' : 'text-[var(--text-dim)]'}">${offer.retailer}</span>
         <span class="block text-xs text-[var(--text-dim)] truncate" title="${offer.title}">${offer.title}</span>
+        ${stockBadge(offer.stock_status, offer.stock_qty)}
       </span>
       <span class="mono text-sm shrink-0 ${isBest ? 'best-price font-semibold' : ''}">${formatPrice(offer.price)}</span>
     </a>`;
@@ -211,6 +242,7 @@ function partCard(part){
           <div>
             <p class="text-xs text-[var(--text-dim)] mono mb-0.5">best price · ${part.best_retailer}</p>
             <p class="mono text-2xl font-bold best-price">${formatPrice(part.best_price)}</p>
+            <div class="mt-1">${stockBadge(part.best_stock_status, part.best_stock_qty)}</div>
           </div>
           <span class="pill px-2 py-1 rounded group-hover:active">Visit store →</span>
         </div>
