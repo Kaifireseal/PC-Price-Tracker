@@ -10,8 +10,9 @@ Run automatically:
     24-hour cron schedule for free.
 
 Output:
-    ../data/prices.json   <- consumed by the dashboard/index.html frontend
-    scrape_errors.log     <- one line per failure, for debugging
+    ../data/prices.json    <- consumed by the dashboard/index.html frontend
+    ../data/history.json   <- daily price history per part/retailer, for graphs
+    scrape_errors.log      <- one line per failure, for debugging
 """
 
 import json
@@ -28,8 +29,11 @@ from matcher import pick_best_match, build_dashboard
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "prices.json"
+HISTORY_PATH = ROOT / "data" / "history.json"
 DEBUG_PATH = ROOT / "debug_snippets.json"
 LOG_PATH = ROOT / "scrape_errors.log"
+
+MAX_HISTORY_DAYS = 370  # ~1 year + buffer, prevents unbounded file growth
 
 logging.basicConfig(
     level=logging.INFO,
@@ -99,13 +103,70 @@ def scrape_all() -> list:
     return records
 
 
+def update_history(dashboard: list, history_path: Path, today: str) -> None:
+    """
+    Append today's price for each part/retailer to history.json.
+
+    Structure:
+        {
+          "<part_key>": {
+            "<retailer>": [ {"date": "YYYY-MM-DD", "price": 119.0}, ... ],
+            "best": [ {"date": "YYYY-MM-DD", "price": 119.0}, ... ]
+          },
+          ...
+        }
+
+    "best" tracks the cheapest across retailers each day, so the graph
+    can default to a single line without picking a retailer first.
+    """
+    if history_path.exists():
+        try:
+            history = json.loads(history_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            logger.warning("Could not read existing history.json (%s), starting fresh", exc)
+            history = {}
+    else:
+        history = {}
+
+    for part in dashboard:
+        part_key = part["part_key"]
+        history.setdefault(part_key, {})
+
+        for offer in part.get("offers", []):
+            retailer = offer["retailer"]
+            price = offer.get("price")
+            if price is None:
+                continue
+
+            series = history[part_key].setdefault(retailer, [])
+            if series and series[-1]["date"] == today:
+                series[-1]["price"] = price  # overwrite same-day re-run
+            else:
+                series.append({"date": today, "price": price})
+            del series[:-MAX_HISTORY_DAYS]  # keep only the most recent N days
+
+        best_price = part.get("best_price")
+        if best_price is not None:
+            best_series = history[part_key].setdefault("best", [])
+            if best_series and best_series[-1]["date"] == today:
+                best_series[-1]["price"] = best_price
+            else:
+                best_series.append({"date": today, "price": best_price})
+            del best_series[:-MAX_HISTORY_DAYS]
+
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    history_path.write_text(json.dumps(history, indent=2), encoding="utf-8")
+    logger.info("Updated %s", history_path)
+
+
 def main():
     logger.info("Starting daily scrape for %d parts...", len(TRACKED_PARTS))
     records = scrape_all()
     dashboard = build_dashboard(records)
 
+    now = datetime.now(timezone.utc)
     output = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": now.isoformat(),
         "currency": "AUD",
         "parts": dashboard,
         "raw_records": records,
@@ -113,6 +174,8 @@ def main():
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(output, indent=2), encoding="utf-8")
+
+    update_history(dashboard, HISTORY_PATH, today=now.date().isoformat())
 
     if DEBUG_SNIPPETS:
         DEBUG_PATH.write_text(json.dumps(DEBUG_SNIPPETS, indent=2), encoding="utf-8")
