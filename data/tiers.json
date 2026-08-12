@@ -1,0 +1,110 @@
+{
+  "AMD Ryzen 5 5500": {
+    "tier": "C",
+    "note": "Budget AM4 option, still capable for 1080p"
+  },
+  "AMD Ryzen 5 5600": {
+    "tier": "B",
+    "note": "Solid mid-range AM4 pick"
+  },
+  "AMD Ryzen 7 5800X3D": {
+    "tier": "A",
+    "note": "Still a strong AM4 gaming chip thanks to 3D V-Cache"
+  },
+  "AMD Ryzen 5 7600": {
+    "tier": "B+",
+    "note": "Great value entry into AM5"
+  },
+  "AMD Ryzen 5 9600X": {
+    "tier": "B+",
+    "note": "Modest gen-on-gen gain over 7600, efficient"
+  },
+  "AMD Ryzen 7 7700X": {
+    "tier": "A",
+    "note": "Well-rounded gaming + productivity on AM5"
+  },
+  "AMD Ryzen 7 7800X3D": {
+    "tier": "A+",
+    "note": "Excellent gaming performance, AM5 favourite"
+  },
+  "AMD Ryzen 7 9800X3D": {
+    "tier": "S",
+    "note": "Best gaming CPU on the market right now"
+  },
+  "AMD Ryzen 9 9900X3D": {
+    "tier": "A+",
+    "note": "Strong hybrid gaming + multi-core workload chip"
+  },
+  "AMD Ryzen 9 9950X": {
+    "tier": "A",
+    "note": "Top-end multi-core productivity, not gaming-focused"
+  },
+  "AMD Ryzen 9 9950X3D": {
+    "tier": "S",
+    "note": "Best of both worlds - top gaming and heavy multi-core"
+  },
+  "Intel Core i5-13400F": {
+    "tier": "B",
+    "note": "Reliable budget-mid CPU, no iGPU"
+  },
+  "Intel Core i5-14400F": {
+    "tier": "B",
+    "note": "Minor refresh over 13400F, similar performance"
+  },
+  "Intel Core i7-14700K": {
+    "tier": "A",
+    "note": "Strong multi-core, competitive gaming performance"
+  },
+  "Intel Core i9-14900K": {
+    "tier": "A+",
+    "note": "High-end Intel performance, runs hot/power hungry"
+  },
+  "Intel Core Ultra 5 245K": {
+    "tier": "B+",
+    "note": "Efficient but middling gaming uplift vs previous gen"
+  },
+  "Intel Core Ultra 7 265K": {
+    "tier": "A",
+    "note": "Good multi-core, gaming roughly on par with 14700K"
+  },
+  "NVIDIA RTX 4060": {
+    "tier": "C",
+    "note": "Entry 1080p card, ok value when discounted"
+  },
+  "NVIDIA RTX 5060": {
+    "tier": "B",
+    "note": "Solid budget 1080p upgrade over 4060"
+  },
+  "NVIDIA RTX 5060 Ti": {
+    "tier": "B+",
+    "note": "Good 1080p/1440p sweet spot, watch VRAM variant"
+  },
+  "NVIDIA RTX 5070": {
+    "tier": "A",
+    "note": "Strong 1440p performer"
+  },
+  "NVIDIA RTX 5070 Ti": {
+    "tier": "A",
+    "note": "Excellent 1440p, edges into 4K territory"
+  },
+  "NVIDIA RTX 5080": {
+    "tier": "A+",
+    "note": "High-end 4K card, big step below the 5090"
+  },
+  "NVIDIA RTX 5090": {
+    "tier": "S",
+    "note": "Flagship, best consumer GPU available"
+  },
+  "AMD RX 9060 XT 16GB": {
+    "tier": "B",
+    "note": "Good value 1080p/1440p, benefits from 16GB VRAM"
+  },
+  "AMD RX 9070": {
+    "tier": "A",
+    "note": "Strong 1440p AMD option, close to 5070-class"
+  },
+  "AMD RX 9070 XT": {
+    "tier": "A+",
+    "note": "AMD's best - competes with 5070 Ti at a better price - NOTE: duplicate this line 3 more times with your other 9070 XT AIB part_key names"
+  }
+}
