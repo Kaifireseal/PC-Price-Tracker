@@ -148,24 +148,42 @@
   #homeScreen{
     max-width: 1100px;
     margin: 0 auto;
-    padding: 1.5rem 1.25rem 2rem;
-    min-height: calc(100vh - 73px); /* fills viewport below the sticky header */
+    padding: 1.25rem 1.25rem 6.5rem; /* extra bottom padding clears the fixed bar */
+    min-height: calc(100vh - 73px);
     display: flex;
     flex-direction: column;
   }
-  .nav-btn{
-    background: linear-gradient(180deg, #22283a, #171b26);
-    border: 1px solid var(--panel-border);
-    border-radius: 10px;
-    padding: .9rem 1.1rem;
-    display: flex; align-items: center; gap: .6rem;
-    font-weight: 600;
-    font-size: .95rem;
-    transition: border-color .15s ease;
-    cursor: pointer;
+  #bottomNav{
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 40;
+    background: rgba(18,21,28,0.92);
+    backdrop-filter: blur(6px);
+    border-top: 1px solid var(--panel-border);
+    padding: .75rem 1rem calc(.75rem + env(safe-area-inset-bottom, 0px));
   }
-  .nav-btn:hover{ border-color: var(--copper); }
-  .nav-btn .nav-icon{ font-size: 1.3rem; }
+  .bottom-nav-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom-nav-btn{
+    width: 100%;
+    max-width: 420px;
+    background: linear-gradient(180deg, #2a3245, #191f2c);
+    border: 1px solid var(--copper);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    display: flex; align-items: center; justify-content: center; gap: .7rem;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--copper-bright);
+    cursor: pointer;
+    transition: background .15s ease;
+  }
+  .bottom-nav-btn:hover{ background: linear-gradient(180deg, #333c53, #1e2432); }
+  .bottom-nav-btn .nav-icon{ font-size: 1.35rem; }
   .highlight-quadrant{
     background: var(--panel);
     border: 1px solid var(--panel-border);
@@ -226,7 +244,7 @@
   }
 </style>
 </head>
-<body class="pb-24">
+<body class="pb-28">
 
   <!-- Header -->
   <header class="border-b border-[var(--panel-border)] sticky top-0 z-10 backdrop-blur bg-[rgba(18,21,28,0.85)]">
@@ -244,16 +262,9 @@
     <div class="trace"></div>
   </header>
 
-  <!-- Home screen: nav buttons + highlights, shown on load -->
+  <!-- Home screen: highlights, shown on load -->
   <div id="homeScreen">
-    <div class="flex flex-wrap gap-3 mb-5">
-      <button id="goToPartsBtn" class="nav-btn">
-        <span class="nav-icon">🖥️</span> PC Parts
-      </button>
-      <!-- Add more nav buttons here later, following the same .nav-btn pattern -->
-    </div>
-
-    <div class="flex items-center justify-between gap-3 mb-3">
+    <div class="flex items-center justify-between gap-3 mb-3 mt-2">
       <h2 class="text-2xl font-bold leading-tight">🏆 Highlights</h2>
       <p class="text-xs text-[var(--text-dim)] mono">updated with today's data</p>
     </div>
@@ -264,9 +275,6 @@
   <!-- Parts screen: search, filters, cards grid -->
   <div id="partsScreen" class="hidden">
     <div class="max-w-6xl mx-auto px-5 pt-5 flex items-center gap-3 flex-wrap">
-      <button id="backToHomeBtn" class="pill px-3 py-2 rounded-md shrink-0 flex items-center gap-1.5">
-        🏠 <span>Home</span>
-      </button>
       <div class="flex-1 min-w-[220px] max-w-sm">
         <input id="searchInput" type="text" placeholder="Search a part, e.g. 7800X3D"
           class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
@@ -291,12 +299,27 @@
       <div id="cardsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
     </main>
 
-    <footer class="max-w-6xl mx-auto px-5 mt-10 pb-24 text-xs text-[var(--text-dim)] mono">
+    <footer class="max-w-6xl mx-auto px-5 mt-10 pb-32 text-xs text-[var(--text-dim)] mono">
       Prices refresh every 24 hours via an automated scraper. Stock status is best-effort —
       detected from phrases on the retailer's page, not a live inventory feed — so always confirm
       stock and final price on the retailer's own page before purchasing.
     </footer>
   </div>
+
+  <!-- Fixed bottom nav bar -->
+  <nav id="bottomNav">
+    <div id="bottomNavHome" class="bottom-nav-inner">
+      <button id="goToPartsBtn" class="bottom-nav-btn">
+        <span class="nav-icon">🖥️</span> PC Parts
+      </button>
+      <!-- Add more bottom-nav-btn buttons here later for future sections -->
+    </div>
+    <div id="bottomNavParts" class="bottom-nav-inner hidden">
+      <button id="backToHomeBtn" class="bottom-nav-btn">
+        <span class="nav-icon">🏠</span> Home
+      </button>
+    </div>
+  </nav>
 
   <!-- Price history modal -->
   <div id="modalOverlay">
@@ -754,11 +777,15 @@ function renderHighlights(){
 function showHome(){
   document.getElementById('homeScreen').classList.remove('hidden');
   document.getElementById('partsScreen').classList.add('hidden');
+  document.getElementById('bottomNavHome').classList.remove('hidden');
+  document.getElementById('bottomNavParts').classList.add('hidden');
   renderHighlights();
 }
 function showParts(){
   document.getElementById('homeScreen').classList.add('hidden');
   document.getElementById('partsScreen').classList.remove('hidden');
+  document.getElementById('bottomNavHome').classList.add('hidden');
+  document.getElementById('bottomNavParts').classList.remove('hidden');
 }
 
 document.getElementById('goToPartsBtn').addEventListener('click', showParts);
