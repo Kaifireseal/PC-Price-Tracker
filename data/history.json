@@ -1,0 +1,700 @@
+{
+  "AMD Ryzen 5 5500": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 119.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 119.0
+      }
+    ]
+  },
+  "AMD Ryzen 5 5600": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 171.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 171.0
+      }
+    ]
+  },
+  "AMD Ryzen 7 5800X3D": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 548.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 548.0
+      }
+    ]
+  },
+  "AMD Ryzen 5 7600": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 284.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 284.0
+      }
+    ]
+  },
+  "AMD Ryzen 5 9600X": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 347.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 347.0
+      }
+    ]
+  },
+  "AMD Ryzen 7 7700X": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 448.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 448.0
+      }
+    ]
+  },
+  "AMD Ryzen 7 7800X3D": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 548.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 548.0
+      }
+    ]
+  },
+  "AMD Ryzen 7 9800X3D": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 647.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 647.0
+      }
+    ]
+  },
+  "AMD Ryzen 9 9900X3D": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 885.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 885.0
+      }
+    ]
+  },
+  "AMD Ryzen 9 9950X": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 888.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 888.0
+      }
+    ]
+  },
+  "AMD Ryzen 9 9950X3D": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 1028.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 1028.0
+      }
+    ]
+  },
+  "Intel Core i5-13400F": {
+    "Umart": [
+      {
+        "date": "2026-08-12",
+        "price": 249.0
+      }
+    ],
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 249.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 249.0
+      }
+    ]
+  },
+  "Intel Core i5-14400F": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 255.0
+      }
+    ],
+    "Umart": [
+      {
+        "date": "2026-08-12",
+        "price": 1849.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 255.0
+      }
+    ]
+  },
+  "Intel Core i7-14700K": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 579.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 579.0
+      }
+    ]
+  },
+  "Intel Core i9-14900K": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 739.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 739.0
+      }
+    ]
+  },
+  "Intel Core Ultra 5 245K": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 339.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 339.0
+      }
+    ]
+  },
+  "NVIDIA RTX 4060": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 499.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 499.0
+      }
+    ]
+  },
+  "NVIDIA RTX 5060": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 569.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 569.0
+      }
+    ]
+  },
+  "NVIDIA RTX 5060 Ti": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 729.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 729.0
+      }
+    ]
+  },
+  "NVIDIA RTX 5070": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 1299.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 1299.0
+      }
+    ]
+  },
+  "NVIDIA RTX 5070 Ti": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 1729.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 1729.0
+      }
+    ]
+  },
+  "NVIDIA RTX 5080": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 2199.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 2199.0
+      }
+    ]
+  },
+  "NVIDIA RTX 5090": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 7199.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 7199.0
+      }
+    ]
+  },
+  "AMD Radeon RX 9060 XT": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 669.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 669.0
+      }
+    ]
+  },
+  "AMD Radeon RX 9070": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 959.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 959.0
+      }
+    ]
+  },
+  "AMD Radeon RX 9070 XT": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 999.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 999.0
+      }
+    ]
+  },
+  "Asus Prime RX 9070 XT": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 999.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 999.0
+      }
+    ]
+  },
+  "Gigabyte Gaming RX 9070": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 939.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 939.0
+      }
+    ]
+  },
+  "Sapphire Pulse RX 9070 XT": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 1039.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 1039.0
+      }
+    ]
+  },
+  "Gigabyte B550M K": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 109.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 109.0
+      }
+    ]
+  },
+  "Asus Prime X870-P WiFi CSM": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 339.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 339.0
+      }
+    ]
+  },
+  "Asus TUF Gaming B650-Plus WiFi": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 229.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 229.0
+      }
+    ]
+  },
+  "MSI B850 Gaming Plus WiFi": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 229.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 229.0
+      }
+    ]
+  },
+  "Asus Prime Z790-P WiFi CSM": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 239.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 239.0
+      }
+    ]
+  },
+  "MSI PRO B760M-A WiFi": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 179.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 179.0
+      }
+    ]
+  },
+  "Asus TUF Gaming B860-Plus WiFi": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 309.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 309.0
+      }
+    ]
+  },
+  "Gigabyte B860M Eagle WiFi6": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 188.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 188.0
+      }
+    ]
+  },
+  "Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 389.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 389.0
+      }
+    ]
+  },
+  "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 189.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 189.0
+      }
+    ]
+  },
+  "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 379.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 379.0
+      }
+    ]
+  },
+  "Kingston Fury Beast 16GB (2x8GB) DDR4 3200": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 219.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 219.0
+      }
+    ]
+  },
+  "Kingston Fury Beast 32GB (2x16GB) DDR4 3200": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 389.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 389.0
+      }
+    ]
+  },
+  "Corsair Vengeance 32GB (2x16GB) DDR5 6000": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 689.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 689.0
+      }
+    ]
+  },
+  "Corsair Vengeance 64GB (2x32GB) DDR5 6000": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 1199.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 1199.0
+      }
+    ]
+  },
+  "Kingston Fury Beast 32GB (2x16GB) DDR5 6000": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 729.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 729.0
+      }
+    ]
+  },
+  "Kingston NV3 1TB NVMe SSD": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 249.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 249.0
+      }
+    ]
+  },
+  "Kingston NV3 2TB NVMe SSD": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 449.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 449.0
+      }
+    ]
+  },
+  "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 1199.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 1199.0
+      }
+    ]
+  },
+  "Kingston NV3 500GB NVMe SSD": {
+    "MSY": [
+      {
+        "date": "2026-08-12",
+        "price": 168.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-12",
+        "price": 168.0
+      }
+    ]
+  }
+}
