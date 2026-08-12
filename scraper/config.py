@@ -159,7 +159,7 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "i5-13400f", "MSY": "intel_cpu"}},
     {"part_key": "Intel Core i5-14400F", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"Centre Com": "i5-14400f", "Umart": "i5-14400f", "MSY": "intel_cpu"}},
-    {"part_key": "Intel Core i5-12400Kf, "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
+    {"part_key": "Intel Core i5-12400F, "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"Centre Com": "i5-12400f", "Mwave": "i5 12400f", "MSY": "intel_cpu"}},
     {"part_key": "Intel Core i7-14700K", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"Umart": "14700k", "Scorptec": "i7-14700k", "MSY": "intel_cpu"}},
