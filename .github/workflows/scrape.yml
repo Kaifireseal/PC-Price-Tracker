@@ -1,5 +1,4 @@
 name: Daily AU PC Part Price Scrape
-
 on:
   schedule:
     # Runs at 20:00 UTC = 06:00 AEST / 07:00 AEDT every day.
@@ -7,43 +6,35 @@ on:
     # — that's normal and fine for a daily price check.
     - cron: '0 20 * * *'
   workflow_dispatch: {}   # lets you click "Run workflow" manually in the Actions tab
-
 permissions:
   contents: write   # needed so the workflow can commit the updated prices.json
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Install Python dependencies
         working-directory: scraper
         run: pip install -r requirements.txt
-
       - name: Install Playwright browser (for Amazon AU)
         working-directory: scraper
         run: playwright install --with-deps chromium
-
-- name: Run the scraper
+      - name: Run the scraper
         working-directory: scraper
         run: python main.py
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-
       - name: Commit updated price data
         run: |
           git config user.name "price-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
-          for f in data/prices.json scrape_errors.log debug_snippets.json; do
+          for f in data/prices.json data/history.json data/tiers.json scrape_errors.log debug_snippets.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
           git diff --cached --quiet || git commit -m "Automated daily price update"
