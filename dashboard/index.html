@@ -1,3 +1,6 @@
+
+
+Index · HTML
 <!DOCTYPE html>
 <html lang="en-AU">
 <head>
@@ -31,7 +34,7 @@
     min-height: 100vh;
   }
   .mono{ font-family: 'JetBrains Mono', monospace; }
-
+ 
   .trace{
     height: 1px;
     background: repeating-linear-gradient(90deg, var(--panel-border) 0 6px, transparent 6px 10px);
@@ -49,7 +52,7 @@
   }
   .chip-badge::before{ top:-3px; }
   .chip-badge::after{ bottom:-3px; }
-
+ 
   .card{
     background: var(--panel);
     border: 1px solid var(--panel-border);
@@ -57,7 +60,7 @@
     cursor: pointer;
   }
   .card:hover{ border-color: rgba(201,121,61,0.5); }
-
+ 
   .best-price{ color: var(--teal); }
   .pill{
     font-size: .68rem;
@@ -79,15 +82,15 @@
   .stock-out{ background: var(--red); }
   .stock-pre{ background: var(--amber); }
   .stock-unknown{ background: var(--text-dim); }
-
+ 
   ::-webkit-scrollbar{ width:8px; height:8px; }
   ::-webkit-scrollbar-thumb{ background: var(--panel-border); border-radius: 4px; }
-
+ 
   details > summary{ list-style:none; cursor:pointer; }
   details > summary::-webkit-details-marker{ display:none; }
   details[open] .chevron{ transform: rotate(90deg); }
   .chevron{ transition: transform .15s ease; }
-
+ 
   /* Modal */
   #modalOverlay{
     position: fixed; inset: 0; z-index: 50;
@@ -121,10 +124,27 @@
     color: var(--copper-bright);
     background: rgba(201,121,61,0.1);
   }
+ 
+  .tier-badge{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+    padding: 2px 7px;
+    border-radius: 5px;
+    border: 1px solid;
+  }
+  .tier-S{  color: #ffd76a; border-color: #ffd76a; background: rgba(255,215,106,0.12); }
+  .tier-Aplus{ color: var(--copper-bright); border-color: var(--copper-bright); background: rgba(232,154,92,0.12); }
+  .tier-A{  color: var(--copper); border-color: var(--copper); background: rgba(201,121,61,0.12); }
+  .tier-Bplus{ color: var(--teal); border-color: var(--teal); background: rgba(69,212,184,0.12); }
+  .tier-B{  color: #6fb8a8; border-color: #6fb8a8; background: rgba(111,184,168,0.1); }
+  .tier-C{  color: var(--amber); border-color: var(--amber); background: rgba(232,192,92,0.1); }
+  .tier-D{  color: var(--text-dim); border-color: var(--panel-border); background: rgba(136,145,163,0.08); }
 </style>
 </head>
 <body class="pb-24">
-
+ 
   <!-- Header -->
   <header class="border-b border-[var(--panel-border)] sticky top-0 z-10 backdrop-blur bg-[rgba(18,21,28,0.85)]">
     <div class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between gap-4 flex-wrap">
@@ -145,7 +165,7 @@
     </div>
     <div class="trace"></div>
   </header>
-
+ 
   <!-- Filters -->
   <div class="max-w-6xl mx-auto px-5 pt-5 flex flex-wrap gap-2" id="categoryFilters">
     <!-- populated by JS -->
@@ -153,7 +173,7 @@
   <div class="max-w-6xl mx-auto px-5 pt-2 flex flex-wrap gap-1.5 hidden" id="subcategoryFilters">
     <!-- populated by JS, shown once a specific category is selected -->
   </div>
-
+ 
   <!-- Content -->
   <main class="max-w-6xl mx-auto px-5 pt-5">
     <div id="emptyState" class="hidden text-center py-24 text-[var(--text-dim)]">
@@ -164,32 +184,33 @@
     </div>
     <div id="cardsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
   </main>
-
+ 
   <footer class="max-w-6xl mx-auto px-5 mt-10 text-xs text-[var(--text-dim)] mono">
     Prices refresh every 24 hours via an automated scraper. Stock status is best-effort —
     detected from phrases on the retailer's page, not a live inventory feed — so always confirm
     stock and final price on the retailer's own page before purchasing.
   </footer>
-
+ 
   <!-- Price history modal -->
   <div id="modalOverlay">
     <div id="modalPanel" class="p-5">
       <div class="flex items-start justify-between gap-3">
         <div class="min-w-0">
           <span class="pill inline-block px-2 py-0.5 rounded mb-2" id="modalCategory"></span>
+          <span class="inline-block mb-2 ml-1.5" id="modalTier"></span>
           <h3 class="font-semibold leading-snug" id="modalTitle"></h3>
           <p class="mono text-xl font-bold best-price mt-1" id="modalPrice"></p>
         </div>
         <button id="modalClose" class="pill px-2.5 py-1.5 rounded shrink-0">Close ✕</button>
       </div>
-
+ 
       <div class="trace my-3"></div>
-
+ 
       <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
         <p class="text-xs text-[var(--text-dim)] mono">price history · best price across retailers</p>
         <div class="flex gap-1.5" id="rangeButtons"></div>
       </div>
-
+ 
       <div class="relative" style="height: 260px;">
         <canvas id="historyChart"></canvas>
       </div>
@@ -198,17 +219,31 @@
       </p>
     </div>
   </div>
-
+ 
 <script>
 const DATA_URL = '../data/prices.json';
 const HISTORY_URL = '../data/history.json';
+const TIERS_URL = '../data/tiers.json';
 let ALL_PARTS = [];
 let HISTORY = {};
+let TIERS = {};
+ 
+// Tiers only apply to CPU/GPU parts for now. CSS classes can't contain "+",
+// so "A+" maps to .tier-Aplus etc.
+function tierClass(tier){
+  return 'tier-' + tier.replace('+', 'plus');
+}
+function tierBadge(partKey, category){
+  if (category !== 'CPU' && category !== 'GPU') return '';
+  const entry = TIERS[partKey];
+  if (!entry || !entry.tier) return '';
+  return `<span class="tier-badge ${tierClass(entry.tier)}" title="${entry.note || ''}">${entry.tier}</span>`;
+}
 let activeCategory = 'All';
 let activeSubcategory = 'All';
 let activeRange = '1M';
 let chartInstance = null;
-
+ 
 const categoryOrder = ['All', 'CPU', 'GPU', 'RAM', 'SSD', 'Motherboard', 'Monitor'];
 const RANGES = [
   { label: '1W', days: 7 },
@@ -217,11 +252,11 @@ const RANGES = [
   { label: '6M', days: 182 },
   { label: '1Y', days: 365 },
 ];
-
+ 
 function formatPrice(n){
   return new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(n);
 }
-
+ 
 function stockDotClass(status){
   if (status === 'in_stock') return 'stock-in';
   if (status === 'out_of_stock') return 'stock-out';
@@ -238,7 +273,7 @@ function stockBadge(status){
     <span class="stock-dot ${stockDotClass(status)}"></span>${label}
   </span>`;
 }
-
+ 
 function renderFilters(categoriesPresent){
   const wrap = document.getElementById('categoryFilters');
   wrap.innerHTML = '';
@@ -256,16 +291,16 @@ function renderFilters(categoriesPresent){
       wrap.appendChild(btn);
     });
 }
-
+ 
 function renderSubcategoryFilters(){
   const wrap = document.getElementById('subcategoryFilters');
   wrap.innerHTML = '';
-
+ 
   if (activeCategory === 'All'){
     wrap.classList.add('hidden');
     return;
   }
-
+ 
   const subsPresent = [...new Set(
     ALL_PARTS.filter(p => p.category === activeCategory).map(p => p.subcategory).filter(Boolean)
   )];
@@ -273,7 +308,7 @@ function renderSubcategoryFilters(){
     wrap.classList.add('hidden');
     return;
   }
-
+ 
   wrap.classList.remove('hidden');
   ['All', ...subsPresent].forEach(sub => {
     const btn = document.createElement('button');
@@ -283,7 +318,7 @@ function renderSubcategoryFilters(){
     wrap.appendChild(btn);
   });
 }
-
+ 
 function offerRow(offer, isBest){
   return `
     <a href="${offer.url}" target="_blank" rel="noopener"
@@ -297,7 +332,7 @@ function offerRow(offer, isBest){
       <span class="mono text-sm shrink-0 ${isBest ? 'best-price font-semibold' : ''}">${formatPrice(offer.price)}</span>
     </a>`;
 }
-
+ 
 function partCard(part){
   const otherOffers = part.offers.slice(1);
   return `
@@ -305,13 +340,14 @@ function partCard(part){
       <div class="flex items-start justify-between gap-3">
         <div>
           <span class="pill inline-block px-2 py-0.5 rounded mb-2">${part.category}</span>
+          <span class="inline-block mb-2 ml-1.5">${tierBadge(part.part_key, part.category)}</span>
           <h3 class="font-semibold leading-snug">${part.part_key}</h3>
           <p class="text-xs text-[var(--text-dim)] mt-0.5">${part.best_title}</p>
         </div>
       </div>
-
+ 
       <div class="trace my-3"></div>
-
+ 
       <div class="flex items-end justify-between">
         <div>
           <p class="text-xs text-[var(--text-dim)] mono mb-0.5">best price · ${part.best_retailer}</p>
@@ -321,7 +357,7 @@ function partCard(part){
         <a href="${part.best_url}" target="_blank" rel="noopener"
            class="pill px-2 py-1 rounded group-hover:active" onclick="event.stopPropagation()">Visit store →</a>
       </div>
-
+ 
       ${otherOffers.length ? `
       <details class="mt-3" onclick="event.stopPropagation()">
         <summary class="flex items-center gap-1.5 text-xs text-[var(--text-dim)] mono py-1">
@@ -338,7 +374,7 @@ function partCard(part){
       `}
     </div>`;
 }
-
+ 
 function renderAll(){
   const query = document.getElementById('searchInput').value.trim().toLowerCase();
   const filtered = ALL_PARTS.filter(p => {
@@ -347,11 +383,11 @@ function renderAll(){
     const matchesQuery = !query || p.part_key.toLowerCase().includes(query);
     return matchesCategory && matchesSubcategory && matchesQuery;
   });
-
+ 
   const categoriesPresent = new Set(ALL_PARTS.map(p => p.category));
   renderFilters(categoriesPresent);
   renderSubcategoryFilters();
-
+ 
   const grid = document.getElementById('cardsGrid');
   const empty = document.getElementById('emptyState');
   if (!filtered.length){
@@ -361,15 +397,15 @@ function renderAll(){
   }
   empty.classList.add('hidden');
   grid.innerHTML = filtered.map(partCard).join('');
-
+ 
   // Click anywhere on a card (outside links/details) opens the history modal.
   grid.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', () => openModal(card.dataset.partKey));
   });
 }
-
+ 
 /* ---------- Price history modal ---------- */
-
+ 
 function renderRangeButtons(){
   const wrap = document.getElementById('rangeButtons');
   wrap.innerHTML = '';
@@ -384,45 +420,46 @@ function renderRangeButtons(){
     wrap.appendChild(btn);
   });
 }
-
+ 
 let currentModalPartKey = null;
-
+ 
 function openModal(partKey){
   const part = ALL_PARTS.find(p => p.part_key === partKey);
   if (!part) return;
   currentModalPartKey = partKey;
-
+ 
   document.getElementById('modalCategory').textContent = part.category;
+  document.getElementById('modalTier').innerHTML = tierBadge(part.part_key, part.category);
   document.getElementById('modalTitle').textContent = part.part_key;
   document.getElementById('modalPrice').textContent =
     formatPrice(part.best_price) + ' · ' + part.best_retailer;
-
+ 
   renderRangeButtons();
   renderChartForCurrentPart();
-
+ 
   document.getElementById('modalOverlay').classList.add('open');
 }
-
+ 
 function closeModal(){
   document.getElementById('modalOverlay').classList.remove('open');
   if (chartInstance){ chartInstance.destroy(); chartInstance = null; }
   currentModalPartKey = null;
 }
-
+ 
 function renderChartForCurrentPart(){
   renderRangeButtons(); // refresh active state
   const canvas = document.getElementById('historyChart');
   const noHistoryMsg = document.getElementById('noHistoryMsg');
-
+ 
   const series = (HISTORY[currentModalPartKey] && HISTORY[currentModalPartKey]['best']) || [];
   const rangeDays = RANGES.find(r => r.label === activeRange).days;
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - rangeDays);
-
+ 
   const points = series.filter(pt => new Date(pt.date) >= cutoff);
-
+ 
   if (chartInstance){ chartInstance.destroy(); chartInstance = null; }
-
+ 
   if (points.length < 2){
     canvas.classList.add('hidden');
     noHistoryMsg.classList.remove('hidden');
@@ -430,13 +467,13 @@ function renderChartForCurrentPart(){
   }
   canvas.classList.remove('hidden');
   noHistoryMsg.classList.add('hidden');
-
+ 
   const labels = points.map(pt => {
     const d = new Date(pt.date);
     return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
   });
   const prices = points.map(pt => pt.price);
-
+ 
   const ctx = canvas.getContext('2d');
   chartInstance = new Chart(ctx, {
     type: 'line',
@@ -482,7 +519,7 @@ function renderChartForCurrentPart(){
     }
   });
 }
-
+ 
 document.getElementById('modalClose').addEventListener('click', closeModal);
 document.getElementById('modalOverlay').addEventListener('click', (e) => {
   if (e.target.id === 'modalOverlay') closeModal();
@@ -490,26 +527,24 @@ document.getElementById('modalOverlay').addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeModal();
 });
-
+ 
 async function init(){
   try{
-    const [dataRes, historyRes] = await Promise.all([
+    const [dataRes, historyRes, tiersRes] = await Promise.all([
       fetch(DATA_URL, { cache: 'no-store' }),
       fetch(HISTORY_URL, { cache: 'no-store' }).catch(() => null),
+      fetch(TIERS_URL, { cache: 'no-store' }).catch(() => null),
     ]);
     const data = await dataRes.json();
     ALL_PARTS = data.parts || [];
-
-    if (historyRes && historyRes.ok){
-      HISTORY = await historyRes.json();
-    } else {
-      HISTORY = {};
-    }
-
+ 
+    HISTORY = (historyRes && historyRes.ok) ? await historyRes.json() : {};
+    TIERS = (tiersRes && tiersRes.ok) ? await tiersRes.json() : {};
+ 
     const updated = new Date(data.generated_at);
     document.getElementById('lastUpdated').textContent =
       'last updated ' + updated.toLocaleString('en-AU', { dateStyle: 'medium', timeStyle: 'short' });
-
+ 
     document.getElementById('loadingState').classList.add('hidden');
     document.getElementById('searchInput').addEventListener('input', renderAll);
     renderAll();
@@ -518,8 +553,9 @@ async function init(){
       'Could not load prices.json — has the scraper run yet? (' + err.message + ')';
   }
 }
-
+ 
 init();
 </script>
 </body>
 </html>
+ 
