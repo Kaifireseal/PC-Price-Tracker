@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T22:05:04.367300+00:00",
+  "generated_at": "2026-08-12T07:39:18.523146+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -251,6 +251,14 @@
           "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
           "stock_status": "unknown",
           "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 249.0,
+          "url": "https://www.msy.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
+          "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -287,20 +295,20 @@
       "part_key": "Intel Core i7-14700K",
       "category": "CPU",
       "subcategory": "LGA1700",
-      "best_price": 599.0,
+      "best_price": 579.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
-      "best_title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)",
+      "best_url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
+      "best_title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 73062,
+      "best_stock_qty": 73063,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 599.0,
-          "url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
-          "title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)",
+          "price": 579.0,
+          "url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
+          "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
           "stock_status": "in_stock",
-          "stock_qty": 73062
+          "stock_qty": 73063
         }
       ]
     },
@@ -343,27 +351,6 @@
           "title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)",
           "stock_status": "in_stock",
           "stock_qty": 79656
-        }
-      ]
-    },
-    {
-      "part_key": "Intel Core Ultra 7 265K",
-      "category": "CPU",
-      "subcategory": "LGA1851",
-      "best_price": 469.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
-      "best_title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 79655,
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 469.0,
-          "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
-          "title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)",
-          "stock_status": "in_stock",
-          "stock_qty": 79655
         }
       ]
     },
@@ -725,27 +712,6 @@
       ]
     },
     {
-      "part_key": "MSI MAG B650 Tomahawk WiFi",
-      "category": "Motherboard",
-      "subcategory": "AM5",
-      "best_price": 278.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-      "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 278.0,
-          "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-          "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-          "stock_status": "in_stock",
-          "stock_qty": null
-        }
-      ]
-    },
-    {
       "part_key": "Asus Prime Z790-P WiFi CSM",
       "category": "Motherboard",
       "subcategory": "LGA1700",
@@ -1043,20 +1009,20 @@
       "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
       "category": "SSD",
       "subcategory": "4TB",
-      "best_price": 1299.0,
+      "best_price": 1199.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
       "best_title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 73118,
+      "best_stock_qty": null,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1299.0,
+          "price": 1199.0,
           "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
           "title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
           "stock_status": "in_stock",
-          "stock_qty": 73118
+          "stock_qty": null
         }
       ]
     },
@@ -1630,11 +1596,11 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
+      "price": 249.0,
+      "url": "https://www.msy.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -1739,12 +1705,12 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)",
-      "price": 599.0,
-      "url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
+      "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
+      "price": 579.0,
+      "url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 73062
+      "stock_qty": 73063
     },
     {
       "part_key": "Intel Core i9-14900K",
@@ -1823,12 +1789,12 @@
       "category": "CPU",
       "subcategory": "LGA1851",
       "retailer": "MSY",
-      "title": "Intel Core Ultra 7 20 Core LGA 1851 265KF 5.50GHz CPU Processor (BX80768265KF)",
-      "price": 469.0,
-      "url": "https://www.msy.com.au/product/intel-core-ultra-7-20-core-lga-1851-265kf-5-50ghz-cpu-processor-bx80768265kf-79655",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 79655
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Intel Core Ultra 9 285K",
@@ -3368,11 +3334,11 @@
       "subcategory": "4TB",
       "retailer": "MSY",
       "title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
-      "price": 1299.0,
+      "price": 1199.0,
       "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 73118
+      "stock_qty": null
     },
     {
       "part_key": "Gigabyte B550M K",
@@ -3451,11 +3417,11 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "price": 278.0,
-      "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-      "status": "OK",
-      "stock_status": "in_stock",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
