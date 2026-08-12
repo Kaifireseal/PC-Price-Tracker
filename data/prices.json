@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T12:00:26.408175+00:00",
+  "generated_at": "2026-08-12T21:03:06.293826+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -367,10 +367,10 @@
         },
         {
           "retailer": "Umart",
-          "price": 1849.0,
-          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
-          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
-          "stock_status": "in_stock",
+          "price": 1999.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675",
+          "stock_status": "out_of_stock",
           "stock_qty": null
         }
       ]
@@ -778,7 +778,7 @@
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 229.0,
+      "best_price": 299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "best_title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
@@ -787,7 +787,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 229.0,
+          "price": 299.0,
           "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
           "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
           "stock_status": "in_stock",
@@ -1824,11 +1824,11 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "Umart",
-      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
-      "price": 1849.0,
-      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675",
+      "price": 1999.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
       "status": "OK",
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "stock_qty": null
     },
     {
@@ -3670,7 +3670,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
-      "price": 229.0,
+      "price": 299.0,
       "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "status": "OK",
       "stock_status": "in_stock",
