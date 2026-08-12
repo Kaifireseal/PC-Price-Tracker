@@ -95,16 +95,28 @@
     "tier": "S",
     "note": "Flagship, best consumer GPU available"
   },
-  "AMD RX 9060 XT 16GB": {
+  "AMD Radeon RX 9060 XT": {
     "tier": "B",
     "note": "Good value 1080p/1440p, benefits from 16GB VRAM"
   },
-  "AMD RX 9070": {
+  "AMD Radeon RX 9070": {
     "tier": "A",
     "note": "Strong 1440p AMD option, close to 5070-class"
   },
-  "AMD RX 9070 XT": {
+  "AMD Radeon RX 9070 XT": {
     "tier": "A+",
-    "note": "AMD's best - competes with 5070 Ti at a better price - NOTE: duplicate this line 3 more times with your other 9070 XT AIB part_key names"
+    "note": "AMD's best - competes with 5070 Ti at a better price"
+  },
+  "Asus Prime RX 9070 XT": {
+    "tier": "A+",
+    "note": "Same GPU as RX 9070 XT, Asus Prime cooler"
+  },
+  "Gigabyte Gaming RX 9070": {
+    "tier": "A",
+    "note": "Same GPU as RX 9070, Gigabyte Gaming cooler"
+  },
+  "Sapphire Pulse RX 9070 XT": {
+    "tier": "A+",
+    "note": "Same GPU as RX 9070 XT, Sapphire Pulse cooler"
   }
 }
