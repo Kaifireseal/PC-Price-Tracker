@@ -33,9 +33,11 @@ jobs:
         working-directory: scraper
         run: playwright install --with-deps chromium
 
-      - name: Run the scraper
+- name: Run the scraper
         working-directory: scraper
         run: python main.py
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Commit updated price data
         run: |
