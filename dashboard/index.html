@@ -141,6 +141,65 @@ Index · HTML
   .tier-B{  color: #6fb8a8; border-color: #6fb8a8; background: rgba(111,184,168,0.1); }
   .tier-C{  color: var(--amber); border-color: var(--amber); background: rgba(232,192,92,0.1); }
   .tier-D{  color: var(--text-dim); border-color: var(--panel-border); background: rgba(136,145,163,0.08); }
+ 
+  #highlightsOverlay{
+    position: fixed; inset: 0; z-index: 50;
+    background: var(--bg);
+    display: none;
+    flex-direction: column;
+  }
+  #highlightsOverlay.open{ display: flex; }
+  #highlightsPanel{
+    width: 100%; height: 100%;
+    display: flex; flex-direction: column;
+    padding: 1.25rem 1.5rem;
+    box-sizing: border-box;
+  }
+  .highlight-quadrant{
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    display: flex; flex-direction: column;
+    min-height: 0;
+    overflow-y: auto;
+  }
+  .highlight-section h4{
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: .01em;
+    color: var(--text-main);
+    margin-bottom: .6rem;
+  }
+  .highlight-row{
+    display: flex; align-items: center; justify-content: space-between;
+    gap: .5rem;
+    padding: .6rem .1rem;
+    border-bottom: 1px solid var(--panel-border);
+  }
+  .highlight-row:last-child{ border-bottom: none; }
+  .highlight-rank{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: .78rem;
+    color: var(--text-dim);
+    width: 1.3rem;
+    flex-shrink: 0;
+  }
+  .highlight-buy{
+    font-size: .65rem;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    border: 1px solid var(--panel-border);
+    color: var(--text-dim);
+    padding: 3px 8px;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .highlight-buy:hover{
+    border-color: var(--copper);
+    color: var(--copper-bright);
+  }
 </style>
 </head>
 <body class="pb-24">
@@ -162,6 +221,10 @@ Index · HTML
           class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
                  focus:outline-none focus:border-[var(--copper)] placeholder:text-[var(--text-dim)]" />
       </div>
+      <button id="highlightsBtn"
+        class="pill px-3 py-2 rounded-md shrink-0 flex items-center gap-1.5">
+        🏆 <span>Highlights</span>
+      </button>
     </div>
     <div class="trace"></div>
   </header>
@@ -190,6 +253,21 @@ Index · HTML
     detected from phrases on the retailer's page, not a live inventory feed — so always confirm
     stock and final price on the retailer's own page before purchasing.
   </footer>
+ 
+  <!-- Highlights overlay -->
+  <div id="highlightsOverlay">
+    <div id="highlightsPanel">
+      <div class="flex items-start justify-between gap-3 mb-4 shrink-0">
+        <div>
+          <h2 class="text-2xl font-bold leading-tight">🏆 Highlights</h2>
+          <p class="text-xs text-[var(--text-dim)] mono mt-1">updated with today's data</p>
+        </div>
+        <button id="highlightsClose" class="pill px-3 py-2 rounded shrink-0">Close ✕</button>
+      </div>
+ 
+      <div id="highlightsContent" class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-4 flex-1 min-h-0"></div>
+    </div>
+  </div>
  
   <!-- Price history modal -->
   <div id="modalOverlay">
@@ -227,6 +305,12 @@ const TIERS_URL = '../data/tiers.json';
 let ALL_PARTS = [];
 let HISTORY = {};
 let TIERS = {};
+ 
+const TIER_ORDER = ['S', 'A+', 'A', 'B+', 'B', 'C', 'D'];
+function tierRank(tier){
+  const i = TIER_ORDER.indexOf(tier);
+  return i === -1 ? -1 : (TIER_ORDER.length - i); // higher number = better tier
+}
  
 // Tiers only apply to CPU/GPU parts for now. CSS classes can't contain "+",
 // so "A+" maps to .tier-Aplus etc.
@@ -525,7 +609,116 @@ document.getElementById('modalOverlay').addEventListener('click', (e) => {
   if (e.target.id === 'modalOverlay') closeModal();
 });
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape'){ closeModal(); closeHighlights(); }
+});
+ 
+/* ---------- Highlights overlay ---------- */
+ 
+function highlightRow(rank, label, valueHtml, buyUrl){
+  return `
+    <div class="highlight-row">
+      <span class="highlight-rank">#${rank}</span>
+      <span class="flex-1 min-w-0 text-sm truncate">${label}</span>
+      ${valueHtml}
+      <a href="${buyUrl}" target="_blank" rel="noopener" class="highlight-buy" onclick="event.stopPropagation()">Buy →</a>
+    </div>`;
+}
+ 
+function bestByCategory(category){
+  return ALL_PARTS
+    .filter(p => p.category === category && TIERS[p.part_key] && TIERS[p.part_key].tier)
+    .map(p => ({ part: p, tier: TIERS[p.part_key].tier, rank: tierRank(TIERS[p.part_key].tier) }))
+    .filter(x => x.rank !== -1)
+    .sort((a, b) => b.rank - a.rank || a.part.best_price - b.part.best_price)
+    .slice(0, 5);
+}
+ 
+function biggestDailyDiscounts(){
+  const results = [];
+  ALL_PARTS.forEach(p => {
+    const series = (HISTORY[p.part_key] && HISTORY[p.part_key]['best']) || [];
+    if (series.length < 2) return;
+    const today = series[series.length - 1].price;
+    const yesterday = series[series.length - 2].price;
+    if (yesterday > today){
+      const pct = ((yesterday - today) / yesterday) * 100;
+      results.push({ part: p, today, yesterday, pct, drop: yesterday - today });
+    }
+  });
+  return results.sort((a, b) => b.pct - a.pct).slice(0, 5);
+}
+ 
+function bestValueTopTier(){
+  return ALL_PARTS
+    .filter(p => {
+      const t = TIERS[p.part_key];
+      return t && (t.tier === 'S' || t.tier === 'A+');
+    })
+    .map(p => ({ part: p, tier: TIERS[p.part_key].tier }))
+    .sort((a, b) => a.part.best_price - b.part.best_price)
+    .slice(0, 5);
+}
+ 
+function renderHighlights(){
+  const content = document.getElementById('highlightsContent');
+ 
+  const bestCpus = bestByCategory('CPU');
+  const bestGpus = bestByCategory('GPU');
+  const discounts = biggestDailyDiscounts();
+  const bestValue = bestValueTopTier();
+ 
+  const section = (title, rowsHtml, emptyMsg) => `
+    <div class="highlight-section highlight-quadrant">
+      <h4 class="mono">${title}</h4>
+      <div class="flex-1 min-h-0">
+        ${rowsHtml.length ? rowsHtml.join('') : `<p class="text-xs text-[var(--text-dim)] mono py-3">${emptyMsg}</p>`}
+      </div>
+    </div>`;
+ 
+  content.innerHTML =
+    section('Top 5 CPUs',
+      bestCpus.map((x, i) => highlightRow(i + 1, x.part.part_key,
+        `<span class="tier-badge ${tierClass(x.tier)}">${x.tier}</span>`, x.part.best_url)),
+      'no CPU tiers rated yet') +
+    section('Top 5 GPUs',
+      bestGpus.map((x, i) => highlightRow(i + 1, x.part.part_key,
+        `<span class="tier-badge ${tierClass(x.tier)}">${x.tier}</span>`, x.part.best_url)),
+      'no GPU tiers rated yet') +
+    section("Today's Biggest Discounts",
+      discounts.map((x, i) => highlightRow(i + 1, x.part.part_key,
+        `<span class="mono text-xs best-price font-semibold">-${x.pct.toFixed(0)}%</span>`, x.part.best_url)),
+      'no price drops recorded since yesterday') +
+    section('Best Value (S / A+ tier)',
+      bestValue.map((x, i) => highlightRow(i + 1, x.part.part_key,
+        `<span class="mono text-xs">${formatPrice(x.part.best_price)}</span>`, x.part.best_url)),
+      'no S/A+ tier parts rated yet');
+ 
+  // Clicking a row's main area (not the Buy link) opens that part's price-history modal.
+  content.querySelectorAll('.highlight-row').forEach((row, idx) => {
+    const allRows = [...bestCpus, ...bestGpus, ...discounts, ...bestValue];
+    const target = allRows[idx];
+    if (target){
+      row.style.cursor = 'pointer';
+      row.addEventListener('click', () => {
+        closeHighlights();
+        openModal(target.part.part_key);
+      });
+    }
+  });
+}
+ 
+function openHighlights(){
+  renderHighlights();
+  document.getElementById('highlightsOverlay').classList.add('open');
+}
+function closeHighlights(){
+  document.getElementById('highlightsOverlay').classList.remove('open');
+}
+ 
+document.getElementById('highlightsBtn').addEventListener('click', openHighlights);
+document.getElementById('highlightsClose').addEventListener('click', closeHighlights);
+document.getElementById('highlightsOverlay').addEventListener('click', (e) => {
+  if (e.target.id === 'highlightsOverlay') closeHighlights();
 });
  
 async function init(){
