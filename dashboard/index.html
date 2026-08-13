@@ -157,33 +157,38 @@
     position: fixed;
     left: 0; right: 0; bottom: 0;
     z-index: 40;
-    background: rgba(18,21,28,0.92);
+    background: rgba(18,21,28,0.95);
     backdrop-filter: blur(6px);
     border-top: 1px solid var(--panel-border);
-    padding: .75rem 1rem calc(.75rem + env(safe-area-inset-bottom, 0px));
+    padding: .5rem 1rem calc(.5rem + env(safe-area-inset-bottom, 0px));
   }
   .bottom-nav-inner{
-    max-width: 1100px;
+    max-width: 500px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: .5rem;
   }
-  .bottom-nav-btn{
-    width: 100%;
-    max-width: 420px;
-    background: linear-gradient(180deg, #2a3245, #191f2c);
-    border: 1px solid var(--copper);
-    border-radius: 12px;
-    padding: 1rem 1.5rem;
-    display: flex; align-items: center; justify-content: center; gap: .7rem;
-    font-weight: 700;
-    font-size: 1.05rem;
-    color: var(--copper-bright);
+  .tab-btn{
+    display: flex; flex-direction: column; align-items: center; gap: .25rem;
+    flex: 1;
+    padding: .5rem .75rem;
+    border-radius: 14px;
     cursor: pointer;
-    transition: background .15s ease;
+    color: var(--text-dim);
+    transition: background .15s ease, color .15s ease;
   }
-  .bottom-nav-btn:hover{ background: linear-gradient(180deg, #333c53, #1e2432); }
-  .bottom-nav-btn .nav-icon{ font-size: 1.35rem; }
+  .tab-btn .tab-icon{ font-size: 1.4rem; line-height: 1; }
+  .tab-btn .tab-label{
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .01em;
+  }
+  .tab-btn.active{
+    color: var(--copper-bright);
+    background: rgba(201,121,61,0.14);
+  }
   .highlight-quadrant{
     background: var(--panel);
     border: 1px solid var(--panel-border);
@@ -306,18 +311,18 @@
     </footer>
   </div>
 
-  <!-- Fixed bottom nav bar -->
+  <!-- Fixed bottom tab bar -->
   <nav id="bottomNav">
-    <div id="bottomNavHome" class="bottom-nav-inner">
-      <button id="goToPartsBtn" class="bottom-nav-btn">
-        <span class="nav-icon">🖥️</span> PC Parts
+    <div class="bottom-nav-inner">
+      <button id="tabHomeBtn" class="tab-btn">
+        <span class="tab-icon">🏠</span>
+        <span class="tab-label">Home</span>
       </button>
-      <!-- Add more bottom-nav-btn buttons here later for future sections -->
-    </div>
-    <div id="bottomNavParts" class="bottom-nav-inner hidden">
-      <button id="backToHomeBtn" class="bottom-nav-btn">
-        <span class="nav-icon">🏠</span> Home
+      <button id="tabPartsBtn" class="tab-btn">
+        <span class="tab-icon">🖥️</span>
+        <span class="tab-label">PC Parts</span>
       </button>
+      <!-- Add more tab-btn buttons here later for future sections -->
     </div>
   </nav>
 
@@ -777,19 +782,20 @@ function renderHighlights(){
 function showHome(){
   document.getElementById('homeScreen').classList.remove('hidden');
   document.getElementById('partsScreen').classList.add('hidden');
-  document.getElementById('bottomNavHome').classList.remove('hidden');
-  document.getElementById('bottomNavParts').classList.add('hidden');
+  document.getElementById('tabHomeBtn').classList.add('active');
+  document.getElementById('tabPartsBtn').classList.remove('active');
   renderHighlights();
 }
 function showParts(){
   document.getElementById('homeScreen').classList.add('hidden');
   document.getElementById('partsScreen').classList.remove('hidden');
-  document.getElementById('bottomNavHome').classList.add('hidden');
-  document.getElementById('bottomNavParts').classList.remove('hidden');
+  document.getElementById('tabHomeBtn').classList.remove('active');
+  document.getElementById('tabPartsBtn').classList.add('active');
 }
 
-document.getElementById('goToPartsBtn').addEventListener('click', showParts);
-document.getElementById('backToHomeBtn').addEventListener('click', showHome);
+document.getElementById('tabHomeBtn').addEventListener('click', showHome);
+document.getElementById('tabPartsBtn').addEventListener('click', showParts);
+
 document.getElementById('logoHomeBtn').addEventListener('click', showHome);
 
 async function init(){
@@ -812,7 +818,7 @@ async function init(){
     document.getElementById('loadingState').classList.add('hidden');
     document.getElementById('searchInput').addEventListener('input', renderAll);
     renderAll();
-    renderHighlights();
+    showHome();
   } catch (err){
     document.getElementById('loadingState').textContent =
       'Could not load prices.json — has the scraper run yet? (' + err.message + ')';
