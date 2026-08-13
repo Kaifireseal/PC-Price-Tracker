@@ -202,6 +202,19 @@
     flex-shrink: 0;
     min-width: 0;
   }
+  .category-tile{
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    padding: 1.1rem .75rem;
+    display: flex; flex-direction: column; align-items: center; gap: .4rem;
+    cursor: pointer;
+    transition: border-color .15s ease, background .15s ease;
+  }
+  .category-tile:hover{ border-color: var(--copper); background: rgba(201,121,61,0.06); }
+  .category-tile .cat-icon{ font-size: 1.6rem; }
+  .category-tile .cat-label{ font-weight: 600; font-size: .9rem; }
+
   .highlight-quadrant{
     background: var(--panel);
     border: 1px solid var(--panel-border);
@@ -292,38 +305,64 @@
     <div id="highlightsContent" class="grid grid-cols-1 md:grid-cols-2 gap-4 items-start"></div>
   </div>
 
-  <!-- Parts screen: search, filters, cards grid -->
+  <!-- Parts screen: category picker first, then search/filters/grid -->
   <div id="partsScreen" class="screen-panel">
-    <div class="max-w-6xl mx-auto px-5 pt-5 flex items-center gap-3 flex-wrap">
-      <div class="flex-1 min-w-[220px] max-w-sm">
-        <input id="searchInput" type="text" placeholder="Search a part, e.g. 7800X3D"
-          class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
+
+    <!-- Picker: shown first when entering Parts -->
+    <div id="partsPicker" class="max-w-2xl mx-auto px-5 pt-8">
+      <h2 class="text-2xl font-bold text-center mb-5">What are you looking for?</h2>
+
+      <div class="flex gap-2 mb-2">
+        <input id="pickerSearchInput" type="text" placeholder="Search a part, e.g. 7800X3D"
+          class="flex-1 bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2.5 text-sm
                  focus:outline-none focus:border-[var(--copper)] placeholder:text-[var(--text-dim)]" />
       </div>
-    </div>
+      <button id="pickerSearchBtn" class="bottom-nav-btn w-full mb-6" style="max-width:none;">
+        🔍 Search
+      </button>
 
-    <div class="max-w-6xl mx-auto px-5 pt-5 flex flex-wrap gap-2" id="categoryFilters">
-      <!-- populated by JS -->
-    </div>
-    <div class="max-w-6xl mx-auto px-5 pt-2 flex flex-wrap gap-1.5 hidden" id="subcategoryFilters">
-      <!-- populated by JS, shown once a specific category is selected -->
-    </div>
-
-    <main class="max-w-6xl mx-auto px-5 pt-5">
-      <div id="emptyState" class="hidden text-center py-24 text-[var(--text-dim)]">
-        <p class="mono text-sm">// no matching parts found</p>
+      <p class="text-xs text-[var(--text-dim)] mono mb-3 text-center">or browse by category</p>
+      <div id="categoryPicker" class="grid grid-cols-2 gap-3">
+        <!-- populated by JS -->
       </div>
-      <div id="loadingState" class="text-center py-24 text-[var(--text-dim)] mono text-sm">
-        Fetching latest prices…
-      </div>
-      <div id="cardsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
-    </main>
+    </div>
 
-    <footer class="max-w-6xl mx-auto px-5 mt-10 pb-32 text-xs text-[var(--text-dim)] mono">
-      Prices refresh every 24 hours via an automated scraper. Stock status is best-effort —
-      detected from phrases on the retailer's page, not a live inventory feed — so always confirm
-      stock and final price on the retailer's own page before purchasing.
-    </footer>
+    <!-- Results: shown after searching or picking a category -->
+    <div id="partsResults" class="hidden">
+      <div class="max-w-6xl mx-auto px-5 pt-5 flex items-center gap-3 flex-wrap">
+        <button id="backToPickerBtn" class="pill px-3 py-2 rounded-md shrink-0 flex items-center gap-1.5">
+          ← <span>New search</span>
+        </button>
+        <div class="flex-1 min-w-[220px] max-w-sm">
+          <input id="searchInput" type="text" placeholder="Search a part, e.g. 7800X3D"
+            class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
+                   focus:outline-none focus:border-[var(--copper)] placeholder:text-[var(--text-dim)]" />
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto px-5 pt-5 flex flex-wrap gap-2" id="categoryFilters">
+        <!-- populated by JS -->
+      </div>
+      <div class="max-w-6xl mx-auto px-5 pt-2 flex flex-wrap gap-1.5 hidden" id="subcategoryFilters">
+        <!-- populated by JS, shown once a specific category is selected -->
+      </div>
+
+      <main class="max-w-6xl mx-auto px-5 pt-5">
+        <div id="emptyState" class="hidden text-center py-24 text-[var(--text-dim)]">
+          <p class="mono text-sm">// no matching parts found</p>
+        </div>
+        <div id="loadingState" class="text-center py-24 text-[var(--text-dim)] mono text-sm">
+          Fetching latest prices…
+        </div>
+        <div id="cardsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+      </main>
+
+      <footer class="max-w-6xl mx-auto px-5 mt-10 pb-32 text-xs text-[var(--text-dim)] mono">
+        Prices refresh every 24 hours via an automated scraper. Stock status is best-effort —
+        detected from phrases on the retailer's page, not a live inventory feed — so always confirm
+        stock and final price on the retailer's own page before purchasing.
+      </footer>
+    </div>
   </div>
 
   </div>
@@ -405,6 +444,9 @@ let activeRange = '1M';
 let chartInstance = null;
 
 const categoryOrder = ['All', 'CPU', 'GPU', 'RAM', 'SSD', 'Motherboard', 'Monitor'];
+const CATEGORY_ICONS = {
+  CPU: '⚙️', GPU: '🖼️', RAM: '💾', SSD: '💽', Motherboard: '🔌', Monitor: '🖥️'
+};
 const RANGES = [
   { label: '1W', days: 7 },
   { label: '1M', days: 30 },
@@ -446,6 +488,40 @@ function isLowestEver(part){
 function lowestEverBadge(part){
   if (!isLowestEver(part)) return '';
   return `<span class="lowest-ever-badge" title="Lowest price recorded since tracking began">🔥 Lowest ever</span>`;
+}
+
+function renderCategoryPicker(){
+  const wrap = document.getElementById('categoryPicker');
+  const categoriesPresent = new Set(ALL_PARTS.map(p => p.category));
+  wrap.innerHTML = '';
+  categoryOrder
+    .filter(c => c !== 'All' && categoriesPresent.has(c))
+    .forEach(cat => {
+      const tile = document.createElement('div');
+      tile.className = 'category-tile';
+      tile.innerHTML = `
+        <span class="cat-icon">${CATEGORY_ICONS[cat] || '🔧'}</span>
+        <span class="cat-label">${cat}</span>`;
+      tile.addEventListener('click', () => {
+        activeCategory = cat;
+        activeSubcategory = 'All';
+        document.getElementById('searchInput').value = '';
+        showPartsResults();
+      });
+      wrap.appendChild(tile);
+    });
+}
+
+function showPartsPicker(){
+  document.getElementById('partsPicker').classList.remove('hidden');
+  document.getElementById('partsResults').classList.add('hidden');
+  document.getElementById('pickerSearchInput').value = '';
+}
+
+function showPartsResults(){
+  document.getElementById('partsPicker').classList.add('hidden');
+  document.getElementById('partsResults').classList.remove('hidden');
+  renderAll();
 }
 
 function renderFilters(categoriesPresent){
@@ -807,10 +883,31 @@ function showParts(){
   document.getElementById('screensWrapper').style.transform = 'translateX(-50%)';
   document.getElementById('tabHomeBtn').classList.remove('active');
   document.getElementById('tabPartsBtn').classList.add('active');
+  activeCategory = 'All';
+  activeSubcategory = 'All';
+  showPartsPicker();
 }
 
 document.getElementById('tabHomeBtn').addEventListener('click', showHome);
 document.getElementById('tabPartsBtn').addEventListener('click', showParts);
+
+document.getElementById('backToPickerBtn').addEventListener('click', () => {
+  activeCategory = 'All';
+  activeSubcategory = 'All';
+  document.getElementById('searchInput').value = '';
+  showPartsPicker();
+});
+
+function runPickerSearch(){
+  const query = document.getElementById('pickerSearchInput').value.trim();
+  if (!query) return;
+  document.getElementById('searchInput').value = query;
+  showPartsResults();
+}
+document.getElementById('pickerSearchBtn').addEventListener('click', runPickerSearch);
+document.getElementById('pickerSearchInput').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') runPickerSearch();
+});
 
 document.getElementById('logoHomeBtn').addEventListener('click', showHome);
 
@@ -834,6 +931,7 @@ async function init(){
     document.getElementById('loadingState').classList.add('hidden');
     document.getElementById('searchInput').addEventListener('input', renderAll);
     renderAll();
+    renderCategoryPicker();
     showHome();
   } catch (err){
     document.getElementById('loadingState').textContent =
