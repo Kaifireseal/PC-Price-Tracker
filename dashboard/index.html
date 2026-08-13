@@ -478,11 +478,16 @@ function stockBadge(status){
 
 // Checks today's best price against every recorded price in history.
 // If nothing on record beats it, this is an all-time low.
+// Requires at least one PRIOR day of history (not counting today) before
+// declaring a "lowest ever" — otherwise every part trivially qualifies on
+// day one, since today's price is the only thing on record.
 function isLowestEver(part){
   const series = (HISTORY[part.part_key] && HISTORY[part.part_key]['best']) || [];
-  if (!series.length) return false;
-  const lowestRecorded = Math.min(...series.map(pt => pt.price));
-  return part.best_price <= lowestRecorded;
+  const today = new Date().toISOString().slice(0, 10);
+  const priorEntries = series.filter(pt => pt.date !== today);
+  if (priorEntries.length === 0) return false;
+  const priorLowest = Math.min(...priorEntries.map(pt => pt.price));
+  return part.best_price <= priorLowest;
 }
 
 function lowestEverBadge(part){
