@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:01:52.646657+00:00",
+  "generated_at": "2026-08-13T21:01:29.698782+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -778,7 +778,7 @@
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 229.0,
+      "best_price": 299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "best_title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
@@ -787,7 +787,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 229.0,
+          "price": 299.0,
           "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
           "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
           "stock_status": "in_stock",
@@ -846,7 +846,7 @@
       "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "best_title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81989,
+      "best_stock_qty": null,
       "offers": [
         {
           "retailer": "MSY",
@@ -854,7 +854,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 81989
+          "stock_qty": null
         }
       ]
     },
@@ -3670,7 +3670,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
-      "price": 229.0,
+      "price": 299.0,
       "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3842,7 +3842,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81989
+      "stock_qty": null
     },
     {
       "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
