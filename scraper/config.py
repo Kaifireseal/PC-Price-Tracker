@@ -129,8 +129,10 @@ CATEGORY_URLS = {
 TRACKED_PARTS = [
     # ============================== CPU ==============================
     # --- AM4 ---
-    {"part_key": "AMD Ryzen 5 3600", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
-     "retailers": {"Umart": "ryzen 5 3600", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
+    {"part_key": "AMD Ryzen 5 5500GT", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
+     "retailers": {"Umart": "ryzen 5 5500gt", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
+    {"part_key": "AMD Ryzen 5 5600GT", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
+     "retailers": {"Umart": "ryzen 5 5600gt", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 5 5500", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
      "retailers": {"Umart": "ryzen 5 5500", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 5 5600", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
@@ -141,12 +143,8 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "5700x", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 7 5800X3D", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
      "retailers": {"Scorptec": "5800x3d", "Umart": "5800x3d", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
-    {"part_key": "AMD Ryzen 9 5900X", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
-     "retailers": {"Umart": "ryzen 9 5900x", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
 
     # --- AM5 ---
-    {"part_key": "AMD Ryzen 5 8400F", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
-     "retailers": {"Umart": "ryzen 5 8400f", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 5 7500F", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 5 7500f", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
      {"part_key": "AMD Ryzen 5 7500X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
@@ -155,10 +153,12 @@ TRACKED_PARTS = [
      "retailers": {"Centre Com": "ryzen 5 7600", "Mwave": "ryzen 5 7600", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 5 7600X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Centre Com": "ryzen 5 7600x", "Mwave": "ryzen 5 7600x", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
+    {"part_key": "AMD Ryzen 5 9600", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 5 9600", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 5 9600X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 5 9600x", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
-    {"part_key": "AMD Ryzen 7 8700F", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
-     "retailers": {"Umart": "ryzen 7 8700f", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
+    {"part_key": "AMD Ryzen 5 9500F", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
+     "retailers": {"Umart": "ryzen 5 9500f", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 7 7700X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 7 7700x", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 7 7800X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
@@ -236,24 +236,10 @@ TRACKED_PARTS = [
     # --- RX 7000-series (with brand variants) ---
     {"part_key": "AMD Radeon RX 7600", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Umart": "rx 7600", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
-    {"part_key": "AMD Radeon RX 7700 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
-     "retailers": {"Centre Com": "rx 7700 xt", "Umart": "rx 7700 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
-    {"part_key": "AMD Radeon RX 7800 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
-     "retailers": {"Centre Com": "rx 7800 xt", "Umart": "7800 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
-    {"part_key": "Sapphire Pulse RX 7800 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
-     "retailers": {"Umart": "sapphire pulse rx 7800 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
-    {"part_key": "PowerColor Fighter RX 7800 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
-     "retailers": {"Umart": "powercolor fighter rx 7800 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
-    {"part_key": "AMD Radeon RX 7900 GRE", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
-     "retailers": {"Umart": "rx 7900 gre", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
-    {"part_key": "AMD Radeon RX 7900 XT", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
-     "retailers": {"Scorptec": "rx 7900 xt", "Umart": "rx 7900 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "AMD Radeon RX 7900 XTX", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Mwave": "rx 7900 xtx", "MSY": "gpu_rx_7900xtx", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "XFX Speedster RX 7900 XTX", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Umart": "xfx speedster rx 7900 xtx", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
-    {"part_key": "PowerColor Red Devil RX 7900 XTX", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
-     "retailers": {"Centre Com": "powercolor red devil rx 7900 xtx", "Umart": "powercolor red devil rx 7900 xtx", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
 
     # --- RX 9000-series (with brand variants) ---
     {"part_key": "AMD Radeon RX 9060 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
@@ -264,6 +250,8 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "gigabyte gaming rx 9070", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "AMD Radeon RX 9070 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
      "retailers": {"Scorptec": "rx 9070 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
+    {"part_key": "Gigabyte Radeon RX 9070 GRE", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
+     "retailers": {"Scorptec": "rx 9070 gre", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "Asus Prime RX 9070 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
      "retailers": {"Umart": "asus prime rx 9070 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "Sapphire Pulse RX 9070 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
@@ -271,12 +259,14 @@ TRACKED_PARTS = [
 
     # ============================== RAM ==============================
     # --- DDR4 16GB (2x8GB) ---
-    {"part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
-     "retailers": {"Umart": "vengeance lpx 16gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
+    {"part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
+     "retailers": {"Umart": "corsair lpx 16gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Kingston Fury Beast 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Umart": "fury beast 16gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Centre Com": "ripjaws v 16gb ddr4 3600", "Umart": "ripjaws v 16gb ddr4 3600", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
+    {"part_key": "Adata 16GB (2x8GB) DDR4 3200 XPG", "category": "RAM", "subcategory": "DDR4", "socket": None,
+     "retailers": {"Umart": "adata 16gb ddr4 3200 xpg", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
 
     # --- DDR4 32GB (2x16GB) ---
     {"part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600", "category": "RAM", "subcategory": "DDR4", "socket": None,
@@ -286,19 +276,11 @@ TRACKED_PARTS = [
     {"part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Umart": "fury beast 32gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
 
-    # --- DDR4 64GB (2x32GB) ---
-    {"part_key": "Kingston Fury Beast 64GB (2x32GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
-     "retailers": {"Umart": "fury beast 64gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
-    {"part_key": "Corsair Vengeance LPX 64GB (2x32GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
-     "retailers": {"Umart": "vengeance lpx 64gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
-    {"part_key": "G.Skill Ripjaws V 64GB (2x32GB) DDR4 3600", "category": "RAM", "subcategory": "DDR4", "socket": None,
-     "retailers": {"Centre Com": "ripjaws v 64gb ddr4 3600", "Umart": "ripjaws v 64gb ddr4 3600", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
-
     # --- DDR5 16GB (2x8GB) ---
-    {"part_key": "Corsair Vengeance 16GB (2x8GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
-     "retailers": {"Umart": "vengeance 16gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
-    {"part_key": "Kingston Fury Beast 16GB (2x8GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
-     "retailers": {"Umart": "fury beast 16gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
+    {"part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Umart": "corsair 16gb ddr5 5200", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
+    {"part_key": "Kingston 16GB (2x8GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Umart": "kingston 16gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "G.Skill Trident Z5 16GB (2x8GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Centre Com": "trident z5 16gb ddr5 6000", "Umart": "trident z5 16gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
 
@@ -307,22 +289,22 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "vengeance 32gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Kingston Fury Beast 32GB (2x16GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Umart": "fury beast 32gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
-    {"part_key": "G.Skill Trident Z5 32GB (2x16GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
-     "retailers": {"Centre Com": "trident z5 32gb ddr5 6000", "Scorptec": "trident z5 32gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
+    {"part_key": "Silicon Power XPOWER Zenith 32GB (2x16GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Centre Com": "silicon power xpower zenith 32gb ddr5 6000", "Scorptec": "silicon power xpower zenith 32gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
 
     # --- DDR5 64GB (2x32GB) ---
     {"part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
-     "retailers": {"Scorptec": "trident z5 64gb ddr5 6000", "Centre Com": "trident z5 64gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
+     "retailers": {"Scorptec": "g.skill 64gb ddr5 6000", "Centre Com": "trident z5 64gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Corsair Vengeance 64GB (2x32GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Umart": "vengeance 64gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Kingston Fury Beast 64GB (2x32GB) DDR5 5600", "category": "RAM", "subcategory": "DDR5", "socket": None,
-     "retailers": {"Umart": "fury beast 64gb ddr5 5600", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
+     "retailers": {"Umart": "kingston 64gb ddr5 5600", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
 
     # --- DDR5 96GB / 128GB (high-capacity) ---
-    {"part_key": "G.Skill Trident Z5 96GB (2x48GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
-     "retailers": {"Umart": "trident z5 96gb ddr5 6000", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
-    {"part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600", "category": "RAM", "subcategory": "DDR5", "socket": None,
-     "retailers": {"Mwave": "fury beast 128gb ddr5 5600", "Umart": "fury beast 128gb ddr5 5600", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
+    {"part_key": "TeamGroup Delta 96GB (2x48GB) DDR5 6800", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Umart": "teamgroup delta 96gb ddr5 6800", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
+    {"part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
+     "retailers": {"Mwave": "corsair 96gb ddr5 6000", "Umart": "fury beast 128gb ddr5 5600", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
 
     # ============================== SSD ==============================
     # Real listings use "500GB" as the label for this capacity tier, not
@@ -330,12 +312,20 @@ TRACKED_PARTS = [
     # product titles.
     {"part_key": "Kingston NV3 500GB NVMe SSD", "category": "SSD", "subcategory": "500GB", "socket": None,
      "retailers": {"Umart": "kingston nv3 500gb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
+    {"part_key": "SP Silicon Power UD90 500GB NVMe SSD", "category": "SSD", "subcategory": "500GB", "socket": None,
+     "retailers": {"Umart": "sp silicon power ud90 500gb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
     {"part_key": "Kingston NV3 1TB NVMe SSD", "category": "SSD", "subcategory": "1TB", "socket": None,
      "retailers": {"Umart": "kingston nv3 1tb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
+    {"part_key": "Samsung 990 Pro 1TB NVMe SSD", "category": "SSD", "subcategory": "1TB", "socket": None,
+     "retailers": {"Umart": "samsung 990 pro 1tb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
     {"part_key": "Kingston NV3 2TB NVMe SSD", "category": "SSD", "subcategory": "2TB", "socket": None,
      "retailers": {"Umart": "kingston nv3 2tb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
+    {"part_key": "Crucial P310 2TB NVMe SSD", "category": "SSD", "subcategory": "2TB", "socket": None,
+     "retailers": {"Umart": "crucial p310 2tb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
     {"part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD", "category": "SSD", "subcategory": "4TB", "socket": None,
      "retailers": {"Centre Com": "samsung 990 pro 4tb", "Umart": "samsung 990 pro 4tb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
+    {"part_key": "Crucial 4TB PCIe 4.0 NVMe SSD", "category": "SSD", "subcategory": "4TB", "socket": None,
+     "retailers": {"Centre Com": "crucial 4tb", "Umart": "crucial 4tb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
 
     # ========================== Motherboard ===========================
     {"part_key": "Gigabyte B550M K", "category": "Motherboard", "subcategory": "AM4", "socket": "AM4",
