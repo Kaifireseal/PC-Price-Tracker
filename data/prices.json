@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T20:48:41.134226+00:00",
+  "generated_at": "2026-08-15T04:23:25.027982+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -20,6 +20,43 @@
           "title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)",
           "stock_status": "in_stock",
           "stock_qty": 62861
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 134.0,
+          "url": "https://www.ple.com.au/products/651835/amd-ryzen-5-5500-6-core-12-thread-up-to-42ghz-am4-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 5500 6 Core 12 Thread Up To 4.2Ghz AM4 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 5 5500GT",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "best_price": 178.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+      "best_title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 75737,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 178.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+          "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+          "stock_status": "in_stock",
+          "stock_qty": 75737
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 184.0,
+          "url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -41,6 +78,35 @@
           "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
           "stock_status": "in_stock",
           "stock_qty": 62808
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 169.0,
+          "url": "https://www.ple.com.au/products/651834/amd-ryzen-5-5600-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 5600 6 Core 12 Thread Up To 4.4Ghz AM4 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 5 5600GT",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "best_price": 209.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
+      "best_title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 209.0,
+          "url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -62,6 +128,14 @@
           "title": "AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor (100-100000065BOX)",
           "stock_status": "in_stock",
           "stock_qty": 57284
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 222.0,
+          "url": "https://www.ple.com.au/products/643561/amd-ryzen-5-5600x-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 5600X 6 Core 12 Thread Up To 4.6Ghz AM4 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -83,6 +157,14 @@
           "title": "AMD Ryzen 7 5700X 8 Core AM4 4.6GHz CPU Processor (100-100000926WOF)",
           "stock_status": "in_stock",
           "stock_qty": 62627
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 299.0,
+          "url": "https://www.ple.com.au/products/651833/amd-ryzen-7-5700x-8-core-16-thread-up-to-46ghz-am4-no-hsf-retail-box",
+          "title": "AMD Ryzen 7 5700X 8 Core 16 Thread Up To 4.6Ghz AM4 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -104,6 +186,56 @@
           "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
           "stock_status": "in_stock",
           "stock_qty": 94714
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 549.0,
+          "url": "https://www.ple.com.au/products/685083/amd-ryzen-7-5800x3d-8-core-16-thread-up-to-45ghz-am4-no-hsf-retail-box-10th-anniversary-edition",
+          "title": "AMD Ryzen 7 5800X3D 8 Core 16 Thread Up to 4.5GHz AM4 - No HSF Retail Box - 10th Anniversary Edition",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 5 7500F",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "best_price": 239.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/685103/amd-ryzen-5-7500f-6-core-12-thread-up-to-50ghz-am5-with-wraith-stealth-cooler",
+      "best_title": "AMD Ryzen 5 7500F 6 Core 12 Thread Up To 5.0GHz AM5 - With Wraith Stealth Cooler",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 239.0,
+          "url": "https://www.ple.com.au/products/685103/amd-ryzen-5-7500f-6-core-12-thread-up-to-50ghz-am5-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 7500F 6 Core 12 Thread Up To 5.0GHz AM5 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 5 7500X3D",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "best_price": 399.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/680371/amd-ryzen-5-7500x3d-6-core-12-thread-up-to-45ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 5 7500X3D 6 Core 12 Thread Up To 4.5GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 399.0,
+          "url": "https://www.ple.com.au/products/680371/amd-ryzen-5-7500x3d-6-core-12-thread-up-to-45ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 5 7500X3D 6 Core 12 Thread Up To 4.5GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -125,6 +257,14 @@
           "title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)",
           "stock_status": "in_stock",
           "stock_qty": 68285
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 289.0,
+          "url": "https://www.ple.com.au/products/657118/amd-ryzen-5-7600-6-core-12-thread-up-to-52ghz-am5-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 7600 6 Core 12 Thread Up To 5.2GHz AM5 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -145,6 +285,64 @@
           "url": "https://www.msy.com.au/product/amd-ryzen-5-7600x-6-core-am5-5-3ghz-cpu-processor-100-100000593wof-65058",
           "title": "AMD Ryzen 5 7600X 6 Core AM5 5.3GHz CPU Processor (100-100000593WOF)",
           "stock_status": "in_stock",
+          "stock_qty": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 299.0,
+          "url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 5 9500F",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "best_price": 304.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
+      "best_title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 304.0,
+          "url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 5 9600",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "best_price": 329.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-9600-6-core-am5-3-8ghz-cpu-processor-100-100000718box-83117",
+      "best_title": "AMD Ryzen 5 9600 6 Core AM5 3.8GHz CPU Processor (100-100000718BOX)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 329.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-9600-6-core-am5-3-8ghz-cpu-processor-100-100000718box-83117",
+          "title": "AMD Ryzen 5 9600 6 Core AM5 3.8GHz CPU Processor (100-100000718BOX)",
+          "stock_status": "in_stock",
+          "stock_qty": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 329.0,
+          "url": "https://www.ple.com.au/products/685102/amd-ryzen-5-9600-6-core-12-thread-up-to-52ghz-am5-with-wraith-stealth-cooler",
+          "title": "AMD Ryzen 5 9600 6 Core 12 Thread Up to 5.2GHz AM5 - With Wraith Stealth Cooler",
+          "stock_status": "unknown",
           "stock_qty": null
         }
       ]
@@ -167,6 +365,14 @@
           "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
           "stock_status": "in_stock",
           "stock_qty": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 349.0,
+          "url": "https://www.ple.com.au/products/667598/amd-ryzen-5-9600x-6-core-12-thread-up-to-54ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -187,6 +393,14 @@
           "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
           "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
           "stock_status": "in_stock",
+          "stock_qty": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 489.0,
+          "url": "https://www.ple.com.au/products/654580/amd-ryzen-7-7700x-8-core-16-thread-up-to-54ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 7 7700X 8 Core 16 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
           "stock_qty": null
         }
       ]
@@ -209,6 +423,56 @@
           "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
           "stock_status": "in_stock",
           "stock_qty": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 579.0,
+          "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 7 9800X3D",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "best_price": 674.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 674.0,
+          "url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 9 7900X",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "best_price": 589.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/654579/amd-ryzen-9-7900x-12-core-24-thread-up-to-56ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 9 7900X 12 Core 24 Thread Up To 5.6GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 589.0,
+          "url": "https://www.ple.com.au/products/654579/amd-ryzen-9-7900x-12-core-24-thread-up-to-56ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 9 7900X 12 Core 24 Thread Up To 5.6GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -229,6 +493,14 @@
           "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
           "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
           "stock_status": "in_stock",
+          "stock_qty": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 888.0,
+          "url": "https://www.ple.com.au/products/673965/amd-ryzen-9-9900x3d-12-core-24-thread-up-to-55ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 9 9900X3D 12 Core 24 Thread Up To 5.5GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
           "stock_qty": null
         }
       ]
@@ -251,6 +523,14 @@
           "title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
           "stock_status": "in_stock",
           "stock_qty": 78838
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 889.0,
+          "url": "https://www.ple.com.au/products/667601/amd-ryzen-9-9950x-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 9 9950X 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -272,6 +552,35 @@
           "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
           "stock_status": "in_stock",
           "stock_qty": 81996
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 1039.0,
+          "url": "https://www.ple.com.au/products/673964/amd-ryzen-9-9950x3d-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 9 9950X3D 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Ryzen 9 9950X3D2",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "best_price": 1389.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/683663/amd-ryzen-9-9950x3d2-dual-edition-16-core-32-thread-up-to-56ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 9 9950X3D2 Dual Edition 16 Core 32 Thread Up to 5.6GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 1389.0,
+          "url": "https://www.ple.com.au/products/683663/amd-ryzen-9-9950x3d2-dual-edition-16-core-32-thread-up-to-56ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 9 9950X3D2 Dual Edition 16 Core 32 Thread Up to 5.6GHz AM5 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -345,6 +654,14 @@
           "stock_qty": 75272
         },
         {
+          "retailer": "PLE Computers",
+          "price": 259.0,
+          "url": "https://www.ple.com.au/products/664061/intel-core-i5-14400f-raptor-lake-10-core-16-thread-up-to-47ghz-lga1700",
+          "title": "Intel Core i5 14400F Raptor Lake 10 Core 16 Thread Up To 4.7GHz LGA1700",
+          "stock_status": "unknown",
+          "stock_qty": null
+        },
+        {
           "retailer": "Umart",
           "price": 1999.0,
           "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
@@ -393,6 +710,14 @@
           "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
           "stock_status": "in_stock",
           "stock_qty": 73064
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 1099.0,
+          "url": "https://www.ple.com.au/products/665344/intel-core-i9-14900ks-raptor-lake-24-core-32-thread-up-to-62ghz-lga1700-no-hsf-retail-box",
+          "title": "Intel Core i9 14900KS Raptor Lake 24 Core 32 Thread Up To 6.2GHz LGA1700 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -400,13 +725,21 @@
       "part_key": "Intel Core Ultra 5 245K",
       "category": "CPU",
       "subcategory": "LGA1851",
-      "best_price": 339.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-ultra-5-14-core-lga-1851-245k-5-20ghz-cpu-processor-bx80768245k-79656",
-      "best_title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 79656,
+      "best_price": 329.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/669024/intel-core-ultra-5-245k-arrow-lake-14-core-14-thread-up-to-52ghz-lga1851-no-hsf-retail-box",
+      "best_title": "Intel Core Ultra 5 245K Arrow Lake 14 Core 14 Thread Up To 5.2GHz LGA1851 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 329.0,
+          "url": "https://www.ple.com.au/products/669024/intel-core-ultra-5-245k-arrow-lake-14-core-14-thread-up-to-52ghz-lga1851-no-hsf-retail-box",
+          "title": "Intel Core Ultra 5 245K Arrow Lake 14 Core 14 Thread Up To 5.2GHz LGA1851 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
+        },
         {
           "retailer": "MSY",
           "price": 339.0,
@@ -414,6 +747,27 @@
           "title": "Intel Core Ultra 5 14 Core LGA 1851 245K 5.20GHz CPU Processor (BX80768245K)",
           "stock_status": "in_stock",
           "stock_qty": 79656
+        }
+      ]
+    },
+    {
+      "part_key": "Intel Core Ultra 9 285K",
+      "category": "CPU",
+      "subcategory": "LGA1851",
+      "best_price": 1019.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/669021/intel-core-ultra-9-285k-arrow-lake-24-core-24-thread-up-to-57ghz-lga1851-no-hsf-retail-box",
+      "best_title": "Intel Core Ultra 9 285K Arrow Lake 24 Core 24 Thread Up To 5.7GHz LGA1851 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 1019.0,
+          "url": "https://www.ple.com.au/products/669021/intel-core-ultra-9-285k-arrow-lake-24-core-24-thread-up-to-57ghz-lga1851-no-hsf-retail-box",
+          "title": "Intel Core Ultra 9 285K Arrow Lake 24 Core 24 Thread Up To 5.7GHz LGA1851 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -456,6 +810,14 @@
           "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
           "stock_status": "in_stock",
           "stock_qty": 83402
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 619.0,
+          "url": "https://www.ple.com.au/products/675847/asus-geforce-rtx-5060-prime-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Prime 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -463,13 +825,21 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 729.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
-      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 82678,
+      "best_price": 569.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
+      "best_title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 569.0,
+          "url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
+          "title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null
+        },
         {
           "retailer": "MSY",
           "price": 729.0,
@@ -498,6 +868,14 @@
           "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
           "stock_status": "in_stock",
           "stock_qty": 81985
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 1449.0,
+          "url": "https://www.ple.com.au/products/672378/gigabyte-geforce-rtx-5070-eagle-oc-sff-12gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5070 Eagle OC SFF 12GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -519,6 +897,14 @@
           "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
           "stock_status": "in_stock",
           "stock_qty": 81687
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 2149.0,
+          "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -540,6 +926,14 @@
           "title": "Asus PRIME GeForce RTX 5080 16G Graphics Card (PRIME-RTX5080-16G)",
           "stock_status": "in_stock",
           "stock_qty": 81418
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 2814.0,
+          "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -561,6 +955,35 @@
           "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
           "stock_status": "in_stock",
           "stock_qty": 81389
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 8049.0,
+          "url": "https://www.ple.com.au/products/672371/gigabyte-geforce-rtx-5090-gaming-oc-32gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5090 Gaming OC 32GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "AMD Radeon RX 7600",
+      "category": "GPU",
+      "subcategory": "RX 7000-series",
+      "best_price": 489.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
+      "best_title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 489.0,
+          "url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
+          "title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -582,6 +1005,14 @@
           "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
           "stock_status": "in_stock",
           "stock_qty": 90401
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 819.0,
+          "url": "https://www.ple.com.au/products/676092/sapphire-pure-radeon-rx-9060-xt-16gb-gddr6-white",
+          "title": "SAPPHIRE PURE Radeon RX 9060 XT 16GB GDDR6 (White)",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -624,6 +1055,14 @@
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
           "stock_status": "in_stock",
           "stock_qty": 81932
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 1349.0,
+          "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
+          "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -670,6 +1109,27 @@
       ]
     },
     {
+      "part_key": "Gigabyte Radeon RX 9070 GRE",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "best_price": 949.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
+      "best_title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 949.0,
+          "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
+          "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
       "part_key": "Sapphire Pulse RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
@@ -687,6 +1147,35 @@
           "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
           "stock_status": "in_stock",
           "stock_qty": 81940
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 1349.0,
+          "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
+          "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
+      "category": "Monitor",
+      "subcategory": "1440p",
+      "best_price": 249.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
+      "best_title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 249.0,
+          "url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
+          "title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -708,6 +1197,14 @@
           "title": "Gigabyte B550M K mATX AM4 Motherboard (GA-B550M-K)",
           "stock_status": "in_stock",
           "stock_qty": 69093
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 119.0,
+          "url": "https://www.ple.com.au/products/683443/gigabyte-b550m-h-argb-am4-matx-desktop-motherboard",
+          "title": "Gigabyte B550M H ARGB AM4 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -750,6 +1247,14 @@
           "title": "Asus TUF Gaming B650EM-PLUS WiFi AM5 mATX Motherboard (TUF GAMING B650EM-PLUS WIFI)",
           "stock_status": "in_stock",
           "stock_qty": 90136
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 279.0,
+          "url": "https://www.ple.com.au/products/676575/asus-tuf-gaming-b650e-plus-wifi-am5-atx-desktop-motherboard",
+          "title": "ASUS TUF Gaming B650E-Plus WiFi AM5 ATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -771,6 +1276,14 @@
           "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
           "stock_status": "in_stock",
           "stock_qty": 85122
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 299.0,
+          "url": "https://www.ple.com.au/products/672077/msi-b850-gaming-plus-wifi-am5-atx-desktop-motherboard",
+          "title": "MSI B850 Gaming Plus WiFi AM5 ATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -813,6 +1326,14 @@
           "title": "MSI Pro B760M-A WiFi LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
           "stock_status": "in_stock",
           "stock_qty": 84138
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 199.0,
+          "url": "https://www.ple.com.au/products/657179/msi-pro-b760m-a-wifi-ddr4-lga1700-matx-desktop-motherboard",
+          "title": "MSI PRO B760M-A WIFI DDR4 LGA1700 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -855,6 +1376,14 @@
           "title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)",
           "stock_status": "in_stock",
           "stock_qty": 90058
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 209.0,
+          "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
+          "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -880,6 +1409,27 @@
       ]
     },
     {
+      "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "best_price": 269.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
+      "best_title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 269.0,
+          "url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
+          "title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
       "category": "RAM",
       "subcategory": "DDR4",
@@ -897,6 +1447,14 @@
           "title": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
           "stock_status": "in_stock",
           "stock_qty": 56010
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 229.0,
+          "url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
+          "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -918,6 +1476,14 @@
           "title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
           "stock_status": "in_stock",
           "stock_qty": 56012
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 499.0,
+          "url": "https://www.ple.com.au/products/636989/gskill-trident-z-neo-rgb-32gb-kit-2x16gb-ddr4-3600-c16",
+          "title": "G.Skill Trident Z Neo RGB 32GB Kit (2x16GB) DDR4-3600 C16",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -939,6 +1505,14 @@
           "title": "Kingston 16GB (2x8GB) KF432C16BB2AK2/16 Fury Beast RGB 3200MHz DDR4 RAM",
           "stock_status": "in_stock",
           "stock_qty": 75217
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 405.0,
+          "url": "https://www.ple.com.au/products/663459/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
+          "title": "Kingston FURY Beast RGB 16GB Kit (2X8GB) DDR4-3200 C16",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -981,6 +1555,14 @@
           "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
           "stock_status": "in_stock",
           "stock_qty": 92533
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 789.0,
+          "url": "https://www.ple.com.au/products/684167/corsair-vengeance-32gb-kit-2x16gb-xmp-ddr5-6000-c38",
+          "title": "Corsair Vengeance 32GB Kit (2x16GB) XMP DDR5-6000 C38",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -1006,6 +1588,56 @@
       ]
     },
     {
+      "part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "best_price": 369.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40-vengeance-rgb-cl40-5200mhz-ddr5-dram-93471",
+      "best_title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40 Vengeance RGB CL40 5200MHz DDR5 DRAM",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 93471,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 369.0,
+          "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40-vengeance-rgb-cl40-5200mhz-ddr5-dram-93471",
+          "title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40 Vengeance RGB CL40 5200MHz DDR5 DRAM",
+          "stock_status": "in_stock",
+          "stock_qty": 93471
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 439.0,
+          "url": "https://www.ple.com.au/products/684303/corsair-vengeance-rgb-16gb-kit-2x8gb-xmpexpo-ddr5-5200-c40-grey",
+          "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "best_price": 499.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
+      "best_title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 499.0,
+          "url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
+          "title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
       "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
@@ -1023,6 +1655,35 @@
           "title": "Kingston 32GB (2x16GB) Fury Beast RGB CL36 6000MHz DDR5 RAM - White (KF560C36BWE2AK2-32)",
           "stock_status": "in_stock",
           "stock_qty": 80861
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 989.0,
+          "url": "https://www.ple.com.au/products/670441/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr5-6000-c36",
+          "title": "Kingston FURY Beast RGB 32GB Kit (2x16GB) DDR5-6000 C36",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Silicon Power XPOWER Zenith 32GB (2x16GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "best_price": 649.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/685922/lexar-thor-g2-32gb-kit-2x16gb-ddr5-6000-c38",
+      "best_title": "Lexar THOR G2 32GB Kit (2x16GB) DDR5-6000 C38",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 649.0,
+          "url": "https://www.ple.com.au/products/685922/lexar-thor-g2-32gb-kit-2x16gb-ddr5-6000-c38",
+          "title": "Lexar THOR G2 32GB Kit (2x16GB) DDR5-6000 C38",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -1044,6 +1705,56 @@
           "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
           "stock_status": "in_stock",
           "stock_qty": 80519
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 289.0,
+          "url": "https://www.ple.com.au/products/668616/kingston-nv3-pcie-gen4-nvme-m2-ssd-1tb",
+          "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 1TB",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Samsung 990 Pro 1TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "1TB",
+      "best_price": 429.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/655566/samsung-990-pro-pcie-gen4-nvme-m2-ssd-1tb",
+      "best_title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 1TB",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 429.0,
+          "url": "https://www.ple.com.au/products/655566/samsung-990-pro-pcie-gen4-nvme-m2-ssd-1tb",
+          "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 1TB",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Crucial P310 2TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "2TB",
+      "best_price": 429.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/crucial-p310-2tb-pcie-4-0-m-2-nvme-2230-ssd-ct2000p310ssd2-84981",
+      "best_title": "Crucial P310 2TB PCIe 4.0 M.2 NVMe 2230 SSD (CT2000P310SSD2)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 84981,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 429.0,
+          "url": "https://www.msy.com.au/product/crucial-p310-2tb-pcie-4-0-m-2-nvme-2230-ssd-ct2000p310ssd2-84981",
+          "title": "Crucial P310 2TB PCIe 4.0 M.2 NVMe 2230 SSD (CT2000P310SSD2)",
+          "stock_status": "in_stock",
+          "stock_qty": 84981
         }
       ]
     },
@@ -1065,6 +1776,14 @@
           "title": "Kingston 2TB SNV3S/2000G NV3 PCIe 4.0 NVMe M.2 2280 SSD",
           "stock_status": "in_stock",
           "stock_qty": 80520
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 529.0,
+          "url": "https://www.ple.com.au/products/668617/kingston-nv3-pcie-gen4-nvme-m2-ssd-2tb",
+          "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 2TB",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -1107,13 +1826,21 @@
           "title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)",
           "stock_status": "in_stock",
           "stock_qty": 80980
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 179.0,
+          "url": "https://www.ple.com.au/products/668615/kingston-nv3-pcie-gen4-nvme-m2-ssd-500gb",
+          "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 500GB",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     }
   ],
   "raw_records": [
     {
-      "part_key": "AMD Ryzen 5 3600",
+      "part_key": "AMD Ryzen 5 5500GT",
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "Umart",
@@ -1125,7 +1852,43 @@
       "stock_qty": null
     },
     {
-      "part_key": "AMD Ryzen 5 3600",
+      "part_key": "AMD Ryzen 5 5500GT",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "retailer": "MSY",
+      "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+      "price": 178.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 75737
+    },
+    {
+      "part_key": "AMD Ryzen 5 5500GT",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
+      "price": 184.0,
+      "url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 5600GT",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 5600GT",
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
@@ -1134,6 +1897,18 @@
       "url": null,
       "status": "NO_MATCH",
       "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 5600GT",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
+      "price": 209.0,
+      "url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -1159,6 +1934,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 62861
+    },
+    {
+      "part_key": "AMD Ryzen 5 5500",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 5500 6 Core 12 Thread Up To 4.2Ghz AM4 - With Wraith Stealth Cooler",
+      "price": 134.0,
+      "url": "https://www.ple.com.au/products/651835/amd-ryzen-5-5500-6-core-12-thread-up-to-42ghz-am4-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 5 5600",
@@ -1197,6 +1984,18 @@
       "stock_qty": 62808
     },
     {
+      "part_key": "AMD Ryzen 5 5600",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 5600 6 Core 12 Thread Up To 4.4Ghz AM4 - With Wraith Stealth Cooler",
+      "price": 169.0,
+      "url": "https://www.ple.com.au/products/651834/amd-ryzen-5-5600-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 5 5600X",
       "category": "CPU",
       "subcategory": "AM4",
@@ -1233,6 +2032,18 @@
       "stock_qty": 57284
     },
     {
+      "part_key": "AMD Ryzen 5 5600X",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 5600X 6 Core 12 Thread Up To 4.6Ghz AM4 - With Wraith Stealth Cooler",
+      "price": 222.0,
+      "url": "https://www.ple.com.au/products/643561/amd-ryzen-5-5600x-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 7 5700X",
       "category": "CPU",
       "subcategory": "AM4",
@@ -1255,6 +2066,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 62627
+    },
+    {
+      "part_key": "AMD Ryzen 7 5700X",
+      "category": "CPU",
+      "subcategory": "AM4",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 7 5700X 8 Core 16 Thread Up To 4.6Ghz AM4 - No HSF Retail Box",
+      "price": 299.0,
+      "url": "https://www.ple.com.au/products/651833/amd-ryzen-7-5700x-8-core-16-thread-up-to-46ghz-am4-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 7 5800X3D",
@@ -1294,51 +2117,15 @@
       "stock_qty": 94714
     },
     {
-      "part_key": "AMD Ryzen 9 5900X",
+      "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
       "subcategory": "AM4",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 9 5900X",
-      "category": "CPU",
-      "subcategory": "AM4",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 5 8400F",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 5 8400F",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 7 5800X3D 8 Core 16 Thread Up to 4.5GHz AM4 - No HSF Retail Box - 10th Anniversary Edition",
+      "price": 549.0,
+      "url": "https://www.ple.com.au/products/685083/amd-ryzen-7-5800x3d-8-core-16-thread-up-to-45ghz-am4-no-hsf-retail-box-10th-anniversary-edition",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -1366,6 +2153,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "AMD Ryzen 5 7500F",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 7500F 6 Core 12 Thread Up To 5.0GHz AM5 - With Wraith Stealth Cooler",
+      "price": 239.0,
+      "url": "https://www.ple.com.au/products/685103/amd-ryzen-5-7500f-6-core-12-thread-up-to-50ghz-am5-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 5 7500X3D",
       "category": "CPU",
       "subcategory": "AM5",
@@ -1387,6 +2186,18 @@
       "url": null,
       "status": "NO_MATCH",
       "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 7500X3D",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 7500X3D 6 Core 12 Thread Up To 4.5GHz AM5 - No HSF Retail Box",
+      "price": 399.0,
+      "url": "https://www.ple.com.au/products/680371/amd-ryzen-5-7500x3d-6-core-12-thread-up-to-45ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -1426,6 +2237,18 @@
       "stock_qty": 68285
     },
     {
+      "part_key": "AMD Ryzen 5 7600",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 7600 6 Core 12 Thread Up To 5.2GHz AM5 - With Wraith Stealth Cooler",
+      "price": 289.0,
+      "url": "https://www.ple.com.au/products/657118/amd-ryzen-5-7600-6-core-12-thread-up-to-52ghz-am5-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 5 7600X",
       "category": "CPU",
       "subcategory": "AM5",
@@ -1462,6 +2285,54 @@
       "stock_qty": null
     },
     {
+      "part_key": "AMD Ryzen 5 7600X",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
+      "price": 299.0,
+      "url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 9600",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 9600",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "MSY",
+      "title": "AMD Ryzen 5 9600 6 Core AM5 3.8GHz CPU Processor (100-100000718BOX)",
+      "price": 329.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-5-9600-6-core-am5-3-8ghz-cpu-processor-100-100000718box-83117",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 9600",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 9600 6 Core 12 Thread Up to 5.2GHz AM5 - With Wraith Stealth Cooler",
+      "price": 329.0,
+      "url": "https://www.ple.com.au/products/685102/amd-ryzen-5-9600-6-core-12-thread-up-to-52ghz-am5-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 5 9600X",
       "category": "CPU",
       "subcategory": "AM5",
@@ -1486,7 +2357,19 @@
       "stock_qty": null
     },
     {
-      "part_key": "AMD Ryzen 7 8700F",
+      "part_key": "AMD Ryzen 5 9600X",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
+      "price": 349.0,
+      "url": "https://www.ple.com.au/products/667598/amd-ryzen-5-9600x-6-core-12-thread-up-to-54ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 9500F",
       "category": "CPU",
       "subcategory": "AM5",
       "retailer": "Umart",
@@ -1498,7 +2381,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "AMD Ryzen 7 8700F",
+      "part_key": "AMD Ryzen 5 9500F",
       "category": "CPU",
       "subcategory": "AM5",
       "retailer": "MSY",
@@ -1507,6 +2390,18 @@
       "url": null,
       "status": "NO_MATCH",
       "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 5 9500F",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
+      "price": 304.0,
+      "url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -1531,6 +2426,18 @@
       "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
       "status": "OK",
       "stock_status": "in_stock",
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 7 7700X",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 7 7700X 8 Core 16 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
+      "price": 489.0,
+      "url": "https://www.ple.com.au/products/654580/amd-ryzen-7-7700x-8-core-16-thread-up-to-54ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -1571,6 +2478,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "AMD Ryzen 7 7800X3D",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
+      "price": 579.0,
+      "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 7 9800X3D",
       "category": "CPU",
       "subcategory": "AM5",
@@ -1607,6 +2526,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "AMD Ryzen 7 9800X3D",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
+      "price": 674.0,
+      "url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 9 7900X",
       "category": "CPU",
       "subcategory": "AM5",
@@ -1628,6 +2559,18 @@
       "url": null,
       "status": "NO_MATCH",
       "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 9 7900X",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 9 7900X 12 Core 24 Thread Up To 5.6GHz AM5 - No HSF Retail Box",
+      "price": 589.0,
+      "url": "https://www.ple.com.au/products/654579/amd-ryzen-9-7900x-12-core-24-thread-up-to-56ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -1659,6 +2602,18 @@
       "category": "CPU",
       "subcategory": "AM5",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "AMD Ryzen 9 7950X",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -1691,6 +2646,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "AMD Ryzen 9 9900X3D",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 9 9900X3D 12 Core 24 Thread Up To 5.5GHz AM5 - No HSF Retail Box",
+      "price": 888.0,
+      "url": "https://www.ple.com.au/products/673965/amd-ryzen-9-9900x3d-12-core-24-thread-up-to-55ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 9 9950X",
       "category": "CPU",
       "subcategory": "AM5",
@@ -1713,6 +2680,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 78838
+    },
+    {
+      "part_key": "AMD Ryzen 9 9950X",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 9 9950X 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
+      "price": 889.0,
+      "url": "https://www.ple.com.au/products/667601/amd-ryzen-9-9950x-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 9 9950X3D",
@@ -1739,6 +2718,18 @@
       "stock_qty": 81996
     },
     {
+      "part_key": "AMD Ryzen 9 9950X3D",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 9 9950X3D 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
+      "price": 1039.0,
+      "url": "https://www.ple.com.au/products/673964/amd-ryzen-9-9950x3d-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "AMD Ryzen 9 9950X3D2",
       "category": "CPU",
       "subcategory": "AM5",
@@ -1763,6 +2754,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "AMD Ryzen 9 9950X3D2",
+      "category": "CPU",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "AMD Ryzen 9 9950X3D2 Dual Edition 16 Core 32 Thread Up to 5.6GHz AM5 - No HSF Retail Box",
+      "price": 1389.0,
+      "url": "https://www.ple.com.au/products/683663/amd-ryzen-9-9950x3d2-dual-edition-16-core-32-thread-up-to-56ghz-am5-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Intel Core i5-13400F",
       "category": "CPU",
       "subcategory": "LGA1700",
@@ -1784,6 +2787,18 @@
       "url": "https://www.msy.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
       "status": "OK",
       "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Intel Core i5-13400F",
+      "category": "CPU",
+      "subcategory": "LGA1700",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -1823,6 +2838,18 @@
       "stock_qty": 75272
     },
     {
+      "part_key": "Intel Core i5-14400F",
+      "category": "CPU",
+      "subcategory": "LGA1700",
+      "retailer": "PLE Computers",
+      "title": "Intel Core i5 14400F Raptor Lake 10 Core 16 Thread Up To 4.7GHz LGA1700",
+      "price": 259.0,
+      "url": "https://www.ple.com.au/products/664061/intel-core-i5-14400f-raptor-lake-10-core-16-thread-up-to-47ghz-lga1700",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Intel Core i5-12400F",
       "category": "CPU",
       "subcategory": "LGA1700",
@@ -1857,6 +2884,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 61652
+    },
+    {
+      "part_key": "Intel Core i5-12400F",
+      "category": "CPU",
+      "subcategory": "LGA1700",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Intel Core i7-14700K",
@@ -1896,6 +2935,18 @@
       "stock_qty": 73063
     },
     {
+      "part_key": "Intel Core i7-14700K",
+      "category": "CPU",
+      "subcategory": "LGA1700",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "Intel Core i9-14900K",
       "category": "CPU",
       "subcategory": "LGA1700",
@@ -1932,6 +2983,18 @@
       "stock_qty": 73064
     },
     {
+      "part_key": "Intel Core i9-14900K",
+      "category": "CPU",
+      "subcategory": "LGA1700",
+      "retailer": "PLE Computers",
+      "title": "Intel Core i9 14900KS Raptor Lake 24 Core 32 Thread Up To 6.2GHz LGA1700 - No HSF Retail Box",
+      "price": 1099.0,
+      "url": "https://www.ple.com.au/products/665344/intel-core-i9-14900ks-raptor-lake-24-core-32-thread-up-to-62ghz-lga1700-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Intel Core Ultra 5 245K",
       "category": "CPU",
       "subcategory": "LGA1851",
@@ -1956,6 +3019,18 @@
       "stock_qty": 79656
     },
     {
+      "part_key": "Intel Core Ultra 5 245K",
+      "category": "CPU",
+      "subcategory": "LGA1851",
+      "retailer": "PLE Computers",
+      "title": "Intel Core Ultra 5 245K Arrow Lake 14 Core 14 Thread Up To 5.2GHz LGA1851 - No HSF Retail Box",
+      "price": 329.0,
+      "url": "https://www.ple.com.au/products/669024/intel-core-ultra-5-245k-arrow-lake-14-core-14-thread-up-to-52ghz-lga1851-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Intel Core Ultra 7 265K",
       "category": "CPU",
       "subcategory": "LGA1851",
@@ -1972,6 +3047,18 @@
       "category": "CPU",
       "subcategory": "LGA1851",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Intel Core Ultra 7 265K",
+      "category": "CPU",
+      "subcategory": "LGA1851",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -2017,6 +3104,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "Intel Core Ultra 9 285K",
+      "category": "CPU",
+      "subcategory": "LGA1851",
+      "retailer": "PLE Computers",
+      "title": "Intel Core Ultra 9 285K Arrow Lake 24 Core 24 Thread Up To 5.7GHz LGA1851 - No HSF Retail Box",
+      "price": 1019.0,
+      "url": "https://www.ple.com.au/products/669021/intel-core-ultra-9-285k-arrow-lake-24-core-24-thread-up-to-57ghz-lga1851-no-hsf-retail-box",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "NVIDIA RTX 3060",
       "category": "GPU",
       "subcategory": "RTX 30-series",
@@ -2033,6 +3132,18 @@
       "category": "GPU",
       "subcategory": "RTX 30-series",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "NVIDIA RTX 3060",
+      "category": "GPU",
+      "subcategory": "RTX 30-series",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -2077,6 +3188,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "NVIDIA RTX 4060",
+      "category": "GPU",
+      "subcategory": "RTX 40-series",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "NVIDIA RTX 4060 Ti",
       "category": "GPU",
       "subcategory": "RTX 40-series",
@@ -2101,6 +3224,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "NVIDIA RTX 4060 Ti",
+      "category": "GPU",
+      "subcategory": "RTX 40-series",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "NVIDIA RTX 4070",
       "category": "GPU",
       "subcategory": "RTX 40-series",
@@ -2117,6 +3252,18 @@
       "category": "GPU",
       "subcategory": "RTX 40-series",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "NVIDIA RTX 4070",
+      "category": "GPU",
+      "subcategory": "RTX 40-series",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -2161,6 +3308,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "NVIDIA RTX 4070 Ti Super",
+      "category": "GPU",
+      "subcategory": "RTX 40-series",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "NVIDIA RTX 4090",
       "category": "GPU",
       "subcategory": "RTX 40-series",
@@ -2189,6 +3348,18 @@
       "category": "GPU",
       "subcategory": "RTX 40-series",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "NVIDIA RTX 4090",
+      "category": "GPU",
+      "subcategory": "RTX 40-series",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -2219,6 +3390,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 83402
+    },
+    {
+      "part_key": "NVIDIA RTX 5060",
+      "category": "GPU",
+      "subcategory": "RTX 50-series",
+      "retailer": "PLE Computers",
+      "title": "ASUS GeForce RTX 5060 Prime 8GB GDDR7",
+      "price": 619.0,
+      "url": "https://www.ple.com.au/products/675847/asus-geforce-rtx-5060-prime-8gb-gddr7",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "NVIDIA RTX 5060 Ti",
@@ -2257,6 +3440,18 @@
       "stock_qty": 82678
     },
     {
+      "part_key": "NVIDIA RTX 5060 Ti",
+      "category": "GPU",
+      "subcategory": "RTX 50-series",
+      "retailer": "PLE Computers",
+      "title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
+      "price": 569.0,
+      "url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "subcategory": "RTX 50-series",
@@ -2279,6 +3474,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 81985
+    },
+    {
+      "part_key": "NVIDIA RTX 5070",
+      "category": "GPU",
+      "subcategory": "RTX 50-series",
+      "retailer": "PLE Computers",
+      "title": "Gigabyte GeForce RTX 5070 Eagle OC SFF 12GB GDDR7",
+      "price": 1449.0,
+      "url": "https://www.ple.com.au/products/672378/gigabyte-geforce-rtx-5070-eagle-oc-sff-12gb-gddr7",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "NVIDIA RTX 5070 Ti",
@@ -2318,6 +3525,18 @@
       "stock_qty": 81687
     },
     {
+      "part_key": "NVIDIA RTX 5070 Ti",
+      "category": "GPU",
+      "subcategory": "RTX 50-series",
+      "retailer": "PLE Computers",
+      "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
+      "price": 2149.0,
+      "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
       "subcategory": "RTX 50-series",
@@ -2353,6 +3572,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 81418
+    },
+    {
+      "part_key": "NVIDIA RTX 5080",
+      "category": "GPU",
+      "subcategory": "RTX 50-series",
+      "retailer": "PLE Computers",
+      "title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
+      "price": 2814.0,
+      "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "NVIDIA RTX 5090",
@@ -2391,45 +3622,21 @@
       "stock_qty": 81389
     },
     {
-      "part_key": "AMD Radeon RX 7600",
+      "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "subcategory": "RTX 50-series",
+      "retailer": "PLE Computers",
+      "title": "Gigabyte GeForce RTX 5090 Gaming OC 32GB GDDR7",
+      "price": 8049.0,
+      "url": "https://www.ple.com.au/products/672371/gigabyte-geforce-rtx-5090-gaming-oc-32gb-gddr7",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
       "part_key": "AMD Radeon RX 7600",
       "category": "GPU",
       "subcategory": "RX 7000-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7700 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7700 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -2439,7 +3646,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "AMD Radeon RX 7700 XT",
+      "part_key": "AMD Radeon RX 7600",
       "category": "GPU",
       "subcategory": "RX 7000-series",
       "retailer": "MSY",
@@ -2451,148 +3658,15 @@
       "stock_qty": null
     },
     {
-      "part_key": "AMD Radeon RX 7800 XT",
+      "part_key": "AMD Radeon RX 7600",
       "category": "GPU",
       "subcategory": "RX 7000-series",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7800 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7800 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "Sapphire Pulse RX 7800 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "Sapphire Pulse RX 7800 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "PowerColor Fighter RX 7800 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "PowerColor Fighter RX 7800 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7900 GRE",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7900 GRE",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7900 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Scorptec",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7900 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Radeon RX 7900 XT",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "retailer": "PLE Computers",
+      "title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
+      "price": 489.0,
+      "url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -2620,6 +3694,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "AMD Radeon RX 7900 XTX",
+      "category": "GPU",
+      "subcategory": "RX 7000-series",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "XFX Speedster RX 7900 XTX",
       "category": "GPU",
       "subcategory": "RX 7000-series",
@@ -2644,34 +3730,10 @@
       "stock_qty": null
     },
     {
-      "part_key": "PowerColor Red Devil RX 7900 XTX",
+      "part_key": "XFX Speedster RX 7900 XTX",
       "category": "GPU",
       "subcategory": "RX 7000-series",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "PowerColor Red Devil RX 7900 XTX",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "PowerColor Red Devil RX 7900 XTX",
-      "category": "GPU",
-      "subcategory": "RX 7000-series",
-      "retailer": "MSY",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -2702,6 +3764,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 90401
+    },
+    {
+      "part_key": "AMD Radeon RX 9060 XT",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "PLE Computers",
+      "title": "SAPPHIRE PURE Radeon RX 9060 XT 16GB GDDR6 (White)",
+      "price": 819.0,
+      "url": "https://www.ple.com.au/products/676092/sapphire-pure-radeon-rx-9060-xt-16gb-gddr6-white",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "AMD Radeon RX 9070",
@@ -2740,6 +3814,18 @@
       "stock_qty": 81935
     },
     {
+      "part_key": "AMD Radeon RX 9070",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "Gigabyte Gaming RX 9070",
       "category": "GPU",
       "subcategory": "RX 9000-series",
@@ -2762,6 +3848,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 81938
+    },
+    {
+      "part_key": "Gigabyte Gaming RX 9070",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Radeon RX 9070 XT",
@@ -2789,6 +3887,55 @@
       "stock_qty": 81932
     },
     {
+      "part_key": "AMD Radeon RX 9070 XT",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "PLE Computers",
+      "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
+      "price": 1349.0,
+      "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Gigabyte Radeon RX 9070 GRE",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Gigabyte Radeon RX 9070 GRE",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Gigabyte Radeon RX 9070 GRE",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "PLE Computers",
+      "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
+      "price": 949.0,
+      "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Asus Prime RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
@@ -2811,6 +3958,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 81932
+    },
+    {
+      "part_key": "Asus Prime RX 9070 XT",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Sapphire Pulse RX 9070 XT",
@@ -2849,7 +4008,19 @@
       "stock_qty": 81940
     },
     {
-      "part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200",
+      "part_key": "Sapphire Pulse RX 9070 XT",
+      "category": "GPU",
+      "subcategory": "RX 9000-series",
+      "retailer": "PLE Computers",
+      "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
+      "price": 1349.0,
+      "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "Umart",
@@ -2861,7 +4032,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200",
+      "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "MSY",
@@ -2870,6 +4041,18 @@
       "url": null,
       "status": "NO_MATCH",
       "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "PLE Computers",
+      "title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
+      "price": 269.0,
+      "url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -2895,6 +4078,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 75217
+    },
+    {
+      "part_key": "Kingston Fury Beast 16GB (2x8GB) DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "PLE Computers",
+      "title": "Kingston FURY Beast RGB 16GB Kit (2X8GB) DDR4-3200 C16",
+      "price": 405.0,
+      "url": "https://www.ple.com.au/products/663459/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
@@ -2931,6 +4126,54 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 56010
+    },
+    {
+      "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "PLE Computers",
+      "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
+      "price": 229.0,
+      "url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Adata 16GB (2x8GB) DDR4 3200 XPG",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Adata 16GB (2x8GB) DDR4 3200 XPG",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Adata 16GB (2x8GB) DDR4 3200 XPG",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
@@ -2970,6 +4213,18 @@
       "stock_qty": 56012
     },
     {
+      "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "PLE Computers",
+      "title": "G.Skill Trident Z Neo RGB 32GB Kit (2x16GB) DDR4-3600 C16",
+      "price": 499.0,
+      "url": "https://www.ple.com.au/products/636989/gskill-trident-z-neo-rgb-32gb-kit-2x16gb-ddr4-3600-c16",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
@@ -2992,6 +4247,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 58193
+    },
+    {
+      "part_key": "Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200",
@@ -3018,10 +4285,10 @@
       "stock_qty": 75220
     },
     {
-      "part_key": "Kingston Fury Beast 64GB (2x32GB) DDR4 3200",
+      "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
-      "retailer": "Umart",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -3030,79 +4297,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Kingston Fury Beast 64GB (2x32GB) DDR4 3200",
-      "category": "RAM",
-      "subcategory": "DDR4",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "Corsair Vengeance LPX 64GB (2x32GB) DDR4 3200",
-      "category": "RAM",
-      "subcategory": "DDR4",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "Corsair Vengeance LPX 64GB (2x32GB) DDR4 3200",
-      "category": "RAM",
-      "subcategory": "DDR4",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "G.Skill Ripjaws V 64GB (2x32GB) DDR4 3600",
-      "category": "RAM",
-      "subcategory": "DDR4",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "G.Skill Ripjaws V 64GB (2x32GB) DDR4 3600",
-      "category": "RAM",
-      "subcategory": "DDR4",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "G.Skill Ripjaws V 64GB (2x32GB) DDR4 3600",
-      "category": "RAM",
-      "subcategory": "DDR4",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "Corsair Vengeance 16GB (2x8GB) DDR5 6000",
+      "part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "Umart",
@@ -3114,19 +4309,31 @@
       "stock_qty": null
     },
     {
-      "part_key": "Corsair Vengeance 16GB (2x8GB) DDR5 6000",
+      "part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40 Vengeance RGB CL40 5200MHz DDR5 DRAM",
+      "price": 369.0,
+      "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40-vengeance-rgb-cl40-5200mhz-ddr5-dram-93471",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 93471
+    },
+    {
+      "part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
+      "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
+      "price": 439.0,
+      "url": "https://www.ple.com.au/products/684303/corsair-vengeance-rgb-16gb-kit-2x8gb-xmpexpo-ddr5-5200-c40-grey",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
-      "part_key": "Kingston Fury Beast 16GB (2x8GB) DDR5 6000",
+      "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "Umart",
@@ -3138,7 +4345,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Kingston Fury Beast 16GB (2x8GB) DDR5 6000",
+      "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
@@ -3147,6 +4354,18 @@
       "url": null,
       "status": "NO_MATCH",
       "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
+      "title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
+      "price": 499.0,
+      "url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -3178,6 +4397,18 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "G.Skill Trident Z5 16GB (2x8GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -3210,6 +4441,18 @@
       "stock_qty": 92533
     },
     {
+      "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
+      "title": "Corsair Vengeance 32GB Kit (2x16GB) XMP DDR5-6000 C38",
+      "price": 789.0,
+      "url": "https://www.ple.com.au/products/684167/corsair-vengeance-32gb-kit-2x16gb-xmp-ddr5-6000-c38",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
@@ -3234,7 +4477,19 @@
       "stock_qty": 80861
     },
     {
-      "part_key": "G.Skill Trident Z5 32GB (2x16GB) DDR5 6000",
+      "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
+      "title": "Kingston FURY Beast RGB 32GB Kit (2x16GB) DDR5-6000 C36",
+      "price": 989.0,
+      "url": "https://www.ple.com.au/products/670441/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr5-6000-c36",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Silicon Power XPOWER Zenith 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "Centre Com",
@@ -3246,7 +4501,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "G.Skill Trident Z5 32GB (2x16GB) DDR5 6000",
+      "part_key": "Silicon Power XPOWER Zenith 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "Scorptec",
@@ -3259,7 +4514,56 @@
       "stock_qty": null
     },
     {
-      "part_key": "G.Skill Trident Z5 32GB (2x16GB) DDR5 6000",
+      "part_key": "Silicon Power XPOWER Zenith 32GB (2x16GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Silicon Power XPOWER Zenith 32GB (2x16GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
+      "title": "Lexar THOR G2 32GB Kit (2x16GB) DDR5-6000 C38",
+      "price": 649.0,
+      "url": "https://www.ple.com.au/products/685922/lexar-thor-g2-32gb-kit-2x16gb-ddr5-6000-c38",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "Scorptec",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "BOT_BLOCKED",
+      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
@@ -3274,32 +4578,7 @@
       "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "retailer": "Scorptec",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "Scorptec (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
-      "category": "RAM",
-      "subcategory": "DDR5",
-      "retailer": "Centre Com",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "G.Skill Trident Z5 64GB (2x32GB) DDR5 6000",
-      "category": "RAM",
-      "subcategory": "DDR5",
-      "retailer": "MSY",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -3332,6 +4611,18 @@
       "stock_qty": 90590
     },
     {
+      "part_key": "Corsair Vengeance 64GB (2x32GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "Kingston Fury Beast 64GB (2x32GB) DDR5 5600",
       "category": "RAM",
       "subcategory": "DDR5",
@@ -3356,7 +4647,19 @@
       "stock_qty": null
     },
     {
-      "part_key": "G.Skill Trident Z5 96GB (2x48GB) DDR5 6000",
+      "part_key": "Kingston Fury Beast 64GB (2x32GB) DDR5 5600",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "TeamGroup Delta 96GB (2x48GB) DDR5 6800",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "Umart",
@@ -3368,7 +4671,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "G.Skill Trident Z5 96GB (2x48GB) DDR5 6000",
+      "part_key": "TeamGroup Delta 96GB (2x48GB) DDR5 6800",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
@@ -3380,7 +4683,19 @@
       "stock_qty": null
     },
     {
-      "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
+      "part_key": "TeamGroup Delta 96GB (2x48GB) DDR5 6800",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "Mwave",
@@ -3392,7 +4707,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
+      "part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "Umart",
@@ -3404,10 +4719,22 @@
       "stock_qty": null
     },
     {
-      "part_key": "Kingston Fury Beast 128GB (2x64GB) DDR5 5600",
+      "part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -3440,6 +4767,54 @@
       "stock_qty": 80980
     },
     {
+      "part_key": "Kingston NV3 500GB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "500GB",
+      "retailer": "PLE Computers",
+      "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 500GB",
+      "price": 179.0,
+      "url": "https://www.ple.com.au/products/668615/kingston-nv3-pcie-gen4-nvme-m2-ssd-500gb",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "SP Silicon Power UD90 500GB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "500GB",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "SP Silicon Power UD90 500GB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "500GB",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "SP Silicon Power UD90 500GB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "500GB",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "Kingston NV3 1TB NVMe SSD",
       "category": "SSD",
       "subcategory": "1TB",
@@ -3464,6 +4839,54 @@
       "stock_qty": 80519
     },
     {
+      "part_key": "Kingston NV3 1TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "1TB",
+      "retailer": "PLE Computers",
+      "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 1TB",
+      "price": 289.0,
+      "url": "https://www.ple.com.au/products/668616/kingston-nv3-pcie-gen4-nvme-m2-ssd-1tb",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Samsung 990 Pro 1TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "1TB",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Samsung 990 Pro 1TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "1TB",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Samsung 990 Pro 1TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "1TB",
+      "retailer": "PLE Computers",
+      "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 1TB",
+      "price": 429.0,
+      "url": "https://www.ple.com.au/products/655566/samsung-990-pro-pcie-gen4-nvme-m2-ssd-1tb",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Kingston NV3 2TB NVMe SSD",
       "category": "SSD",
       "subcategory": "2TB",
@@ -3486,6 +4909,54 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 80520
+    },
+    {
+      "part_key": "Kingston NV3 2TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "2TB",
+      "retailer": "PLE Computers",
+      "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 2TB",
+      "price": 529.0,
+      "url": "https://www.ple.com.au/products/668617/kingston-nv3-pcie-gen4-nvme-m2-ssd-2tb",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Crucial P310 2TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "2TB",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Crucial P310 2TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "2TB",
+      "retailer": "MSY",
+      "title": "Crucial P310 2TB PCIe 4.0 M.2 NVMe 2230 SSD (CT2000P310SSD2)",
+      "price": 429.0,
+      "url": "https://www.msy.com.au/product/crucial-p310-2tb-pcie-4-0-m-2-nvme-2230-ssd-ct2000p310ssd2-84981",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 84981
+    },
+    {
+      "part_key": "Crucial P310 2TB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "2TB",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
@@ -3524,6 +4995,66 @@
       "stock_qty": null
     },
     {
+      "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Crucial 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "retailer": "Centre Com",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Crucial 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Crucial 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Crucial 4TB PCIe 4.0 NVMe SSD",
+      "category": "SSD",
+      "subcategory": "4TB",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
       "subcategory": "AM4",
@@ -3548,6 +5079,18 @@
       "stock_qty": 69093
     },
     {
+      "part_key": "Gigabyte B550M K",
+      "category": "Motherboard",
+      "subcategory": "AM4",
+      "retailer": "PLE Computers",
+      "title": "Gigabyte B550M H ARGB AM4 mATX Desktop Motherboard",
+      "price": 119.0,
+      "url": "https://www.ple.com.au/products/683443/gigabyte-b550m-h-argb-am4-matx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "ASRock B550M Pro4",
       "category": "Motherboard",
       "subcategory": "AM4",
@@ -3564,6 +5107,18 @@
       "category": "Motherboard",
       "subcategory": "AM4",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "ASRock B550M Pro4",
+      "category": "Motherboard",
+      "subcategory": "AM4",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -3608,6 +5163,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "Asus TUF Gaming B650-Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
@@ -3632,6 +5199,18 @@
       "stock_qty": 90136
     },
     {
+      "part_key": "Asus TUF Gaming B650-Plus WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "ASUS TUF Gaming B650E-Plus WiFi AM5 ATX Desktop Motherboard",
+      "price": 279.0,
+      "url": "https://www.ple.com.au/products/676575/asus-tuf-gaming-b650e-plus-wifi-am5-atx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
@@ -3654,6 +5233,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 85122
+    },
+    {
+      "part_key": "MSI B850 Gaming Plus WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": "MSI B850 Gaming Plus WiFi AM5 ATX Desktop Motherboard",
+      "price": 299.0,
+      "url": "https://www.ple.com.au/products/672077/msi-b850-gaming-plus-wifi-am5-atx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "Asus Prime X870-P WiFi CSM",
@@ -3692,6 +5283,18 @@
       "stock_qty": 79275
     },
     {
+      "part_key": "Asus Prime X870-P WiFi CSM",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "MSI MAG X870 Tomahawk WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
@@ -3708,6 +5311,18 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG X870 Tomahawk WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -3740,6 +5355,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "Asus Prime Z790-P WiFi CSM",
+      "category": "Motherboard",
+      "subcategory": "LGA1700",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "MSI PRO B760M-A WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1700",
@@ -3762,6 +5389,18 @@
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 84138
+    },
+    {
+      "part_key": "MSI PRO B760M-A WiFi",
+      "category": "Motherboard",
+      "subcategory": "LGA1700",
+      "retailer": "PLE Computers",
+      "title": "MSI PRO B760M-A WIFI DDR4 LGA1700 mATX Desktop Motherboard",
+      "price": 199.0,
+      "url": "https://www.ple.com.au/products/657179/msi-pro-b760m-a-wifi-ddr4-lga1700-matx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
     },
     {
       "part_key": "Gigabyte B860M Eagle WiFi6",
@@ -3800,6 +5439,18 @@
       "stock_qty": 90058
     },
     {
+      "part_key": "Gigabyte B860M Eagle WiFi6",
+      "category": "Motherboard",
+      "subcategory": "LGA1851",
+      "retailer": "PLE Computers",
+      "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
+      "price": 209.0,
+      "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1851",
@@ -3824,6 +5475,18 @@
       "stock_qty": 81989
     },
     {
+      "part_key": "Asus TUF Gaming B860-Plus WiFi",
+      "category": "Motherboard",
+      "subcategory": "LGA1851",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
       "category": "Monitor",
       "subcategory": "1080p",
@@ -3840,6 +5503,18 @@
       "category": "Monitor",
       "subcategory": "1080p",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
+      "category": "Monitor",
+      "subcategory": "1080p",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -3884,6 +5559,18 @@
       "stock_qty": null
     },
     {
+      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
+      "category": "Monitor",
+      "subcategory": "1440p",
+      "retailer": "PLE Computers",
+      "title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
+      "price": 249.0,
+      "url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
       "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
       "category": "Monitor",
       "subcategory": "4K",
@@ -3900,6 +5587,18 @@
       "category": "Monitor",
       "subcategory": "4K",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
@@ -3936,6 +5635,18 @@
       "category": "Monitor",
       "subcategory": "OLED",
       "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "category": "Monitor",
+      "subcategory": "OLED",
+      "retailer": "PLE Computers",
       "title": null,
       "price": null,
       "url": null,
