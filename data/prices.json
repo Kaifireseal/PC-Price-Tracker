@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T02:24:53.879272+00:00",
+  "generated_at": "2026-08-16T09:08:06.086582+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -2188,19 +2188,6 @@
       "stock_qty": null
     },
     {
-      "part_key": "AMD Ryzen 5 7600",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "BPC Tech",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "BPC Tech (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
       "part_key": "AMD Ryzen 5 7600X",
       "category": "CPU",
       "subcategory": "AM5",
@@ -2438,19 +2425,6 @@
       "url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "unknown",
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 7 9800X3D",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "BPC Tech",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "BPC Tech (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results",
-      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -2715,19 +2689,6 @@
       "url": "https://www.ple.com.au/products/664061/intel-core-i5-14400f-raptor-lake-10-core-16-thread-up-to-47ghz-lga1700",
       "status": "OK",
       "stock_status": "unknown",
-      "stock_qty": null
-    },
-    {
-      "part_key": "Intel Core i5-14400F",
-      "category": "CPU",
-      "subcategory": "LGA1700",
-      "retailer": "BPC Tech",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "BPC Tech (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results",
-      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -3232,19 +3193,6 @@
       "url": "https://www.ple.com.au/products/672378/gigabyte-geforce-rtx-5070-eagle-oc-sff-12gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 5070",
-      "category": "GPU",
-      "subcategory": "RTX 50-series",
-      "retailer": "BPC Tech",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "BOT_BLOCKED",
-      "error": "BPC Tech (playwright) failed after 2 attempts: BOT_CHALLENGE: page returned a bot-verification challenge instead of results",
-      "stock_status": null,
       "stock_qty": null
     },
     {
