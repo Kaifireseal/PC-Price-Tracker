@@ -18,20 +18,18 @@ engine to use.
 
 CONFIRMED STATUS (from actual diagnostic runs):
   - Centre Com, Scorptec, Mwave: REMOVED. Confirmed permanently blocked
-    (Cloudflare Turnstile / AWS WAF) even through Playwright, burning
-    large amounts of the workflow's time budget for zero results.
-  - BPC Tech: REMOVED for now. A direct plain-HTTP fetch was blocked by
-    bot detection, and it was part of the pair that caused a 60-minute
-    timeout when added to all 94 parts. Not currently being tested.
-  - JW Computers: TESTING IN ISOLATION on only 4 parts (AMD Ryzen 5 7600,
-    AMD Ryzen 7 9800X3D, Intel Core i5-14400F, NVIDIA RTX 5070) rather
-    than all 94, after adding it everywhere caused a timeout last time.
-    Individual product pages loaded cleanly with zero bot detection when
-    checked manually, so this is the more promising of the two - but
-    still unconfirmed via the actual Playwright-based scraper. Check the
-    scrape log for these 4 parts specifically: if "JW Computers" shows OK,
-    it's safe to roll out to the rest of TRACKED_PARTS. If BOT_BLOCKED or
-    NO_MATCH, remove it the same way BPC Tech was removed.
+    (Cloudflare Turnstile / AWS WAF) even through Playwright.
+  - JW Computers: REMOVED. Tested in isolation on 4 parts - the debug
+    snippet showed a Cloudflare "Just a moment..." Turnstile challenge
+    page, the same wall that blocks Centre Com/Scorptec. Confirmed dead
+    end, do not re-add without a fundamentally different approach.
+  - BPC Tech: TESTING IN ISOLATION on the same 4 parts (AMD Ryzen 5 7600,
+    AMD Ryzen 7 9800X3D, Intel Core i5-14400F, NVIDIA RTX 5070). A direct
+    plain-HTTP fetch was blocked by bot detection earlier, so this is a
+    weaker candidate than JW Computers was - if this also comes back
+    Cloudflare-challenged in the debug snippets, both experimental
+    retailers are dead ends and the tracker should stay on Umart / MSY /
+    PLE Computers only.
   - Umart, MSY: confirmed working reliably via plain "requests".
   - PLE Computers: search page (/Search/{query}) is JS-rendered and comes
     back empty via plain requests — but category browse pages are fully
@@ -74,10 +72,10 @@ RETAILERS = {
         "url_mode": "category",
         "search_url": None,
     },
-    "JW Computers": {
+    "BPC Tech": {
         "mode": "playwright",
         "url_mode": "search",
-        "search_url": "https://www.jw.com.au/catalogsearch/result/?q={query}",
+        "search_url": "https://www.bpctech.com.au/catalogsearch/result/?q={query}",
     },
 }
 
@@ -132,7 +130,7 @@ TRACKED_PARTS = [
     {"part_key": "AMD Ryzen 5 7500X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 5 7500x3d", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 5 7600", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
-     "retailers": {"MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu", "JW Computers": "amd ryzen 5 7600"}},
+     "retailers": {"MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu", "BPC Tech": "amd ryzen 5 7600"}},
     {"part_key": "AMD Ryzen 5 7600X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 5 9600", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
@@ -146,7 +144,7 @@ TRACKED_PARTS = [
     {"part_key": "AMD Ryzen 7 7800X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "7800x3d", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 7 9800X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
-     "retailers": {"Umart": "9800x3d", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu", "JW Computers": "9800x3d"}},
+     "retailers": {"Umart": "9800x3d", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu", "BPC Tech": "9800x3d"}},
     {"part_key": "AMD Ryzen 9 7900X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 9 7900x", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 9 7950X", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
@@ -162,7 +160,7 @@ TRACKED_PARTS = [
     {"part_key": "Intel Core i5-13400F", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"Umart": "i5-13400f", "MSY": "intel_cpu", "PLE Computers": "ple_intel_cpu"}},
     {"part_key": "Intel Core i5-14400F", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
-     "retailers": {"Umart": "i5-14400f", "MSY": "intel_cpu", "PLE Computers": "ple_intel_cpu", "JW Computers": "i5-14400f"}},
+     "retailers": {"Umart": "i5-14400f", "MSY": "intel_cpu", "PLE Computers": "ple_intel_cpu", "BPC Tech": "i5-14400f"}},
     {"part_key": "Intel Core i5-12400F", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"MSY": "intel_cpu", "PLE Computers": "ple_intel_cpu"}},
     {"part_key": "Intel Core i7-14700K", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
@@ -192,7 +190,7 @@ TRACKED_PARTS = [
     {"part_key": "NVIDIA RTX 5060 Ti", "category": "GPU", "subcategory": "RTX 50-series", "socket": None,
      "retailers": {"Umart": "rtx 5060 ti", "MSY": "gpu_rtx_5060ti", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "NVIDIA RTX 5070", "category": "GPU", "subcategory": "RTX 50-series", "socket": None,
-     "retailers": {"MSY": "gpu_rtx_5070", "PLE Computers": "ple_gpu_all", "JW Computers": "nvidia rtx 5070"}},
+     "retailers": {"MSY": "gpu_rtx_5070", "PLE Computers": "ple_gpu_all", "BPC Tech": "nvidia rtx 5070"}},
     {"part_key": "NVIDIA RTX 5070 Ti", "category": "GPU", "subcategory": "RTX 50-series", "socket": None,
      "retailers": {"Umart": "rtx 5070 ti", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "NVIDIA RTX 5080", "category": "GPU", "subcategory": "RTX 50-series", "socket": None,
