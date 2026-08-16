@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-16T09:08:06.086582+00:00",
+  "generated_at": "2026-08-16T20:42:37.116283+00:00",
   "currency": "AUD",
   "parts": [
     {
       "part_key": "AMD Ryzen 5 5500",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 119.0,
+      "best_price": 120.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-100-100000457box-62861",
       "best_title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)",
@@ -15,7 +15,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 119.0,
+          "price": 120.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-100-100000457box-62861",
           "title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)",
           "stock_status": "in_stock",
@@ -114,7 +114,7 @@
       "part_key": "AMD Ryzen 5 5600X",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 217.0,
+      "best_price": 218.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600x-6-core-am4-4-6ghz-cpu-processor-100-100000065box-57284",
       "best_title": "AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor (100-100000065BOX)",
@@ -123,7 +123,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 217.0,
+          "price": 218.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-5-5600x-6-core-am4-4-6ghz-cpu-processor-100-100000065box-57284",
           "title": "AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor (100-100000065BOX)",
           "stock_status": "in_stock",
@@ -172,7 +172,7 @@
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 548.0,
+      "best_price": 549.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
       "best_title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
@@ -181,7 +181,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 548.0,
+          "price": 549.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
           "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
           "stock_status": "in_stock",
@@ -243,7 +243,7 @@
       "part_key": "AMD Ryzen 5 7600",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 284.0,
+      "best_price": 285.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-5-7600-6-core-am5-5-1ghz-cpu-processor-with-wraith-stealth-cooler-100-100001015box-68285",
       "best_title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)",
@@ -252,7 +252,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 284.0,
+          "price": 285.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-5-7600-6-core-am5-5-1ghz-cpu-processor-with-wraith-stealth-cooler-100-100001015box-68285",
           "title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)",
           "stock_status": "in_stock",
@@ -351,7 +351,7 @@
       "part_key": "AMD Ryzen 5 9600X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 347.0,
+      "best_price": 348.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
       "best_title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
@@ -360,7 +360,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 347.0,
+          "price": 348.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
           "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
           "stock_status": "in_stock",
@@ -380,7 +380,7 @@
       "part_key": "AMD Ryzen 7 7700X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 448.0,
+      "best_price": 449.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
       "best_title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
@@ -389,7 +389,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 448.0,
+          "price": 449.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
           "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
           "stock_status": "in_stock",
@@ -409,7 +409,7 @@
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 548.0,
+      "best_price": 549.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
       "best_title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
@@ -418,7 +418,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 548.0,
+          "price": 549.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
           "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
           "stock_status": "in_stock",
@@ -509,7 +509,7 @@
       "part_key": "AMD Ryzen 9 9950X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 888.0,
+      "best_price": 889.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
       "best_title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
@@ -518,7 +518,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 888.0,
+          "price": 889.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
           "title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
           "stock_status": "in_stock",
@@ -538,21 +538,13 @@
       "part_key": "AMD Ryzen 9 9950X3D",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 1028.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
-      "best_title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 81996,
+      "best_price": 1039.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/673964/amd-ryzen-9-9950x3d-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 9 9950X3D 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 1028.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
-          "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": 81996
-        },
         {
           "retailer": "PLE Computers",
           "price": 1039.0,
@@ -560,6 +552,14 @@
           "title": "AMD Ryzen 9 9950X3D 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
           "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 1148.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
+          "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 81996
         }
       ]
     },
@@ -663,10 +663,10 @@
         },
         {
           "retailer": "Umart",
-          "price": 1999.0,
-          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
-          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675",
-          "stock_status": "out_of_stock",
+          "price": 1849.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
+          "stock_status": "in_stock",
           "stock_qty": null
         }
       ]
@@ -1929,7 +1929,7 @@
       "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 5500 6 Core AM4 4.20GHz CPU Processor with Wraith Stealth Cooler (100-100000457BOX)",
-      "price": 119.0,
+      "price": 120.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-5500-6-core-am4-4-20ghz-cpu-processor-with-wraith-stealth-cooler-100-100000457box-62861",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2001,7 +2001,7 @@
       "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 5600X 6 Core AM4 4.6GHz CPU Processor (100-100000065BOX)",
-      "price": 217.0,
+      "price": 218.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-5600x-6-core-am4-4-6ghz-cpu-processor-100-100000065box-57284",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2073,7 +2073,7 @@
       "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
-      "price": 548.0,
+      "price": 549.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2169,7 +2169,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 7600 6 Core AM5 5.1GHz CPU Processor with Wraith Stealth Cooler (100-100001015BOX)",
-      "price": 284.0,
+      "price": 285.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-7600-6-core-am5-5-1ghz-cpu-processor-with-wraith-stealth-cooler-100-100001015box-68285",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2265,7 +2265,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
-      "price": 347.0,
+      "price": 348.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2337,7 +2337,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
-      "price": 448.0,
+      "price": 449.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2373,7 +2373,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
-      "price": 548.0,
+      "price": 549.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2553,7 +2553,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
-      "price": 888.0,
+      "price": 889.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2577,7 +2577,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
-      "price": 1028.0,
+      "price": 1148.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2660,11 +2660,11 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "Umart",
-      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58675",
-      "price": 1999.0,
-      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58675-83344",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
+      "price": 1849.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
       "status": "OK",
-      "stock_status": "out_of_stock",
+      "stock_status": "in_stock",
       "stock_qty": null
     },
     {
