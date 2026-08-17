@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:42:37.116283+00:00",
+  "generated_at": "2026-08-17T20:45:16.889261+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -93,13 +93,21 @@
       "part_key": "AMD Ryzen 5 5600GT",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 209.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
-      "best_title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 195.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
+      "best_title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 75736,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 195.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
+          "title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
+          "stock_status": "in_stock",
+          "stock_qty": 75736
+        },
         {
           "retailer": "PLE Computers",
           "price": 209.0,
@@ -510,20 +518,12 @@
       "category": "CPU",
       "subcategory": "AM5",
       "best_price": 889.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
-      "best_title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 78838,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/667601/amd-ryzen-9-9950x-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 9 9950X 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 889.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
-          "title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": 78838
-        },
         {
           "retailer": "PLE Computers",
           "price": 889.0,
@@ -531,6 +531,14 @@
           "title": "AMD Ryzen 9 9950X 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
           "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 1148.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
+          "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 81996
         }
       ]
     },
@@ -623,14 +631,6 @@
           "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
           "stock_status": "unknown",
           "stock_qty": null
-        },
-        {
-          "retailer": "MSY",
-          "price": 249.0,
-          "url": "https://www.msy.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
-          "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
-          "stock_status": "unknown",
-          "stock_qty": null
         }
       ]
     },
@@ -675,20 +675,20 @@
       "part_key": "Intel Core i7-14700K",
       "category": "CPU",
       "subcategory": "LGA1700",
-      "best_price": 579.0,
+      "best_price": 599.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
-      "best_title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
+      "best_url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
+      "best_title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 73063,
+      "best_stock_qty": 73062,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 579.0,
-          "url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
-          "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
+          "price": 599.0,
+          "url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
+          "title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)",
           "stock_status": "in_stock",
-          "stock_qty": 73063
+          "stock_qty": 73062
         }
       ]
     },
@@ -854,7 +854,7 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1299.0,
+      "best_price": 1199.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "best_title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
@@ -863,7 +863,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1299.0,
+          "price": 1199.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
           "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
           "stock_status": "in_stock",
@@ -883,7 +883,7 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1829.0,
+      "best_price": 1729.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "best_title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
@@ -892,7 +892,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1829.0,
+          "price": 1729.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
           "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
           "stock_status": "in_stock",
@@ -941,7 +941,7 @@
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 7199.0,
+      "best_price": 7399.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
       "best_title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
@@ -950,7 +950,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 7199.0,
+          "price": 7399.0,
           "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
           "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
           "stock_status": "in_stock",
@@ -1041,7 +1041,7 @@
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 999.0,
+      "best_price": 1199.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
@@ -1050,7 +1050,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 999.0,
+          "price": 1199.0,
           "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
           "stock_status": "in_stock",
@@ -1070,7 +1070,7 @@
       "part_key": "Asus Prime RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 999.0,
+      "best_price": 1199.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
@@ -1079,7 +1079,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 999.0,
+          "price": 1199.0,
           "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
           "stock_status": "in_stock",
@@ -1288,6 +1288,27 @@
       ]
     },
     {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "best_price": 279.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+      "best_title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 279.0,
+          "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+          "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+          "stock_status": "in_stock",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
       "part_key": "Asus Prime Z790-P WiFi CSM",
       "category": "Motherboard",
       "subcategory": "LGA1700",
@@ -1314,16 +1335,16 @@
       "subcategory": "LGA1700",
       "best_price": 179.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
-      "best_title": "MSI Pro B760M-A WiFi LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
+      "best_url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
+      "best_title": "MSI Pro B760M-A WiFi DDR5 LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
       "best_stock_status": "in_stock",
       "best_stock_qty": 84138,
       "offers": [
         {
           "retailer": "MSY",
           "price": 179.0,
-          "url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
-          "title": "MSI Pro B760M-A WiFi LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
+          "url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
+          "title": "MSI Pro B760M-A WiFi DDR5 LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
           "stock_status": "in_stock",
           "stock_qty": 84138
         },
@@ -1433,21 +1454,13 @@
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 189.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c18d-16gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56010",
-      "best_title": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 56010,
+      "best_price": 229.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
+      "best_title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 189.0,
-          "url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c18d-16gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56010",
-          "title": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
-          "stock_status": "in_stock",
-          "stock_qty": 56010
-        },
         {
           "retailer": "PLE Computers",
           "price": 229.0,
@@ -1455,6 +1468,14 @@
           "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
           "stock_status": "unknown",
           "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 259.0,
+          "url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c16d-16gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-56234",
+          "title": "G.Skill 16GB (2x8GB)F4-3600C16D-16GVKC Ripjaws V 3600MHz CL16 DDR4 RAM",
+          "stock_status": "in_stock",
+          "stock_qty": 56234
         }
       ]
     },
@@ -1520,7 +1541,7 @@
       "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 389.0,
+      "best_price": 429.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf432c16bb2ak2-32-fury-beast-rgb-3200mhz-ddr4-ram-75220",
       "best_title": "Kingston 32GB (2x16GB) KF432C16BB2AK2/32 Fury Beast RGB 3200MHz DDR4 RAM",
@@ -1529,7 +1550,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 389.0,
+          "price": 429.0,
           "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf432c16bb2ak2-32-fury-beast-rgb-3200mhz-ddr4-ram-75220",
           "title": "Kingston 32GB (2x16GB) KF432C16BB2AK2/32 Fury Beast RGB 3200MHz DDR4 RAM",
           "stock_status": "in_stock",
@@ -1892,12 +1913,12 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
+      "price": 195.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 75736
     },
     {
       "part_key": "AMD Ryzen 5 5600GT",
@@ -2552,12 +2573,12 @@
       "category": "CPU",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
-      "price": 889.0,
-      "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
+      "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
+      "price": 1148.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 78838
+      "stock_qty": 81996
     },
     {
       "part_key": "AMD Ryzen 9 9950X",
@@ -2636,11 +2657,11 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": "Intel Core i5 13400F 10 Core LGA 1700 4.6GHz CPU Processor (BX8071513400F)",
-      "price": 249.0,
-      "url": "https://www.msy.com.au/product/intel-core-i5-13400f-10-core-lga-1700-4-6ghz-cpu-processor-bx8071513400f-68193",
-      "status": "OK",
-      "stock_status": "unknown",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -2732,12 +2753,12 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": "Intel Core i7 14700KF 20 Core LGA 1700 CPU Processor (BX8071514700KF)",
-      "price": 579.0,
-      "url": "https://www.msy.com.au/product/intel-core-i7-14700kf-20-core-lga-1700-cpu-processor-bx8071514700kf-73063",
+      "title": "Intel Core i7 14700K 20 Core LGA 1700 CPU Processor (BX8071514700K)",
+      "price": 599.0,
+      "url": "https://www.msy.com.au/product/intel-core-i7-14700k-20-core-lga-1700-cpu-processor-bx8071514700k-73062",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 73063
+      "stock_qty": 73062
     },
     {
       "part_key": "Intel Core i7-14700K",
@@ -3177,7 +3198,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
-      "price": 1299.0,
+      "price": 1199.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3213,7 +3234,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
-      "price": 1829.0,
+      "price": 1729.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3285,7 +3306,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
-      "price": 7199.0,
+      "price": 7399.0,
       "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3513,7 +3534,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
-      "price": 999.0,
+      "price": 1199.0,
       "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3573,7 +3594,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
-      "price": 999.0,
+      "price": 1199.0,
       "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3716,12 +3737,12 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "MSY",
-      "title": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
-      "price": 189.0,
-      "url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c18d-16gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56010",
+      "title": "G.Skill 16GB (2x8GB)F4-3600C16D-16GVKC Ripjaws V 3600MHz CL16 DDR4 RAM",
+      "price": 259.0,
+      "url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c16d-16gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-56234",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 56010
+      "stock_qty": 56234
     },
     {
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
@@ -3849,7 +3870,7 @@
       "subcategory": "DDR4",
       "retailer": "MSY",
       "title": "Kingston 32GB (2x16GB) KF432C16BB2AK2/32 Fury Beast RGB 3200MHz DDR4 RAM",
-      "price": 389.0,
+      "price": 429.0,
       "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf432c16bb2ak2-32-fury-beast-rgb-3200mhz-ddr4-ram-75220",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4616,11 +4637,11 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+      "price": 279.0,
+      "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+      "status": "OK",
+      "stock_status": "in_stock",
       "stock_qty": null
     },
     {
@@ -4832,9 +4853,9 @@
       "category": "Motherboard",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": "MSI Pro B760M-A WiFi LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
+      "title": "MSI Pro B760M-A WiFi DDR5 LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
       "price": 179.0,
-      "url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
+      "url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": 84138
