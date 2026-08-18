@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T20:45:16.889261+00:00",
+  "generated_at": "2026-08-18T20:42:53.431748+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -64,21 +64,13 @@
       "part_key": "AMD Ryzen 5 5600",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 168.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
-      "best_title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 62808,
+      "best_price": 169.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/651834/amd-ryzen-5-5600-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
+      "best_title": "AMD Ryzen 5 5600 6 Core 12 Thread Up To 4.4Ghz AM4 - With Wraith Stealth Cooler",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 168.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
-          "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
-          "stock_status": "in_stock",
-          "stock_qty": 62808
-        },
         {
           "retailer": "PLE Computers",
           "price": 169.0,
@@ -86,6 +78,14 @@
           "title": "AMD Ryzen 5 5600 6 Core 12 Thread Up To 4.4Ghz AM4 - With Wraith Stealth Cooler",
           "stock_status": "unknown",
           "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 172.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
+          "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
+          "stock_status": "in_stock",
+          "stock_qty": 62808
         }
       ]
     },
@@ -825,21 +825,13 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 569.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
-      "best_title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 729.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
+      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 82678,
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 569.0,
-          "url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
-          "title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null
-        },
         {
           "retailer": "MSY",
           "price": 729.0,
@@ -847,6 +839,14 @@
           "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
           "stock_status": "in_stock",
           "stock_qty": 82678
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 919.0,
+          "url": "https://www.ple.com.au/products/679088/pny-geforce-rtx-5060-ti-dual-oc-16gb-gddr7",
+          "title": "PNY GeForce RTX 5060 Ti Dual OC 16GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -929,9 +929,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 2799.0,
-          "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
-          "title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
+          "price": 2499.0,
+          "url": "https://www.ple.com.au/products/678460/asus-geforce-rtx-5080-proart-oc-16gb-gddr7",
+          "title": "ASUS GeForce RTX 5080 ProArt OC 16GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1133,7 +1133,7 @@
       "part_key": "Sapphire Pulse RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 1199.0,
+      "best_price": 1249.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "best_title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
@@ -1142,7 +1142,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1199.0,
+          "price": 1249.0,
           "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
           "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
           "stock_status": "in_stock",
@@ -1217,7 +1217,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 79275,
+      "best_stock_qty": null,
       "offers": [
         {
           "retailer": "MSY",
@@ -1225,7 +1225,7 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": 79275
+          "stock_qty": null
         }
       ]
     },
@@ -1291,18 +1291,18 @@
       "part_key": "MSI MAG B650 Tomahawk WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 279.0,
+      "best_price": 278.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
-      "best_title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+      "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
+      "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 279.0,
-          "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
-          "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+          "price": 278.0,
+          "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
+          "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
           "stock_status": "in_stock",
           "stock_qty": null
         }
@@ -1362,20 +1362,28 @@
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1851",
-      "best_price": 309.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
-      "best_title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 81989,
+      "best_price": 279.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
+      "best_title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 279.0,
+          "url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
+          "title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null
+        },
         {
           "retailer": "MSY",
           "price": 309.0,
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 81989
+          "stock_qty": null
         }
       ]
     },
@@ -1400,7 +1408,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 209.0,
+          "price": 199.0,
           "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
           "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
           "stock_status": "unknown",
@@ -1433,13 +1441,21 @@
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 269.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
-      "best_title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 205.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmk16gx4m2e3200c16-vengeance-lpx-cl16-3200mhz-ddr4-ram-52111",
+      "best_title": "Corsair 16GB (2x8GB) CMK16GX4M2E3200C16 Vengeance LPX CL16 3200MHz DDR4 RAM",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 52111,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 205.0,
+          "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmk16gx4m2e3200c16-vengeance-lpx-cl16-3200mhz-ddr4-ram-52111",
+          "title": "Corsair 16GB (2x8GB) CMK16GX4M2E3200C16 Vengeance LPX CL16 3200MHz DDR4 RAM",
+          "stock_status": "in_stock",
+          "stock_qty": 52111
+        },
         {
           "retailer": "PLE Computers",
           "price": 269.0,
@@ -1454,13 +1470,21 @@
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 229.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
-      "best_title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 189.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c18d-16gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56010",
+      "best_title": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 56010,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 189.0,
+          "url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c18d-16gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56010",
+          "title": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+          "stock_status": "in_stock",
+          "stock_qty": 56010
+        },
         {
           "retailer": "PLE Computers",
           "price": 229.0,
@@ -1468,14 +1492,6 @@
           "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
           "stock_status": "unknown",
           "stock_qty": null
-        },
-        {
-          "retailer": "MSY",
-          "price": 259.0,
-          "url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c16d-16gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-56234",
-          "title": "G.Skill 16GB (2x8GB)F4-3600C16D-16GVKC Ripjaws V 3600MHz CL16 DDR4 RAM",
-          "stock_status": "in_stock",
-          "stock_qty": 56234
         }
       ]
     },
@@ -1500,9 +1516,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 499.0,
-          "url": "https://www.ple.com.au/products/636989/gskill-trident-z-neo-rgb-32gb-kit-2x16gb-ddr4-3600-c16",
-          "title": "G.Skill Trident Z Neo RGB 32GB Kit (2x16GB) DDR4-3600 C16",
+          "price": 479.0,
+          "url": "https://www.ple.com.au/products/679946/gskill-trident-z-rgb-32gb-kit-2x16gb-ddr4-3600-c18",
+          "title": "G.Skill Trident Z RGB 32GB Kit (2x16GB) DDR4-3600 C18",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1641,13 +1657,21 @@
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 499.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
-      "best_title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 399.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+      "best_title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 70238,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 399.0,
+          "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+          "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
+          "stock_status": "in_stock",
+          "stock_qty": 70238
+        },
         {
           "retailer": "PLE Computers",
           "price": 499.0,
@@ -1679,7 +1703,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 989.0,
+          "price": 1099.0,
           "url": "https://www.ple.com.au/products/670441/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr5-6000-c36",
           "title": "Kingston FURY Beast RGB 32GB Kit (2x16GB) DDR5-6000 C36",
           "stock_status": "unknown",
@@ -1986,7 +2010,7 @@
       "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
-      "price": 168.0,
+      "price": 172.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3185,9 +3209,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
-      "price": 569.0,
-      "url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
+      "title": "PNY GeForce RTX 5060 Ti Dual OC 16GB GDDR7",
+      "price": 919.0,
+      "url": "https://www.ple.com.au/products/679088/pny-geforce-rtx-5060-ti-dual-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3281,9 +3305,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
-      "price": 2799.0,
-      "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
+      "title": "ASUS GeForce RTX 5080 ProArt OC 16GB GDDR7",
+      "price": 2499.0,
+      "url": "https://www.ple.com.au/products/678460/asus-geforce-rtx-5080-proart-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3630,7 +3654,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
-      "price": 1199.0,
+      "price": 1249.0,
       "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3665,12 +3689,12 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Corsair 16GB (2x8GB) CMK16GX4M2E3200C16 Vengeance LPX CL16 3200MHz DDR4 RAM",
+      "price": 205.0,
+      "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmk16gx4m2e3200c16-vengeance-lpx-cl16-3200mhz-ddr4-ram-52111",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 52111
     },
     {
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
@@ -3737,12 +3761,12 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "MSY",
-      "title": "G.Skill 16GB (2x8GB)F4-3600C16D-16GVKC Ripjaws V 3600MHz CL16 DDR4 RAM",
-      "price": 259.0,
-      "url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c16d-16gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-56234",
+      "title": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+      "price": 189.0,
+      "url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c18d-16gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56010",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 56234
+      "stock_qty": 56010
     },
     {
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
@@ -3809,9 +3833,9 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": "G.Skill Trident Z Neo RGB 32GB Kit (2x16GB) DDR4-3600 C16",
-      "price": 499.0,
-      "url": "https://www.ple.com.au/products/636989/gskill-trident-z-neo-rgb-32gb-kit-2x16gb-ddr4-3600-c16",
+      "title": "G.Skill Trident Z RGB 32GB Kit (2x16GB) DDR4-3600 C18",
+      "price": 479.0,
+      "url": "https://www.ple.com.au/products/679946/gskill-trident-z-rgb-32gb-kit-2x16gb-ddr4-3600-c18",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3941,12 +3965,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
+      "price": 399.0,
+      "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 70238
     },
     {
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
@@ -4062,7 +4086,7 @@
       "subcategory": "DDR5",
       "retailer": "PLE Computers",
       "title": "Kingston FURY Beast RGB 32GB Kit (2x16GB) DDR5-6000 C36",
-      "price": 989.0,
+      "price": 1099.0,
       "url": "https://www.ple.com.au/products/670441/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr5-6000-c36",
       "status": "OK",
       "stock_status": "unknown",
@@ -4637,9 +4661,9 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
-      "price": 279.0,
-      "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+      "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
+      "price": 278.0,
+      "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null
@@ -4750,7 +4774,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 79275
+      "stock_qty": null
     },
     {
       "part_key": "Asus Prime X870-P WiFi CSM",
@@ -4902,7 +4926,7 @@
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
       "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
-      "price": 209.0,
+      "price": 199.0,
       "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
       "status": "OK",
       "stock_status": "unknown",
@@ -4930,18 +4954,18 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81989
+      "stock_qty": null
     },
     {
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
+      "price": 279.0,
+      "url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
