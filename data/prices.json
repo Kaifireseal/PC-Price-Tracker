@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T20:42:53.431748+00:00",
+  "generated_at": "2026-08-19T20:45:31.824885+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -93,21 +93,13 @@
       "part_key": "AMD Ryzen 5 5600GT",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 195.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
-      "best_title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 75736,
+      "best_price": 209.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
+      "best_title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 195.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
-          "title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
-          "stock_status": "in_stock",
-          "stock_qty": 75736
-        },
         {
           "retailer": "PLE Computers",
           "price": 209.0,
@@ -446,13 +438,21 @@
       "part_key": "AMD Ryzen 7 9800X3D",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 674.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
-      "best_title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 648.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125",
+      "best_title": "AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 80125,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 648.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125",
+          "title": "AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 80125
+        },
         {
           "retailer": "PLE Computers",
           "price": 674.0,
@@ -518,12 +518,20 @@
       "category": "CPU",
       "subcategory": "AM5",
       "best_price": 889.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/667601/amd-ryzen-9-9950x-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
-      "best_title": "AMD Ryzen 9 9950X 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
+      "best_title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 78838,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 889.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
+          "title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 78838
+        },
         {
           "retailer": "PLE Computers",
           "price": 889.0,
@@ -531,14 +539,6 @@
           "title": "AMD Ryzen 9 9950X 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
           "stock_qty": null
-        },
-        {
-          "retailer": "MSY",
-          "price": 1148.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
-          "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": 81996
         }
       ]
     },
@@ -775,7 +775,7 @@
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
       "subcategory": "RTX 40-series",
-      "best_price": 499.0,
+      "best_price": 465.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
       "best_title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
@@ -784,7 +784,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 499.0,
+          "price": 465.0,
           "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
           "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
           "stock_status": "unknown",
@@ -842,9 +842,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 919.0,
-          "url": "https://www.ple.com.au/products/679088/pny-geforce-rtx-5060-ti-dual-oc-16gb-gddr7",
-          "title": "PNY GeForce RTX 5060 Ti Dual OC 16GB GDDR7",
+          "price": 839.0,
+          "url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -941,7 +941,7 @@
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 7399.0,
+      "best_price": 7599.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
       "best_title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
@@ -950,7 +950,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 7399.0,
+          "price": 7599.0,
           "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
           "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
           "stock_status": "in_stock",
@@ -958,9 +958,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 8049.0,
-          "url": "https://www.ple.com.au/products/672371/gigabyte-geforce-rtx-5090-gaming-oc-32gb-gddr7",
-          "title": "Gigabyte GeForce RTX 5090 Gaming OC 32GB GDDR7",
+          "price": 7899.0,
+          "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
+          "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1008,9 +1008,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 819.0,
-          "url": "https://www.ple.com.au/products/676092/sapphire-pure-radeon-rx-9060-xt-16gb-gddr6-white",
-          "title": "SAPPHIRE PURE Radeon RX 9060 XT 16GB GDDR6 (White)",
+          "price": 839.0,
+          "url": "https://www.ple.com.au/products/678060/xfx-swift-radeon-rx-9060-xt-oc-triple-fan-16gb-gddr6",
+          "title": "XFX Swift Radeon RX 9060 XT OC Triple Fan 16GB GDDR6",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1084,6 +1084,14 @@
           "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
           "stock_status": "in_stock",
           "stock_qty": 81932
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 1609.0,
+          "url": "https://www.ple.com.au/products/672471/asus-radeon-rx-9070-xt-tuf-gaming-oc-16gb-gddr6",
+          "title": "ASUS Radeon RX 9070 XT TUF Gaming OC 16GB GDDR6",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -1288,27 +1296,6 @@
       ]
     },
     {
-      "part_key": "MSI MAG B650 Tomahawk WiFi",
-      "category": "Motherboard",
-      "subcategory": "AM5",
-      "best_price": 278.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-      "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 278.0,
-          "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-          "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-          "stock_status": "in_stock",
-          "stock_qty": null
-        }
-      ]
-    },
-    {
       "part_key": "Asus Prime Z790-P WiFi CSM",
       "category": "Motherboard",
       "subcategory": "LGA1700",
@@ -1333,7 +1320,7 @@
       "part_key": "MSI PRO B760M-A WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1700",
-      "best_price": 179.0,
+      "best_price": 189.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
       "best_title": "MSI Pro B760M-A WiFi DDR5 LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
@@ -1342,7 +1329,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 179.0,
+          "price": 189.0,
           "url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
           "title": "MSI Pro B760M-A WiFi DDR5 LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
           "stock_status": "in_stock",
@@ -1405,14 +1392,6 @@
           "title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)",
           "stock_status": "in_stock",
           "stock_qty": 90058
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 199.0,
-          "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
-          "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
-          "stock_status": "unknown",
-          "stock_qty": null
         }
       ]
     },
@@ -1441,21 +1420,13 @@
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 205.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmk16gx4m2e3200c16-vengeance-lpx-cl16-3200mhz-ddr4-ram-52111",
-      "best_title": "Corsair 16GB (2x8GB) CMK16GX4M2E3200C16 Vengeance LPX CL16 3200MHz DDR4 RAM",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 52111,
+      "best_price": 269.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
+      "best_title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 205.0,
-          "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmk16gx4m2e3200c16-vengeance-lpx-cl16-3200mhz-ddr4-ram-52111",
-          "title": "Corsair 16GB (2x8GB) CMK16GX4M2E3200C16 Vengeance LPX CL16 3200MHz DDR4 RAM",
-          "stock_status": "in_stock",
-          "stock_qty": 52111
-        },
         {
           "retailer": "PLE Computers",
           "price": 269.0,
@@ -1578,20 +1549,20 @@
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 689.0,
+      "best_price": 729.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
-      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
+      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
+      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 92533,
+      "best_stock_qty": 92526,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 689.0,
-          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
-          "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
+          "price": 729.0,
+          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
+          "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
           "stock_status": "in_stock",
-          "stock_qty": 92533
+          "stock_qty": 92526
         },
         {
           "retailer": "PLE Computers",
@@ -1650,6 +1621,27 @@
           "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
           "stock_status": "unknown",
           "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "best_price": 1999.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/corsair-96gb-2x48gb-cmh96gx5m2e6000z36-vengeance-rgb-6000mt-s-cl36-ddr5-ram-83480",
+      "best_title": "Corsair 96GB (2x48GB) CMH96GX5M2E6000Z36 Vengeance RGB 6000MT/s CL36 DDR5 RAM",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 83480,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 1999.0,
+          "url": "https://www.msy.com.au/product/corsair-96gb-2x48gb-cmh96gx5m2e6000z36-vengeance-rgb-6000mt-s-cl36-ddr5-ram-83480",
+          "title": "Corsair 96GB (2x48GB) CMH96GX5M2E6000Z36 Vengeance RGB 6000MT/s CL36 DDR5 RAM",
+          "stock_status": "in_stock",
+          "stock_qty": 83480
         }
       ]
     },
@@ -1937,12 +1929,12 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
-      "price": 195.0,
-      "url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 75736
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 5 5600GT",
@@ -2453,12 +2445,12 @@
       "category": "CPU",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)",
+      "price": 648.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 80125
     },
     {
       "part_key": "AMD Ryzen 7 9800X3D",
@@ -2597,12 +2589,12 @@
       "category": "CPU",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": "AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Processor (100-100000719WOF)",
-      "price": 1148.0,
-      "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996",
+      "title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
+      "price": 889.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81996
+      "stock_qty": 78838
     },
     {
       "part_key": "AMD Ryzen 9 9950X",
@@ -2982,7 +2974,7 @@
       "subcategory": "RTX 40-series",
       "retailer": "MSY",
       "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
-      "price": 499.0,
+      "price": 465.0,
       "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
       "status": "OK",
       "stock_status": "unknown",
@@ -3209,9 +3201,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "PNY GeForce RTX 5060 Ti Dual OC 16GB GDDR7",
-      "price": 919.0,
-      "url": "https://www.ple.com.au/products/679088/pny-geforce-rtx-5060-ti-dual-oc-16gb-gddr7",
+      "title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
+      "price": 839.0,
+      "url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3330,7 +3322,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
-      "price": 7399.0,
+      "price": 7599.0,
       "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3341,9 +3333,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte GeForce RTX 5090 Gaming OC 32GB GDDR7",
-      "price": 8049.0,
-      "url": "https://www.ple.com.au/products/672371/gigabyte-geforce-rtx-5090-gaming-oc-32gb-gddr7",
+      "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
+      "price": 7899.0,
+      "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3473,9 +3465,9 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "SAPPHIRE PURE Radeon RX 9060 XT 16GB GDDR6 (White)",
-      "price": 819.0,
-      "url": "https://www.ple.com.au/products/676092/sapphire-pure-radeon-rx-9060-xt-16gb-gddr6-white",
+      "title": "XFX Swift Radeon RX 9060 XT OC Triple Fan 16GB GDDR6",
+      "price": 839.0,
+      "url": "https://www.ple.com.au/products/678060/xfx-swift-radeon-rx-9060-xt-oc-triple-fan-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3629,11 +3621,11 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "ASUS Radeon RX 9070 XT TUF Gaming OC 16GB GDDR6",
+      "price": 1609.0,
+      "url": "https://www.ple.com.au/products/672471/asus-radeon-rx-9070-xt-tuf-gaming-oc-16gb-gddr6",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -3689,12 +3681,12 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "MSY",
-      "title": "Corsair 16GB (2x8GB) CMK16GX4M2E3200C16 Vengeance LPX CL16 3200MHz DDR4 RAM",
-      "price": 205.0,
-      "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmk16gx4m2e3200c16-vengeance-lpx-cl16-3200mhz-ddr4-ram-52111",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 52111
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
@@ -4037,12 +4029,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
-      "price": 689.0,
-      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
+      "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
+      "price": 729.0,
+      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 92533
+      "stock_qty": 92526
     },
     {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
@@ -4265,12 +4257,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Corsair 96GB (2x48GB) CMH96GX5M2E6000Z36 Vengeance RGB 6000MT/s CL36 DDR5 RAM",
+      "price": 1999.0,
+      "url": "https://www.msy.com.au/product/corsair-96gb-2x48gb-cmh96gx5m2e6000z36-vengeance-rgb-6000mt-s-cl36-ddr5-ram-83480",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 83480
     },
     {
       "part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000",
@@ -4661,11 +4653,11 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "price": 278.0,
-      "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
-      "status": "OK",
-      "stock_status": "in_stock",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -4878,7 +4870,7 @@
       "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": "MSI Pro B760M-A WiFi DDR5 LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
-      "price": 179.0,
+      "price": 189.0,
       "url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4925,11 +4917,11 @@
       "category": "Motherboard",
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
-      "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
-      "price": 199.0,
-      "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
-      "status": "OK",
-      "stock_status": "unknown",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
