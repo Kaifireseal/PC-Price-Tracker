@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:24:22.501139+00:00",
+  "generated_at": "2026-08-20T11:07:10.822073+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -1183,27 +1183,6 @@
           "url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
           "title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
           "stock_status": "unknown",
-          "stock_qty": null
-        }
-      ]
-    },
-    {
-      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS",
-      "category": "Monitor",
-      "subcategory": "4K",
-      "best_price": 699.0,
-      "best_retailer": "Umart",
-      "best_url": "https://www.umart.com.au/product/samsung-odyssey-g7-g70d-27in-4k-uhd-144hz-fast-ips-freesync-premium-gaming-monitor-ls27dg702eexxy-81614",
-      "best_title": "Samsung Odyssey G7 G70D 27in 4K UHD 144Hz Fast IPS FreeSync Premium Gaming Monitor (LS27DG702EEXXY)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "offers": [
-        {
-          "retailer": "Umart",
-          "price": 699.0,
-          "url": "https://www.umart.com.au/product/samsung-odyssey-g7-g70d-27in-4k-uhd-144hz-fast-ips-freesync-premium-gaming-monitor-ls27dg702eexxy-81614",
-          "title": "Samsung Odyssey G7 G70D 27in 4K UHD 144Hz Fast IPS FreeSync Premium Gaming Monitor (LS27DG702EEXXY)",
-          "stock_status": "in_stock",
           "stock_qty": null
         }
       ]
@@ -4866,7 +4845,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor",
+      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor (GS25F2-AU)",
       "category": "Monitor",
       "subcategory": "1080p",
       "retailer": "Umart",
@@ -4878,7 +4857,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor",
+      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor (GS25F2-AU)",
       "category": "Monitor",
       "subcategory": "1080p",
       "retailer": "MSY",
@@ -4890,7 +4869,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor",
+      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor (GS25F2-AU)",
       "category": "Monitor",
       "subcategory": "1080p",
       "retailer": "PLE Computers",
@@ -4974,7 +4953,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor",
+      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor (VG27AQ5A)",
       "category": "Monitor",
       "subcategory": "1440p",
       "retailer": "Umart",
@@ -4986,7 +4965,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor",
+      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor (VG27AQ5A)",
       "category": "Monitor",
       "subcategory": "1440p",
       "retailer": "MSY",
@@ -4998,7 +4977,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor",
+      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor (VG27AQ5A)",
       "category": "Monitor",
       "subcategory": "1440p",
       "retailer": "PLE Computers",
@@ -5010,43 +4989,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS",
-      "category": "Monitor",
-      "subcategory": "4K",
-      "retailer": "Umart",
-      "title": "Samsung Odyssey G7 G70D 27in 4K UHD 144Hz Fast IPS FreeSync Premium Gaming Monitor (LS27DG702EEXXY)",
-      "price": 699.0,
-      "url": "https://www.umart.com.au/product/samsung-odyssey-g7-g70d-27in-4k-uhd-144hz-fast-ips-freesync-premium-gaming-monitor-ls27dg702eexxy-81614",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": null
-    },
-    {
-      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS",
-      "category": "Monitor",
-      "subcategory": "4K",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS",
-      "category": "Monitor",
-      "subcategory": "4K",
-      "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz",
+      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS (LS27DG702EEXXY)",
       "category": "Monitor",
       "subcategory": "4K",
       "retailer": "Umart",
@@ -5058,7 +5001,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz",
+      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS (LS27DG702EEXXY)",
       "category": "Monitor",
       "subcategory": "4K",
       "retailer": "MSY",
@@ -5070,7 +5013,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz",
+      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS (LS27DG702EEXXY)",
       "category": "Monitor",
       "subcategory": "4K",
       "retailer": "PLE Computers",
@@ -5082,7 +5025,43 @@
       "stock_qty": null
     },
     {
-      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz (XG27UCGR)",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz (XG27UCGR)",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz (XG27UCGR)",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "ASUS ROG Swift OLED PG27UCWM",
       "category": "Monitor",
       "subcategory": "OLED",
       "retailer": "Umart",
@@ -5094,7 +5073,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "part_key": "ASUS ROG Swift OLED PG27UCWM",
       "category": "Monitor",
       "subcategory": "OLED",
       "retailer": "MSY",
@@ -5106,7 +5085,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Asus ROG Swift PG27UCDM 4K QD-OLED Monitor",
+      "part_key": "ASUS ROG Swift OLED PG27UCWM",
       "category": "Monitor",
       "subcategory": "OLED",
       "retailer": "PLE Computers",
