@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:45:31.824885+00:00",
+  "generated_at": "2026-08-20T10:24:22.501139+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -52,7 +52,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 184.0,
+          "price": 189.0,
           "url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
           "title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
           "stock_status": "unknown",
@@ -93,7 +93,7 @@
       "part_key": "AMD Ryzen 5 5600GT",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 209.0,
+      "best_price": 204.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
       "best_title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
@@ -102,7 +102,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 209.0,
+          "price": 204.0,
           "url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
           "title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
           "stock_status": "unknown",
@@ -842,7 +842,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 839.0,
+          "price": 769.0,
           "url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
           "title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
           "stock_status": "unknown",
@@ -871,9 +871,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1449.0,
-          "url": "https://www.ple.com.au/products/672378/gigabyte-geforce-rtx-5070-eagle-oc-sff-12gb-gddr7",
-          "title": "Gigabyte GeForce RTX 5070 Eagle OC SFF 12GB GDDR7",
+          "price": 1389.0,
+          "url": "https://www.ple.com.au/products/673060/asus-geforce-rtx-5070-prime-12gb-gddr7",
+          "title": "ASUS GeForce RTX 5070 Prime 12GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -929,7 +929,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 2499.0,
+          "price": 2699.0,
           "url": "https://www.ple.com.au/products/678460/asus-geforce-rtx-5080-proart-oc-16gb-gddr7",
           "title": "ASUS GeForce RTX 5080 ProArt OC 16GB GDDR7",
           "stock_status": "unknown",
@@ -1188,6 +1188,27 @@
       ]
     },
     {
+      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "best_price": 699.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/samsung-odyssey-g7-g70d-27in-4k-uhd-144hz-fast-ips-freesync-premium-gaming-monitor-ls27dg702eexxy-81614",
+      "best_title": "Samsung Odyssey G7 G70D 27in 4K UHD 144Hz Fast IPS FreeSync Premium Gaming Monitor (LS27DG702EEXXY)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "Umart",
+          "price": 699.0,
+          "url": "https://www.umart.com.au/product/samsung-odyssey-g7-g70d-27in-4k-uhd-144hz-fast-ips-freesync-premium-gaming-monitor-ls27dg702eexxy-81614",
+          "title": "Samsung Odyssey G7 G70D 27in 4K UHD 144Hz Fast IPS FreeSync Premium Gaming Monitor (LS27DG702EEXXY)",
+          "stock_status": "in_stock",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
       "subcategory": "AM4",
@@ -1270,7 +1291,7 @@
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 299.0,
+      "best_price": 229.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "best_title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
@@ -1279,7 +1300,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 299.0,
+          "price": 229.0,
           "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
           "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
           "stock_status": "in_stock",
@@ -1516,7 +1537,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 405.0,
+          "price": 565.0,
           "url": "https://www.ple.com.au/products/663459/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
           "title": "Kingston FURY Beast RGB 16GB Kit (2X8GB) DDR4-3200 C16",
           "stock_status": "unknown",
@@ -1549,20 +1570,20 @@
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 729.0,
+      "best_price": 689.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
-      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
+      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
+      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 92526,
+      "best_stock_qty": 92533,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 729.0,
-          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
-          "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
+          "price": 689.0,
+          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
+          "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
           "stock_status": "in_stock",
-          "stock_qty": 92526
+          "stock_qty": 92533
         },
         {
           "retailer": "PLE Computers",
@@ -1649,24 +1670,16 @@
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 399.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
-      "best_title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 70238,
+      "best_price": 579.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
+      "best_title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
         {
-          "retailer": "MSY",
-          "price": 399.0,
-          "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
-          "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
-          "stock_status": "in_stock",
-          "stock_qty": 70238
-        },
-        {
           "retailer": "PLE Computers",
-          "price": 499.0,
+          "price": 579.0,
           "url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
           "title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
           "stock_status": "unknown",
@@ -1906,7 +1919,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
-      "price": 184.0,
+      "price": 189.0,
       "url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
       "status": "OK",
       "stock_status": "unknown",
@@ -1942,7 +1955,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
-      "price": 209.0,
+      "price": 204.0,
       "url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
       "status": "OK",
       "stock_status": "unknown",
@@ -3029,114 +3042,6 @@
       "stock_qty": null
     },
     {
-      "part_key": "NVIDIA RTX 4070",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 4070",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 4070",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 4070 Ti Super",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 4070 Ti Super",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 4070 Ti Super",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 4090",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 4090",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "NVIDIA RTX 4090",
-      "category": "GPU",
-      "subcategory": "RTX 40-series",
-      "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
       "subcategory": "RTX 50-series",
@@ -3202,7 +3107,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
-      "price": 839.0,
+      "price": 769.0,
       "url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3225,9 +3130,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte GeForce RTX 5070 Eagle OC SFF 12GB GDDR7",
-      "price": 1449.0,
-      "url": "https://www.ple.com.au/products/672378/gigabyte-geforce-rtx-5070-eagle-oc-sff-12gb-gddr7",
+      "title": "ASUS GeForce RTX 5070 Prime 12GB GDDR7",
+      "price": 1389.0,
+      "url": "https://www.ple.com.au/products/673060/asus-geforce-rtx-5070-prime-12gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3298,7 +3203,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 5080 ProArt OC 16GB GDDR7",
-      "price": 2499.0,
+      "price": 2699.0,
       "url": "https://www.ple.com.au/products/678460/asus-geforce-rtx-5080-proart-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3730,7 +3635,7 @@
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
       "title": "Kingston FURY Beast RGB 16GB Kit (2X8GB) DDR4-3200 C16",
-      "price": 405.0,
+      "price": 565.0,
       "url": "https://www.ple.com.au/products/663459/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
       "status": "OK",
       "stock_status": "unknown",
@@ -3957,12 +3862,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
-      "price": 399.0,
-      "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 70238
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
@@ -3970,7 +3875,7 @@
       "subcategory": "DDR5",
       "retailer": "PLE Computers",
       "title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
-      "price": 499.0,
+      "price": 579.0,
       "url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
       "status": "OK",
       "stock_status": "unknown",
@@ -4029,12 +3934,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
-      "price": 729.0,
-      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
+      "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
+      "price": 689.0,
+      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 92526
+      "stock_qty": 92533
     },
     {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
@@ -4726,7 +4631,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
-      "price": 299.0,
+      "price": 229.0,
       "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4961,7 +4866,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
+      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor",
       "category": "Monitor",
       "subcategory": "1080p",
       "retailer": "Umart",
@@ -4973,7 +4878,7 @@
       "stock_qty": null
     },
     {
-      "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
+      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor",
       "category": "Monitor",
       "subcategory": "1080p",
       "retailer": "MSY",
@@ -4985,7 +4890,43 @@
       "stock_qty": null
     },
     {
-      "part_key": "Samsung 27in FHD IPS 120Hz Monitor",
+      "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor",
+      "category": "Monitor",
+      "subcategory": "1080p",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG 27in FHD Rapid IPS 200Hz Monitor",
+      "category": "Monitor",
+      "subcategory": "1080p",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG 27in FHD Rapid IPS 200Hz Monitor",
+      "category": "Monitor",
+      "subcategory": "1080p",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG 27in FHD Rapid IPS 200Hz Monitor",
       "category": "Monitor",
       "subcategory": "1080p",
       "retailer": "PLE Computers",
@@ -5033,9 +4974,9 @@
       "stock_qty": null
     },
     {
-      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
+      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor",
       "category": "Monitor",
-      "subcategory": "4K",
+      "subcategory": "1440p",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -5045,7 +4986,43 @@
       "stock_qty": null
     },
     {
-      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
+      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor",
+      "category": "Monitor",
+      "subcategory": "1440p",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor",
+      "category": "Monitor",
+      "subcategory": "1440p",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "retailer": "Umart",
+      "title": "Samsung Odyssey G7 G70D 27in 4K UHD 144Hz Fast IPS FreeSync Premium Gaming Monitor (LS27DG702EEXXY)",
+      "price": 699.0,
+      "url": "https://www.umart.com.au/product/samsung-odyssey-g7-g70d-27in-4k-uhd-144hz-fast-ips-freesync-premium-gaming-monitor-ls27dg702eexxy-81614",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS",
       "category": "Monitor",
       "subcategory": "4K",
       "retailer": "MSY",
@@ -5057,7 +5034,43 @@
       "stock_qty": null
     },
     {
-      "part_key": "LG UltraFine 27UP600K-W 4K Monitor",
+      "part_key": "Samsung Odyssey G7 27in 4K 144Hz Fast IPS",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz",
+      "category": "Monitor",
+      "subcategory": "4K",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Asus ROG Strix Gen2 27in 4K UHD Fast IPS 160Hz",
       "category": "Monitor",
       "subcategory": "4K",
       "retailer": "PLE Computers",
