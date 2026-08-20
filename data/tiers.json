@@ -39,7 +39,7 @@
   "NVIDIA RTX 5070": { "tier": "A", "note": "Strong 1440p performer" },
   "NVIDIA RTX 5070 Ti": { "tier": "A", "note": "Excellent 1440p, edges into 4K territory" },
   "NVIDIA RTX 5080": { "tier": "A+", "note": "High-end 4K card, big step below the 5090" },
-  "NVIDIA RTX 5090": { "tier": "S", "note": "Flagship, best consumer GPU available" },
+  "NVIDIA RTX 5090": { "tier": "S+", "note": "Flagship, best consumer GPU available" },
   "AMD Radeon RX 7600": { "tier": "C", "note": "Budget 1080p AMD card" },
   "AMD Radeon RX 7900 XTX": { "tier": "A+", "note": "AMD's previous-gen flagship, strong 4K performance" },
   "XFX Speedster RX 7900 XTX": { "tier": "A+", "note": "Same GPU as RX 7900 XTX, XFX Speedster cooler" },
