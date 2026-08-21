@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:47:56.928090+00:00",
+  "generated_at": "2026-08-21T09:59:05.838108+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -1225,7 +1225,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 79275,
       "offers": [
         {
           "retailer": "MSY",
@@ -1233,7 +1233,7 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": null
+          "stock_qty": 79275
         }
       ]
     },
@@ -1270,7 +1270,7 @@
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 299.0,
+      "best_price": 229.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "best_title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
@@ -1279,7 +1279,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 299.0,
+          "price": 229.0,
           "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
           "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
           "stock_status": "in_stock",
@@ -1420,7 +1420,7 @@
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 269.0,
+      "best_price": 229.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
       "best_title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
@@ -1429,7 +1429,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 269.0,
+          "price": 229.0,
           "url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
           "title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
           "stock_status": "unknown",
@@ -3578,7 +3578,7 @@
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
       "title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
-      "price": 269.0,
+      "price": 229.0,
       "url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
       "status": "OK",
       "stock_status": "unknown",
@@ -4610,7 +4610,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
-      "price": 299.0,
+      "price": 229.0,
       "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4650,7 +4650,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null
+      "stock_qty": 79275
     },
     {
       "part_key": "Asus Prime X870-P WiFi CSM",
