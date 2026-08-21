@@ -1,16 +1,23 @@
 // Service worker for the AU PC Part Price Tracker PWA.
 //
-// Strategy:
-//   - App shell (this HTML/CSS/JS) is cached so the site opens instantly
-//     and works offline, even with no signal.
-//   - Data files (prices.json, history.json, tiers.json) use
-//     "network-first, fall back to cache" — so you always see fresh
-//     prices when online, but still see the last-known prices if offline.
+// Strategy: network-first for EVERYTHING (app shell AND data files).
+// Always tries to fetch the latest version first; only falls back to the
+// last cached copy if the network request fails (i.e. actually offline).
 //
-// Bump CACHE_VERSION whenever you change dashboard/index.html so old
-// visitors pick up the new version instead of a stale cached copy.
+// Why this changed from the original cache-first app shell: cache-first
+// meant returning visitors kept seeing whatever version of index.html was
+// cached the very first time the app was installed on their device -
+// updates never showed up on a normal reload, only after a hard refresh
+// (which bypasses the service worker entirely). That's broken for a PWA
+// people install to their phone home screen, since there's no easy
+// "hard refresh" gesture there. Network-first fixes this permanently -
+// no more needing to bump CACHE_VERSION and hope devices notice.
+//
+// Bumped to v2 specifically so browsers detect this file itself changed
+// and actually install the new logic (byte-for-byte identical service
+// worker files don't trigger an update check).
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const APP_SHELL_CACHE = `pc-tracker-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `pc-tracker-data-${CACHE_VERSION}`;
 
@@ -19,8 +26,6 @@ const APP_SHELL_FILES = [
   './index.html',
   './manifest.json',
 ];
-
-const DATA_FILE_PATTERNS = ['prices.json', 'history.json', 'tiers.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -46,24 +51,17 @@ self.addEventListener('fetch', (event) => {
   const { request } = event;
   if (request.method !== 'GET') return;
 
-  const isDataFile = DATA_FILE_PATTERNS.some((name) => request.url.includes(name));
+  const isAppShell = APP_SHELL_FILES.some((f) => request.url.endsWith(f.replace('./', '')))
+    || request.mode === 'navigate';
+  const targetCache = isAppShell ? APP_SHELL_CACHE : DATA_CACHE;
 
-  if (isDataFile) {
-    // Network-first: try to get fresh prices, fall back to last cached copy if offline.
-    event.respondWith(
-      fetch(request)
-        .then((response) => {
-          const clone = response.clone();
-          caches.open(DATA_CACHE).then((cache) => cache.put(request, clone));
-          return response;
-        })
-        .catch(() => caches.match(request))
-    );
-    return;
-  }
-
-  // App shell: cache-first, so the UI loads instantly.
   event.respondWith(
-    caches.match(request).then((cached) => cached || fetch(request))
+    fetch(request)
+      .then((response) => {
+        const clone = response.clone();
+        caches.open(targetCache).then((cache) => cache.put(request, clone));
+        return response;
+      })
+      .catch(() => caches.match(request))
   );
 });
