@@ -137,12 +137,15 @@
     border-radius: 5px;
     border: 1px solid;
   }
+  .tier-Splus{ color: #fff3b0; border-color: #fff3b0; background: rgba(255,243,176,0.14); }
   .tier-S{  color: #ffd76a; border-color: #ffd76a; background: rgba(255,215,106,0.12); }
   .tier-Aplus{ color: var(--copper-bright); border-color: var(--copper-bright); background: rgba(232,154,92,0.12); }
   .tier-A{  color: var(--copper); border-color: var(--copper); background: rgba(201,121,61,0.12); }
   .tier-Bplus{ color: var(--teal); border-color: var(--teal); background: rgba(69,212,184,0.12); }
   .tier-B{  color: #6fb8a8; border-color: #6fb8a8; background: rgba(111,184,168,0.1); }
+  .tier-Cplus{ color: #f0cf7a; border-color: #f0cf7a; background: rgba(240,207,122,0.12); }
   .tier-C{  color: var(--amber); border-color: var(--amber); background: rgba(232,192,92,0.1); }
+  .tier-Cminus{ color: #c9a862; border-color: #c9a862; background: rgba(201,168,98,0.1); }
   .tier-D{  color: var(--text-dim); border-color: var(--panel-border); background: rgba(136,145,163,0.08); }
 
   #homeScreen{
@@ -421,16 +424,16 @@ let ALL_PARTS = [];
 let HISTORY = {};
 let TIERS = {};
 
-const TIER_ORDER = ['S', 'A+', 'A', 'B+', 'B', 'C', 'D'];
+const TIER_ORDER = ['S+', 'S', 'A+', 'A', 'B+', 'B', 'C+', 'C', 'C-', 'D'];
 function tierRank(tier){
   const i = TIER_ORDER.indexOf(tier);
   return i === -1 ? -1 : (TIER_ORDER.length - i); // higher number = better tier
 }
 
-// Tiers only apply to CPU/GPU parts for now. CSS classes can't contain "+",
-// so "A+" maps to .tier-Aplus etc.
+// Tiers only apply to CPU/GPU parts for now. CSS classes can't contain "+"
+// or "-", so "A+" maps to .tier-Aplus, "C-" maps to .tier-Cminus, etc.
 function tierClass(tier){
-  return 'tier-' + tier.replace('+', 'plus');
+  return 'tier-' + tier.replace('+', 'plus').replace('-', 'minus');
 }
 function tierBadge(partKey, category){
   if (category !== 'CPU' && category !== 'GPU') return '';
