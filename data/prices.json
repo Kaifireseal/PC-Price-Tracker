@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:59:05.838108+00:00",
+  "generated_at": "2026-08-21T20:44:30.661452+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -35,7 +35,7 @@
       "part_key": "AMD Ryzen 5 5500GT",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 178.0,
+      "best_price": 189.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
       "best_title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
@@ -44,7 +44,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 178.0,
+          "price": 189.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
           "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
           "stock_status": "in_stock",
@@ -143,21 +143,13 @@
       "part_key": "AMD Ryzen 7 5700X",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 298.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-5700x-8-core-am4-4-6ghz-cpu-processor-100-100000926wof-62627",
-      "best_title": "AMD Ryzen 7 5700X 8 Core AM4 4.6GHz CPU Processor (100-100000926WOF)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 62627,
+      "best_price": 299.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/651833/amd-ryzen-7-5700x-8-core-16-thread-up-to-46ghz-am4-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 7 5700X 8 Core 16 Thread Up To 4.6Ghz AM4 - No HSF Retail Box",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 298.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-7-5700x-8-core-am4-4-6ghz-cpu-processor-100-100000926wof-62627",
-          "title": "AMD Ryzen 7 5700X 8 Core AM4 4.6GHz CPU Processor (100-100000926WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": 62627
-        },
         {
           "retailer": "PLE Computers",
           "price": 299.0,
@@ -165,6 +157,14 @@
           "title": "AMD Ryzen 7 5700X 8 Core 16 Thread Up To 4.6Ghz AM4 - No HSF Retail Box",
           "stock_status": "unknown",
           "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 318.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-7-5700x-8-core-am4-4-6ghz-cpu-processor-100-100000926wof-62627",
+          "title": "AMD Ryzen 7 5700X 8 Core AM4 4.6GHz CPU Processor (100-100000926WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 62627
         }
       ]
     },
@@ -272,27 +272,27 @@
       "part_key": "AMD Ryzen 5 7600X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 298.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-7600x-6-core-am5-5-3ghz-cpu-processor-100-100000593wof-65058",
-      "best_title": "AMD Ryzen 5 7600X 6 Core AM5 5.3GHz CPU Processor (100-100000593WOF)",
-      "best_stock_status": "in_stock",
+      "best_price": 299.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
       "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 298.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-7600x-6-core-am5-5-3ghz-cpu-processor-100-100000593wof-65058",
-          "title": "AMD Ryzen 5 7600X 6 Core AM5 5.3GHz CPU Processor (100-100000593WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": null
-        },
         {
           "retailer": "PLE Computers",
           "price": 299.0,
           "url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
+          "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 305.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-7600x-6-core-am5-5-3ghz-cpu-processor-100-100000593wof-65058",
+          "title": "AMD Ryzen 5 7600X 6 Core AM5 5.3GHz CPU Processor (100-100000593WOF)",
+          "stock_status": "in_stock",
           "stock_qty": null
         }
       ]
@@ -663,10 +663,10 @@
         },
         {
           "retailer": "Umart",
-          "price": 1849.0,
-          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
-          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
-          "stock_status": "in_stock",
+          "price": 1899.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58938-85039",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58938",
+          "stock_status": "out_of_stock",
           "stock_qty": null
         }
       ]
@@ -958,9 +958,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 7899.0,
-          "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
-          "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
+          "price": 7999.0,
+          "url": "https://www.ple.com.au/products/672771/pny-geforce-rtx-5090-triple-fan-oc-32gb-gddr7",
+          "title": "PNY GeForce RTX 5090 Triple Fan OC 32GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1087,9 +1087,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1609.0,
-          "url": "https://www.ple.com.au/products/672471/asus-radeon-rx-9070-xt-tuf-gaming-oc-16gb-gddr6",
-          "title": "ASUS Radeon RX 9070 XT TUF Gaming OC 16GB GDDR6",
+          "price": 1554.0,
+          "url": "https://www.ple.com.au/products/680161/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-white",
+          "title": "ASUS Radeon RX 9070 XT Prime OC 16GB GDDR6 (White)",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1270,7 +1270,7 @@
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 229.0,
+      "best_price": 299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "best_title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
@@ -1279,7 +1279,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 229.0,
+          "price": 299.0,
           "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
           "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
           "stock_status": "in_stock",
@@ -1392,6 +1392,14 @@
           "title": "Gigabyte B860M EAGLE WIFI6 LGA 1851 mATX Motherboard (B860M EAGLE WIFI6)",
           "stock_status": "in_stock",
           "stock_qty": 90058
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 189.0,
+          "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
+          "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -1420,7 +1428,7 @@
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 229.0,
+      "best_price": 269.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
       "best_title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
@@ -1429,7 +1437,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 229.0,
+          "price": 269.0,
           "url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
           "title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
           "stock_status": "unknown",
@@ -1886,7 +1894,7 @@
       "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
-      "price": 178.0,
+      "price": 189.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2066,7 +2074,7 @@
       "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 5700X 8 Core AM4 4.6GHz CPU Processor (100-100000926WOF)",
-      "price": 298.0,
+      "price": 318.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-5700x-8-core-am4-4-6ghz-cpu-processor-100-100000926wof-62627",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2222,7 +2230,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 7600X 6 Core AM5 5.3GHz CPU Processor (100-100000593WOF)",
-      "price": 298.0,
+      "price": 305.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-7600x-6-core-am5-5-3ghz-cpu-processor-100-100000593wof-65058",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2689,11 +2697,11 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "Umart",
-      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
-      "price": 1849.0,
-      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58938",
+      "price": 1899.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58938-85039",
       "status": "OK",
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "stock_qty": null
     },
     {
@@ -3217,9 +3225,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
-      "price": 7899.0,
-      "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
+      "title": "PNY GeForce RTX 5090 Triple Fan OC 32GB GDDR7",
+      "price": 7999.0,
+      "url": "https://www.ple.com.au/products/672771/pny-geforce-rtx-5090-triple-fan-oc-32gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3505,9 +3513,9 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "ASUS Radeon RX 9070 XT TUF Gaming OC 16GB GDDR6",
-      "price": 1609.0,
-      "url": "https://www.ple.com.au/products/672471/asus-radeon-rx-9070-xt-tuf-gaming-oc-16gb-gddr6",
+      "title": "ASUS Radeon RX 9070 XT Prime OC 16GB GDDR6 (White)",
+      "price": 1554.0,
+      "url": "https://www.ple.com.au/products/680161/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-white",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3578,7 +3586,7 @@
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
       "title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
-      "price": 229.0,
+      "price": 269.0,
       "url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
       "status": "OK",
       "stock_status": "unknown",
@@ -4610,7 +4618,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI B850M Gaming Plus WiFi AM5 mATX Motherboard (B850M GAMING PLUS WIFI)",
-      "price": 229.0,
+      "price": 299.0,
       "url": "https://www.msy.com.au/product/msi-b850m-gaming-plus-wifi-am5-matx-motherboard-b850m-gaming-plus-wifi-85122",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4801,11 +4809,11 @@
       "category": "Motherboard",
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
+      "price": 189.0,
+      "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
