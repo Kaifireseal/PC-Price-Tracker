@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T20:42:28.424513+00:00",
+  "generated_at": "2026-08-24T20:49:03.311024+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -351,21 +351,13 @@
       "part_key": "AMD Ryzen 5 9600X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 348.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
-      "best_title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
-      "best_stock_status": "in_stock",
+      "best_price": 349.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/667598/amd-ryzen-5-9600x-6-core-12-thread-up-to-54ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
       "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 348.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
-          "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": null
-        },
         {
           "retailer": "PLE Computers",
           "price": 349.0,
@@ -373,6 +365,14 @@
           "title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
           "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 477.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
+          "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 78588
         }
       ]
     },
@@ -380,21 +380,13 @@
       "part_key": "AMD Ryzen 7 7700X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 449.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
-      "best_title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
-      "best_stock_status": "in_stock",
+      "best_price": 489.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/654580/amd-ryzen-7-7700x-8-core-16-thread-up-to-54ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 7 7700X 8 Core 16 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
       "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 449.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
-          "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": null
-        },
         {
           "retailer": "PLE Computers",
           "price": 489.0,
@@ -402,6 +394,14 @@
           "title": "AMD Ryzen 7 7700X 8 Core 16 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
           "stock_qty": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 659.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
+          "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 65055
         }
       ]
     },
@@ -663,10 +663,10 @@
         },
         {
           "retailer": "Umart",
-          "price": 1899.0,
-          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58938-85039",
-          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58938",
-          "stock_status": "out_of_stock",
+          "price": 1849.0,
+          "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
+          "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
+          "stock_status": "in_stock",
           "stock_qty": null
         }
       ]
@@ -842,9 +842,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 959.0,
-          "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
-          "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
+          "price": 919.0,
+          "url": "https://www.ple.com.au/products/679088/pny-geforce-rtx-5060-ti-dual-oc-16gb-gddr7",
+          "title": "PNY GeForce RTX 5060 Ti Dual OC 16GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -900,9 +900,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 2099.0,
-          "url": "https://www.ple.com.au/products/672376/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16gb-gddr7",
-          "title": "Gigabyte GeForce RTX 5070 Ti Eagle OC SFF 16GB GDDR7",
+          "price": 2199.0,
+          "url": "https://www.ple.com.au/products/672380/gigabyte-geforce-rtx-5070-ti-aero-oc-16gb-gddr7-white",
+          "title": "Gigabyte GeForce RTX 5070 Ti AERO OC 16GB GDDR7 (White)",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -941,26 +941,26 @@
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 7599.0,
+      "best_price": 7499.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
-      "best_title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
+      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
+      "best_title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81389,
+      "best_stock_qty": 81390,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 7599.0,
-          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
-          "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
+          "price": 7499.0,
+          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
+          "title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)",
           "stock_status": "in_stock",
-          "stock_qty": 81389
+          "stock_qty": 81390
         },
         {
           "retailer": "PLE Computers",
-          "price": 7999.0,
-          "url": "https://www.ple.com.au/products/672771/pny-geforce-rtx-5090-triple-fan-oc-32gb-gddr7",
-          "title": "PNY GeForce RTX 5090 Triple Fan OC 32GB GDDR7",
+          "price": 7899.0,
+          "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
+          "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1113,27 +1113,6 @@
           "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
           "stock_status": "in_stock",
           "stock_qty": 81938
-        }
-      ]
-    },
-    {
-      "part_key": "Gigabyte Radeon RX 9070 GRE",
-      "category": "GPU",
-      "subcategory": "RX 9000-series",
-      "best_price": 949.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
-      "best_title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 949.0,
-          "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
-          "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
-          "stock_status": "unknown",
-          "stock_qty": null
         }
       ]
     },
@@ -1296,6 +1275,27 @@
       ]
     },
     {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "best_price": 279.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+      "best_title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 279.0,
+          "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+          "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+          "stock_status": "in_stock",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
       "part_key": "Asus Prime Z790-P WiFi CSM",
       "category": "Motherboard",
       "subcategory": "LGA1700",
@@ -1370,7 +1370,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null
+          "stock_qty": 81989
         }
       ]
     },
@@ -1557,20 +1557,20 @@
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 689.0,
+      "best_price": 729.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
-      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
+      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
+      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 92533,
+      "best_stock_qty": 92526,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 689.0,
-          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
-          "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
+          "price": 729.0,
+          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
+          "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
           "stock_status": "in_stock",
-          "stock_qty": 92533
+          "stock_qty": 92526
         },
         {
           "retailer": "PLE Computers",
@@ -1657,13 +1657,21 @@
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 579.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
-      "best_title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 399.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+      "best_title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 70238,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 399.0,
+          "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+          "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
+          "stock_status": "in_stock",
+          "stock_qty": 70238
+        },
         {
           "retailer": "PLE Computers",
           "price": 579.0,
@@ -2302,11 +2310,11 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
-      "price": 348.0,
+      "price": 477.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null
+      "stock_qty": 78588
     },
     {
       "part_key": "AMD Ryzen 5 9600X",
@@ -2374,11 +2382,11 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 7700X 8 Core AM5 5.4 GHz CPU Processor (100-100000591WOF)",
-      "price": 449.0,
+      "price": 659.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-7700x-8-core-am5-5-4-ghz-cpu-processor-100-100000591wof-65055",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null
+      "stock_qty": 65055
     },
     {
       "part_key": "AMD Ryzen 7 7700X",
@@ -2697,11 +2705,11 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "Umart",
-      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC - 58938",
-      "price": 1899.0,
-      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-58938-85039",
+      "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
+      "price": 1849.0,
+      "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
       "status": "OK",
-      "stock_status": "out_of_stock",
+      "stock_status": "in_stock",
       "stock_qty": null
     },
     {
@@ -3093,9 +3101,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
-      "price": 959.0,
-      "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
+      "title": "PNY GeForce RTX 5060 Ti Dual OC 16GB GDDR7",
+      "price": 919.0,
+      "url": "https://www.ple.com.au/products/679088/pny-geforce-rtx-5060-ti-dual-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3153,9 +3161,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte GeForce RTX 5070 Ti Eagle OC SFF 16GB GDDR7",
-      "price": 2099.0,
-      "url": "https://www.ple.com.au/products/672376/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16gb-gddr7",
+      "title": "Gigabyte GeForce RTX 5070 Ti AERO OC 16GB GDDR7 (White)",
+      "price": 2199.0,
+      "url": "https://www.ple.com.au/products/672380/gigabyte-geforce-rtx-5070-ti-aero-oc-16gb-gddr7-white",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3213,21 +3221,21 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Gigabyte GeForce RTX 5090 Gaming OC 32G Graphics Card (GV-N5090GAMING OC-32GD)",
-      "price": 7599.0,
-      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-gaming-oc-32g-graphics-card-gv-n5090gaming-oc-32gd-81389",
+      "title": "Gigabyte GeForce RTX 5090 WindForce OC 32G Graphics Card (GV-N5090WF3OC-32GD)",
+      "price": 7499.0,
+      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5090-windforce-oc-32g-graphics-card-gv-n5090wf3oc-32gd-81390",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81389
+      "stock_qty": 81390
     },
     {
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "PNY GeForce RTX 5090 Triple Fan OC 32GB GDDR7",
-      "price": 7999.0,
-      "url": "https://www.ple.com.au/products/672771/pny-geforce-rtx-5090-triple-fan-oc-32gb-gddr7",
+      "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
+      "price": 7899.0,
+      "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3477,11 +3485,11 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
-      "price": 949.0,
-      "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
-      "status": "OK",
-      "stock_status": "unknown",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -3849,12 +3857,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
+      "price": 399.0,
+      "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 70238
     },
     {
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
@@ -3921,12 +3929,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
-      "price": 689.0,
-      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
+      "title": "Corsair 32GB (2x16GB) CMH32GX5M2E6000Z36W Vengeance RGB CL36 6000MHz DDR5 RAM - White",
+      "price": 729.0,
+      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2e6000z36w-vengeance-rgb-cl36-6000mhz-ddr5-ram-white-92526",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 92533
+      "stock_qty": 92526
     },
     {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
@@ -4545,11 +4553,11 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+      "price": 279.0,
+      "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+      "status": "OK",
+      "stock_status": "in_stock",
       "stock_qty": null
     },
     {
@@ -4838,7 +4846,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null
+      "stock_qty": 81989
     },
     {
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
