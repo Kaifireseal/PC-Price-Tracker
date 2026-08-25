@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:49:03.311024+00:00",
+  "generated_at": "2026-08-25T20:48:04.662568+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -352,12 +352,20 @@
       "category": "CPU",
       "subcategory": "AM5",
       "best_price": 349.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/667598/amd-ryzen-5-9600x-6-core-12-thread-up-to-54ghz-am5-no-hsf-retail-box",
-      "best_title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
-      "best_stock_status": "unknown",
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
+      "best_title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 349.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
+          "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": null
+        },
         {
           "retailer": "PLE Computers",
           "price": 349.0,
@@ -365,14 +373,6 @@
           "title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
           "stock_qty": null
-        },
-        {
-          "retailer": "MSY",
-          "price": 477.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
-          "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": 78588
         }
       ]
     },
@@ -929,7 +929,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 2699.0,
+          "price": 2499.0,
           "url": "https://www.ple.com.au/products/678460/asus-geforce-rtx-5080-proart-oc-16gb-gddr7",
           "title": "ASUS GeForce RTX 5080 ProArt OC 16GB GDDR7",
           "stock_status": "unknown",
@@ -958,9 +958,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 7899.0,
-          "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
-          "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
+          "price": 7999.0,
+          "url": "https://www.ple.com.au/products/672771/pny-geforce-rtx-5090-triple-fan-oc-32gb-gddr7",
+          "title": "PNY GeForce RTX 5090 Triple Fan OC 32GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1008,7 +1008,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 839.0,
+          "price": 849.0,
           "url": "https://www.ple.com.au/products/678060/xfx-swift-radeon-rx-9060-xt-oc-triple-fan-16gb-gddr6",
           "title": "XFX Swift Radeon RX 9060 XT OC Triple Fan 16GB GDDR6",
           "stock_status": "unknown",
@@ -1087,9 +1087,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1554.0,
-          "url": "https://www.ple.com.au/products/680161/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-white",
-          "title": "ASUS Radeon RX 9070 XT Prime OC 16GB GDDR6 (White)",
+          "price": 1609.0,
+          "url": "https://www.ple.com.au/products/672471/asus-radeon-rx-9070-xt-tuf-gaming-oc-16gb-gddr6",
+          "title": "ASUS Radeon RX 9070 XT TUF Gaming OC 16GB GDDR6",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1204,7 +1204,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 79275,
+      "best_stock_qty": null,
       "offers": [
         {
           "retailer": "MSY",
@@ -1212,7 +1212,7 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": 79275
+          "stock_qty": null
         }
       ]
     },
@@ -1275,22 +1275,22 @@
       ]
     },
     {
-      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "part_key": "MSI MAG X870 Tomahawk WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 279.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
-      "best_title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
-      "best_stock_status": "in_stock",
+      "best_price": 589.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/681718/msi-mag-x870e-tomahawk-max-wifi-am5-atx-desktop-motherboard",
+      "best_title": "MSI MAG X870E Tomahawk Max WiFi AM5 ATX Desktop Motherboard",
+      "best_stock_status": "unknown",
       "best_stock_qty": null,
       "offers": [
         {
-          "retailer": "MSY",
-          "price": 279.0,
-          "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
-          "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
-          "stock_status": "in_stock",
+          "retailer": "PLE Computers",
+          "price": 589.0,
+          "url": "https://www.ple.com.au/products/681718/msi-mag-x870e-tomahawk-max-wifi-am5-atx-desktop-motherboard",
+          "title": "MSI MAG X870E Tomahawk Max WiFi AM5 ATX Desktop Motherboard",
+          "stock_status": "unknown",
           "stock_qty": null
         }
       ]
@@ -1370,7 +1370,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 81989
+          "stock_qty": null
         }
       ]
     },
@@ -1715,13 +1715,21 @@
       "part_key": "Silicon Power XPOWER Zenith 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 649.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/685922/lexar-thor-g2-32gb-kit-2x16gb-ddr5-6000-c38",
-      "best_title": "Lexar THOR G2 32GB Kit (2x16GB) DDR5-6000 C38",
-      "best_stock_status": "unknown",
+      "best_price": 628.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/silicon-power-xpower-storm-32gb-2x16gb-cl36-rgb-ddr5-6000mt-s-gaming-memory-supports-intel-xmp-amd-expo-udimm-white-sp032gxlwu60ffdl-85663",
+      "best_title": "Silicon Power XPOWER STORM 32GB (2x16GB) CL36 RGB DDR5 6000MT/s Gaming Memory Supports Intel XMP/AMD EXPO UDIMM, White - SP032GXLWU60FFDL",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 628.0,
+          "url": "https://www.msy.com.au/product/silicon-power-xpower-storm-32gb-2x16gb-cl36-rgb-ddr5-6000mt-s-gaming-memory-supports-intel-xmp-amd-expo-udimm-white-sp032gxlwu60ffdl-85663",
+          "title": "Silicon Power XPOWER STORM 32GB (2x16GB) CL36 RGB DDR5 6000MT/s Gaming Memory Supports Intel XMP/AMD EXPO UDIMM, White - SP032GXLWU60FFDL",
+          "stock_status": "in_stock",
+          "stock_qty": null
+        },
         {
           "retailer": "PLE Computers",
           "price": 649.0,
@@ -1736,7 +1744,7 @@
       "part_key": "Kingston NV3 1TB NVMe SSD",
       "category": "SSD",
       "subcategory": "1TB",
-      "best_price": 249.0,
+      "best_price": 251.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
       "best_title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
@@ -1745,7 +1753,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 249.0,
+          "price": 251.0,
           "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
           "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
           "stock_status": "in_stock",
@@ -1878,6 +1886,27 @@
           "url": "https://www.ple.com.au/products/668615/kingston-nv3-pcie-gen4-nvme-m2-ssd-500gb",
           "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 500GB",
           "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "SP Silicon Power UD90 500GB NVMe SSD",
+      "category": "SSD",
+      "subcategory": "500GB",
+      "best_price": 147.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/sp-silicon-power-ud90-500gb-pcie-gen4-x4-nvme-m-2-2280-ssd-5000mb-s-read-2700mb-s-write-sz500gbp44ud9005au-83254",
+      "best_title": "SP Silicon Power UD90 500GB PCIe Gen4 x4 NVMe M.2 2280 SSD, 5000MB/s Read, 2700MB/s Write - SZ500GBP44UD9005AU",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 147.0,
+          "url": "https://www.msy.com.au/product/sp-silicon-power-ud90-500gb-pcie-gen4-x4-nvme-m-2-2280-ssd-5000mb-s-read-2700mb-s-write-sz500gbp44ud9005au-83254",
+          "title": "SP Silicon Power UD90 500GB PCIe Gen4 x4 NVMe M.2 2280 SSD, 5000MB/s Read, 2700MB/s Write - SZ500GBP44UD9005AU",
+          "stock_status": "in_stock",
           "stock_qty": null
         }
       ]
@@ -2310,11 +2339,11 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
-      "price": 477.0,
+      "price": 349.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 78588
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 5 9600X",
@@ -3198,7 +3227,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 5080 ProArt OC 16GB GDDR7",
-      "price": 2699.0,
+      "price": 2499.0,
       "url": "https://www.ple.com.au/products/678460/asus-geforce-rtx-5080-proart-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3233,9 +3262,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
-      "price": 7899.0,
-      "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
+      "title": "PNY GeForce RTX 5090 Triple Fan OC 32GB GDDR7",
+      "price": 7999.0,
+      "url": "https://www.ple.com.au/products/672771/pny-geforce-rtx-5090-triple-fan-oc-32gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3366,7 +3395,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
       "title": "XFX Swift Radeon RX 9060 XT OC Triple Fan 16GB GDDR6",
-      "price": 839.0,
+      "price": 849.0,
       "url": "https://www.ple.com.au/products/678060/xfx-swift-radeon-rx-9060-xt-oc-triple-fan-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
@@ -3521,9 +3550,9 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "ASUS Radeon RX 9070 XT Prime OC 16GB GDDR6 (White)",
-      "price": 1554.0,
-      "url": "https://www.ple.com.au/products/680161/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-white",
+      "title": "ASUS Radeon RX 9070 XT TUF Gaming OC 16GB GDDR6",
+      "price": 1609.0,
+      "url": "https://www.ple.com.au/products/672471/asus-radeon-rx-9070-xt-tuf-gaming-oc-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3989,11 +4018,11 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "Silicon Power XPOWER STORM 32GB (2x16GB) CL36 RGB DDR5 6000MT/s Gaming Memory Supports Intel XMP/AMD EXPO UDIMM, White - SP032GXLWU60FFDL",
+      "price": 628.0,
+      "url": "https://www.msy.com.au/product/silicon-power-xpower-storm-32gb-2x16gb-cl36-rgb-ddr5-6000mt-s-gaming-memory-supports-intel-xmp-amd-expo-udimm-white-sp032gxlwu60ffdl-85663",
+      "status": "OK",
+      "stock_status": "in_stock",
       "stock_qty": null
     },
     {
@@ -4229,11 +4258,11 @@
       "category": "SSD",
       "subcategory": "500GB",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "SP Silicon Power UD90 500GB PCIe Gen4 x4 NVMe M.2 2280 SSD, 5000MB/s Read, 2700MB/s Write - SZ500GBP44UD9005AU",
+      "price": 147.0,
+      "url": "https://www.msy.com.au/product/sp-silicon-power-ud90-500gb-pcie-gen4-x4-nvme-m-2-2280-ssd-5000mb-s-read-2700mb-s-write-sz500gbp44ud9005au-83254",
+      "status": "OK",
+      "stock_status": "in_stock",
       "stock_qty": null
     },
     {
@@ -4266,7 +4295,7 @@
       "subcategory": "1TB",
       "retailer": "MSY",
       "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
-      "price": 249.0,
+      "price": 251.0,
       "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4553,11 +4582,11 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
-      "price": 279.0,
-      "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
-      "status": "OK",
-      "stock_status": "in_stock",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -4666,7 +4695,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 79275
+      "stock_qty": null
     },
     {
       "part_key": "Asus Prime X870-P WiFi CSM",
@@ -4709,11 +4738,11 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "MSI MAG X870E Tomahawk Max WiFi AM5 ATX Desktop Motherboard",
+      "price": 589.0,
+      "url": "https://www.ple.com.au/products/681718/msi-mag-x870e-tomahawk-max-wifi-am5-atx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -4846,7 +4875,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81989
+      "stock_qty": null
     },
     {
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
