@@ -275,6 +275,27 @@
     display: inline-block;
     white-space: nowrap;
   }
+
+  /* Watchlist */
+  .star-btn{
+    background: transparent;
+    border: none;
+    font-size: 1.3rem;
+    line-height: 1;
+    color: var(--text-dim);
+    cursor: pointer;
+    padding: 2px;
+    flex-shrink: 0;
+    transition: color .15s ease, transform .1s ease;
+  }
+  .star-btn:hover{ transform: scale(1.1); }
+  .star-btn.watched{ color: #ffd76a; }
+  .watchlist-empty{
+    text-align: center;
+    padding: 1.25rem 0;
+    color: var(--text-dim);
+    font-size: .8rem;
+  }
 </style>
 </head>
 <body class="pb-28">
@@ -298,9 +319,15 @@
   <div id="screensViewport">
   <div id="screensWrapper">
 
-  <!-- Home screen: highlights, shown on load -->
+  <!-- Home screen: watchlist + highlights, shown on load -->
   <div id="homeScreen" class="screen-panel">
     <div class="flex items-center justify-between gap-3 mb-3 mt-2">
+      <h2 class="text-2xl font-bold leading-tight">⭐ Watchlist</h2>
+      <p class="text-xs text-[var(--text-dim)] mono">parts you've starred</p>
+    </div>
+    <div id="watchlistContent" class="highlight-quadrant mb-6"></div>
+
+    <div class="flex items-center justify-between gap-3 mb-3">
       <h2 class="text-2xl font-bold leading-tight">🏆 Highlights</h2>
       <p class="text-xs text-[var(--text-dim)] mono">updated with today's data</p>
     </div>
@@ -401,7 +428,10 @@
           <p class="mono text-xl font-bold best-price mt-1" id="modalPrice"></p>
           <div class="mt-1" id="modalLowestEver"></div>
         </div>
-        <button id="modalClose" class="pill px-2.5 py-1.5 rounded shrink-0">Close ✕</button>
+        <div class="flex items-center gap-1 shrink-0">
+          <button id="modalStarBtn" class="star-btn" title="Add to watchlist">☆</button>
+          <button id="modalClose" class="pill px-2.5 py-1.5 rounded shrink-0">Close ✕</button>
+        </div>
       </div>
 
       <div class="trace my-3"></div>
@@ -445,6 +475,61 @@ function tierBadge(partKey, category){
   if (!entry || !entry.tier) return '';
   return `<span class="tier-badge ${tierClass(entry.tier)}" title="${entry.note || ''}">${entry.tier}</span>`;
 }
+
+/* ---------- Watchlist (localStorage) ---------- */
+
+const WATCHLIST_KEY = 'pcTracker_watchlist';
+let WATCHLIST = [];
+
+function loadWatchlist(){
+  try {
+    const raw = window.localStorage.getItem(WATCHLIST_KEY);
+    WATCHLIST = raw ? JSON.parse(raw) : [];
+    if (!Array.isArray(WATCHLIST)) WATCHLIST = [];
+  } catch (err){
+    console.warn('Could not read watchlist from localStorage:', err);
+    WATCHLIST = [];
+  }
+}
+
+function saveWatchlist(){
+  try {
+    window.localStorage.setItem(WATCHLIST_KEY, JSON.stringify(WATCHLIST));
+  } catch (err){
+    console.warn('Could not save watchlist to localStorage:', err);
+  }
+}
+
+function isWatched(partKey){
+  return WATCHLIST.includes(partKey);
+}
+
+function toggleWatchlist(partKey){
+  if (isWatched(partKey)){
+    WATCHLIST = WATCHLIST.filter(k => k !== partKey);
+  } else {
+    WATCHLIST.push(partKey);
+  }
+  saveWatchlist();
+
+  renderWatchlist();
+  // If the Parts results grid is currently visible, refresh it so star icons update.
+  if (!document.getElementById('partsResults').classList.contains('hidden')){
+    renderAll();
+  }
+  // If the modal is open on this same part, update its star icon in place.
+  if (currentModalPartKey === partKey){
+    updateModalStar();
+  }
+}
+
+function starButton(partKey){
+  const watched = isWatched(partKey);
+  return `<button class="star-btn${watched ? ' watched' : ''}" data-star-key="${partKey}"
+            title="${watched ? 'Remove from watchlist' : 'Add to watchlist'}"
+            onclick="event.stopPropagation(); toggleWatchlist('${partKey.replace(/'/g, "\\'")}')">${watched ? '★' : '☆'}</button>`;
+}
+
 let activeCategory = 'All';
 let activeSubcategory = 'All';
 let activeSortMode = 'default';
@@ -631,6 +716,7 @@ function partCard(part){
           <h3 class="font-semibold leading-snug">${part.part_key}</h3>
           <p class="text-xs text-[var(--text-dim)] mt-0.5">${part.best_title}</p>
         </div>
+        ${starButton(part.part_key)}
       </div>
 
       <div class="trace my-3"></div>
@@ -687,7 +773,7 @@ function renderAll(){
   empty.classList.add('hidden');
   grid.innerHTML = sorted.map(partCard).join('');
 
-  // Click anywhere on a card (outside links/details) opens the history modal.
+  // Click anywhere on a card (outside links/details/star) opens the history modal.
   grid.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', () => openModal(card.dataset.partKey));
   });
@@ -712,6 +798,14 @@ function renderRangeButtons(){
 
 let currentModalPartKey = null;
 
+function updateModalStar(){
+  const btn = document.getElementById('modalStarBtn');
+  const watched = isWatched(currentModalPartKey);
+  btn.textContent = watched ? '★' : '☆';
+  btn.classList.toggle('watched', watched);
+  btn.title = watched ? 'Remove from watchlist' : 'Add to watchlist';
+}
+
 function openModal(partKey){
   const part = ALL_PARTS.find(p => p.part_key === partKey);
   if (!part) return;
@@ -723,6 +817,7 @@ function openModal(partKey){
   document.getElementById('modalPrice').textContent =
     formatPrice(part.best_price) + ' · ' + part.best_retailer;
   document.getElementById('modalLowestEver').innerHTML = lowestEverBadge(part);
+  updateModalStar();
 
   renderRangeButtons();
   renderChartForCurrentPart();
@@ -811,6 +906,9 @@ function renderChartForCurrentPart(){
 }
 
 document.getElementById('modalClose').addEventListener('click', closeModal);
+document.getElementById('modalStarBtn').addEventListener('click', () => {
+  if (currentModalPartKey) toggleWatchlist(currentModalPartKey);
+});
 document.getElementById('modalOverlay').addEventListener('click', (e) => {
   if (e.target.id === 'modalOverlay') closeModal();
 });
@@ -818,7 +916,7 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeModal();
 });
 
-/* ---------- Highlights overlay ---------- */
+/* ---------- Highlights ---------- */
 
 function highlightRow(rank, label, valueHtml, buyUrl){
   return `
@@ -870,7 +968,7 @@ function bestValueTopTier(){
   return ALL_PARTS
     .filter(p => {
       const t = TIERS[p.part_key];
-      return t && (t.tier === 'S' || t.tier === 'A+');
+      return t && (t.tier === 'S+' || t.tier === 'S' || t.tier === 'A+');
     })
     .map(p => ({ part: p, tier: TIERS[p.part_key].tier }))
     .sort((a, b) => a.part.best_price - b.part.best_price)
@@ -906,10 +1004,10 @@ function renderHighlights(){
       discounts.map((x, i) => highlightRow(i + 1, x.part.part_key,
         `<span class="mono text-xs best-price font-semibold">-${x.pct.toFixed(0)}%</span>`, x.part.best_url)),
       'no price drops recorded since yesterday') +
-    section('Best Value (S / A+ tier)',
+    section('Best Value (S+ / S / A+ tier)',
       bestValue.map((x, i) => highlightRow(i + 1, x.part.part_key,
         `<span class="mono text-xs">${formatPrice(x.part.best_price)}</span>`, x.part.best_url)),
-      'no S/A+ tier parts rated yet');
+      'no top-tier parts rated yet');
 
   // Clicking a row's main area (not the Buy link) opens that part's price-history modal.
   content.querySelectorAll('.highlight-row').forEach((row, idx) => {
@@ -924,10 +1022,40 @@ function renderHighlights(){
   });
 }
 
+/* ---------- Watchlist rendering ---------- */
+
+function renderWatchlist(){
+  const content = document.getElementById('watchlistContent');
+  const items = WATCHLIST
+    .map(key => ALL_PARTS.find(p => p.part_key === key))
+    .filter(Boolean);
+
+  if (!items.length){
+    content.innerHTML = `<p class="watchlist-empty mono">tap the ☆ on any part to pin it here</p>`;
+    return;
+  }
+
+  content.innerHTML = items.map(part => `
+    <div class="highlight-row" data-part-key="${part.part_key}" style="cursor:pointer;">
+      <span class="flex-1 min-w-0 text-sm truncate">${part.part_key}</span>
+      ${tierBadge(part.part_key, part.category)}
+      <span class="mono text-xs best-price font-semibold">${formatPrice(part.best_price)}</span>
+      ${starButton(part.part_key)}
+    </div>`).join('');
+
+  content.querySelectorAll('[data-part-key]').forEach(row => {
+    row.addEventListener('click', (e) => {
+      if (e.target.closest('.star-btn')) return;
+      openModal(row.dataset.partKey);
+    });
+  });
+}
+
 function showHome(){
   document.getElementById('screensWrapper').style.transform = 'translateX(0%)';
   document.getElementById('tabHomeBtn').classList.add('active');
   document.getElementById('tabPartsBtn').classList.remove('active');
+  renderWatchlist();
   renderHighlights();
 }
 function showParts(){
@@ -964,6 +1092,8 @@ document.getElementById('logoHomeBtn').addEventListener('click', showHome);
 
 async function init(){
   try{
+    loadWatchlist();
+
     const [dataRes, historyRes, tiersRes] = await Promise.all([
       fetch(DATA_URL, { cache: 'no-store' }),
       fetch(HISTORY_URL, { cache: 'no-store' }).catch(() => null),
