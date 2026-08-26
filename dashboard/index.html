@@ -283,8 +283,8 @@
   <header class="border-b border-[var(--panel-border)] sticky top-0 z-10 backdrop-blur bg-[rgba(18,21,28,0.85)]">
     <div class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between gap-4 flex-wrap">
       <div class="flex items-center gap-3 cursor-pointer" id="logoHomeBtn">
-        <div class="chip-badge w-9 h-9 rounded-md flex items-center justify-center">
-          <span class="mono text-[var(--copper-bright)] text-sm font-bold">$AU</span>
+        <div class="chip-badge w-9 h-9 rounded-md flex items-center justify-center overflow-hidden">
+          <img src="icons/logo-header.png" alt="PC Part Price Tracker logo" class="w-7 h-7 object-contain" />
         </div>
         <div>
           <h1 class="text-lg font-semibold leading-tight">PC Part Price Tracker</h1>
@@ -341,6 +341,10 @@
             class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
                    focus:outline-none focus:border-[var(--copper)] placeholder:text-[var(--text-dim)]" />
         </div>
+        <select id="sortSelect"
+          class="bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-2.5 py-2 text-xs mono
+                 text-[var(--text-main)] focus:outline-none focus:border-[var(--copper)] shrink-0">
+        </select>
       </div>
 
       <div class="max-w-6xl mx-auto px-5 pt-5 flex flex-wrap gap-2" id="categoryFilters">
@@ -443,6 +447,31 @@ function tierBadge(partKey, category){
 }
 let activeCategory = 'All';
 let activeSubcategory = 'All';
+let activeSortMode = 'default';
+
+const SORT_OPTIONS = [
+  { id: 'default', label: 'Default' },
+  { id: 'price_asc', label: 'Cheapest first' },
+  { id: 'price_desc', label: 'Priciest first' },
+  { id: 'discount', label: 'Biggest discount' },
+  { id: 'alpha', label: 'A \u2013 Z' },
+];
+
+function sortParts(parts){
+  const sorted = [...parts];
+  switch (activeSortMode){
+    case 'price_asc':
+      return sorted.sort((a, b) => a.best_price - b.best_price);
+    case 'price_desc':
+      return sorted.sort((a, b) => b.best_price - a.best_price);
+    case 'discount':
+      return sorted.sort((a, b) => discountPct(b) - discountPct(a));
+    case 'alpha':
+      return sorted.sort((a, b) => a.part_key.localeCompare(b.part_key));
+    default:
+      return sorted;
+  }
+}
 let activeRange = '1M';
 let chartInstance = null;
 
@@ -646,15 +675,17 @@ function renderAll(){
   renderFilters(categoriesPresent);
   renderSubcategoryFilters();
 
+  const sorted = sortParts(filtered);
+
   const grid = document.getElementById('cardsGrid');
   const empty = document.getElementById('emptyState');
-  if (!filtered.length){
+  if (!sorted.length){
     grid.innerHTML = '';
     empty.classList.remove('hidden');
     return;
   }
   empty.classList.add('hidden');
-  grid.innerHTML = filtered.map(partCard).join('');
+  grid.innerHTML = sorted.map(partCard).join('');
 
   // Click anywhere on a card (outside links/details) opens the history modal.
   grid.querySelectorAll('.card').forEach(card => {
@@ -808,6 +839,18 @@ function bestByCategory(category){
     .slice(0, 5);
 }
 
+// Today's price drop vs yesterday, as a percentage. Returns 0 if no drop
+// or not enough history — used both for the Highlights "biggest discounts"
+// list and for the Parts screen "biggest discount" sort option.
+function discountPct(part){
+  const series = (HISTORY[part.part_key] && HISTORY[part.part_key]['best']) || [];
+  if (series.length < 2) return 0;
+  const today = series[series.length - 1].price;
+  const yesterday = series[series.length - 2].price;
+  if (yesterday <= today) return 0;
+  return ((yesterday - today) / yesterday) * 100;
+}
+
 function biggestDailyDiscounts(){
   const results = [];
   ALL_PARTS.forEach(p => {
@@ -938,6 +981,14 @@ async function init(){
 
     document.getElementById('loadingState').classList.add('hidden');
     document.getElementById('searchInput').addEventListener('input', renderAll);
+
+    const sortSelect = document.getElementById('sortSelect');
+    sortSelect.innerHTML = SORT_OPTIONS.map(o => `<option value="${o.id}">${o.label}</option>`).join('');
+    sortSelect.value = activeSortMode;
+    sortSelect.addEventListener('change', () => {
+      activeSortMode = sortSelect.value;
+      renderAll();
+    });
     renderAll();
     renderCategoryPicker();
     showHome();
