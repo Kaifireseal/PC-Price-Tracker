@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T20:48:04.662568+00:00",
+  "generated_at": "2026-08-26T23:08:13.721666+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -301,7 +301,7 @@
       "part_key": "AMD Ryzen 5 9500F",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 304.0,
+      "best_price": 299.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
       "best_title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
@@ -310,7 +310,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 304.0,
+          "price": 299.0,
           "url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
           "title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
           "stock_status": "unknown",
@@ -666,7 +666,7 @@
           "price": 1849.0,
           "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
           "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
-          "stock_status": "in_stock",
+          "stock_status": "out_of_stock",
           "stock_qty": null
         }
       ]
@@ -775,20 +775,20 @@
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
       "subcategory": "RTX 40-series",
-      "best_price": 465.0,
+      "best_price": 499.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
       "best_title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 79974,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 465.0,
+          "price": 499.0,
           "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
           "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
-          "stock_status": "unknown",
-          "stock_qty": null
+          "stock_status": "in_stock",
+          "stock_qty": 79974
         }
       ]
     },
@@ -813,9 +813,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 619.0,
-          "url": "https://www.ple.com.au/products/675847/asus-geforce-rtx-5060-prime-8gb-gddr7",
-          "title": "ASUS GeForce RTX 5060 Prime 8GB GDDR7",
+          "price": 769.0,
+          "url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -842,9 +842,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 919.0,
-          "url": "https://www.ple.com.au/products/679088/pny-geforce-rtx-5060-ti-dual-oc-16gb-gddr7",
-          "title": "PNY GeForce RTX 5060 Ti Dual OC 16GB GDDR7",
+          "price": 749.0,
+          "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -854,7 +854,7 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1199.0,
+      "best_price": 1299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "best_title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
@@ -863,7 +863,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1199.0,
+          "price": 1299.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
           "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
           "stock_status": "in_stock",
@@ -900,9 +900,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 2199.0,
-          "url": "https://www.ple.com.au/products/672380/gigabyte-geforce-rtx-5070-ti-aero-oc-16gb-gddr7-white",
-          "title": "Gigabyte GeForce RTX 5070 Ti AERO OC 16GB GDDR7 (White)",
+          "price": 2149.0,
+          "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -958,9 +958,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 7999.0,
-          "url": "https://www.ple.com.au/products/672771/pny-geforce-rtx-5090-triple-fan-oc-32gb-gddr7",
-          "title": "PNY GeForce RTX 5090 Triple Fan OC 32GB GDDR7",
+          "price": 7899.0,
+          "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
+          "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1020,20 +1020,20 @@
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 939.0,
+      "best_price": 959.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
-      "best_title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
+      "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-pure-gaming-16g-oc-graphics-card-11349-02-20g-81935",
+      "best_title": "Sapphire Radeon RX 9070 Pure Gaming 16G OC Graphics Card (11349-02-20G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81938,
+      "best_stock_qty": 81935,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 939.0,
-          "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
-          "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
+          "price": 959.0,
+          "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-pure-gaming-16g-oc-graphics-card-11349-02-20g-81935",
+          "title": "Sapphire Radeon RX 9070 Pure Gaming 16G OC Graphics Card (11349-02-20G)",
           "stock_status": "in_stock",
-          "stock_qty": 81938
+          "stock_qty": 81935
         }
       ]
     },
@@ -1137,9 +1137,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1349.0,
-          "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
-          "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
+          "price": 1299.0,
+          "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
+          "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1204,7 +1204,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 79275,
       "offers": [
         {
           "retailer": "MSY",
@@ -1212,7 +1212,7 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": null
+          "stock_qty": 79275
         }
       ]
     },
@@ -1395,7 +1395,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 189.0,
+          "price": 199.0,
           "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
           "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
           "stock_status": "unknown",
@@ -1524,9 +1524,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 399.0,
-          "url": "https://www.ple.com.au/products/663459/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
-          "title": "Kingston FURY Beast RGB 16GB Kit (2X8GB) DDR4-3200 C16",
+          "price": 383.0,
+          "url": "https://www.ple.com.au/products/647541/kingston-fury-beast-16gb-kit-2x8gb-ddr4-3200-c16",
+          "title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR4-3200 C16",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1657,21 +1657,13 @@
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 399.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
-      "best_title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 70238,
+      "best_price": 579.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
+      "best_title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 399.0,
-          "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
-          "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
-          "stock_status": "in_stock",
-          "stock_qty": 70238
-        },
         {
           "retailer": "PLE Computers",
           "price": 579.0,
@@ -2387,7 +2379,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
-      "price": 304.0,
+      "price": 299.0,
       "url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
       "status": "OK",
       "stock_status": "unknown",
@@ -2738,7 +2730,7 @@
       "price": 1849.0,
       "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
       "status": "OK",
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "stock_qty": null
     },
     {
@@ -3011,11 +3003,11 @@
       "subcategory": "RTX 40-series",
       "retailer": "MSY",
       "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
-      "price": 465.0,
+      "price": 499.0,
       "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
       "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null
+      "stock_status": "in_stock",
+      "stock_qty": 79974
     },
     {
       "part_key": "NVIDIA RTX 4060",
@@ -3094,9 +3086,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 5060 Prime 8GB GDDR7",
-      "price": 619.0,
-      "url": "https://www.ple.com.au/products/675847/asus-geforce-rtx-5060-prime-8gb-gddr7",
+      "title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
+      "price": 769.0,
+      "url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3130,9 +3122,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "PNY GeForce RTX 5060 Ti Dual OC 16GB GDDR7",
-      "price": 919.0,
-      "url": "https://www.ple.com.au/products/679088/pny-geforce-rtx-5060-ti-dual-oc-16gb-gddr7",
+      "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
+      "price": 749.0,
+      "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3143,7 +3135,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
-      "price": 1199.0,
+      "price": 1299.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3190,9 +3182,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte GeForce RTX 5070 Ti AERO OC 16GB GDDR7 (White)",
-      "price": 2199.0,
-      "url": "https://www.ple.com.au/products/672380/gigabyte-geforce-rtx-5070-ti-aero-oc-16gb-gddr7-white",
+      "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
+      "price": 2149.0,
+      "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3262,9 +3254,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "PNY GeForce RTX 5090 Triple Fan OC 32GB GDDR7",
-      "price": 7999.0,
-      "url": "https://www.ple.com.au/products/672771/pny-geforce-rtx-5090-triple-fan-oc-32gb-gddr7",
+      "title": "Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32GB GDDR7",
+      "price": 7899.0,
+      "url": "https://www.ple.com.au/products/686926/gigabyte-aorus-geforce-rtx-5090-stealth-ice-32gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3418,12 +3410,12 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
-      "price": 939.0,
-      "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
+      "title": "Sapphire Radeon RX 9070 Pure Gaming 16G OC Graphics Card (11349-02-20G)",
+      "price": 959.0,
+      "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-pure-gaming-16g-oc-graphics-card-11349-02-20g-81935",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81938
+      "stock_qty": 81935
     },
     {
       "part_key": "AMD Radeon RX 9070",
@@ -3586,9 +3578,9 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
-      "price": 1349.0,
-      "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
+      "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
+      "price": 1299.0,
+      "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3658,9 +3650,9 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": "Kingston FURY Beast RGB 16GB Kit (2X8GB) DDR4-3200 C16",
-      "price": 399.0,
-      "url": "https://www.ple.com.au/products/663459/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
+      "title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR4-3200 C16",
+      "price": 383.0,
+      "url": "https://www.ple.com.au/products/647541/kingston-fury-beast-16gb-kit-2x8gb-ddr4-3200-c16",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3886,12 +3878,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Kingston 16GB (2x8GB) KF560C36BBEAK2-16 Fury Beast RGB C36 6000MHz DDR5 RAM - Black",
-      "price": 399.0,
-      "url": "https://www.msy.com.au/product/kingston-16gb-2x8gb-kf560c36bbeak2-16-fury-beast-rgb-c36-6000mhz-ddr5-ram-black-70238",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 70238
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
@@ -4695,7 +4687,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null
+      "stock_qty": 79275
     },
     {
       "part_key": "Asus Prime X870-P WiFi CSM",
@@ -4847,7 +4839,7 @@
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
       "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
-      "price": 189.0,
+      "price": 199.0,
       "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
       "status": "OK",
       "stock_status": "unknown",
