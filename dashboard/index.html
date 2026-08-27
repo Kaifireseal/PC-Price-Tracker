@@ -184,10 +184,10 @@
   #screensWrapper{
     display: flex;
     align-items: flex-start;
-    width: 200%;
+    width: 300%;
     transition: transform .35s cubic-bezier(.4,0,.2,1);
   }
-  .screen-panel{ width: 50%; flex-shrink: 0; min-width: 0; }
+  .screen-panel{ width: 33.3333%; flex-shrink: 0; min-width: 0; }
   .category-tile{
     background: var(--panel);
     border: 1px solid var(--panel-border);
@@ -363,16 +363,18 @@
     <div id="watchlistContent" class="highlight-quadrant mb-6"></div>
 
     <div class="flex items-center justify-between gap-3 mb-3">
-      <h2 class="text-2xl font-bold leading-tight">🛠️ Build List</h2>
-      <p class="text-xs text-[var(--text-dim)] mono">one part per slot</p>
-    </div>
-    <div id="buildContent" class="highlight-quadrant mb-6"></div>
-
-    <div class="flex items-center justify-between gap-3 mb-3">
       <h2 class="text-2xl font-bold leading-tight">🏆 Highlights</h2>
       <p class="text-xs text-[var(--text-dim)] mono">updated with today's data</p>
     </div>
     <div id="highlightsContent" class="grid grid-cols-1 md:grid-cols-2 gap-4 items-start"></div>
+  </div>
+
+  <div id="buildScreen" class="screen-panel">
+    <div class="flex items-center justify-between gap-3 mb-3 mt-2">
+      <h2 class="text-2xl font-bold leading-tight">🛠️ Build List</h2>
+      <p class="text-xs text-[var(--text-dim)] mono">one part per slot</p>
+    </div>
+    <div id="buildContent" class="highlight-quadrant mb-6"></div>
   </div>
 
   <div id="partsScreen" class="screen-panel">
@@ -421,6 +423,7 @@
   <nav id="bottomNav">
     <div class="bottom-nav-inner">
       <button id="tabHomeBtn" class="tab-btn"><span class="tab-icon">🏠</span><span class="tab-label">Home</span></button>
+      <button id="tabBuildBtn" class="tab-btn"><span class="tab-icon">🛠️</span><span class="tab-label">Build</span></button>
       <button id="tabPartsBtn" class="tab-btn"><span class="tab-icon">🖥️</span><span class="tab-label">PC Parts</span></button>
     </div>
   </nav>
@@ -933,19 +936,28 @@ function renderWatchlist(){
 function showHome(){
   document.getElementById('screensWrapper').style.transform = 'translateX(0%)';
   document.getElementById('tabHomeBtn').classList.add('active');
+  document.getElementById('tabBuildBtn').classList.remove('active');
   document.getElementById('tabPartsBtn').classList.remove('active');
   renderWatchlist();
-  renderBuildList();
   renderHighlights();
 }
-function showParts(){
-  document.getElementById('screensWrapper').style.transform = 'translateX(-50%)';
+function showBuild(){
+  document.getElementById('screensWrapper').style.transform = 'translateX(-33.3333%)';
   document.getElementById('tabHomeBtn').classList.remove('active');
+  document.getElementById('tabBuildBtn').classList.add('active');
+  document.getElementById('tabPartsBtn').classList.remove('active');
+  renderBuildList();
+}
+function showParts(){
+  document.getElementById('screensWrapper').style.transform = 'translateX(-66.6667%)';
+  document.getElementById('tabHomeBtn').classList.remove('active');
+  document.getElementById('tabBuildBtn').classList.remove('active');
   document.getElementById('tabPartsBtn').classList.add('active');
   activeCategory = 'All'; activeSubcategory = 'All';
   showPartsPicker();
 }
 document.getElementById('tabHomeBtn').addEventListener('click', showHome);
+document.getElementById('tabBuildBtn').addEventListener('click', showBuild);
 document.getElementById('tabPartsBtn').addEventListener('click', showParts);
 document.getElementById('backToPickerBtn').addEventListener('click', () => {
   activeCategory = 'All'; activeSubcategory = 'All';
