@@ -333,6 +333,39 @@
     font-size: .75rem;
     line-height: 1.4;
   }
+
+  :root.light{
+    --bg: #f6f5f2;
+    --panel: #ffffff;
+    --panel-border: #dde1e8;
+    --copper: #b8672c;
+    --copper-bright: #a15a24;
+    --teal: #1f9c85;
+    --red: #c9433d;
+    --amber: #a67c1f;
+    --text-main: #1b1f27;
+    --text-dim: #5b6478;
+  }
+  :root.light body{
+    background:
+      radial-gradient(circle at 15% 0%, rgba(201,121,61,0.05), transparent 40%),
+      radial-gradient(circle at 85% 20%, rgba(31,156,133,0.05), transparent 40%),
+      var(--bg);
+  }
+  .theme-toggle-btn{
+    background: transparent;
+    border: 1px solid var(--panel-border);
+    border-radius: 999px;
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.05rem;
+    cursor: pointer;
+    color: var(--text-dim);
+    flex-shrink: 0;
+    transition: border-color .15s ease, color .15s ease;
+  }
+  .theme-toggle-btn:hover{ border-color: var(--copper); color: var(--copper-bright); }
 </style>
 </head>
 <body class="pb-28">
@@ -348,6 +381,7 @@
           <p class="text-xs text-[var(--text-dim)] mono" id="lastUpdated">Loading last update time…</p>
         </div>
       </div>
+      <button id="themeToggleBtn" class="theme-toggle-btn" title="Toggle light/dark theme">🌙</button>
     </div>
     <div class="trace"></div>
   </header>
@@ -974,8 +1008,50 @@ document.getElementById('pickerSearchBtn').addEventListener('click', runPickerSe
 document.getElementById('pickerSearchInput').addEventListener('keydown', (e) => { if (e.key === 'Enter') runPickerSearch(); });
 document.getElementById('logoHomeBtn').addEventListener('click', showHome);
 
+/* ---------- Theme (light/dark) ---------- */
+
+const THEME_KEY = 'pcTracker_theme';
+
+function loadTheme(){
+  let theme = 'dark';
+  try {
+    theme = window.localStorage.getItem(THEME_KEY) || 'dark';
+  } catch (err){
+    console.warn('Could not read theme preference:', err);
+  }
+  applyTheme(theme);
+}
+
+function applyTheme(theme){
+  const root = document.documentElement;
+  const btn = document.getElementById('themeToggleBtn');
+  if (theme === 'light'){
+    root.classList.add('light');
+    if (btn) btn.textContent = '☀️';
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f6f5f2');
+  } else {
+    root.classList.remove('light');
+    if (btn) btn.textContent = '🌙';
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#12151c');
+  }
+}
+
+function toggleTheme(){
+  const isLight = document.documentElement.classList.contains('light');
+  const next = isLight ? 'dark' : 'light';
+  applyTheme(next);
+  try {
+    window.localStorage.setItem(THEME_KEY, next);
+  } catch (err){
+    console.warn('Could not save theme preference:', err);
+  }
+}
+
+document.getElementById('themeToggleBtn').addEventListener('click', toggleTheme);
+
 async function init(){
   try{
+    loadTheme();
     loadWatchlist();
     loadBuild();
     const [dataRes, historyRes, tiersRes] = await Promise.all([
