@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T04:21:36.600557+00:00",
+  "generated_at": "2026-08-29T03:01:59.629716+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -85,7 +85,7 @@
       "part_key": "AMD Ryzen 5 5600GT",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 209.0,
+      "best_price": 204.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
       "best_title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
@@ -94,7 +94,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 209.0,
+          "price": 204.0,
           "url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
           "title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
           "stock_status": "unknown",
@@ -942,9 +942,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 2499.0,
-          "url": "https://www.ple.com.au/products/678460/asus-geforce-rtx-5080-proart-oc-16gb-gddr7",
-          "title": "ASUS GeForce RTX 5080 ProArt OC 16GB GDDR7",
+          "price": 2249.0,
+          "url": "https://www.ple.com.au/products/672025/asus-geforce-rtx-5080-prime-oc-16gb-gddr7",
+          "title": "ASUS GeForce RTX 5080 Prime OC 16GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -980,6 +980,27 @@
       ]
     },
     {
+      "part_key": "AMD Radeon RX 7600",
+      "category": "GPU",
+      "subcategory": "RX 7000-series",
+      "best_price": 489.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
+      "best_title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 489.0,
+          "url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
+          "title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
       "part_key": "AMD Radeon RX 9060 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
@@ -1000,9 +1021,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 839.0,
-          "url": "https://www.ple.com.au/products/676092/sapphire-pure-radeon-rx-9060-xt-16gb-gddr6-white",
-          "title": "SAPPHIRE PURE Radeon RX 9060 XT 16GB GDDR6 (White)",
+          "price": 849.0,
+          "url": "https://www.ple.com.au/products/678060/xfx-swift-radeon-rx-9060-xt-oc-triple-fan-16gb-gddr6",
+          "title": "XFX Swift Radeon RX 9060 XT OC Triple Fan 16GB GDDR6",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1226,14 +1247,6 @@
           "title": "Asus TUF Gaming B650EM-PLUS WiFi AM5 mATX Motherboard (TUF GAMING B650EM-PLUS WIFI)",
           "stock_status": "in_stock",
           "stock_qty": 90136
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 279.0,
-          "url": "https://www.ple.com.au/products/676575/asus-tuf-gaming-b650e-plus-wifi-am5-atx-desktop-motherboard",
-          "title": "ASUS TUF Gaming B650E-Plus WiFi AM5 ATX Desktop Motherboard",
-          "stock_status": "unknown",
-          "stock_qty": null
         }
       ]
     },
@@ -1387,7 +1400,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 199.0,
+          "price": 189.0,
           "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
           "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
           "stock_status": "unknown",
@@ -1458,9 +1471,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 229.0,
-          "url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
-          "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
+          "price": 239.0,
+          "url": "https://www.ple.com.au/products/676437/gskill-trident-z-rgb-16gb-kit-2x8gb-ddr4-3600-c18",
+          "title": "G.Skill Trident Z RGB 16GB Kit (2x8GB) DDR4-3600 C18",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1720,7 +1733,7 @@
       "part_key": "Kingston NV3 1TB NVMe SSD",
       "category": "SSD",
       "subcategory": "1TB",
-      "best_price": 251.0,
+      "best_price": 249.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
       "best_title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
@@ -1729,7 +1742,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 251.0,
+          "price": 249.0,
           "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
           "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
           "stock_status": "in_stock",
@@ -1749,13 +1762,21 @@
       "part_key": "Samsung 990 Pro 1TB NVMe SSD",
       "category": "SSD",
       "subcategory": "1TB",
-      "best_price": 429.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/655566/samsung-990-pro-pcie-gen4-nvme-m2-ssd-1tb",
-      "best_title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 1TB",
-      "best_stock_status": "unknown",
+      "best_price": 339.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/samsung-990-1tb-2280-nvme-pcie-4-0-m-2-ssd-mz-v9v1t0bw-95385",
+      "best_title": "Samsung 990 1TB 2280 NVMe PCIe 4.0 M.2 SSD (MZ-V9V1T0BW)",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 339.0,
+          "url": "https://www.msy.com.au/product/samsung-990-1tb-2280-nvme-pcie-4-0-m-2-ssd-mz-v9v1t0bw-95385",
+          "title": "Samsung 990 1TB 2280 NVMe PCIe 4.0 M.2 SSD (MZ-V9V1T0BW)",
+          "stock_status": "in_stock",
+          "stock_qty": null
+        },
         {
           "retailer": "PLE Computers",
           "price": 429.0,
@@ -1963,7 +1984,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 5600GT 6 Core 12 Thread Up To 4.6GHz AM4 - With Wraith Stealth Cooler",
-      "price": 209.0,
+      "price": 204.0,
       "url": "https://www.ple.com.au/products/664868/amd-ryzen-5-5600gt-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
       "status": "OK",
       "stock_status": "unknown",
@@ -3210,9 +3231,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 5080 ProArt OC 16GB GDDR7",
-      "price": 2499.0,
-      "url": "https://www.ple.com.au/products/678460/asus-geforce-rtx-5080-proart-oc-16gb-gddr7",
+      "title": "ASUS GeForce RTX 5080 Prime OC 16GB GDDR7",
+      "price": 2249.0,
+      "url": "https://www.ple.com.au/products/672025/asus-geforce-rtx-5080-prime-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3282,11 +3303,11 @@
       "category": "GPU",
       "subcategory": "RX 7000-series",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
+      "price": 489.0,
+      "url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
@@ -3378,9 +3399,9 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "SAPPHIRE PURE Radeon RX 9060 XT 16GB GDDR6 (White)",
-      "price": 839.0,
-      "url": "https://www.ple.com.au/products/676092/sapphire-pure-radeon-rx-9060-xt-16gb-gddr6-white",
+      "title": "XFX Swift Radeon RX 9060 XT OC Triple Fan 16GB GDDR6",
+      "price": 849.0,
+      "url": "https://www.ple.com.au/products/678060/xfx-swift-radeon-rx-9060-xt-oc-triple-fan-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3678,9 +3699,9 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
-      "price": 229.0,
-      "url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
+      "title": "G.Skill Trident Z RGB 16GB Kit (2x8GB) DDR4-3600 C18",
+      "price": 239.0,
+      "url": "https://www.ple.com.au/products/676437/gskill-trident-z-rgb-16gb-kit-2x8gb-ddr4-3600-c18",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -4279,7 +4300,7 @@
       "subcategory": "1TB",
       "retailer": "MSY",
       "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
-      "price": 251.0,
+      "price": 249.0,
       "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4314,11 +4335,11 @@
       "category": "SSD",
       "subcategory": "1TB",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "Samsung 990 1TB 2280 NVMe PCIe 4.0 M.2 SSD (MZ-V9V1T0BW)",
+      "price": 339.0,
+      "url": "https://www.msy.com.au/product/samsung-990-1tb-2280-nvme-pcie-4-0-m-2-ssd-mz-v9v1t0bw-95385",
+      "status": "OK",
+      "stock_status": "in_stock",
       "stock_qty": null
     },
     {
@@ -4614,11 +4635,11 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "PLE Computers",
-      "title": "ASUS TUF Gaming B650E-Plus WiFi AM5 ATX Desktop Motherboard",
-      "price": 279.0,
-      "url": "https://www.ple.com.au/products/676575/asus-tuf-gaming-b650e-plus-wifi-am5-atx-desktop-motherboard",
-      "status": "OK",
-      "stock_status": "unknown",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -4831,7 +4852,7 @@
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
       "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
-      "price": 199.0,
+      "price": 189.0,
       "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
       "status": "OK",
       "stock_status": "unknown",
