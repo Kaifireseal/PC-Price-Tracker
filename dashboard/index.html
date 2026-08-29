@@ -532,6 +532,9 @@
         class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm mb-5
                text-[var(--text-main)] focus:outline-none focus:border-[var(--copper)]"></select>
 
+      <p class="text-xs text-[var(--text-dim)] mono mb-2">tier <span class="normal-case">(CPU/GPU only)</span></p>
+      <div id="filterTierPills" class="flex flex-wrap gap-1.5 mb-5"></div>
+
       <div class="flex gap-2">
         <button id="filterClearBtn" class="pill px-3 py-2 rounded-md flex-1">Clear all</button>
         <button id="filterApplyBtn" class="bottom-nav-btn flex-1" style="max-width:none;">Show results</button>
@@ -786,6 +789,7 @@ function showPartsResults(){
 let activePriceMin = null;
 let activePriceMax = null;
 let activeRetailer = 'All';
+let activeTier = 'All';
 
 function getAllRetailers(){
   const set = new Set();
@@ -800,6 +804,7 @@ function countActiveFilters(){
   if (activePriceMin !== null) n++;
   if (activePriceMax !== null) n++;
   if (activeRetailer !== 'All') n++;
+  if (activeTier !== 'All') n++;
   return n;
 }
 
@@ -847,9 +852,22 @@ function renderFilterSubcategoryPills(){
   });
 }
 
+function renderFilterTierPills(){
+  const wrap = document.getElementById('filterTierPills');
+  wrap.innerHTML = '';
+  ['All', ...TIER_ORDER].forEach(tier => {
+    const btn = document.createElement('button');
+    btn.textContent = tier;
+    btn.className = 'pill px-2.5 py-1 rounded-full text-[0.65rem]' + (tier === activeTier ? ' active' : '');
+    btn.onclick = () => { activeTier = tier; renderFilterTierPills(); };
+    wrap.appendChild(btn);
+  });
+}
+
 function openFilterPanel(){
   renderFilterCategoryTiles();
   renderFilterSubcategoryPills();
+  renderFilterTierPills();
   document.getElementById('filterPriceMin').value = activePriceMin !== null ? activePriceMin : '';
   document.getElementById('filterPriceMax').value = activePriceMax !== null ? activePriceMax : '';
 
@@ -871,8 +889,10 @@ document.getElementById('filterOverlay').addEventListener('click', (e) => {
 document.getElementById('filterClearBtn').addEventListener('click', () => {
   activeCategory = 'All'; activeSubcategory = 'All';
   activePriceMin = null; activePriceMax = null; activeRetailer = 'All';
+  activeTier = 'All';
   renderFilterCategoryTiles();
   renderFilterSubcategoryPills();
+  renderFilterTierPills();
   document.getElementById('filterPriceMin').value = '';
   document.getElementById('filterPriceMax').value = '';
   document.getElementById('filterRetailerSelect').value = 'All';
@@ -944,7 +964,8 @@ function renderAll(){
     const matchesPriceMin = activePriceMin === null || p.best_price >= activePriceMin;
     const matchesPriceMax = activePriceMax === null || p.best_price <= activePriceMax;
     const matchesRetailer = activeRetailer === 'All' || (p.offers || []).some(o => o.retailer === activeRetailer);
-    return matchesCategory && matchesSubcategory && matchesQuery && matchesPriceMin && matchesPriceMax && matchesRetailer;
+    const matchesTier = activeTier === 'All' || (TIERS[p.part_key] && TIERS[p.part_key].tier === activeTier);
+    return matchesCategory && matchesSubcategory && matchesQuery && matchesPriceMin && matchesPriceMax && matchesRetailer && matchesTier;
   });
   updateFilterBadge();
   const sorted = sortParts(filtered);
