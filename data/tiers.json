@@ -45,9 +45,6 @@
   "XFX Speedster RX 7900 XTX": { "tier": "A+", "note": "Same GPU as RX 7900 XTX, XFX Speedster cooler" },
   "AMD Radeon RX 9060 XT": { "tier": "B", "note": "Good value 1080p/1440p, benefits from 16GB VRAM" },
   "AMD Radeon RX 9070": { "tier": "A", "note": "Strong 1440p AMD option, close to 5070-class" },
-  "Gigabyte Gaming RX 9070": { "tier": "A", "note": "Same GPU as RX 9070, Gigabyte Gaming cooler" },
   "Gigabyte Radeon RX 9070 GRE": { "tier": "B+", "note": "Cut-down 9070 variant, still solid 1440p" },
   "AMD Radeon RX 9070 XT": { "tier": "A+", "note": "AMD's best - competes with 5070 Ti at a better price" },
-  "Asus Prime RX 9070 XT": { "tier": "A+", "note": "Same GPU as RX 9070 XT, Asus Prime cooler" },
-  "Sapphire Pulse RX 9070 XT": { "tier": "A+", "note": "Same GPU as RX 9070 XT, Sapphire Pulse cooler" }
 }
