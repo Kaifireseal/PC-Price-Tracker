@@ -366,6 +366,43 @@
     transition: border-color .15s ease, color .15s ease;
   }
   .theme-toggle-btn:hover{ border-color: var(--copper); color: var(--copper-bright); }
+
+  #filterOverlay{
+    position: fixed; inset: 0; z-index: 55;
+    background: rgba(8,10,14,0.75);
+    backdrop-filter: blur(2px);
+    display: none;
+    align-items: flex-end; justify-content: center;
+  }
+  #filterOverlay.open{ display: flex; }
+  #filterPanel{
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 16px 16px 0 0;
+    width: 100%; max-width: 480px;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+  .filter-cat-tile{
+    background: var(--bg);
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    padding: .6rem .4rem;
+    display: flex; flex-direction: column; align-items: center; gap: .25rem;
+    cursor: pointer;
+    font-size: .75rem;
+    transition: border-color .15s ease, color .15s ease;
+  }
+  .filter-cat-tile.active{ border-color: var(--copper); color: var(--copper-bright); }
+  #filterCountBadge{
+    background: var(--copper);
+    color: #12151c;
+    font-size: .65rem;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 1px 6px;
+    margin-left: 2px;
+  }
 </style>
 </head>
 <body class="pb-28">
@@ -435,9 +472,10 @@
         <select id="sortSelect"
           class="bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-2.5 py-2 text-xs mono
                  text-[var(--text-main)] focus:outline-none focus:border-[var(--copper)] shrink-0"></select>
+        <button id="openFiltersBtn" class="pill px-3 py-2 rounded-md shrink-0 flex items-center gap-1.5">
+          🔍 <span>Filters</span><span id="filterCountBadge" class="hidden"></span>
+        </button>
       </div>
-      <div class="max-w-6xl mx-auto px-5 pt-5 flex flex-wrap gap-2" id="categoryFilters"></div>
-      <div class="max-w-6xl mx-auto px-5 pt-2 flex flex-wrap gap-1.5 hidden" id="subcategoryFilters"></div>
       <main class="max-w-6xl mx-auto px-5 pt-5">
         <div id="emptyState" class="hidden text-center py-24 text-[var(--text-dim)]"><p class="mono text-sm">// no matching parts found</p></div>
         <div id="loadingState" class="text-center py-24 text-[var(--text-dim)] mono text-sm">Fetching latest prices…</div>
@@ -461,6 +499,46 @@
       <button id="tabPartsBtn" class="tab-btn"><span class="tab-icon">🖥️</span><span class="tab-label">PC Parts</span></button>
     </div>
   </nav>
+
+  <!-- Filter panel -->
+  <div id="filterOverlay">
+    <div id="filterPanel" class="p-5">
+      <div class="flex items-center justify-between gap-3 mb-4">
+        <h3 class="text-lg font-bold">Filters</h3>
+        <button id="filterCloseBtn" class="pill px-2.5 py-1.5 rounded shrink-0">Close ✕</button>
+      </div>
+
+      <p class="text-xs text-[var(--text-dim)] mono mb-2">category</p>
+      <div id="filterCategoryTiles" class="grid grid-cols-3 gap-2 mb-4"></div>
+
+      <div id="filterSubcategoryWrap" class="hidden mb-4">
+        <p class="text-xs text-[var(--text-dim)] mono mb-2">subcategory</p>
+        <div id="filterSubcategoryPills" class="flex flex-wrap gap-1.5"></div>
+      </div>
+
+      <p class="text-xs text-[var(--text-dim)] mono mb-2">price range (AUD)</p>
+      <div class="flex items-center gap-2 mb-4">
+        <input id="filterPriceMin" type="number" placeholder="Min" min="0"
+          class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
+                 focus:outline-none focus:border-[var(--copper)] placeholder:text-[var(--text-dim)]" />
+        <span class="text-[var(--text-dim)]">–</span>
+        <input id="filterPriceMax" type="number" placeholder="Max" min="0"
+          class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
+                 focus:outline-none focus:border-[var(--copper)] placeholder:text-[var(--text-dim)]" />
+      </div>
+
+      <p class="text-xs text-[var(--text-dim)] mono mb-2">store</p>
+      <select id="filterRetailerSelect"
+        class="w-full bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm mb-5
+               text-[var(--text-main)] focus:outline-none focus:border-[var(--copper)]"></select>
+
+      <div class="flex gap-2">
+        <button id="filterClearBtn" class="pill px-3 py-2 rounded-md flex-1">Clear all</button>
+        <button id="filterApplyBtn" class="bottom-nav-btn flex-1" style="max-width:none;">Show results</button>
+      </div>
+    </div>
+  </div>
+
 
   <div id="modalOverlay">
     <div id="modalPanel" class="p-5">
@@ -705,32 +783,113 @@ function showPartsResults(){
   document.getElementById('partsResults').classList.remove('hidden');
   renderAll();
 }
-function renderFilters(categoriesPresent){
-  const wrap = document.getElementById('categoryFilters');
+let activePriceMin = null;
+let activePriceMax = null;
+let activeRetailer = 'All';
+
+function getAllRetailers(){
+  const set = new Set();
+  ALL_PARTS.forEach(p => (p.offers || []).forEach(o => set.add(o.retailer)));
+  return [...set].sort();
+}
+
+function countActiveFilters(){
+  let n = 0;
+  if (activeCategory !== 'All') n++;
+  if (activeSubcategory !== 'All') n++;
+  if (activePriceMin !== null) n++;
+  if (activePriceMax !== null) n++;
+  if (activeRetailer !== 'All') n++;
+  return n;
+}
+
+function updateFilterBadge(){
+  const badge = document.getElementById('filterCountBadge');
+  const n = countActiveFilters();
+  if (n > 0){ badge.textContent = n; badge.classList.remove('hidden'); }
+  else { badge.classList.add('hidden'); }
+}
+
+function renderFilterCategoryTiles(){
+  const wrap = document.getElementById('filterCategoryTiles');
+  const categoriesPresent = new Set(ALL_PARTS.map(p => p.category));
   wrap.innerHTML = '';
-  categoryOrder.filter(c => c === 'All' || categoriesPresent.has(c)).forEach(cat => {
-    const btn = document.createElement('button');
-    btn.textContent = cat;
-    btn.className = 'pill px-3 py-1.5 rounded-full' + (cat === activeCategory ? ' active' : '');
-    btn.onclick = () => { activeCategory = cat; activeSubcategory = 'All'; renderAll(); };
-    wrap.appendChild(btn);
+  ['All', ...categoryOrder.filter(c => c !== 'All' && categoriesPresent.has(c))].forEach(cat => {
+    const tile = document.createElement('div');
+    tile.className = 'filter-cat-tile' + (cat === activeCategory ? ' active' : '');
+    tile.innerHTML = cat === 'All'
+      ? `<span>🗂️</span><span>All</span>`
+      : `<span>${CATEGORY_ICONS[cat] || '🔧'}</span><span>${cat}</span>`;
+    tile.addEventListener('click', () => {
+      activeCategory = cat;
+      activeSubcategory = 'All';
+      renderFilterCategoryTiles();
+      renderFilterSubcategoryPills();
+    });
+    wrap.appendChild(tile);
   });
 }
-function renderSubcategoryFilters(){
-  const wrap = document.getElementById('subcategoryFilters');
-  wrap.innerHTML = '';
-  if (activeCategory === 'All'){ wrap.classList.add('hidden'); return; }
+
+function renderFilterSubcategoryPills(){
+  const outerWrap = document.getElementById('filterSubcategoryWrap');
+  const wrap = document.getElementById('filterSubcategoryPills');
+  if (activeCategory === 'All'){ outerWrap.classList.add('hidden'); return; }
   const subsPresent = [...new Set(ALL_PARTS.filter(p => p.category === activeCategory).map(p => p.subcategory).filter(Boolean))];
-  if (!subsPresent.length){ wrap.classList.add('hidden'); return; }
-  wrap.classList.remove('hidden');
+  if (!subsPresent.length){ outerWrap.classList.add('hidden'); return; }
+  outerWrap.classList.remove('hidden');
+  wrap.innerHTML = '';
   ['All', ...subsPresent].forEach(sub => {
     const btn = document.createElement('button');
     btn.textContent = sub;
     btn.className = 'pill px-2.5 py-1 rounded-full text-[0.65rem]' + (sub === activeSubcategory ? ' active' : '');
-    btn.onclick = () => { activeSubcategory = sub; renderAll(); };
+    btn.onclick = () => { activeSubcategory = sub; renderFilterSubcategoryPills(); };
     wrap.appendChild(btn);
   });
 }
+
+function openFilterPanel(){
+  renderFilterCategoryTiles();
+  renderFilterSubcategoryPills();
+  document.getElementById('filterPriceMin').value = activePriceMin !== null ? activePriceMin : '';
+  document.getElementById('filterPriceMax').value = activePriceMax !== null ? activePriceMax : '';
+
+  const retailerSelect = document.getElementById('filterRetailerSelect');
+  retailerSelect.innerHTML = ['All', ...getAllRetailers()].map(r => `<option value="${r}">${r}</option>`).join('');
+  retailerSelect.value = activeRetailer;
+
+  document.getElementById('filterOverlay').classList.add('open');
+}
+function closeFilterPanel(){
+  document.getElementById('filterOverlay').classList.remove('open');
+}
+
+document.getElementById('openFiltersBtn').addEventListener('click', openFilterPanel);
+document.getElementById('filterCloseBtn').addEventListener('click', closeFilterPanel);
+document.getElementById('filterOverlay').addEventListener('click', (e) => {
+  if (e.target.id === 'filterOverlay') closeFilterPanel();
+});
+document.getElementById('filterClearBtn').addEventListener('click', () => {
+  activeCategory = 'All'; activeSubcategory = 'All';
+  activePriceMin = null; activePriceMax = null; activeRetailer = 'All';
+  renderFilterCategoryTiles();
+  renderFilterSubcategoryPills();
+  document.getElementById('filterPriceMin').value = '';
+  document.getElementById('filterPriceMax').value = '';
+  document.getElementById('filterRetailerSelect').value = 'All';
+  updateFilterBadge();
+  renderAll();
+});
+document.getElementById('filterApplyBtn').addEventListener('click', () => {
+  const minVal = document.getElementById('filterPriceMin').value;
+  const maxVal = document.getElementById('filterPriceMax').value;
+  activePriceMin = minVal !== '' ? parseFloat(minVal) : null;
+  activePriceMax = maxVal !== '' ? parseFloat(maxVal) : null;
+  activeRetailer = document.getElementById('filterRetailerSelect').value;
+  updateFilterBadge();
+  closeFilterPanel();
+  renderAll();
+});
+
 function offerRow(offer, isBest){
   return `<a href="${offer.url}" target="_blank" rel="noopener" class="flex items-center justify-between gap-3 py-2 px-2 rounded-md hover:bg-white/5 transition" onclick="event.stopPropagation()">
       <span class="min-w-0">
@@ -782,11 +941,12 @@ function renderAll(){
     const matchesCategory = activeCategory === 'All' || p.category === activeCategory;
     const matchesSubcategory = activeSubcategory === 'All' || p.subcategory === activeSubcategory;
     const matchesQuery = !query || p.part_key.toLowerCase().includes(query);
-    return matchesCategory && matchesSubcategory && matchesQuery;
+    const matchesPriceMin = activePriceMin === null || p.best_price >= activePriceMin;
+    const matchesPriceMax = activePriceMax === null || p.best_price <= activePriceMax;
+    const matchesRetailer = activeRetailer === 'All' || (p.offers || []).some(o => o.retailer === activeRetailer);
+    return matchesCategory && matchesSubcategory && matchesQuery && matchesPriceMin && matchesPriceMax && matchesRetailer;
   });
-  const categoriesPresent = new Set(ALL_PARTS.map(p => p.category));
-  renderFilters(categoriesPresent);
-  renderSubcategoryFilters();
+  updateFilterBadge();
   const sorted = sortParts(filtered);
   const grid = document.getElementById('cardsGrid');
   const empty = document.getElementById('emptyState');
@@ -882,7 +1042,7 @@ document.getElementById('modalBuildBtn').addEventListener('click', () => {
   if (part) toggleBuild(currentModalPartKey, part.category);
 });
 document.getElementById('modalOverlay').addEventListener('click', (e) => { if (e.target.id === 'modalOverlay') closeModal(); });
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape'){ closeModal(); closeFilterPanel(); } });
 
 function highlightRow(rank, label, valueHtml, buyUrl){
   return `<div class="highlight-row">
