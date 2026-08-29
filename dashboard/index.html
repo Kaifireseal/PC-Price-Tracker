@@ -482,6 +482,16 @@
       <h2 class="text-2xl font-bold leading-tight">🛠️ Build List</h2>
       <p class="text-xs text-[var(--text-dim)] mono">one part per slot</p>
     </div>
+
+    <div class="flex items-center gap-2 mb-4 flex-wrap">
+      <select id="buildSelector"
+        class="flex-1 min-w-[140px] bg-[var(--panel)] border border-[var(--panel-border)] rounded-md px-3 py-2 text-sm
+               text-[var(--text-main)] focus:outline-none focus:border-[var(--copper)]"></select>
+      <button id="newBuildBtn" class="pill px-3 py-2 rounded-md shrink-0">+ New</button>
+      <button id="renameBuildBtn" class="pill px-3 py-2 rounded-md shrink-0">Rename</button>
+      <button id="deleteBuildBtn" class="pill px-3 py-2 rounded-md shrink-0">Delete</button>
+    </div>
+
     <div id="buildContent" class="highlight-quadrant mb-6"></div>
   </div>
 
@@ -708,24 +718,56 @@ function starButton(partKey){
             onclick="event.stopPropagation(); toggleWatchlist('${partKey.replace(/'/g, "\\'")}')">${watched ? '★' : '☆'}</button>`;
 }
 
-const BUILD_KEY = 'pcTracker_build';
+const BUILDS_KEY = 'pcTracker_builds';
+const OLD_BUILD_KEY = 'pcTracker_build'; // legacy single-build storage, migrated on load
+const DEFAULT_BUILD_NAME = 'My Build';
 const BUILD_SLOTS = ['CPU', 'Motherboard', 'GPU', 'RAM', 'SSD', 'Monitor'];
-let BUILD = {};
+let BUILDS = {};
+let ACTIVE_BUILD_NAME = DEFAULT_BUILD_NAME;
+
 function loadBuild(){
   try {
-    const raw = window.localStorage.getItem(BUILD_KEY);
-    BUILD = raw ? JSON.parse(raw) : {};
-    if (typeof BUILD !== 'object' || BUILD === null || Array.isArray(BUILD)) BUILD = {};
-  } catch (err){ console.warn('Could not read build list:', err); BUILD = {}; }
+    const raw = window.localStorage.getItem(BUILDS_KEY);
+    if (raw){
+      const parsed = JSON.parse(raw);
+      BUILDS = (parsed && typeof parsed.builds === 'object' && parsed.builds !== null) ? parsed.builds : {};
+      ACTIVE_BUILD_NAME = (parsed && parsed.activeBuildName && BUILDS[parsed.activeBuildName]) ? parsed.activeBuildName : Object.keys(BUILDS)[0];
+    } else {
+      // Migrate legacy single-build data if present, otherwise start fresh.
+      const legacyRaw = window.localStorage.getItem(OLD_BUILD_KEY);
+      let legacyBuild = {};
+      if (legacyRaw){
+        try {
+          const parsedLegacy = JSON.parse(legacyRaw);
+          if (typeof parsedLegacy === 'object' && parsedLegacy !== null && !Array.isArray(parsedLegacy)) legacyBuild = parsedLegacy;
+        } catch (e){ /* ignore malformed legacy data */ }
+      }
+      BUILDS = { [DEFAULT_BUILD_NAME]: legacyBuild };
+      ACTIVE_BUILD_NAME = DEFAULT_BUILD_NAME;
+    }
+    if (!BUILDS || Object.keys(BUILDS).length === 0){
+      BUILDS = { [DEFAULT_BUILD_NAME]: {} };
+      ACTIVE_BUILD_NAME = DEFAULT_BUILD_NAME;
+    }
+    if (!ACTIVE_BUILD_NAME || !BUILDS[ACTIVE_BUILD_NAME]) ACTIVE_BUILD_NAME = Object.keys(BUILDS)[0];
+  } catch (err){
+    console.warn('Could not read build lists:', err);
+    BUILDS = { [DEFAULT_BUILD_NAME]: {} };
+    ACTIVE_BUILD_NAME = DEFAULT_BUILD_NAME;
+  }
 }
 function saveBuild(){
-  try { window.localStorage.setItem(BUILD_KEY, JSON.stringify(BUILD)); }
-  catch (err){ console.warn('Could not save build list:', err); }
+  try {
+    window.localStorage.setItem(BUILDS_KEY, JSON.stringify({ builds: BUILDS, activeBuildName: ACTIVE_BUILD_NAME }));
+  } catch (err){ console.warn('Could not save build lists:', err); }
 }
-function isInBuild(partKey, category){ return BUILD[category] === partKey; }
+function getActiveBuild(){ return BUILDS[ACTIVE_BUILD_NAME] || {}; }
+
+function isInBuild(partKey, category){ return getActiveBuild()[category] === partKey; }
 function toggleBuild(partKey, category){
   if (!BUILD_SLOTS.includes(category)) return;
-  BUILD[category] = (BUILD[category] === partKey) ? null : partKey;
+  const build = getActiveBuild();
+  build[category] = (build[category] === partKey) ? null : partKey;
   saveBuild();
   renderBuildList();
   if (!document.getElementById('partsResults').classList.contains('hidden')) renderAll();
@@ -737,10 +779,19 @@ function buildButton(partKey, category){
   return `<button class="build-btn${inBuild ? ' in-build' : ''}" data-build-key="${partKey}"
             onclick="event.stopPropagation(); toggleBuild('${partKey.replace(/'/g, "\\'")}', '${category}')">${inBuild ? '✓ In build' : '+ Build'}</button>`;
 }
+
+function renderBuildSelector(){
+  const select = document.getElementById('buildSelector');
+  select.innerHTML = Object.keys(BUILDS).map(name => `<option value="${name}">${name}</option>`).join('');
+  select.value = ACTIVE_BUILD_NAME;
+}
+
 function renderBuildList(){
+  renderBuildSelector();
+  const build = getActiveBuild();
   const content = document.getElementById('buildContent');
   const rows = BUILD_SLOTS.map(slot => {
-    const partKey = BUILD[slot];
+    const partKey = build[slot];
     const part = partKey ? ALL_PARTS.find(p => p.part_key === partKey) : null;
     if (!part){
       return `<div class="build-slot-row">
@@ -756,12 +807,12 @@ function renderBuildList(){
       </div>`;
   }).join('');
 
-  const selectedParts = BUILD_SLOTS.map(slot => BUILD[slot] ? ALL_PARTS.find(p => p.part_key === BUILD[slot]) : null).filter(Boolean);
+  const selectedParts = BUILD_SLOTS.map(slot => build[slot] ? ALL_PARTS.find(p => p.part_key === build[slot]) : null).filter(Boolean);
   const total = selectedParts.reduce((sum, p) => sum + p.best_price, 0);
 
   let warningHtml = '';
-  const cpuPart = BUILD.CPU ? ALL_PARTS.find(p => p.part_key === BUILD.CPU) : null;
-  const moboPart = BUILD.Motherboard ? ALL_PARTS.find(p => p.part_key === BUILD.Motherboard) : null;
+  const cpuPart = build.CPU ? ALL_PARTS.find(p => p.part_key === build.CPU) : null;
+  const moboPart = build.Motherboard ? ALL_PARTS.find(p => p.part_key === build.Motherboard) : null;
   if (cpuPart && moboPart && cpuPart.subcategory && moboPart.subcategory && cpuPart.subcategory !== moboPart.subcategory){
     warningHtml = `<div class="build-warning">⚠️ Socket mismatch: ${cpuPart.part_key} is ${cpuPart.subcategory},
       but ${moboPart.part_key} is ${moboPart.subcategory}. These won't fit together.</div>`;
@@ -783,7 +834,7 @@ function renderBuildList(){
   content.querySelectorAll('.build-remove-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
-      BUILD[btn.dataset.removeSlot] = null;
+      getActiveBuild()[btn.dataset.removeSlot] = null;
       saveBuild();
       renderBuildList();
       if (!document.getElementById('partsResults').classList.contains('hidden')) renderAll();
@@ -791,12 +842,52 @@ function renderBuildList(){
   });
 }
 
+document.getElementById('buildSelector').addEventListener('change', (e) => {
+  ACTIVE_BUILD_NAME = e.target.value;
+  saveBuild();
+  renderBuildList();
+});
+document.getElementById('newBuildBtn').addEventListener('click', () => {
+  const name = prompt('Name for the new build:');
+  if (!name || !name.trim()) return;
+  const trimmed = name.trim();
+  if (BUILDS[trimmed]){ alert('A build with that name already exists.'); return; }
+  BUILDS[trimmed] = {};
+  ACTIVE_BUILD_NAME = trimmed;
+  saveBuild();
+  renderBuildList();
+});
+document.getElementById('renameBuildBtn').addEventListener('click', () => {
+  const name = prompt('New name for this build:', ACTIVE_BUILD_NAME);
+  if (!name || !name.trim()) return;
+  const trimmed = name.trim();
+  if (trimmed === ACTIVE_BUILD_NAME) return;
+  if (BUILDS[trimmed]){ alert('A build with that name already exists.'); return; }
+  BUILDS[trimmed] = BUILDS[ACTIVE_BUILD_NAME];
+  delete BUILDS[ACTIVE_BUILD_NAME];
+  ACTIVE_BUILD_NAME = trimmed;
+  saveBuild();
+  renderBuildList();
+});
+document.getElementById('deleteBuildBtn').addEventListener('click', () => {
+  if (Object.keys(BUILDS).length <= 1){
+    alert("Can't delete your only build — rename or clear its parts instead.");
+    return;
+  }
+  if (!confirm(`Delete "${ACTIVE_BUILD_NAME}"? This can't be undone.`)) return;
+  delete BUILDS[ACTIVE_BUILD_NAME];
+  ACTIVE_BUILD_NAME = Object.keys(BUILDS)[0];
+  saveBuild();
+  renderBuildList();
+});
+
 let activeCategory = 'All';
 let activeSubcategory = 'All';
 let activeSortMode = 'default';
 const SORT_OPTIONS = [
   { id: 'default', label: 'Default' },
   { id: 'price_asc', label: 'Cheapest first' },
+  { id: 'price_desc', label: 'Priciest first' },
   { id: 'price_desc', label: 'Priciest first' },
   { id: 'discount', label: 'Biggest discount' },
   { id: 'alpha', label: 'A \u2013 Z' },
