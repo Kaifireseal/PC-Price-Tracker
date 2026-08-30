@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T03:01:59.629716+00:00",
+  "generated_at": "2026-08-30T06:54:14.525353+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -838,21 +838,13 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 569.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
-      "best_title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 729.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
+      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 82678,
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 569.0,
-          "url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
-          "title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null
-        },
         {
           "retailer": "MSY",
           "price": 729.0,
@@ -860,6 +852,14 @@
           "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
           "stock_status": "in_stock",
           "stock_qty": 82678
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 959.0,
+          "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null
         }
       ]
     },
@@ -1409,6 +1409,27 @@
       ]
     },
     {
+      "part_key": "Adata 16GB (2x8GB) DDR4 3200 XPG",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "best_price": 263.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/661095/adata-xpg-spectrix-d35g-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
+      "best_title": "ADATA XPG Spectrix D35G RGB 16GB Kit (2x8GB) DDR4-3200 C16",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 263.0,
+          "url": "https://www.ple.com.au/products/661095/adata-xpg-spectrix-d35g-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
+          "title": "ADATA XPG Spectrix D35G RGB 16GB Kit (2x8GB) DDR4-3200 C16",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
       "part_key": "Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
@@ -1433,7 +1454,7 @@
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 269.0,
+      "best_price": 229.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
       "best_title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
@@ -1442,7 +1463,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 269.0,
+          "price": 229.0,
           "url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
           "title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
           "stock_status": "unknown",
@@ -1468,14 +1489,6 @@
           "title": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
           "stock_status": "in_stock",
           "stock_qty": 56010
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 239.0,
-          "url": "https://www.ple.com.au/products/676437/gskill-trident-z-rgb-16gb-kit-2x8gb-ddr4-3600-c18",
-          "title": "G.Skill Trident Z RGB 16GB Kit (2x8GB) DDR4-3600 C18",
-          "stock_status": "unknown",
-          "stock_qty": null
         }
       ]
     },
@@ -3135,9 +3148,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "INNO3D GeForce RTX 5060 Ti Twin X2 8GB GDDR7",
-      "price": 569.0,
-      "url": "https://www.ple.com.au/products/675253/inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7",
+      "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
+      "price": 959.0,
+      "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null
@@ -3628,7 +3641,7 @@
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
       "title": "Corsair Vengeance LPX 16GB Kit (2x8GB) DDR4-3200 C16",
-      "price": 269.0,
+      "price": 229.0,
       "url": "https://www.ple.com.au/products/670820/corsair-vengeance-lpx-16gb-kit-2x8gb-ddr4-3200-c16",
       "status": "OK",
       "stock_status": "unknown",
@@ -3699,11 +3712,11 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": "G.Skill Trident Z RGB 16GB Kit (2x8GB) DDR4-3600 C18",
-      "price": 239.0,
-      "url": "https://www.ple.com.au/products/676437/gskill-trident-z-rgb-16gb-kit-2x8gb-ddr4-3600-c18",
-      "status": "OK",
-      "stock_status": "unknown",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -3735,11 +3748,11 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "ADATA XPG Spectrix D35G RGB 16GB Kit (2x8GB) DDR4-3200 C16",
+      "price": 263.0,
+      "url": "https://www.ple.com.au/products/661095/adata-xpg-spectrix-d35g-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
+      "status": "OK",
+      "stock_status": "unknown",
       "stock_qty": null
     },
     {
