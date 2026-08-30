@@ -184,10 +184,10 @@
   #screensWrapper{
     display: flex;
     align-items: flex-start;
-    width: 300%;
+    width: 400%;
     transition: transform .35s cubic-bezier(.4,0,.2,1);
   }
-  .screen-panel{ width: 33.3333%; flex-shrink: 0; min-width: 0; }
+  .screen-panel{ width: 25%; flex-shrink: 0; min-width: 0; }
   .category-tile{
     background: var(--panel);
     border: 1px solid var(--panel-border);
@@ -333,6 +333,76 @@
     font-size: .75rem;
     line-height: 1.4;
   }
+
+  .compare-btn{
+    background: transparent;
+    border: 1px solid var(--panel-border);
+    border-radius: 999px;
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .03em;
+    color: var(--text-dim);
+    cursor: pointer;
+    padding: 3px 8px;
+    flex-shrink: 0;
+    transition: color .15s ease, border-color .15s ease, background .15s ease;
+    white-space: nowrap;
+  }
+  .compare-btn:hover{ border-color: var(--amber); color: var(--amber); }
+  .compare-btn.in-compare{
+    color: var(--amber);
+    border-color: var(--amber);
+    background: rgba(232,192,92,0.1);
+  }
+  .compare-empty{
+    text-align: center;
+    padding: 2.5rem 0;
+    color: var(--text-dim);
+    font-size: .85rem;
+  }
+  .compare-table-wrap{ overflow-x: auto; padding-bottom: .5rem; }
+  .compare-table{ display: flex; gap: .9rem; min-width: min-content; }
+  .compare-col{
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    padding: 1rem;
+    width: 200px;
+    flex-shrink: 0;
+  }
+  .compare-col-title{
+    font-weight: 700;
+    font-size: .85rem;
+    line-height: 1.3;
+    margin-bottom: .5rem;
+    min-height: 2.6em;
+  }
+  .compare-row{
+    display: flex; flex-direction: column;
+    padding: .5rem 0;
+    border-top: 1px solid var(--panel-border);
+  }
+  .compare-row-label{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: .62rem;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: .15rem;
+  }
+  .compare-row-value{ font-size: .85rem; font-weight: 600; }
+  .compare-remove-btn{
+    background: transparent;
+    border: 1px solid var(--panel-border);
+    border-radius: 999px;
+    color: var(--text-dim);
+    font-size: .68rem;
+    cursor: pointer;
+    padding: 3px 10px;
+    width: 100%;
+    margin-top: .75rem;
+  }
+  .compare-remove-btn:hover{ border-color: var(--red); color: var(--red); }
 
   :root.light{
     --bg: #f6f5f2;
@@ -495,6 +565,17 @@
     <div id="buildContent" class="highlight-quadrant mb-6"></div>
   </div>
 
+  <div id="compareScreen" class="screen-panel">
+    <div class="flex items-center justify-between gap-3 mb-3 mt-2">
+      <h2 class="text-2xl font-bold leading-tight">⚖️ Compare</h2>
+      <button id="clearCompareBtn" class="text-xs text-[var(--text-dim)] mono hover:text-[var(--copper-bright)]">clear all</button>
+    </div>
+    <p class="text-xs text-[var(--text-dim)] mono mb-4">
+      up to 3 CPUs or GPUs, side by side — tap the ⚖️ button on a card to add it
+    </p>
+    <div id="compareContent"></div>
+  </div>
+
   <div id="partsScreen" class="screen-panel">
     <div id="partsPicker" class="max-w-2xl mx-auto px-5 pt-8">
       <h2 class="text-2xl font-bold text-center mb-5">What are you looking for?</h2>
@@ -543,6 +624,7 @@
     <div class="bottom-nav-inner">
       <button id="tabHomeBtn" class="tab-btn"><span class="tab-icon">🏠</span><span class="tab-label">Home</span></button>
       <button id="tabBuildBtn" class="tab-btn"><span class="tab-icon">🛠️</span><span class="tab-label">Build</span></button>
+      <button id="tabCompareBtn" class="tab-btn"><span class="tab-icon">⚖️</span><span class="tab-label">Compare</span></button>
       <button id="tabPartsBtn" class="tab-btn"><span class="tab-icon">🖥️</span><span class="tab-label">PC Parts</span></button>
     </div>
   </nav>
@@ -602,6 +684,7 @@
         </div>
         <div class="flex items-center gap-1.5 shrink-0">
           <button id="modalBuildBtn" class="build-btn">+ Build</button>
+          <button id="modalCompareBtn" class="compare-btn">⚖️ Compare</button>
           <button id="modalStarBtn" class="star-btn" title="Add to watchlist">☆</button>
           <button id="modalClose" class="pill px-2.5 py-1.5 rounded shrink-0">Close ✕</button>
         </div>
@@ -881,6 +964,119 @@ document.getElementById('deleteBuildBtn').addEventListener('click', () => {
   renderBuildList();
 });
 
+/* ---------- Compare (localStorage) ---------- */
+
+const COMPARE_KEY = 'pcTracker_compare';
+const COMPARE_MAX = 3;
+let COMPARE_LIST = [];
+
+function loadCompare(){
+  try {
+    const raw = window.localStorage.getItem(COMPARE_KEY);
+    COMPARE_LIST = raw ? JSON.parse(raw) : [];
+    if (!Array.isArray(COMPARE_LIST)) COMPARE_LIST = [];
+  } catch (err){ console.warn('Could not read compare list:', err); COMPARE_LIST = []; }
+}
+function saveCompare(){
+  try { window.localStorage.setItem(COMPARE_KEY, JSON.stringify(COMPARE_LIST)); }
+  catch (err){ console.warn('Could not save compare list:', err); }
+}
+function isInCompare(partKey){ return COMPARE_LIST.includes(partKey); }
+
+function toggleCompare(partKey, category){
+  if (category !== 'CPU' && category !== 'GPU') return;
+
+  if (isInCompare(partKey)){
+    COMPARE_LIST = COMPARE_LIST.filter(k => k !== partKey);
+  } else {
+    // All items being compared must share a category (CPU vs CPU, or GPU vs GPU) —
+    // specs don't line up meaningfully across CPU/GPU.
+    const existingCategories = COMPARE_LIST
+      .map(k => ALL_PARTS.find(p => p.part_key === k))
+      .filter(Boolean)
+      .map(p => p.category);
+    if (existingCategories.length && existingCategories[0] !== category){
+      alert(`You're already comparing ${existingCategories[0]}s. Clear the comparison first to compare ${category}s instead.`);
+      return;
+    }
+    if (COMPARE_LIST.length >= COMPARE_MAX){
+      alert(`You can compare up to ${COMPARE_MAX} parts at a time. Remove one first.`);
+      return;
+    }
+    COMPARE_LIST.push(partKey);
+  }
+  saveCompare();
+  renderCompare();
+  if (!document.getElementById('partsResults').classList.contains('hidden')) renderAll();
+  if (currentModalPartKey === partKey) updateModalCompareButton();
+}
+
+function compareButton(partKey, category){
+  if (category !== 'CPU' && category !== 'GPU') return '';
+  const inCompare = isInCompare(partKey);
+  return `<button class="compare-btn${inCompare ? ' in-compare' : ''}" data-compare-key="${partKey}"
+            onclick="event.stopPropagation(); toggleCompare('${partKey.replace(/'/g, "\\'")}', '${category}')">${inCompare ? '✓ Comparing' : '⚖️ Compare'}</button>`;
+}
+
+// Optional extra benchmark fields on a tiers.json entry: userRating,
+// valueScore, avgBench (e.g. UserBenchmark-style numbers). All optional —
+// shows "—" if not present for a given part.
+function compareStatRow(label, value){
+  return `<div class="compare-row">
+      <span class="compare-row-label">${label}</span>
+      <span class="compare-row-value">${value !== undefined && value !== null && value !== '' ? value : '—'}</span>
+    </div>`;
+}
+
+function renderCompare(){
+  const content = document.getElementById('compareContent');
+  const items = COMPARE_LIST.map(key => ALL_PARTS.find(p => p.part_key === key)).filter(Boolean);
+
+  if (!items.length){
+    content.innerHTML = `<p class="compare-empty mono">no parts selected yet — tap ⚖️ Compare on any CPU or GPU card</p>`;
+    return;
+  }
+
+  const cols = items.map(part => {
+    const tierEntry = TIERS[part.part_key] || {};
+    return `<div class="compare-col">
+        <div class="compare-col-title">${part.part_key}</div>
+        ${compareStatRow('Tier', tierEntry.tier ? `<span class="tier-badge ${tierClass(tierEntry.tier)}">${tierEntry.tier}</span>` : '—')}
+        ${compareStatRow('Price', formatPrice(part.best_price) + ' · ' + part.best_retailer)}
+        ${compareStatRow('Subcategory', part.subcategory || '—')}
+        ${compareStatRow('Stock', part.best_stock_status === 'in_stock' ? 'In stock' : part.best_stock_status === 'out_of_stock' ? 'Out of stock' : part.best_stock_status === 'preorder' ? 'Pre-order' : 'Unknown')}
+        ${compareStatRow('User rating', tierEntry.userRating)}
+        ${compareStatRow('Value score', tierEntry.valueScore)}
+        ${compareStatRow('Avg bench', tierEntry.avgBench)}
+        ${isLowestEver(part) ? `<div class="compare-row">${lowestEverBadge(part)}</div>` : ''}
+        <a href="${part.best_url}" target="_blank" rel="noopener" class="highlight-buy block text-center mt-2" onclick="event.stopPropagation()">Buy →</a>
+        <button class="compare-remove-btn" data-remove-compare-key="${part.part_key}">Remove</button>
+      </div>`;
+  }).join('');
+
+  content.innerHTML = `<div class="compare-table-wrap"><div class="compare-table">${cols}</div></div>`;
+
+  content.querySelectorAll('.compare-col-title').forEach((el, idx) => {
+    el.style.cursor = 'pointer';
+    el.addEventListener('click', () => openModal(items[idx].part_key));
+  });
+  content.querySelectorAll('[data-remove-compare-key]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      COMPARE_LIST = COMPARE_LIST.filter(k => k !== btn.dataset.removeCompareKey);
+      saveCompare();
+      renderCompare();
+      if (!document.getElementById('partsResults').classList.contains('hidden')) renderAll();
+    });
+  });
+}
+
+document.getElementById('clearCompareBtn').addEventListener('click', () => {
+  COMPARE_LIST = [];
+  saveCompare();
+  renderCompare();
+  if (!document.getElementById('partsResults').classList.contains('hidden')) renderAll();
+});
+
 let activeCategory = 'All';
 let activeSubcategory = 'All';
 let activeSortMode = 'default';
@@ -1109,6 +1305,7 @@ function partCard(part){
         </div>
         <div class="flex items-center gap-1.5 shrink-0">
           ${canAddToBuild ? buildButton(part.part_key, part.category) : ''}
+          ${compareButton(part.part_key, part.category)}
           ${starButton(part.part_key)}
         </div>
       </div>
@@ -1183,6 +1380,15 @@ function updateModalBuildButton(){
   btn.textContent = inBuild ? '✓ In build' : '+ Build';
   btn.classList.toggle('in-build', inBuild);
 }
+function updateModalCompareButton(){
+  const btn = document.getElementById('modalCompareBtn');
+  const part = ALL_PARTS.find(p => p.part_key === currentModalPartKey);
+  if (!part || (part.category !== 'CPU' && part.category !== 'GPU')){ btn.classList.add('hidden'); return; }
+  btn.classList.remove('hidden');
+  const inCompare = isInCompare(currentModalPartKey);
+  btn.textContent = inCompare ? '✓ Comparing' : '⚖️ Compare';
+  btn.classList.toggle('in-compare', inCompare);
+}
 function openModal(partKey){
   const part = ALL_PARTS.find(p => p.part_key === partKey);
   if (!part) return;
@@ -1195,6 +1401,7 @@ function openModal(partKey){
   document.getElementById('modalLowestEver').innerHTML = lowestEverBadge(part);
   updateModalStar();
   updateModalBuildButton();
+  updateModalCompareButton();
   renderRangeButtons();
   renderChartForCurrentPart();
   document.getElementById('modalOverlay').classList.add('open');
@@ -1238,6 +1445,10 @@ document.getElementById('modalStarBtn').addEventListener('click', () => { if (cu
 document.getElementById('modalBuildBtn').addEventListener('click', () => {
   const part = ALL_PARTS.find(p => p.part_key === currentModalPartKey);
   if (part) toggleBuild(currentModalPartKey, part.category);
+});
+document.getElementById('modalCompareBtn').addEventListener('click', () => {
+  const part = ALL_PARTS.find(p => p.part_key === currentModalPartKey);
+  if (part) toggleCompare(currentModalPartKey, part.category);
 });
 document.getElementById('modalOverlay').addEventListener('click', (e) => { if (e.target.id === 'modalOverlay') closeModal(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape'){ closeModal(); closeFilterPanel(); } });
@@ -1329,28 +1540,40 @@ function showHome(){
   document.getElementById('screensWrapper').style.transform = 'translateX(0%)';
   document.getElementById('tabHomeBtn').classList.add('active');
   document.getElementById('tabBuildBtn').classList.remove('active');
+  document.getElementById('tabCompareBtn').classList.remove('active');
   document.getElementById('tabPartsBtn').classList.remove('active');
   renderRecentlyViewed();
   renderWatchlist();
   renderHighlights();
 }
 function showBuild(){
-  document.getElementById('screensWrapper').style.transform = 'translateX(-33.3333%)';
+  document.getElementById('screensWrapper').style.transform = 'translateX(-25%)';
   document.getElementById('tabHomeBtn').classList.remove('active');
   document.getElementById('tabBuildBtn').classList.add('active');
+  document.getElementById('tabCompareBtn').classList.remove('active');
   document.getElementById('tabPartsBtn').classList.remove('active');
   renderBuildList();
 }
-function showParts(){
-  document.getElementById('screensWrapper').style.transform = 'translateX(-66.6667%)';
+function showCompare(){
+  document.getElementById('screensWrapper').style.transform = 'translateX(-50%)';
   document.getElementById('tabHomeBtn').classList.remove('active');
   document.getElementById('tabBuildBtn').classList.remove('active');
+  document.getElementById('tabCompareBtn').classList.add('active');
+  document.getElementById('tabPartsBtn').classList.remove('active');
+  renderCompare();
+}
+function showParts(){
+  document.getElementById('screensWrapper').style.transform = 'translateX(-75%)';
+  document.getElementById('tabHomeBtn').classList.remove('active');
+  document.getElementById('tabBuildBtn').classList.remove('active');
+  document.getElementById('tabCompareBtn').classList.remove('active');
   document.getElementById('tabPartsBtn').classList.add('active');
   activeCategory = 'All'; activeSubcategory = 'All';
   showPartsPicker();
 }
 document.getElementById('tabHomeBtn').addEventListener('click', showHome);
 document.getElementById('tabBuildBtn').addEventListener('click', showBuild);
+document.getElementById('tabCompareBtn').addEventListener('click', showCompare);
 document.getElementById('tabPartsBtn').addEventListener('click', showParts);
 document.getElementById('backToPickerBtn').addEventListener('click', () => {
   activeCategory = 'All'; activeSubcategory = 'All';
@@ -1414,6 +1637,7 @@ async function init(){
     loadRecentlyViewed();
     loadWatchlist();
     loadBuild();
+    loadCompare();
     const [dataRes, historyRes, tiersRes] = await Promise.all([
       fetch(DATA_URL, { cache: 'no-store' }),
       fetch(HISTORY_URL, { cache: 'no-store' }).catch(() => null),
