@@ -11,6 +11,10 @@ Finds products by *shape*, not by class name:
     phrases AU retailers use ("In Stock", "Out of Stock", "X available",
     etc.) — best-effort: if nothing recognizable is found, status comes
     back as "unknown" rather than guessing.
+  - a product image is looked for in that SAME nearby container (the
+    ancestor node where the price was found is almost always the whole
+    product card, which also holds the thumbnail) — best-effort, comes
+    back as None if nothing usable is found.
 
 TWO FETCH ENGINES
 ------------------
@@ -46,6 +50,13 @@ MAX_PRICE_CLIMB = 4
 CHALLENGE_MARKERS = (
     "checking your browser", "just a moment", "attention required",
     "cf-browser-verification", "cloudflare-challenge", "verify you are human",
+)
+
+# Keywords that suggest an <img> is a logo/icon/badge rather than an actual
+# product photo — skipped when picking which image to use.
+IMAGE_SKIP_KEYWORDS = (
+    "logo", "icon", "badge", "sprite", "placeholder", "spinner", "loading",
+    "payment", "visa", "mastercard", "paypal", "afterpay", "zip",
 )
 
 # Stock-status detection, checked in the same nearby container the price
@@ -100,6 +111,41 @@ def _detect_stock(text: str):
         return "in_stock", None
 
     return "unknown", None
+
+
+def _extract_image_url(node, base_domain: str):
+    """
+    Best-effort product image lookup within the same ancestor container
+    the price was matched in. Handles common lazy-load patterns (data-src,
+    data-original, srcset) since plain <img src="..."> is often a tiny
+    placeholder until JS swaps it in — which we never run in requests mode.
+    Returns None if nothing usable is found, rather than guessing.
+    """
+    if node is None:
+        return None
+
+    for img in node.find_all("img"):
+        candidate = (
+            img.get("data-src")
+            or img.get("data-original")
+            or img.get("data-lazy-src")
+            or img.get("src")
+        )
+        if not candidate:
+            srcset = img.get("srcset") or img.get("data-srcset")
+            if srcset:
+                candidate = srcset.split(",")[0].strip().split(" ")[0]
+
+        if not candidate or candidate.startswith("data:"):
+            continue
+
+        lowered = candidate.lower()
+        if any(kw in lowered for kw in IMAGE_SKIP_KEYWORDS):
+            continue
+
+        return _absolute_url(base_domain, candidate)
+
+    return None
 
 
 DEBUG_SNIPPETS = {}
@@ -192,10 +238,11 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
             continue
 
         stock_status, stock_qty = _detect_stock(matched_text)
+        image_url = _extract_image_url(matched_node, base_domain)
 
         if price_context_key and price_context_key not in DEBUG_SNIPPETS and matched_node is not None:
             DEBUG_SNIPPETS[price_context_key] = {
-                "note": f"Ancestor HTML used to find the price for the first product on this page: '{title}' -> matched price ${price}, stock={stock_status}",
+                "note": f"Ancestor HTML used to find the price for the first product on this page: '{title}' -> matched price ${price}, stock={stock_status}, image={image_url}",
                 "raw_ancestor_html": str(matched_node)[:4000],
             }
 
@@ -205,7 +252,7 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
                     target_key = f"{retailer_name}_TARGET_{keyword}"
                     if target_key not in DEBUG_SNIPPETS:
                         DEBUG_SNIPPETS[target_key] = {
-                            "note": f"Ancestor HTML for '{title}' -> price ${price}, stock={stock_status}",
+                            "note": f"Ancestor HTML for '{title}' -> price ${price}, stock={stock_status}, image={image_url}",
                             "raw_ancestor_html": str(matched_node)[:4000],
                         }
 
@@ -213,6 +260,7 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
         results.append({
             "title": title, "price": price, "url": url,
             "stock_status": stock_status, "stock_qty": stock_qty,
+            "image_url": image_url,
         })
 
         if len(results) >= 100:
