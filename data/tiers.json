@@ -84,10 +84,6 @@
     "valueScore": 132,
     "avgBench": 115
   },
-  "AMD Ryzen 5 9500F": {
-    "tier": "B",
-    "note": "Budget Zen 5 AM5 option, no iGPU"
-  },
   "AMD Ryzen 7 7700X": {
     "tier": "A",
     "note": "Well-rounded gaming + productivity on AM5",
@@ -115,10 +111,6 @@
     "userRating": 60,
     "valueScore": 113,
     "avgBench": 113
-  },
-  "AMD Ryzen 9 7950X": {
-    "tier": "A+",
-    "note": "High-end multi-core, great for mixed workloads"
   },
   "AMD Ryzen 9 9900X3D": {
     "tier": "A+",
@@ -263,7 +255,10 @@
   },
   "AMD Radeon RX 7600": {
     "tier": "C",
-    "note": "Budget 1080p AMD card"
+    "note": "Budget 1080p AMD card",
+    "userRating": 56,
+    "valueScore": null,
+    "avgBench": 46.2
   },
   "AMD Radeon RX 7900 XTX": {
     "tier": "A+",
