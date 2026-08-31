@@ -11,7 +11,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 20
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -37,5 +37,14 @@ jobs:
           for f in data/prices.json data/history.json data/tiers.json scrape_errors.log debug_snippets.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
-          git diff --cached --quiet || git commit -m "Automated daily price update"
+          git diff --cached --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "Automated daily price update"
+          # Pull any commits made directly on GitHub (e.g. manual config.py
+          # or tiers.json edits) since this workflow started, rebasing our
+          # data-only commit on top so the push doesn't get rejected as a
+          # non-fast-forward. Our commit only ever touches the data/*.json
+          # and log files above, so a real conflict here is very unlikely -
+          # but if one somehow happens, this step will fail loudly rather
+          # than silently losing data, which is the safe behavior.
+          git pull --rebase origin main
           git push
