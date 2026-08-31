@@ -1,35 +1,59 @@
 {
   "AMD Ryzen 5 5500GT": {
     "tier": "C-",
-    "note": "Budget AM4 chip with iGPU, weaker than the 5500"
+    "note": "Budget AM4 chip with iGPU, weaker than the 5500",
+    "userRating": 51,
+    "valueScore": null,
+    "avgBench": 83.9
   },
   "AMD Ryzen 5 5600GT": {
     "tier": "C+",
-    "note": "AM4 chip with iGPU, similar tier to 5600 but lower clocks"
+    "note": "AM4 chip with iGPU, similar tier to 5600 but lower clocks",
+    "userRating": 52,
+    "valueScore": 100,
+    "avgBench": 87.1
   },
   "AMD Ryzen 5 5500": {
     "tier": "C",
-    "note": "Budget AM4 option, still capable for 1080p"
+    "note": "Budget AM4 option, still capable for 1080p",
+    "userRating": 58,
+    "valueScore": null,
+    "avgBench": 85.9
   },
   "AMD Ryzen 5 5600": {
     "tier": "B",
-    "note": "Solid mid-range AM4 pick"
+    "note": "Solid mid-range AM4 pick",
+    "userRating": 59,
+    "valueScore": 108,
+    "avgBench": 93.3
   },
   "AMD Ryzen 5 5600X": {
     "tier": "B",
-    "note": "Slightly higher clocks than 5600, same tier"
+    "note": "Slightly higher clocks than 5600, same tier",
+    "userRating": 94,
+    "valueScore": 108,
+    "avgBench": 95.9
   },
   "AMD Ryzen 7 5700X": {
     "tier": "B+",
-    "note": "Good multi-core AM4 option"
+    "note": "Good multi-core AM4 option",
+    "userRating": 60,
+    "valueScore": 105,
+    "avgBench": 96
   },
   "AMD Ryzen 7 5800X3D": {
     "tier": "A",
-    "note": "Still a strong AM4 gaming chip thanks to 3D V-Cache"
+    "note": "Still a strong AM4 gaming chip thanks to 3D V-Cache",
+    "userRating": 63,
+    "valueScore": 97.2,
+    "avgBench": 104
   },
   "AMD Ryzen 5 7500F": {
     "tier": "B",
-    "note": "Budget AM5 entry, no iGPU"
+    "note": "Budget AM5 entry, no iGPU",
+    "userRating": 54,
+    "valueScore": null,
+    "avgBench": 103
   },
   "AMD Ryzen 5 7500X3D": {
     "tier": "B+",
@@ -37,11 +61,17 @@
   },
   "AMD Ryzen 5 7600": {
     "tier": "B",
-    "note": "Great value entry into AM5"
+    "note": "Great value entry into AM5",
+    "userRating": 56,
+    "valueScore": 114,
+    "avgBench": 106
   },
   "AMD Ryzen 5 7600X": {
     "tier": "B+",
-    "note": "Higher clocks than 7600, same tier"
+    "note": "Higher clocks than 7600, same tier",
+    "userRating": 66,
+    "valueScore": 131,
+    "avgBench": 111
   },
   "AMD Ryzen 5 9600": {
     "tier": "B+",
@@ -49,7 +79,10 @@
   },
   "AMD Ryzen 5 9600X": {
     "tier": "A",
-    "note": "Modest gen-on-gen gain over 7600, efficient"
+    "note": "Modest gen-on-gen gain over 7600, efficient",
+    "userRating": 101,
+    "valueScore": 132,
+    "avgBench": 115
   },
   "AMD Ryzen 5 9500F": {
     "tier": "B",
@@ -57,19 +90,31 @@
   },
   "AMD Ryzen 7 7700X": {
     "tier": "A",
-    "note": "Well-rounded gaming + productivity on AM5"
+    "note": "Well-rounded gaming + productivity on AM5",
+    "userRating": 71,
+    "valueScore": 119,
+    "avgBench": 112
   },
   "AMD Ryzen 7 7800X3D": {
     "tier": "A+",
-    "note": "Excellent gaming performance, AM5 favourite"
+    "note": "Excellent gaming performance, AM5 favourite",
+    "userRating": 95,
+    "valueScore": 116,
+    "avgBench": 121
   },
   "AMD Ryzen 7 9800X3D": {
     "tier": "S",
-    "note": "Best gaming CPU on the market right now"
+    "note": "Best gaming CPU on the market right now",
+    "userRating": 96,
+    "valueScore": 113,
+    "avgBench": 128
   },
   "AMD Ryzen 9 7900X": {
     "tier": "A",
-    "note": "Strong multi-core AM5 chip"
+    "note": "Strong multi-core AM5 chip",
+    "userRating": 60,
+    "valueScore": 113,
+    "avgBench": 113
   },
   "AMD Ryzen 9 7950X": {
     "tier": "A+",
@@ -77,19 +122,31 @@
   },
   "AMD Ryzen 9 9900X3D": {
     "tier": "A+",
-    "note": "Strong hybrid gaming + multi-core workload chip"
+    "note": "Strong hybrid gaming + multi-core workload chip",
+    "userRating": 53,
+    "valueScore": 101,
+    "avgBench": 119
   },
   "AMD Ryzen 9 9950X": {
     "tier": "A",
-    "note": "Top-end multi-core productivity, not gaming-focused"
+    "note": "Top-end multi-core productivity, not gaming-focused",
+    "userRating": 54,
+    "valueScore": 105,
+    "avgBench": 118
   },
   "AMD Ryzen 9 9950X3D": {
     "tier": "S",
-    "note": "Best of both worlds - top gaming and heavy multi-core"
+    "note": "Best of both worlds - top gaming and heavy multi-core",
+    "userRating": 56,
+    "valueScore": 98.2,
+    "avgBench": 120
   },
   "AMD Ryzen 9 9950X3D2": {
     "tier": "S+",
-    "note": "Dual-CCD special edition, flagship gaming + productivity"
+    "note": "Dual-CCD special edition, flagship gaming + productivity",
+    "userRating": 51,
+    "valueScore": 91.6,
+    "avgBench": 125
   },
   "Intel Core i5-12400F": {
     "tier": "C",
