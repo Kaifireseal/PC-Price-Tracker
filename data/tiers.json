@@ -150,27 +150,45 @@
   },
   "Intel Core i5-12400F": {
     "tier": "C",
-    "note": "Older budget option, still fine for 1080p"
+    "note": "Older budget option, still fine for 1080p",
+    "userRating": 95,
+    "valueScore": 108,
+    "avgBench": 98.1
   },
   "Intel Core i5-13400F": {
     "tier": "B",
-    "note": "Reliable budget-mid CPU, no iGPU"
+    "note": "Reliable budget-mid CPU, no iGPU",
+    "userRating": 92,
+    "valueScore": 111,
+    "avgBench": 106
   },
   "Intel Core i5-14400F": {
     "tier": "B",
-    "note": "Minor refresh over 13400F, similar performance"
+    "note": "Minor refresh over 13400F, similar performance",
+    "userRating": 61,
+    "valueScore": 119,
+    "avgBench": 107
   },
   "Intel Core i7-14700K": {
     "tier": "A",
-    "note": "Strong multi-core, competitive gaming performance"
+    "note": "Strong multi-core, competitive gaming performance",
+    "userRating": 96,
+    "valueScore": 120,
+    "avgBench": 130
   },
   "Intel Core i9-14900K": {
     "tier": "A+",
-    "note": "High-end Intel performance, runs hot/power hungry"
+    "note": "High-end Intel performance, runs hot/power hungry",
+    "userRating": 77,
+    "valueScore": 114,
+    "avgBench": 131
   },
   "Intel Core Ultra 5 245K": {
     "tier": "B+",
-    "note": "Efficient but middling gaming uplift vs previous gen"
+    "note": "Efficient but middling gaming uplift vs previous gen",
+    "userRating": 55,
+    "valueScore": 131,
+    "avgBench": 117
   },
   "Intel Core Ultra 7 265K": {
     "tier": "A",
@@ -178,7 +196,10 @@
   },
   "Intel Core Ultra 9 285K": {
     "tier": "A+",
-    "note": "Intel's flagship, strong multi-core, efficiency improved over 14900K"
+    "note": "Intel's flagship, strong multi-core, efficiency improved over 14900K",
+    "userRating": 58,
+    "valueScore": 104,
+    "avgBench": 121
   },
   "NVIDIA RTX 3060": {
     "tier": "C",
