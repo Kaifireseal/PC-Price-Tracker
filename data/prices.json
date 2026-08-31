@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T02:51:26.454200+00:00",
+  "generated_at": "2026-08-31T08:52:29.814661+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -36,12 +36,20 @@
       "category": "CPU",
       "subcategory": "AM4",
       "best_price": 189.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
-      "best_title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+      "best_title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 75737,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 189.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+          "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+          "stock_status": "in_stock",
+          "stock_qty": 75737
+        },
         {
           "retailer": "PLE Computers",
           "price": 189.0,
@@ -57,12 +65,20 @@
       "category": "CPU",
       "subcategory": "AM4",
       "best_price": 169.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/651834/amd-ryzen-5-5600-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
-      "best_title": "AMD Ryzen 5 5600 6 Core 12 Thread Up To 4.4Ghz AM4 - With Wraith Stealth Cooler",
-      "best_stock_status": "unknown",
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
+      "best_title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 169.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
+          "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
+          "stock_status": "in_stock",
+          "stock_qty": null
+        },
         {
           "retailer": "PLE Computers",
           "price": 169.0,
@@ -70,14 +86,6 @@
           "title": "AMD Ryzen 5 5600 6 Core 12 Thread Up To 4.4Ghz AM4 - With Wraith Stealth Cooler",
           "stock_status": "unknown",
           "stock_qty": null
-        },
-        {
-          "retailer": "MSY",
-          "price": 309.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
-          "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
-          "stock_status": "in_stock",
-          "stock_qty": 62808
         }
       ]
     },
@@ -165,20 +173,12 @@
       "category": "CPU",
       "subcategory": "AM4",
       "best_price": 549.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
-      "best_title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 94714,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/685083/amd-ryzen-7-5800x3d-8-core-16-thread-up-to-45ghz-am4-no-hsf-retail-box-10th-anniversary-edition",
+      "best_title": "AMD Ryzen 7 5800X3D 8 Core 16 Thread Up to 4.5GHz AM4 - No HSF Retail Box - 10th Anniversary Edition",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 549.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
-          "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
-          "stock_status": "in_stock",
-          "stock_qty": 94714
-        },
         {
           "retailer": "PLE Computers",
           "price": 549.0,
@@ -290,27 +290,6 @@
       ]
     },
     {
-      "part_key": "AMD Ryzen 5 9500F",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "best_price": 299.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
-      "best_title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 299.0,
-          "url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
-          "title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
-          "stock_status": "unknown",
-          "stock_qty": null
-        }
-      ]
-    },
-    {
       "part_key": "AMD Ryzen 5 9600",
       "category": "CPU",
       "subcategory": "AM5",
@@ -406,7 +385,7 @@
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
       "best_title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 69583,
       "offers": [
         {
           "retailer": "MSY",
@@ -414,7 +393,7 @@
           "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
           "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
           "stock_status": "in_stock",
-          "stock_qty": null
+          "stock_qty": 69583
         },
         {
           "retailer": "PLE Computers",
@@ -758,6 +737,106 @@
           "price": 1019.0,
           "url": "https://www.ple.com.au/products/669021/intel-core-ultra-9-285k-arrow-lake-24-core-24-thread-up-to-57ghz-lga1851-no-hsf-retail-box",
           "title": "Intel Core Ultra 9 285K Arrow Lake 24 Core 24 Thread Up To 5.7GHz LGA1851 - No HSF Retail Box",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "best_price": 129.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/683994/lian-li-o11-vision-m-micro-tower-case-black",
+      "best_title": "Lian Li O11 Vision-M Micro Tower Case (Black)",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 129.0,
+          "url": "https://www.ple.com.au/products/683994/lian-li-o11-vision-m-micro-tower-case-black",
+          "title": "Lian Li O11 Vision-M Micro Tower Case (Black)",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Corsair 3200D RS Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "best_price": 89.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/corsair-3200d-rs-mid-tower-atx-case-black-cc-9011334-ww-95028",
+      "best_title": "Corsair 3200D RS Mid-Tower ATX Case - Black (CC-9011334-WW)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 95028,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 89.0,
+          "url": "https://www.msy.com.au/product/corsair-3200d-rs-mid-tower-atx-case-black-cc-9011334-ww-95028",
+          "title": "Corsair 3200D RS Mid-Tower ATX Case - Black (CC-9011334-WW)",
+          "stock_status": "in_stock",
+          "stock_qty": 95028
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 135.0,
+          "url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
+          "title": "Corsair 3200D RS Mid Tower Case (Black)",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "best_price": 99.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
+      "best_title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 82003,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 99.0,
+          "url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
+          "title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
+          "stock_status": "in_stock",
+          "stock_qty": 82003
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 165.0,
+          "url": "https://www.ple.com.au/products/672031/corsair-frame-4000d-rs-mid-tower-case-black",
+          "title": "Corsair Frame 4000D RS Mid Tower Case (Black)",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Thermaltake View 270 Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "best_price": 89.0,
+      "best_retailer": "Umart",
+      "best_url": "https://www.umart.com.au/product/thermaltake-view-270-tg-argb-mid-tower-atx-case-matcha-green-ca-1y7-00mewn-00-76348",
+      "best_title": "ThermaltakeView270TG ARGB Mid Tower ATX Case - Matcha Green (CA-1Y7-00MEWN-00)",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "Umart",
+          "price": 89.0,
+          "url": "https://www.umart.com.au/product/thermaltake-view-270-tg-argb-mid-tower-atx-case-matcha-green-ca-1y7-00mewn-00-76348",
+          "title": "ThermaltakeView270TG ARGB Mid Tower ATX Case - Matcha Green (CA-1Y7-00MEWN-00)",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1280,7 +1359,7 @@
       "best_url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "best_title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 82893,
+      "best_stock_qty": null,
       "offers": [
         {
           "retailer": "MSY",
@@ -1288,7 +1367,7 @@
           "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
           "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 82893
+          "stock_qty": null
         },
         {
           "retailer": "PLE Computers",
@@ -1296,6 +1375,27 @@
           "url": "https://www.ple.com.au/products/672077/msi-b850-gaming-plus-wifi-am5-atx-desktop-motherboard",
           "title": "MSI B850 Gaming Plus WiFi AM5 ATX Desktop Motherboard",
           "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "MSI MAG B650 Tomahawk WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "best_price": 279.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+      "best_title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 279.0,
+          "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+          "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+          "stock_status": "in_stock",
           "stock_qty": null
         }
       ]
@@ -1396,7 +1496,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null
+          "stock_qty": 81989
         }
       ]
     },
@@ -1424,6 +1524,140 @@
           "price": 189.0,
           "url": "https://www.ple.com.au/products/671917/gigabyte-b860m-eagle-wifi6-lga1851-matx-desktop-motherboard",
           "title": "Gigabyte B860M EAGLE WiFi6 LGA1851 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "MSI MAG A650BN 650W Bronze ATX PSU",
+      "category": "PSU",
+      "subcategory": "650W",
+      "best_price": 75.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/661838/msi-mag-a650bn-650w-bronze-atx-psu",
+      "best_title": "MSI MAG A650BN - 650W Bronze ATX PSU",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 75.0,
+          "url": "https://www.ple.com.au/products/661838/msi-mag-a650bn-650w-bronze-atx-psu",
+          "title": "MSI MAG A650BN - 650W Bronze ATX PSU",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "best_price": 74.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-prime-750w-80-bronze-atx-power-supply-black-prime-750b-black-85490",
+      "best_title": "Asus Prime 750W 80+ Bronze ATX Power Supply - Black (PRIME-750B-BLACK)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 85490,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 74.0,
+          "url": "https://www.msy.com.au/product/asus-prime-750w-80-bronze-atx-power-supply-black-prime-750b-black-85490",
+          "title": "Asus Prime 750W 80+ Bronze ATX Power Supply - Black (PRIME-750B-BLACK)",
+          "stock_status": "in_stock",
+          "stock_qty": 85490
+        }
+      ]
+    },
+    {
+      "part_key": "Cooler Master MWE V3 750W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "best_price": 109.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/673897/cooler-master-mwe-v3-750w-gold-atx-31-psu",
+      "best_title": "Cooler Master MWE V3 750W Gold ATX 3.1 PSU",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 109.0,
+          "url": "https://www.ple.com.au/products/673897/cooler-master-mwe-v3-750w-gold-atx-31-psu",
+          "title": "Cooler Master MWE V3 750W Gold ATX 3.1 PSU",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Corsair RM750e 750W Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "best_price": 149.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/corsair-750w-rm750e-cybenetics-gold-fully-modular-atx-3-1-power-supply-white-cp-9020292-au-85145",
+      "best_title": "Corsair 750W RM750e Cybenetics Gold Fully Modular ATX 3.1 Power Supply - White (CP-9020292-AU)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 85145,
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 149.0,
+          "url": "https://www.msy.com.au/product/corsair-750w-rm750e-cybenetics-gold-fully-modular-atx-3-1-power-supply-white-cp-9020292-au-85145",
+          "title": "Corsair 750W RM750e Cybenetics Gold Fully Modular ATX 3.1 Power Supply - White (CP-9020292-AU)",
+          "stock_status": "in_stock",
+          "stock_qty": 85145
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 169.0,
+          "url": "https://www.ple.com.au/products/672028/corsair-rm750e-750w-gold-atx-31-modular-psu",
+          "title": "Corsair RM750e - 750W Gold ATX 3.1 Modular PSU",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Corsair RM850e 850W Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "850W",
+      "best_price": 199.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/672029/corsair-rm850e-850w-gold-atx-31-modular-psu",
+      "best_title": "Corsair RM850e - 850W Gold ATX 3.1 Modular PSU",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 199.0,
+          "url": "https://www.ple.com.au/products/672029/corsair-rm850e-850w-gold-atx-31-modular-psu",
+          "title": "Corsair RM850e - 850W Gold ATX 3.1 Modular PSU",
+          "stock_status": "unknown",
+          "stock_qty": null
+        }
+      ]
+    },
+    {
+      "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "850W",
+      "best_price": 125.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
+      "best_title": "SilverStone Triton Rx 850W Gold ATX PSU",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 125.0,
+          "url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
+          "title": "SilverStone Triton Rx 850W Gold ATX PSU",
           "stock_status": "unknown",
           "stock_qty": null
         }
@@ -1668,27 +1902,6 @@
           "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP DDR5-5200 C40",
           "stock_status": "unknown",
           "stock_qty": null
-        }
-      ]
-    },
-    {
-      "part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000",
-      "category": "RAM",
-      "subcategory": "DDR5",
-      "best_price": 1999.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-96gb-2x48gb-cmh96gx5m2e6000z36-vengeance-rgb-6000mt-s-cl36-ddr5-ram-83480",
-      "best_title": "Corsair 96GB (2x48GB) CMH96GX5M2E6000Z36 Vengeance RGB 6000MT/s CL36 DDR5 RAM",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 83480,
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 1999.0,
-          "url": "https://www.msy.com.au/product/corsair-96gb-2x48gb-cmh96gx5m2e6000z36-vengeance-rgb-6000mt-s-cl36-ddr5-ram-83480",
-          "title": "Corsair 96GB (2x48GB) CMH96GX5M2E6000Z36 Vengeance RGB 6000MT/s CL36 DDR5 RAM",
-          "stock_status": "in_stock",
-          "stock_qty": 83480
         }
       ]
     },
@@ -1969,12 +2182,12 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+      "price": 189.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 75737
     },
     {
       "part_key": "AMD Ryzen 5 5500GT",
@@ -2078,11 +2291,11 @@
       "subcategory": "AM4",
       "retailer": "MSY",
       "title": "AMD Ryzen 5 5600 6 Core AM4 4.4Ghz CPU Processor with Wraith Stealth Cooler (100-100000927BOX)",
-      "price": 309.0,
+      "price": 169.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-5-5600-6-core-am4-4-4ghz-cpu-processor-with-wraith-stealth-cooler-100-100000927box-62808",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 62808
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 5 5600",
@@ -2185,12 +2398,12 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
-      "price": 549.0,
-      "url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 94714
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 7 5800X3D",
@@ -2397,42 +2610,6 @@
       "stock_qty": null
     },
     {
-      "part_key": "AMD Ryzen 5 9500F",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 5 9500F",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 5 9500F",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "PLE Computers",
-      "title": "AMD Ryzen 5 9500F 6 Core 12 Thread up to 5GHz AM5 - With Wraith Stealth Cooler",
-      "price": 299.0,
-      "url": "https://www.ple.com.au/products/681197/amd-ryzen-5-9500f-6-core-12-thread-up-to-5ghz-am5-with-wraith-stealth-cooler",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null
-    },
-    {
       "part_key": "AMD Ryzen 7 7700X",
       "category": "CPU",
       "subcategory": "AM5",
@@ -2490,7 +2667,7 @@
       "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null
+      "stock_qty": 69583
     },
     {
       "part_key": "AMD Ryzen 7 7800X3D",
@@ -2574,42 +2751,6 @@
       "url": "https://www.ple.com.au/products/654579/amd-ryzen-9-7900x-12-core-24-thread-up-to-56ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "unknown",
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 9 7950X",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "Umart",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 9 7950X",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
-    },
-    {
-      "part_key": "AMD Ryzen 9 7950X",
-      "category": "CPU",
-      "subcategory": "AM5",
-      "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
       "stock_qty": null
     },
     {
@@ -4225,12 +4366,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Corsair 96GB (2x48GB) CMH96GX5M2E6000Z36 Vengeance RGB 6000MT/s CL36 DDR5 RAM",
-      "price": 1999.0,
-      "url": "https://www.msy.com.au/product/corsair-96gb-2x48gb-cmh96gx5m2e6000z36-vengeance-rgb-6000mt-s-cl36-ddr5-ram-83480",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 83480
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000",
@@ -4621,11 +4762,11 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
+      "title": "MSI MAG B650M Mortar WiFi AM5 mATX Motherboard (MAG B650M MORTAR WIFI)",
+      "price": 279.0,
+      "url": "https://www.msy.com.au/product/msi-mag-b650m-mortar-wifi-am5-matx-motherboard-mag-b650m-mortar-wifi-65572",
+      "status": "OK",
+      "stock_status": "in_stock",
       "stock_qty": null
     },
     {
@@ -4698,7 +4839,7 @@
       "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 82893
+      "stock_qty": null
     },
     {
       "part_key": "MSI B850 Gaming Plus WiFi",
@@ -4914,7 +5055,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null
+      "stock_qty": 81989
     },
     {
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
@@ -5172,6 +5313,438 @@
       "part_key": "ASUS ROG Swift OLED PG27UCWM",
       "category": "Monitor",
       "subcategory": "OLED",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair RM750e 750W Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair RM750e 750W Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "MSY",
+      "title": "Corsair 750W RM750e Cybenetics Gold Fully Modular ATX 3.1 Power Supply - White (CP-9020292-AU)",
+      "price": 149.0,
+      "url": "https://www.msy.com.au/product/corsair-750w-rm750e-cybenetics-gold-fully-modular-atx-3-1-power-supply-white-cp-9020292-au-85145",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 85145
+    },
+    {
+      "part_key": "Corsair RM750e 750W Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "PLE Computers",
+      "title": "Corsair RM750e - 750W Gold ATX 3.1 Modular PSU",
+      "price": 169.0,
+      "url": "https://www.ple.com.au/products/672028/corsair-rm750e-750w-gold-atx-31-modular-psu",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair RM850e 850W Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "850W",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair RM850e 850W Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "850W",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair RM850e 850W Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "850W",
+      "retailer": "PLE Computers",
+      "title": "Corsair RM850e - 850W Gold ATX 3.1 Modular PSU",
+      "price": 199.0,
+      "url": "https://www.ple.com.au/products/672029/corsair-rm850e-850w-gold-atx-31-modular-psu",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG A650BN 650W Bronze ATX PSU",
+      "category": "PSU",
+      "subcategory": "650W",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG A650BN 650W Bronze ATX PSU",
+      "category": "PSU",
+      "subcategory": "650W",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG A650BN 650W Bronze ATX PSU",
+      "category": "PSU",
+      "subcategory": "650W",
+      "retailer": "PLE Computers",
+      "title": "MSI MAG A650BN - 650W Bronze ATX PSU",
+      "price": 75.0,
+      "url": "https://www.ple.com.au/products/661838/msi-mag-a650bn-650w-bronze-atx-psu",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "MSY",
+      "title": "Asus Prime 750W 80+ Bronze ATX Power Supply - Black (PRIME-750B-BLACK)",
+      "price": 74.0,
+      "url": "https://www.msy.com.au/product/asus-prime-750w-80-bronze-atx-power-supply-black-prime-750b-black-85490",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 85490
+    },
+    {
+      "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "850W",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "850W",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "850W",
+      "retailer": "PLE Computers",
+      "title": "SilverStone Triton Rx 850W Gold ATX PSU",
+      "price": 125.0,
+      "url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master MWE V3 750W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master MWE V3 750W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master MWE V3 750W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "PLE Computers",
+      "title": "Cooler Master MWE V3 750W Gold ATX 3.1 PSU",
+      "price": 109.0,
+      "url": "https://www.ple.com.au/products/673897/cooler-master-mwe-v3-750w-gold-atx-31-psu",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG Forge 321R Airflow Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG Forge 321R Airflow Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI MAG Forge 321R Airflow Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair 3200D RS Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair 3200D RS Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "MSY",
+      "title": "Corsair 3200D RS Mid-Tower ATX Case - Black (CC-9011334-WW)",
+      "price": 89.0,
+      "url": "https://www.msy.com.au/product/corsair-3200d-rs-mid-tower-atx-case-black-cc-9011334-ww-95028",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 95028
+    },
+    {
+      "part_key": "Corsair 3200D RS Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "PLE Computers",
+      "title": "Corsair 3200D RS Mid Tower Case (Black)",
+      "price": 135.0,
+      "url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "MSY",
+      "title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
+      "price": 99.0,
+      "url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 82003
+    },
+    {
+      "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "PLE Computers",
+      "title": "Corsair Frame 4000D RS Mid Tower Case (Black)",
+      "price": 165.0,
+      "url": "https://www.ple.com.au/products/672031/corsair-frame-4000d-rs-mid-tower-case-black",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Thermaltake View 270 Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "Umart",
+      "title": "ThermaltakeView270TG ARGB Mid Tower ATX Case - Matcha Green (CA-1Y7-00MEWN-00)",
+      "price": 89.0,
+      "url": "https://www.umart.com.au/product/thermaltake-view-270-tg-argb-mid-tower-atx-case-matcha-green-ca-1y7-00mewn-00-76348",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Thermaltake View 270 Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Thermaltake View 270 Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "PLE Computers",
+      "title": "Lian Li O11 Vision-M Micro Tower Case (Black)",
+      "price": 129.0,
+      "url": "https://www.ple.com.au/products/683994/lian-li-o11-vision-m-micro-tower-case-black",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null
+    },
+    {
+      "part_key": "Deepcool CH270 Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Deepcool CH270 Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Deepcool CH270 Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
       "retailer": "PLE Computers",
       "title": null,
       "price": null,

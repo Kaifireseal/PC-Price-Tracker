@@ -299,7 +299,7 @@
       },
       {
         "date": "2026-08-31",
-        "price": 309.0
+        "price": 169.0
       }
     ],
     "best": [
@@ -11166,6 +11166,10 @@
       {
         "date": "2026-08-26",
         "price": 189.0
+      },
+      {
+        "date": "2026-08-31",
+        "price": 189.0
       }
     ],
     "PLE Computers": [
@@ -13734,6 +13738,10 @@
       {
         "date": "2026-08-24",
         "price": 279.0
+      },
+      {
+        "date": "2026-08-31",
+        "price": 279.0
       }
     ],
     "best": [
@@ -13747,6 +13755,10 @@
       },
       {
         "date": "2026-08-24",
+        "price": 279.0
+      },
+      {
+        "date": "2026-08-31",
         "price": 279.0
       }
     ]
@@ -14032,6 +14044,164 @@
       {
         "date": "2026-08-31",
         "price": 263.0
+      }
+    ]
+  },
+  "Lian Li O11 Dynamic EVO XL Full Tower Case": {
+    "PLE Computers": [
+      {
+        "date": "2026-08-31",
+        "price": 129.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 129.0
+      }
+    ]
+  },
+  "Corsair 3200D RS Mid Tower ATX Case": {
+    "MSY": [
+      {
+        "date": "2026-08-31",
+        "price": 89.0
+      }
+    ],
+    "PLE Computers": [
+      {
+        "date": "2026-08-31",
+        "price": 135.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 89.0
+      }
+    ]
+  },
+  "Corsair Frame 4000D Mid Tower ATX Case": {
+    "MSY": [
+      {
+        "date": "2026-08-31",
+        "price": 99.0
+      }
+    ],
+    "PLE Computers": [
+      {
+        "date": "2026-08-31",
+        "price": 165.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 99.0
+      }
+    ]
+  },
+  "Thermaltake View 270 Mid Tower ATX Case": {
+    "Umart": [
+      {
+        "date": "2026-08-31",
+        "price": 89.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 89.0
+      }
+    ]
+  },
+  "MSI MAG A650BN 650W Bronze ATX PSU": {
+    "PLE Computers": [
+      {
+        "date": "2026-08-31",
+        "price": 75.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 75.0
+      }
+    ]
+  },
+  "Asus TUF Gaming 750W Bronze ATX PSU": {
+    "MSY": [
+      {
+        "date": "2026-08-31",
+        "price": 74.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 74.0
+      }
+    ]
+  },
+  "Cooler Master MWE V3 750W Gold ATX PSU": {
+    "PLE Computers": [
+      {
+        "date": "2026-08-31",
+        "price": 109.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 109.0
+      }
+    ]
+  },
+  "Corsair RM750e 750W Gold ATX Modular PSU": {
+    "MSY": [
+      {
+        "date": "2026-08-31",
+        "price": 149.0
+      }
+    ],
+    "PLE Computers": [
+      {
+        "date": "2026-08-31",
+        "price": 169.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 149.0
+      }
+    ]
+  },
+  "Corsair RM850e 850W Gold ATX Modular PSU": {
+    "PLE Computers": [
+      {
+        "date": "2026-08-31",
+        "price": 199.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 199.0
+      }
+    ]
+  },
+  "Seasonic Focus GX-850 850W Gold ATX PSU": {
+    "PLE Computers": [
+      {
+        "date": "2026-08-31",
+        "price": 125.0
+      }
+    ],
+    "best": [
+      {
+        "date": "2026-08-31",
+        "price": 125.0
       }
     ]
   }
