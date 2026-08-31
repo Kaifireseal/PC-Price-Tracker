@@ -106,11 +106,12 @@ def build_dashboard(records: list) -> list:
     """
     records: list of dicts like:
       {"part_key", "category", "subcategory", "retailer", "title", "price",
-       "url", "status", "stock_status", "stock_qty"}
+       "url", "status", "stock_status", "stock_qty", "image_url"}
 
     Returns dashboard-ready dicts, each with a "best_stock_status" /
-    "best_stock_qty" for the cheapest offer, and per-offer stock info too
-    (so the "compare N more offers" list can show stock per retailer).
+    "best_stock_qty" / "best_image_url" for the cheapest offer, and
+    per-offer stock + image info too (so the "compare N more offers" list
+    can show stock and a thumbnail per retailer).
     """
     grouped = {}
     for r in records:
@@ -130,6 +131,7 @@ def build_dashboard(records: list) -> list:
             "title": r["title"],
             "stock_status": r.get("stock_status", "unknown"),
             "stock_qty": r.get("stock_qty"),
+            "image_url": r.get("image_url"),
         })
 
     dashboard = []
@@ -138,6 +140,18 @@ def build_dashboard(records: list) -> list:
         if not entry["offers"]:
             continue
         best = entry["offers"][0]
+
+        # The cheapest offer might not have an image (retailer-dependent
+        # extraction success varies) — fall back to the first offer in the
+        # list that does have one, so the card isn't left imageless just
+        # because its specific cheapest source happened to miss it.
+        best_image_url = best.get("image_url")
+        if not best_image_url:
+            for offer in entry["offers"]:
+                if offer.get("image_url"):
+                    best_image_url = offer["image_url"]
+                    break
+
         dashboard.append({
             "part_key": entry["part_key"],
             "category": entry["category"],
@@ -148,6 +162,7 @@ def build_dashboard(records: list) -> list:
             "best_title": best["title"],
             "best_stock_status": best["stock_status"],
             "best_stock_qty": best["stock_qty"],
+            "best_image_url": best_image_url,
             "offers": entry["offers"],
         })
 
