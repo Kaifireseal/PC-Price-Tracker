@@ -90,6 +90,7 @@ def scrape_all() -> list:
                     "url": match["url"], "status": "OK",
                     "stock_status": match.get("stock_status", "unknown"),
                     "stock_qty": match.get("stock_qty"),
+                    "image_url": match.get("image_url"),
                 })
                 logger.info(
                     "OK: %s | %s | $%.2f | stock=%s | %s",
