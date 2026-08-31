@@ -104,6 +104,10 @@ CATEGORY_URLS = {
     "ple_motherboards": "https://www.ple.com.au/Categories/302/Motherboards",
     "ple_monitors": "https://www.ple.com.au/Categories/296/Monitors",
     "ple_ssd": "https://www.ple.com.au/Categories/243/Hard-Drives-and-SSDs",
+    "psu": "https://www.msy.com.au/pc-parts/computer-parts/power-supply-psu-140",
+    "cases": "https://www.msy.com.au/pc-parts/computer-parts/cases-139",
+    "ple_psu": "https://www.ple.com.au/Categories/318/Power-Supplies",
+    "ple_cases": "https://www.ple.com.au/categories/227/cases",
 }
 
 TRACKED_PARTS = [
@@ -165,6 +169,8 @@ TRACKED_PARTS = [
      "retailers": {"MSY": "intel_cpu", "PLE Computers": "ple_intel_cpu"}},
     {"part_key": "Intel Core Ultra 9 285K", "category": "CPU", "subcategory": "LGA1851", "socket": "LGA1851",
      "retailers": {"Umart": "ultra 9 285k", "MSY": "intel_cpu", "PLE Computers": "ple_intel_cpu"}},
+
+        # ============================== GPU ==============================
     {"part_key": "NVIDIA RTX 3060", "category": "GPU", "subcategory": "RTX 30-series", "socket": None,
      "retailers": {"Umart": "rtx 3060", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "NVIDIA RTX 4060", "category": "GPU", "subcategory": "RTX 40-series", "socket": None,
@@ -203,6 +209,8 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "asus prime rx 9070 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "Sapphire Pulse RX 9070 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
      "retailers": {"Umart": "sapphire pulse rx 9070 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
+
+        # ============================== RAM ==============================
     {"part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Umart": "corsair lpx 16gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Kingston Fury Beast 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
@@ -240,6 +248,8 @@ TRACKED_PARTS = [
     {"part_key": "Corsair Vengence 96GB (2x48GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Umart": "fury beast 128gb ddr5 5600", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Kingston NV3 500GB NVMe SSD", "category": "SSD", "subcategory": "500GB", "socket": None,
+
+       # ============================== SSD ==============================
      "retailers": {"Umart": "kingston nv3 500gb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
     {"part_key": "SP Silicon Power UD90 500GB NVMe SSD", "category": "SSD", "subcategory": "500GB", "socket": None,
      "retailers": {"Umart": "sp silicon power ud90 500gb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
@@ -255,6 +265,8 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "samsung 990 pro 4tb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
     {"part_key": "Crucial 4TB PCIe 4.0 NVMe SSD", "category": "SSD", "subcategory": "4TB", "socket": None,
      "retailers": {"Umart": "crucial 4tb", "MSY": "ssd", "PLE Computers": "ple_ssd"}},
+
+        # ============================== MOBO ==============================
     {"part_key": "Gigabyte B550M K", "category": "Motherboard", "subcategory": "AM4", "socket": "AM4",
      "retailers": {"Umart": "b550m k", "MSY": "mobo_amd_am4", "PLE Computers": "ple_motherboards"}},
     {"part_key": "ASRock B550M Pro4", "category": "Motherboard", "subcategory": "AM4", "socket": "AM4",
@@ -277,6 +289,8 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "b860m eagle wifi6", "MSY": "mobo_intel_lga1851", "PLE Computers": "ple_motherboards"}},
     {"part_key": "Asus TUF Gaming B860-Plus WiFi", "category": "Motherboard", "subcategory": "LGA1851", "socket": "LGA1851",
      "retailers": {"Umart": "tuf gaming b860-plus wifi", "MSY": "mobo_intel_lga1851", "PLE Computers": "ple_motherboards"}},
+
+        # ============================== Monitor ==============================
     {"part_key": "Gigabyte 27in FHD IPS 240Hz Monitor (GS25F2-AU)", "category": "Monitor", "subcategory": "1080p", "socket": None,
      "retailers": {"Umart": "gigabyte 27in fhd 240hz ss ips (GS25F2-AU)", "MSY": "monitor_general", "PLE Computers": "ple_monitors"}},
     {"part_key": "MSI MAG 27in FHD Rapid IPS 200Hz Monitor", "category": "Monitor", "subcategory": "1080p", "socket": None,
@@ -291,4 +305,32 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "asus rog strix gen2 27in XG27UCGR", "MSY": "monitor_4k", "PLE Computers": "ple_monitors"}},
     {"part_key": "ASUS ROG Swift OLED PG27UCWM", "category": "Monitor", "subcategory": "OLED", "socket": None,
      "retailers": {"Umart": "rog swift pg27ucwm", "MSY": "monitor_oled", "PLE Computers": "ple_monitors"}},
+  
+      # ============================== PSU ==============================
+    {"part_key": "Corsair RM750e 750W Gold ATX Modular PSU", "category": "PSU", "subcategory": "750W", "socket": None,
+     "retailers": {"Umart": "corsair rm750e 750w", "MSY": "psu", "PLE Computers": "ple_psu"}},
+    {"part_key": "Corsair RM850e 850W Gold ATX Modular PSU", "category": "PSU", "subcategory": "850W", "socket": None,
+     "retailers": {"Umart": "corsair rm850e 850w", "MSY": "psu", "PLE Computers": "ple_psu"}},
+    {"part_key": "MSI MAG A650BN 650W Bronze ATX PSU", "category": "PSU", "subcategory": "650W", "socket": None,
+     "retailers": {"Umart": "msi mag a650bn 650w", "MSY": "psu", "PLE Computers": "ple_psu"}},
+    {"part_key": "Asus TUF Gaming 750W Bronze ATX PSU", "category": "PSU", "subcategory": "750W", "socket": None,
+     "retailers": {"Umart": "tuf gaming 750w bronze", "MSY": "psu", "PLE Computers": "ple_psu"}},
+    {"part_key": "Seasonic Focus GX-850 850W Gold ATX PSU", "category": "PSU", "subcategory": "850W", "socket": None,
+     "retailers": {"Umart": "seasonic focus gx-850", "MSY": "psu", "PLE Computers": "ple_psu"}},
+    {"part_key": "Cooler Master MWE V3 750W Gold ATX PSU", "category": "PSU", "subcategory": "750W", "socket": None,
+     "retailers": {"Umart": "cooler master mwe v3 750w gold", "MSY": "psu", "PLE Computers": "ple_psu"}},
+
+    # ============================== Case ==============================
+    {"part_key": "MSI MAG Forge 321R Airflow Mid Tower ATX Case", "category": "Case", "subcategory": "Mid Tower", "socket": None,
+     "retailers": {"Umart": "mag forge 321r", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Corsair 3200D RS Mid Tower ATX Case", "category": "Case", "subcategory": "Mid Tower", "socket": None,
+     "retailers": {"Umart": "corsair 3200d rs", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Corsair Frame 4000D Mid Tower ATX Case", "category": "Case", "subcategory": "Mid Tower", "socket": None,
+     "retailers": {"Umart": "corsair 4000d", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Thermaltake View 270 Mid Tower ATX Case", "category": "Case", "subcategory": "Mid Tower", "socket": None,
+     "retailers": {"Umart": "thermaltake view 270", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case", "category": "Case", "subcategory": "Full Tower", "socket": None,
+     "retailers": {"Umart": "lian li o11 dynamic evo xl", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Deepcool CH270 Micro-ATX Case", "category": "Case", "subcategory": "Micro ATX", "socket": None,
+     "retailers": {"Umart": "deepcool ch270", "MSY": "cases", "PLE Computers": "ple_cases"}},
 ]
