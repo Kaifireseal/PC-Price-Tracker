@@ -804,8 +804,7 @@ function starButton(partKey){
 const BUILDS_KEY = 'pcTracker_builds';
 const OLD_BUILD_KEY = 'pcTracker_build'; // legacy single-build storage, migrated on load
 const DEFAULT_BUILD_NAME = 'My Build';
-const BUILD_SLOTS = ['CPU', 'Motherboard', 'GPU', 'RAM', 'SSD', 'Monitor'];
-let BUILDS = {};
+const BUILD_SLOTS = ['CPU', 'Motherboard', 'GPU', 'RAM', 'SSD', 'PSU', 'Case', 'Monitor'];let BUILDS = {};
 let ACTIVE_BUILD_NAME = DEFAULT_BUILD_NAME;
 
 function loadBuild(){
@@ -1101,8 +1100,8 @@ function sortParts(parts){
 let activeRange = '1M';
 let chartInstance = null;
 
-const categoryOrder = ['All', 'CPU', 'GPU', 'RAM', 'SSD', 'Motherboard', 'Monitor'];
-const CATEGORY_ICONS = { CPU: '⚙️', GPU: '🖼️', RAM: '💾', SSD: '💽', Motherboard: '🔌', Monitor: '🖥️' };
+const categoryOrder = ['All', 'CPU', 'GPU', 'RAM', 'SSD', 'Motherboard', 'Monitor', 'PSU', 'Case'];
+const CATEGORY_ICONS = { CPU: '⚙️', GPU: '🖼️', RAM: '💾', SSD: '💽', Motherboard: '🔌', Monitor: '🖥️', PSU: '🔋', Case: '🖥️' };
 const RANGES = [
   { label: '1W', days: 7 }, { label: '1M', days: 30 }, { label: '3M', days: 90 },
   { label: '6M', days: 182 }, { label: '1Y', days: 365 },
