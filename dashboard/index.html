@@ -502,6 +502,57 @@
     padding: 1px 6px;
     margin-left: 2px;
   }
+
+  .card-thumb{
+    width: 64px; height: 64px;
+    border-radius: 8px;
+    background: var(--bg);
+    border: 1px solid var(--panel-border);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .card-thumb img{ width: 100%; height: 100%; object-fit: contain; padding: 4px; }
+  .card-thumb.thumb-fallback::after{
+    content: '📦';
+    font-size: 1.4rem;
+    filter: grayscale(1) opacity(0.55);
+  }
+  .modal-thumb{
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    background: var(--bg);
+    border: 1px solid var(--panel-border);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+    margin-bottom: .9rem;
+    position: relative;
+  }
+  .modal-thumb img{ width: 100%; height: 100%; object-fit: contain; padding: 10px; }
+  .modal-thumb.thumb-fallback::after{
+    content: '📦';
+    font-size: 2.5rem;
+    filter: grayscale(1) opacity(0.5);
+  }
+  .compare-thumb{
+    width: 100%;
+    height: 90px;
+    border-radius: 8px;
+    background: var(--bg);
+    border: 1px solid var(--panel-border);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+    margin-bottom: .6rem;
+    position: relative;
+  }
+  .compare-thumb img{ width: 100%; height: 100%; object-fit: contain; padding: 6px; }
+  .compare-thumb.thumb-fallback::after{
+    content: '📦';
+    font-size: 1.8rem;
+    filter: grayscale(1) opacity(0.5);
+  }
 </style>
 </head>
 <body class="pb-28">
@@ -674,6 +725,7 @@
 
   <div id="modalOverlay">
     <div id="modalPanel" class="p-5">
+      <div id="modalThumbWrap"></div>
       <div class="flex items-start justify-between gap-3">
         <div class="min-w-0">
           <span class="pill inline-block px-2 py-0.5 rounded mb-2" id="modalCategory"></span>
@@ -722,6 +774,21 @@ function tierBadge(partKey, category){
   const entry = TIERS[partKey];
   if (!entry || !entry.tier) return '';
   return `<span class="tier-badge ${tierClass(entry.tier)}" title="${entry.note || ''}">${entry.tier}</span>`;
+}
+
+/* ---------- Product thumbnails ---------- */
+// Shared across cards / modal / compare columns. Uses onerror to swap in a
+// CSS-drawn fallback icon (a "thumb-fallback" class triggers a ::after
+// placeholder) if the scraped image URL is missing or broken/expired.
+function productThumbHtml(part, sizeClass){
+  const url = part.best_image_url;
+  if (!url){
+    return `<div class="${sizeClass} thumb-fallback"></div>`;
+  }
+  return `<div class="${sizeClass}">
+      <img src="${url}" alt="" loading="lazy"
+        onerror="this.remove(); this.parentElement.classList.add('thumb-fallback');" />
+    </div>`;
 }
 
 /* ---------- Recently Viewed (localStorage) ---------- */
@@ -802,9 +869,10 @@ function starButton(partKey){
 }
 
 const BUILDS_KEY = 'pcTracker_builds';
-const OLD_BUILD_KEY = 'pcTracker_build'; // legacy single-build storage, migrated on load
+const OLD_BUILD_KEY = 'pcTracker_build';
 const DEFAULT_BUILD_NAME = 'My Build';
-const BUILD_SLOTS = ['CPU', 'Motherboard', 'GPU', 'RAM', 'SSD', 'PSU', 'Case', 'Monitor'];let BUILDS = {};
+const BUILD_SLOTS = ['CPU', 'Motherboard', 'GPU', 'RAM', 'SSD', 'PSU', 'Case', 'Monitor'];
+let BUILDS = {};
 let ACTIVE_BUILD_NAME = DEFAULT_BUILD_NAME;
 
 function loadBuild(){
@@ -815,7 +883,6 @@ function loadBuild(){
       BUILDS = (parsed && typeof parsed.builds === 'object' && parsed.builds !== null) ? parsed.builds : {};
       ACTIVE_BUILD_NAME = (parsed && parsed.activeBuildName && BUILDS[parsed.activeBuildName]) ? parsed.activeBuildName : Object.keys(BUILDS)[0];
     } else {
-      // Migrate legacy single-build data if present, otherwise start fresh.
       const legacyRaw = window.localStorage.getItem(OLD_BUILD_KEY);
       let legacyBuild = {};
       if (legacyRaw){
@@ -988,8 +1055,6 @@ function toggleCompare(partKey, category){
   if (isInCompare(partKey)){
     COMPARE_LIST = COMPARE_LIST.filter(k => k !== partKey);
   } else {
-    // All items being compared must share a category (CPU vs CPU, or GPU vs GPU) —
-    // specs don't line up meaningfully across CPU/GPU.
     const existingCategories = COMPARE_LIST
       .map(k => ALL_PARTS.find(p => p.part_key === k))
       .filter(Boolean)
@@ -1017,9 +1082,6 @@ function compareButton(partKey, category){
             onclick="event.stopPropagation(); toggleCompare('${partKey.replace(/'/g, "\\'")}', '${category}')">${inCompare ? '✓ Comparing' : '⚖️ Compare'}</button>`;
 }
 
-// Optional extra benchmark fields on a tiers.json entry: userRating,
-// valueScore, avgBench (e.g. UserBenchmark-style numbers). All optional —
-// shows "—" if not present for a given part.
 function compareStatRow(label, value){
   return `<div class="compare-row">
       <span class="compare-row-label">${label}</span>
@@ -1039,6 +1101,7 @@ function renderCompare(){
   const cols = items.map(part => {
     const tierEntry = TIERS[part.part_key] || {};
     return `<div class="compare-col">
+        ${productThumbHtml(part, 'compare-thumb')}
         <div class="compare-col-title">${part.part_key}</div>
         ${compareStatRow('Tier', tierEntry.tier ? `<span class="tier-badge ${tierClass(tierEntry.tier)}">${tierEntry.tier}</span>` : '—')}
         ${compareStatRow('Price', formatPrice(part.best_price) + ' · ' + part.best_retailer)}
@@ -1082,7 +1145,6 @@ let activeSortMode = 'default';
 const SORT_OPTIONS = [
   { id: 'default', label: 'Default' },
   { id: 'price_asc', label: 'Cheapest first' },
-  { id: 'price_desc', label: 'Priciest first' },
   { id: 'price_desc', label: 'Priciest first' },
   { id: 'discount', label: 'Biggest discount' },
   { id: 'alpha', label: 'A \u2013 Z' },
@@ -1295,17 +1357,20 @@ function partCard(part){
   const otherOffers = part.offers.slice(1);
   const canAddToBuild = BUILD_SLOTS.includes(part.category);
   return `<div class="card rounded-lg p-4" data-part-key="${part.part_key}">
-      <div class="flex items-start justify-between gap-3">
-        <div>
-          <span class="pill inline-block px-2 py-0.5 rounded mb-2">${part.category}</span>
-          <span class="inline-block mb-2 ml-1.5">${tierBadge(part.part_key, part.category)}</span>
-          <h3 class="font-semibold leading-snug">${part.part_key}</h3>
-          <p class="text-xs text-[var(--text-dim)] mt-0.5">${part.best_title}</p>
-        </div>
-        <div class="flex items-center gap-1.5 shrink-0">
-          ${canAddToBuild ? buildButton(part.part_key, part.category) : ''}
-          ${compareButton(part.part_key, part.category)}
-          ${starButton(part.part_key)}
+      <div class="flex items-start gap-3">
+        ${productThumbHtml(part, 'card-thumb')}
+        <div class="flex-1 min-w-0 flex items-start justify-between gap-3">
+          <div class="min-w-0">
+            <span class="pill inline-block px-2 py-0.5 rounded mb-2">${part.category}</span>
+            <span class="inline-block mb-2 ml-1.5">${tierBadge(part.part_key, part.category)}</span>
+            <h3 class="font-semibold leading-snug">${part.part_key}</h3>
+            <p class="text-xs text-[var(--text-dim)] mt-0.5">${part.best_title}</p>
+          </div>
+          <div class="flex items-center gap-1.5 shrink-0">
+            ${canAddToBuild ? buildButton(part.part_key, part.category) : ''}
+            ${compareButton(part.part_key, part.category)}
+            ${starButton(part.part_key)}
+          </div>
         </div>
       </div>
       <div class="trace my-3"></div>
@@ -1393,6 +1458,7 @@ function openModal(partKey){
   if (!part) return;
   currentModalPartKey = partKey;
   trackRecentlyViewed(partKey);
+  document.getElementById('modalThumbWrap').innerHTML = productThumbHtml(part, 'modal-thumb');
   document.getElementById('modalCategory').textContent = part.category;
   document.getElementById('modalTier').innerHTML = tierBadge(part.part_key, part.category);
   document.getElementById('modalTitle').textContent = part.part_key;
