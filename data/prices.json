@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:57:04.364534+00:00",
+  "generated_at": "2026-09-01T22:46:09.710544+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -1124,9 +1124,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 2249.0,
-          "url": "https://www.ple.com.au/products/672025/asus-geforce-rtx-5080-prime-oc-16gb-gddr7",
-          "title": "ASUS GeForce RTX 5080 Prime OC 16GB GDDR7",
+          "price": 2599.0,
+          "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": null
@@ -1483,6 +1483,15 @@
           "stock_status": "in_stock",
           "stock_qty": 90136,
           "image_url": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 289.0,
+          "url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
+          "title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": null
         }
       ]
     },
@@ -1623,23 +1632,14 @@
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1851",
-      "best_price": 279.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
-      "best_title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
-      "best_stock_status": "unknown",
+      "best_price": 309.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
+      "best_title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": null,
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 279.0,
-          "url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
-          "title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": null
-        },
         {
           "retailer": "MSY",
           "price": 309.0,
@@ -1912,14 +1912,23 @@
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 259.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/g-skill-16gb-2x8gb-f4-3600c16d-16gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-56234",
-      "best_title": "G.Skill 16GB (2x8GB)F4-3600C16D-16GVKC Ripjaws V 3600MHz CL16 DDR4 RAM",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 56234,
+      "best_price": 229.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
+      "best_title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "best_image_url": null,
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 229.0,
+          "url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
+          "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": null
+        },
         {
           "retailer": "MSY",
           "price": 259.0,
@@ -2018,7 +2027,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 905.0,
+          "price": 599.0,
           "url": "https://www.ple.com.au/products/663460/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr4-3200-c16",
           "title": "Kingston FURY Beast RGB 32GB Kit (2X16GB) DDR4-3200 C16",
           "stock_status": "unknown",
@@ -3685,9 +3694,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 5080 Prime OC 16GB GDDR7",
-      "price": 2249.0,
-      "url": "https://www.ple.com.au/products/672025/asus-geforce-rtx-5080-prime-oc-16gb-gddr7",
+      "title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
+      "price": 2599.0,
+      "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4172,12 +4181,13 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C18",
+      "price": 229.0,
+      "url": "https://www.ple.com.au/products/684866/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c18",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": null
     },
     {
       "part_key": "Adata 16GB (2x8GB) DDR4 3200 XPG",
@@ -4310,7 +4320,7 @@
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
       "title": "Kingston FURY Beast RGB 32GB Kit (2X16GB) DDR4-3200 C16",
-      "price": 905.0,
+      "price": 599.0,
       "url": "https://www.ple.com.au/products/663460/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr4-3200-c16",
       "status": "OK",
       "stock_status": "unknown",
@@ -5139,12 +5149,13 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
+      "price": 289.0,
+      "url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": null
     },
     {
       "part_key": "MSI B850 Gaming Plus WiFi",
@@ -5401,13 +5412,12 @@
       "category": "Motherboard",
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
-      "title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
-      "price": 279.0,
-      "url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": null
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor (GS25F2-AU)",
