@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:44:18.865857+00:00",
+  "generated_at": "2026-09-03T22:40:41.454633+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -39,22 +39,13 @@
       "category": "CPU",
       "subcategory": "AM4",
       "best_price": 189.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
-      "best_title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 75737,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
+      "best_title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "best_image_url": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 189.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
-          "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
-          "stock_status": "in_stock",
-          "stock_qty": 75737,
-          "image_url": null
-        },
         {
           "retailer": "PLE Computers",
           "price": 189.0,
@@ -189,14 +180,23 @@
       "part_key": "AMD Ryzen 7 5800X3D",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 549.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/685083/amd-ryzen-7-5800x3d-8-core-16-thread-up-to-45ghz-am4-no-hsf-retail-box-10th-anniversary-edition",
-      "best_title": "AMD Ryzen 7 5800X3D 8 Core 16 Thread Up to 4.5GHz AM4 - No HSF Retail Box - 10th Anniversary Edition",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 547.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
+      "best_title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 94714,
       "best_image_url": null,
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 547.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
+          "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
+          "stock_status": "in_stock",
+          "stock_qty": 94714,
+          "image_url": null
+        },
         {
           "retailer": "PLE Computers",
           "price": 549.0,
@@ -986,23 +986,14 @@
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 549.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
-      "best_title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 599.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
+      "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 83402,
       "best_image_url": null,
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 549.0,
-          "url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
-          "title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": null
-        },
         {
           "retailer": "MSY",
           "price": 599.0,
@@ -1011,6 +1002,15 @@
           "stock_status": "in_stock",
           "stock_qty": 83402,
           "image_url": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 599.0,
+          "url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": null
         }
       ]
     },
@@ -1018,14 +1018,23 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 729.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
-      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 82678,
+      "best_price": 719.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
+      "best_title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "best_image_url": null,
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 719.0,
+          "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": null
+        },
         {
           "retailer": "MSY",
           "price": 729.0,
@@ -1033,15 +1042,6 @@
           "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
           "stock_status": "in_stock",
           "stock_qty": 82678,
-          "image_url": null
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 959.0,
-          "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
-          "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null,
           "image_url": null
         }
       ]
@@ -1069,9 +1069,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1389.0,
-          "url": "https://www.ple.com.au/products/673060/asus-geforce-rtx-5070-prime-12gb-gddr7",
-          "title": "ASUS GeForce RTX 5070 Prime 12GB GDDR7",
+          "price": 1299.0,
+          "url": "https://www.ple.com.au/products/676589/asus-geforce-rtx-5070-dual-oc-12gb-gddr7",
+          "title": "ASUS GeForce RTX 5070 Dual OC 12GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": null
@@ -1275,9 +1275,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1349.0,
-          "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
-          "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
+          "price": 1299.0,
+          "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
+          "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": null
@@ -1574,29 +1574,6 @@
       ]
     },
     {
-      "part_key": "Asus Prime Z790-P WiFi CSM",
-      "category": "Motherboard",
-      "subcategory": "LGA1700",
-      "best_price": 239.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
-      "best_title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": null,
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 239.0,
-          "url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
-          "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "part_key": "MSI PRO B760M-A WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1700",
@@ -1820,19 +1797,19 @@
       "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
       "category": "PSU",
       "subcategory": "850W",
-      "best_price": 125.0,
+      "best_price": 199.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
-      "best_title": "SilverStone Triton Rx 850W Gold ATX PSU",
+      "best_url": "https://www.ple.com.au/products/672029/corsair-rm850e-850w-gold-atx-31-modular-psu",
+      "best_title": "Corsair RM850e - 850W Gold ATX 3.1 Modular PSU",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": null,
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 125.0,
-          "url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
-          "title": "SilverStone Triton Rx 850W Gold ATX PSU",
+          "price": 199.0,
+          "url": "https://www.ple.com.au/products/672029/corsair-rm850e-850w-gold-atx-31-modular-psu",
+          "title": "Corsair RM850e - 850W Gold ATX 3.1 Modular PSU",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": null
@@ -1843,7 +1820,7 @@
       "part_key": "Adata 16GB (2x8GB) DDR4 3200 XPG",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 263.0,
+      "best_price": 199.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/661095/adata-xpg-spectrix-d35g-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
       "best_title": "ADATA XPG Spectrix D35G RGB 16GB Kit (2x8GB) DDR4-3200 C16",
@@ -1853,7 +1830,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 263.0,
+          "price": 199.0,
           "url": "https://www.ple.com.au/products/661095/adata-xpg-spectrix-d35g-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
           "title": "ADATA XPG Spectrix D35G RGB 16GB Kit (2x8GB) DDR4-3200 C16",
           "stock_status": "unknown",
@@ -1927,6 +1904,15 @@
           "title": "G.Skill 16GB (2x8GB)F4-3600C16D-16GVKC Ripjaws V 3600MHz CL16 DDR4 RAM",
           "stock_status": "in_stock",
           "stock_qty": 56234,
+          "image_url": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 269.0,
+          "url": "https://www.ple.com.au/products/652476/gskill-trident-z-rgb-neo-16gb-kit-2x8gb-ddr4-3600-c16",
+          "title": "G.Skill Trident Z RGB Neo 16GB Kit (2x8GB) DDR4-3600 C16",
+          "stock_status": "unknown",
+          "stock_qty": null,
           "image_url": null
         }
       ]
@@ -2086,21 +2072,21 @@
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 369.0,
+      "best_price": 359.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40-vengeance-rgb-cl40-5200mhz-ddr5-dram-93471",
-      "best_title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40 Vengeance RGB CL40 5200MHz DDR5 DRAM",
+      "best_url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40w-vengeance-rgb-5200mhz-cl40-ddr5-ram-95135",
+      "best_title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40W Vengeance RGB 5200MHz CL40 DDR5 RAM",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 93471,
+      "best_stock_qty": 95135,
       "best_image_url": null,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 369.0,
-          "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40-vengeance-rgb-cl40-5200mhz-ddr5-dram-93471",
-          "title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40 Vengeance RGB CL40 5200MHz DDR5 DRAM",
+          "price": 359.0,
+          "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40w-vengeance-rgb-5200mhz-cl40-ddr5-ram-95135",
+          "title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40W Vengeance RGB 5200MHz CL40 DDR5 RAM",
           "stock_status": "in_stock",
-          "stock_qty": 93471,
+          "stock_qty": 95135,
           "image_url": null
         },
         {
@@ -2224,7 +2210,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 289.0,
+          "price": 299.0,
           "url": "https://www.ple.com.au/products/668616/kingston-nv3-pcie-gen4-nvme-m2-ssd-1tb",
           "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 1TB",
           "stock_status": "unknown",
@@ -2403,13 +2389,12 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
-      "price": 189.0,
-      "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 75737,
-      "image_url": null
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 5 5500GT",
@@ -2630,12 +2615,13 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "AMD Ryzen 7 5800X3D 8 Core AM4 4.5GHz CPU Processor (100-100000651POF)",
+      "price": 547.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-7-5800x3d-8-core-am4-4-5ghz-cpu-processor-100-100000651pof-94714",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 94714,
+      "image_url": null
     },
     {
       "part_key": "AMD Ryzen 7 5800X3D",
@@ -3547,7 +3533,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
-      "price": 549.0,
+      "price": 599.0,
       "url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3585,7 +3571,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
-      "price": 959.0,
+      "price": 719.0,
       "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3610,9 +3596,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 5070 Prime 12GB GDDR7",
-      "price": 1389.0,
-      "url": "https://www.ple.com.au/products/673060/asus-geforce-rtx-5070-prime-12gb-gddr7",
+      "title": "ASUS GeForce RTX 5070 Dual OC 12GB GDDR7",
+      "price": 1299.0,
+      "url": "https://www.ple.com.au/products/676589/asus-geforce-rtx-5070-dual-oc-12gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -3959,9 +3945,9 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
-      "price": 1349.0,
-      "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
+      "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
+      "price": 1299.0,
+      "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4173,12 +4159,13 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "G.Skill Trident Z RGB Neo 16GB Kit (2x8GB) DDR4-3600 C16",
+      "price": 269.0,
+      "url": "https://www.ple.com.au/products/652476/gskill-trident-z-rgb-neo-16gb-kit-2x8gb-ddr4-3600-c16",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": null
     },
     {
       "part_key": "Adata 16GB (2x8GB) DDR4 3200 XPG",
@@ -4210,7 +4197,7 @@
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
       "title": "ADATA XPG Spectrix D35G RGB 16GB Kit (2x8GB) DDR4-3200 C16",
-      "price": 263.0,
+      "price": 199.0,
       "url": "https://www.ple.com.au/products/661095/adata-xpg-spectrix-d35g-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
       "status": "OK",
       "stock_status": "unknown",
@@ -4335,12 +4322,12 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40 Vengeance RGB CL40 5200MHz DDR5 DRAM",
-      "price": 369.0,
-      "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40-vengeance-rgb-cl40-5200mhz-ddr5-dram-93471",
+      "title": "Corsair 16GB (2x8GB) CMH16GX5M2B5200Z40W Vengeance RGB 5200MHz CL40 DDR5 RAM",
+      "price": 359.0,
+      "url": "https://www.msy.com.au/product/corsair-16gb-2x8gb-cmh16gx5m2b5200z40w-vengeance-rgb-5200mhz-cl40-ddr5-ram-95135",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 93471,
+      "stock_qty": 95135,
       "image_url": null
     },
     {
@@ -4805,7 +4792,7 @@
       "subcategory": "1TB",
       "retailer": "PLE Computers",
       "title": "Kingston NV3 PCIe Gen4 NVMe M.2 SSD - 1TB",
-      "price": 289.0,
+      "price": 299.0,
       "url": "https://www.ple.com.au/products/668616/kingston-nv3-pcie-gen4-nvme-m2-ssd-1tb",
       "status": "OK",
       "stock_status": "unknown",
@@ -5276,13 +5263,12 @@
       "category": "Motherboard",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
-      "price": 239.0,
-      "url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": null,
-      "image_url": null
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Asus Prime Z790-P WiFi CSM",
@@ -5841,9 +5827,9 @@
       "category": "PSU",
       "subcategory": "850W",
       "retailer": "PLE Computers",
-      "title": "SilverStone Triton Rx 850W Gold ATX PSU",
-      "price": 125.0,
-      "url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
+      "title": "Corsair RM850e - 850W Gold ATX 3.1 Modular PSU",
+      "price": 199.0,
+      "url": "https://www.ple.com.au/products/672029/corsair-rm850e-850w-gold-atx-31-modular-psu",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
