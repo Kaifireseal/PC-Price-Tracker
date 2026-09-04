@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:40:41.454633+00:00",
+  "generated_at": "2026-09-04T22:30:55.215520+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -860,15 +860,6 @@
           "stock_status": "in_stock",
           "stock_qty": 95028,
           "image_url": null
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 135.0,
-          "url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
-          "title": "Corsair 3200D RS Mid Tower Case (Black)",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": null
         }
       ]
     },
@@ -1018,23 +1009,14 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 719.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
-      "best_title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_price": 729.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
+      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 82678,
       "best_image_url": null,
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 719.0,
-          "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
-          "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": null
-        },
         {
           "retailer": "MSY",
           "price": 729.0,
@@ -1042,6 +1024,15 @@
           "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
           "stock_status": "in_stock",
           "stock_qty": 82678,
+          "image_url": null
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 769.0,
+          "url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null,
           "image_url": null
         }
       ]
@@ -1101,7 +1092,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1899.0,
+          "price": 1799.0,
           "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
           "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
           "stock_status": "unknown",
@@ -1275,9 +1266,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1299.0,
-          "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
-          "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
+          "price": 1349.0,
+          "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
+          "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": null
@@ -1609,21 +1600,30 @@
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1851",
-      "best_price": 309.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
-      "best_title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
-      "best_stock_status": "in_stock",
+      "best_price": 299.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/672004/asus-prime-b860-plus-wifi-csm-lga1851-atx-desktop-motherboard",
+      "best_title": "ASUS PRIME B860 PLUS WiFi CSM LGA1851 ATX Desktop Motherboard",
+      "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": null,
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 299.0,
+          "url": "https://www.ple.com.au/products/672004/asus-prime-b860-plus-wifi-csm-lga1851-atx-desktop-motherboard",
+          "title": "ASUS PRIME B860 PLUS WiFi CSM LGA1851 ATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": null
+        },
         {
           "retailer": "MSY",
           "price": 309.0,
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 81989,
           "image_url": null
         }
       ]
@@ -1921,21 +1921,21 @@
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 349.0,
+      "best_price": 359.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
-      "best_title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+      "best_url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c16d-32gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-72183",
+      "best_title": "G.Skill 32GB (2x16GB) F4-3600C16D-32GVKC RipJaws V 3600MHz CL16 DDR4 RAM",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 56012,
+      "best_stock_qty": 72183,
       "best_image_url": null,
       "offers": [
         {
           "retailer": "MSY",
-          "price": 349.0,
-          "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
-          "title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
+          "price": 359.0,
+          "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c16d-32gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-72183",
+          "title": "G.Skill 32GB (2x16GB) F4-3600C16D-32GVKC RipJaws V 3600MHz CL16 DDR4 RAM",
           "stock_status": "in_stock",
-          "stock_qty": 56012,
+          "stock_qty": 72183,
           "image_url": null
         },
         {
@@ -2223,23 +2223,14 @@
       "part_key": "Samsung 990 Pro 1TB NVMe SSD",
       "category": "SSD",
       "subcategory": "1TB",
-      "best_price": 339.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/samsung-990-1tb-2280-nvme-pcie-4-0-m-2-ssd-mz-v9v1t0bw-95385",
-      "best_title": "Samsung 990 1TB 2280 NVMe PCIe 4.0 M.2 SSD (MZ-V9V1T0BW)",
-      "best_stock_status": "in_stock",
+      "best_price": 429.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/655566/samsung-990-pro-pcie-gen4-nvme-m2-ssd-1tb",
+      "best_title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 1TB",
+      "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": null,
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 339.0,
-          "url": "https://www.msy.com.au/product/samsung-990-1tb-2280-nvme-pcie-4-0-m-2-ssd-mz-v9v1t0bw-95385",
-          "title": "Samsung 990 1TB 2280 NVMe PCIe 4.0 M.2 SSD (MZ-V9V1T0BW)",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": null
-        },
         {
           "retailer": "PLE Computers",
           "price": 429.0,
@@ -3570,9 +3561,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 5060 Ti Prime OC 8GB GDDR7",
-      "price": 719.0,
-      "url": "https://www.ple.com.au/products/674700/asus-geforce-rtx-5060-ti-prime-oc-8gb-gddr7",
+      "title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
+      "price": 769.0,
+      "url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -3635,7 +3626,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
-      "price": 1899.0,
+      "price": 1799.0,
       "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3945,9 +3936,9 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
-      "price": 1299.0,
-      "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
+      "title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
+      "price": 1349.0,
+      "url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4209,12 +4200,12 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "MSY",
-      "title": "G.Skill 32GB (2x16GB) F4-3600C18D-32GVK Ripjaws V 3600MHz CL18 DDR4 RAM",
-      "price": 349.0,
-      "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c18d-32gvk-ripjaws-v-3600mhz-cl18-ddr4-ram-56012",
+      "title": "G.Skill 32GB (2x16GB) F4-3600C16D-32GVKC RipJaws V 3600MHz CL16 DDR4 RAM",
+      "price": 359.0,
+      "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c16d-32gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-72183",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 56012,
+      "stock_qty": 72183,
       "image_url": null
     },
     {
@@ -4816,13 +4807,12 @@
       "category": "SSD",
       "subcategory": "1TB",
       "retailer": "MSY",
-      "title": "Samsung 990 1TB 2280 NVMe PCIe 4.0 M.2 SSD (MZ-V9V1T0BW)",
-      "price": 339.0,
-      "url": "https://www.msy.com.au/product/samsung-990-1tb-2280-nvme-pcie-4-0-m-2-ssd-mz-v9v1t0bw-95385",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": null,
-      "image_url": null
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Samsung 990 Pro 1TB NVMe SSD",
@@ -5380,7 +5370,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 81989,
       "image_url": null
     },
     {
@@ -5388,12 +5378,13 @@
       "category": "Motherboard",
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "ASUS PRIME B860 PLUS WiFi CSM LGA1851 ATX Desktop Motherboard",
+      "price": 299.0,
+      "url": "https://www.ple.com.au/products/672004/asus-prime-b860-plus-wifi-csm-lga1851-atx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": null
     },
     {
       "part_key": "Gigabyte 27in FHD IPS 240Hz Monitor (GS25F2-AU)",
@@ -5938,13 +5929,12 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": "Corsair 3200D RS Mid Tower Case (Black)",
-      "price": 135.0,
-      "url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": null
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
