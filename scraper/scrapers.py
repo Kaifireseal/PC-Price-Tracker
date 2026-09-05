@@ -11,10 +11,10 @@ Finds products by *shape*, not by class name:
     phrases AU retailers use ("In Stock", "Out of Stock", "X available",
     etc.) — best-effort: if nothing recognizable is found, status comes
     back as "unknown" rather than guessing.
-  - a product image is looked for in that SAME nearby container (the
-    ancestor node where the price was found is almost always the whole
-    product card, which also holds the thumbnail) — best-effort, comes
-    back as None if nothing usable is found.
+  - a product image is looked for by climbing from the TITLE ANCHOR itself
+    (not from the price-matched container — see note on _extract_image_url
+    below for why those are different searches with different correct
+    stopping points).
 
 TWO FETCH ENGINES
 ------------------
@@ -113,37 +113,55 @@ def _detect_stock(text: str):
     return "unknown", None
 
 
-def _extract_image_url(node, base_domain: str):
+def _extract_image_url(anchor, base_domain: str):
     """
-    Best-effort product image lookup within the same ancestor container
-    the price was matched in. Handles common lazy-load patterns (data-src,
-    data-original, srcset) since plain <img src="..."> is often a tiny
-    placeholder until JS swaps it in — which we never run in requests mode.
-    Returns None if nothing usable is found, rather than guessing.
+    Best-effort product image lookup, climbing from the TITLE ANCHOR
+    itself — deliberately NOT reusing matched_node (the container where
+    the price search stopped).
+
+    Real bug found via a live MSY page: each product listing has TWO
+    separate sibling <a> tags — one wrapping just the thumbnail <img>,
+    and a completely separate one wrapping the title text. The price
+    search climbs from the title anchor and stops at the FIRST ancestor
+    level where a price is found — which can be shallower than the level
+    that actually contains the sibling image-only anchor. That mismatch
+    is exactly why image extraction was returning null for 100% of
+    parts: the price-matched container was real and correct for price
+    purposes, but too narrow to ever contain the image.
+
+    This does its own independent climb from the anchor, stopping at the
+    FIRST level (closest ancestor) where any <img> is found, so it isn't
+    at the mercy of wherever the price happened to match.
     """
-    if node is None:
+    if anchor is None:
         return None
 
-    for img in node.find_all("img"):
-        candidate = (
-            img.get("data-src")
-            or img.get("data-original")
-            or img.get("data-lazy-src")
-            or img.get("src")
-        )
-        if not candidate:
-            srcset = img.get("srcset") or img.get("data-srcset")
-            if srcset:
-                candidate = srcset.split(",")[0].strip().split(" ")[0]
+    node = anchor
+    for _ in range(MAX_PRICE_CLIMB + 1):
+        if node is None:
+            break
+        for img in node.find_all("img"):
+            candidate = (
+                img.get("data-src")
+                or img.get("data-original")
+                or img.get("data-lazy-src")
+                or img.get("src")
+            )
+            if not candidate:
+                srcset = img.get("srcset") or img.get("data-srcset")
+                if srcset:
+                    candidate = srcset.split(",")[0].strip().split(" ")[0]
 
-        if not candidate or candidate.startswith("data:"):
-            continue
+            if not candidate or candidate.startswith("data:"):
+                continue
 
-        lowered = candidate.lower()
-        if any(kw in lowered for kw in IMAGE_SKIP_KEYWORDS):
-            continue
+            lowered = candidate.lower()
+            if any(kw in lowered for kw in IMAGE_SKIP_KEYWORDS):
+                continue
 
-        return _absolute_url(base_domain, candidate)
+            return _absolute_url(base_domain, candidate)
+
+        node = node.parent
 
     return None
 
@@ -238,7 +256,10 @@ def _parse_html(html: str, base_domain: str, retailer_name: str = None):
             continue
 
         stock_status, stock_qty = _detect_stock(matched_text)
-        image_url = _extract_image_url(matched_node, base_domain)
+        # Deliberately climbs from `a` itself, NOT from matched_node — see
+        # the docstring on _extract_image_url for why those need different
+        # stopping points.
+        image_url = _extract_image_url(a, base_domain)
 
         if price_context_key and price_context_key not in DEBUG_SNIPPETS and matched_node is not None:
             DEBUG_SNIPPETS[price_context_key] = {
