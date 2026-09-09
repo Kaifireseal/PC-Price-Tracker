@@ -131,13 +131,17 @@ def _extract_image_url(anchor, base_domain: str):
 
     This does its own independent climb from the anchor, stopping at the
     FIRST level (closest ancestor) where any <img> is found, so it isn't
-    at the mercy of wherever the price happened to match.
+    at the mercy of wherever the price happened to match. The climb goes
+    a bit deeper than the price search (MAX_PRICE_CLIMB + 4) since some
+    category templates — GPU listings with review-count widgets, in
+    particular — appear to nest the shared image+title ancestor deeper
+    than CPU listings do.
     """
     if anchor is None:
         return None
 
     node = anchor
-    for _ in range(MAX_PRICE_CLIMB + 1):
+    for _ in range(MAX_PRICE_CLIMB + 4):
         if node is None:
             break
         for img in node.find_all("img"):
