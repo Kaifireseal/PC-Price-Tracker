@@ -1582,7 +1582,7 @@ function renderHighlights(){
   content.innerHTML =
     section('Top 5 CPUs', bestCpus.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="tier-badge ${tierClass(x.tier)}">${x.tier}</span>`, x.part.best_url)), 'no CPU tiers rated yet') +
     section('Top 5 GPUs', bestGpus.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="tier-badge ${tierClass(x.tier)}">${x.tier}</span>`, x.part.best_url)), 'no GPU tiers rated yet') +
-    section("Today's Biggest Discounts", discounts.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="mono text-xs best-price font-semibold">-${x.pct.toFixed(0)}%</span>`, x.part.best_url)), 'no price drops recorded since yesterday') +
+    section("Biggest Discounts", discounts.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="mono text-xs best-price font-semibold">-${x.pct.toFixed(0)}%</span>`, x.part.best_url)), 'no price drops recorded since yesterday') +
     section('Best Value (S+ / S / A+ tier)', bestValue.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="mono text-xs">${formatPrice(x.part.best_price)}</span>`, x.part.best_url)), 'no top-tier parts rated yet');
   content.querySelectorAll('.highlight-row').forEach((row, idx) => {
     const allRows = [...bestCpus, ...bestGpus, ...discounts, ...bestValue];
