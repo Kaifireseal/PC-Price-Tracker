@@ -1531,25 +1531,31 @@ function bestByCategory(category){
     .sort((a, b) => b.rank - a.rank || a.part.best_price - b.part.best_price)
     .slice(0, 5);
 }
-function discountPct(part){
+// Discount is now relative to the highest price seen in the last 30 days
+// (not just yesterday), so a part stays flagged as "on sale" for as long
+// as it's below that recent high — not just on the single day it dropped.
+// It only disappears once the price actually returns to/above that level,
+// and updates if it drops even further in the meantime.
+function discountPct(part, windowDays = 30){
   const series = (HISTORY[part.part_key] && HISTORY[part.part_key]['best']) || [];
   if (series.length < 2) return 0;
   const today = series[series.length - 1].price;
-  const yesterday = series[series.length - 2].price;
-  if (yesterday <= today) return 0;
-  return ((yesterday - today) / yesterday) * 100;
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - windowDays);
+  const priorEntries = series.slice(0, -1).filter(pt => new Date(pt.date) >= cutoff);
+  if (!priorEntries.length) return 0;
+  const referenceHigh = Math.max(...priorEntries.map(pt => pt.price));
+  if (referenceHigh <= today) return 0;
+  return ((referenceHigh - today) / referenceHigh) * 100;
 }
 function biggestDailyDiscounts(){
   const results = [];
   ALL_PARTS.forEach(p => {
-    const series = (HISTORY[p.part_key] && HISTORY[p.part_key]['best']) || [];
-    if (series.length < 2) return;
-    const today = series[series.length - 1].price;
-    const yesterday = series[series.length - 2].price;
-    if (yesterday > today){
-      const pct = ((yesterday - today) / yesterday) * 100;
-      results.push({ part: p, today, yesterday, pct, drop: yesterday - today });
-    }
+    const pct = discountPct(p);
+    if (pct > 0) results.push({ part: p, pct });
+  });
+  return results.sort((a, b) => b.pct - a.pct).slice(0, 5);
+}
   });
   return results.sort((a, b) => b.pct - a.pct).slice(0, 5);
 }
