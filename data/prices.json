@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:38:10.097262+00:00",
+  "generated_at": "2026-09-11T22:37:46.901379+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -701,7 +701,7 @@
           "price": 1849.0,
           "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
           "title": "G5 Intel i5 14400F GeForce RTX 5060 Gaming PC 60437",
-          "stock_status": "out_of_stock",
+          "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://assets.umart.com.au/newsite/images/202603/thumb_img/Gaming-PCs-Ready2Go-G5-Intel-i5-14400F-GeForce-RTX-5060-Gaming-PC-60437-11.png"
         }
@@ -1009,23 +1009,14 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 699.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
-      "best_title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_price": 729.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
+      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 82678,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Asus-Dual-GeForce-RTX-5060-Ti-O8G-Graphics-Card-DUAL-RTX5060TI-O8G-4.jpg",
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 699.0,
-          "url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
-          "title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        },
         {
           "retailer": "MSY",
           "price": 729.0,
@@ -1034,6 +1025,15 @@
           "stock_status": "in_stock",
           "stock_qty": 82678,
           "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Asus-Dual-GeForce-RTX-5060-Ti-O8G-Graphics-Card-DUAL-RTX5060TI-O8G-4.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 864.0,
+          "url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1156,9 +1156,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 8199.0,
-          "url": "https://www.ple.com.au/products/672341/asus-geforce-rtx-5090-rog-astral-32gb-gddr7",
-          "title": "ASUS GeForce RTX 5090 ROG Astral 32GB GDDR7",
+          "price": 9499.0,
+          "url": "https://www.ple.com.au/products/684324/gigabyte-geforce-rtx-5090-infinity-32gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5090 INFINITY 32GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -1211,7 +1211,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 864.0,
+          "price": 829.0,
           "url": "https://www.ple.com.au/products/683131/asus-radeon-rx-9060-xt-dual-16gb-gddr6",
           "title": "ASUS Radeon RX 9060 XT Dual 16GB GDDR6",
           "stock_status": "unknown",
@@ -1449,7 +1449,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 79275,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg",
       "offers": [
         {
@@ -1458,31 +1458,8 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 79275,
           "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
-        }
-      ]
-    },
-    {
-      "part_key": "Asus TUF Gaming B650-Plus WiFi",
-      "category": "Motherboard",
-      "subcategory": "AM5",
-      "best_price": 229.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b650em-plus-wifi-am5-matx-motherboard-tuf-gaming-b650em-plus-wifi-90136",
-      "best_title": "Asus TUF Gaming B650EM-PLUS WiFi AM5 mATX Motherboard (TUF GAMING B650EM-PLUS WIFI)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 90136,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/AMD-AM5-Asus-TUF-Gaming-B650EM-PLUS-WiFi-AM5-mATX-Motherboard-TUF-GAMING-B650EM-PLUS-WIFI-9.jpg",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 229.0,
-          "url": "https://www.msy.com.au/product/asus-tuf-gaming-b650em-plus-wifi-am5-matx-motherboard-tuf-gaming-b650em-plus-wifi-90136",
-          "title": "Asus TUF Gaming B650EM-PLUS WiFi AM5 mATX Motherboard (TUF GAMING B650EM-PLUS WIFI)",
-          "stock_status": "in_stock",
-          "stock_qty": 90136,
-          "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/AMD-AM5-Asus-TUF-Gaming-B650EM-PLUS-WiFi-AM5-mATX-Motherboard-TUF-GAMING-B650EM-PLUS-WIFI-9.jpg"
         }
       ]
     },
@@ -1927,29 +1904,6 @@
       ]
     },
     {
-      "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200",
-      "category": "RAM",
-      "subcategory": "DDR4",
-      "best_price": 599.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/663460/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr4-3200-c16",
-      "best_title": "Kingston FURY Beast RGB 32GB Kit (2X16GB) DDR4-3200 C16",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 599.0,
-          "url": "https://www.ple.com.au/products/663460/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr4-3200-c16",
-          "title": "Kingston FURY Beast RGB 32GB Kit (2X16GB) DDR4-3200 C16",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        }
-      ]
-    },
-    {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
@@ -2247,7 +2201,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1499.0,
+          "price": 1249.0,
           "url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
           "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
           "stock_status": "unknown",
@@ -3080,7 +3034,7 @@
       "price": 1849.0,
       "url": "https://www.umart.com.au/product/g5-intel-i5-14400f-geforce-rtx-5060-gaming-pc-60437-93175",
       "status": "OK",
-      "stock_status": "out_of_stock",
+      "stock_status": "in_stock",
       "stock_qty": null,
       "image_url": "https://assets.umart.com.au/newsite/images/202603/thumb_img/Gaming-PCs-Ready2Go-G5-Intel-i5-14400F-GeForce-RTX-5060-Gaming-PC-60437-11.png"
     },
@@ -3489,7 +3443,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
-      "price": 699.0,
+      "price": 864.0,
       "url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3628,9 +3582,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 5090 ROG Astral 32GB GDDR7",
-      "price": 8199.0,
-      "url": "https://www.ple.com.au/products/672341/asus-geforce-rtx-5090-rog-astral-32gb-gddr7",
+      "title": "Gigabyte GeForce RTX 5090 INFINITY 32GB GDDR7",
+      "price": 9499.0,
+      "url": "https://www.ple.com.au/products/684324/gigabyte-geforce-rtx-5090-infinity-32gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -3764,7 +3718,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
       "title": "ASUS Radeon RX 9060 XT Dual 16GB GDDR6",
-      "price": 864.0,
+      "price": 829.0,
       "url": "https://www.ple.com.au/products/683131/asus-radeon-rx-9060-xt-dual-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
@@ -4213,13 +4167,12 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": "Kingston FURY Beast RGB 32GB Kit (2X16GB) DDR4-3200 C16",
-      "price": 599.0,
-      "url": "https://www.ple.com.au/products/663460/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr4-3200-c16",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200",
@@ -4857,7 +4810,7 @@
       "subcategory": "4TB",
       "retailer": "PLE Computers",
       "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
-      "price": 1499.0,
+      "price": 1249.0,
       "url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
       "status": "OK",
       "stock_status": "unknown",
@@ -5027,13 +4980,12 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": "Asus TUF Gaming B650EM-PLUS WiFi AM5 mATX Motherboard (TUF GAMING B650EM-PLUS WIFI)",
-      "price": 229.0,
-      "url": "https://www.msy.com.au/product/asus-tuf-gaming-b650em-plus-wifi-am5-matx-motherboard-tuf-gaming-b650em-plus-wifi-90136",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 90136,
-      "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/AMD-AM5-Asus-TUF-Gaming-B650EM-PLUS-WiFi-AM5-mATX-Motherboard-TUF-GAMING-B650EM-PLUS-WIFI-9.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Asus TUF Gaming B650-Plus WiFi",
@@ -5107,7 +5059,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 79275,
       "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
     },
     {
