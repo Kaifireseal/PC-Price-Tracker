@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:37:46.901379+00:00",
+  "generated_at": "2026-09-12T07:38:13.197269+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -841,6 +841,75 @@
       ]
     },
     {
+      "part_key": "Lian Li Vector V100R Mini Compact Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "best_price": 105.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/679303/lian-li-vector-v100r-mini-rgb-glass-micro-tower-case-black",
+      "best_title": "Lian Li Vector V100R Mini RGB Glass Micro Tower Case (Black)",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 105.0,
+          "url": "https://www.ple.com.au/products/679303/lian-li-vector-v100r-mini-rgb-glass-micro-tower-case-black",
+          "title": "Lian Li Vector V100R Mini RGB Glass Micro Tower Case (Black)",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
+      "part_key": "Lian Li Vision Compact Mid-Tower Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "best_price": 129.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
+      "best_title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 129.0,
+          "url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
+          "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
+      "part_key": "Okinos AQUA UNO Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "best_price": 69.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/okinos-cypress-5-air-oak-wood-mid-tower-atx-case-cao-c5arir-82265",
+      "best_title": "Okinos Cypress 5 Air Oak Wood Mid Tower ATX Case (CAO-C5ARIR)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 82265,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-C5-Oak-Wood-Mid-Tower-ATX-Case-CAO-C5ARIR-5.jpg",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 69.0,
+          "url": "https://www.msy.com.au/product/okinos-cypress-5-air-oak-wood-mid-tower-atx-case-cao-c5arir-82265",
+          "title": "Okinos Cypress 5 Air Oak Wood Mid Tower ATX Case (CAO-C5ARIR)",
+          "stock_status": "in_stock",
+          "stock_qty": 82265,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-C5-Oak-Wood-Mid-Tower-ATX-Case-CAO-C5ARIR-5.jpg"
+        }
+      ]
+    },
+    {
       "part_key": "Corsair 3200D RS Mid Tower ATX Case",
       "category": "Case",
       "subcategory": "Mid Tower",
@@ -978,22 +1047,13 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "best_price": 599.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
-      "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 83402,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg",
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
+      "best_title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 599.0,
-          "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
-          "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
-          "stock_status": "in_stock",
-          "stock_qty": 83402,
-          "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 599.0,
@@ -1002,6 +1062,15 @@
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        },
+        {
+          "retailer": "MSY",
+          "price": 629.0,
+          "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
+          "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
+          "stock_status": "in_stock",
+          "stock_qty": 83402,
+          "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg"
         }
       ]
     },
@@ -1009,7 +1078,7 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 729.0,
+      "best_price": 749.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
       "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
@@ -1019,7 +1088,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 729.0,
+          "price": 749.0,
           "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
           "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
           "stock_status": "in_stock",
@@ -1615,6 +1684,29 @@
       ]
     },
     {
+      "part_key": "Gigabyte P650SS 650W Silver ATX PSU",
+      "category": "PSU",
+      "subcategory": "650W",
+      "best_price": 59.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/gigabyte-650w-p650ss-ice-80-silver-power-supply-ice-white-gp-p650ss-ice-82224",
+      "best_title": "Gigabyte 650W P650SS Ice 80+ Silver Power Supply - Ice White (GP-P650SS ICE)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 82224,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Power-Supply-PSU-Gigabyte-650W-P650SS-Ice-80-Silver-Power-Supply-Ice-White-GP-P650SS-ICE-4.jpg",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 59.0,
+          "url": "https://www.msy.com.au/product/gigabyte-650w-p650ss-ice-80-silver-power-supply-ice-white-gp-p650ss-ice-82224",
+          "title": "Gigabyte 650W P650SS Ice 80+ Silver Power Supply - Ice White (GP-P650SS ICE)",
+          "stock_status": "in_stock",
+          "stock_qty": 82224,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Power-Supply-PSU-Gigabyte-650W-P650SS-Ice-80-Silver-Power-Supply-Ice-White-GP-P650SS-ICE-4.jpg"
+        }
+      ]
+    },
+    {
       "part_key": "MSI MAG A650BN 650W Bronze ATX PSU",
       "category": "PSU",
       "subcategory": "650W",
@@ -1695,6 +1787,38 @@
           "price": 169.0,
           "url": "https://www.ple.com.au/products/672028/corsair-rm750e-750w-gold-atx-31-modular-psu",
           "title": "Corsair RM750e - 750W Gold ATX 3.1 Modular PSU",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
+      "part_key": "MSI 750W MAG Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "best_price": 89.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/msi-mag-750w-a750gn-pcie5-80-gold-non-modular-pcie-5-1-atx-3-1-black-power-supply-oem-mag-a750gn-pcie5-bulk-94964",
+      "best_title": "MSI MAG 750W A750GN PCIE5 80+ Gold Non-Modular PCIe 5.1 ATX 3.1 Black Power Supply - OEM (MAG A750GN PCIE5 BULK)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 94964,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202607/thumb_img/Power-Supply-PSU-MSI-MAG-750W-A750GN-PCIE5-80-Gold-Non-Modular-PCIe-5-1-ATX-3-1-Black-Power-Supply-Bulk-Pack-MAG-A750GN-PCIE5-BULK-6.jpg",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 89.0,
+          "url": "https://www.msy.com.au/product/msi-mag-750w-a750gn-pcie5-80-gold-non-modular-pcie-5-1-atx-3-1-black-power-supply-oem-mag-a750gn-pcie5-bulk-94964",
+          "title": "MSI MAG 750W A750GN PCIE5 80+ Gold Non-Modular PCIe 5.1 ATX 3.1 Black Power Supply - OEM (MAG A750GN PCIE5 BULK)",
+          "stock_status": "in_stock",
+          "stock_qty": 94964,
+          "image_url": "https://assets.msy.com.au/newsite/images/202607/thumb_img/Power-Supply-PSU-MSI-MAG-750W-A750GN-PCIE5-80-Gold-Non-Modular-PCIe-5-1-ATX-3-1-Black-Power-Supply-Bulk-Pack-MAG-A750GN-PCIE5-BULK-6.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 139.0,
+          "url": "https://www.ple.com.au/products/686598/msi-mag-a750gls-750w-gold-pcie-51-atx-31-modular-psu",
+          "title": "MSI MAG A750GLS - 750W Gold PCIe 5.1 ATX 3.1 Modular PSU",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -3392,7 +3516,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
-      "price": 599.0,
+      "price": 629.0,
       "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3430,7 +3554,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
-      "price": 729.0,
+      "price": 749.0,
       "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
       "status": "OK",
       "stock_status": "in_stock",
@@ -5738,6 +5862,81 @@
       "stock_qty": null
     },
     {
+      "part_key": "MSI 750W MAG Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "MSI 750W MAG Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "MSY",
+      "title": "MSI MAG 750W A750GN PCIE5 80+ Gold Non-Modular PCIe 5.1 ATX 3.1 Black Power Supply - OEM (MAG A750GN PCIE5 BULK)",
+      "price": 89.0,
+      "url": "https://www.msy.com.au/product/msi-mag-750w-a750gn-pcie5-80-gold-non-modular-pcie-5-1-atx-3-1-black-power-supply-oem-mag-a750gn-pcie5-bulk-94964",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 94964,
+      "image_url": "https://assets.msy.com.au/newsite/images/202607/thumb_img/Power-Supply-PSU-MSI-MAG-750W-A750GN-PCIE5-80-Gold-Non-Modular-PCIe-5-1-ATX-3-1-Black-Power-Supply-Bulk-Pack-MAG-A750GN-PCIE5-BULK-6.jpg"
+    },
+    {
+      "part_key": "MSI 750W MAG Gold ATX Modular PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "retailer": "PLE Computers",
+      "title": "MSI MAG A750GLS - 750W Gold PCIe 5.1 ATX 3.1 Modular PSU",
+      "price": 139.0,
+      "url": "https://www.ple.com.au/products/686598/msi-mag-a750gls-750w-gold-pcie-51-atx-31-modular-psu",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+    },
+    {
+      "part_key": "Gigabyte P650SS 650W Silver ATX PSU",
+      "category": "PSU",
+      "subcategory": "650W",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Gigabyte P650SS 650W Silver ATX PSU",
+      "category": "PSU",
+      "subcategory": "650W",
+      "retailer": "MSY",
+      "title": "Gigabyte 650W P650SS Ice 80+ Silver Power Supply - Ice White (GP-P650SS ICE)",
+      "price": 59.0,
+      "url": "https://www.msy.com.au/product/gigabyte-650w-p650ss-ice-80-silver-power-supply-ice-white-gp-p650ss-ice-82224",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 82224,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Power-Supply-PSU-Gigabyte-650W-P650SS-Ice-80-Silver-Power-Supply-Ice-White-GP-P650SS-ICE-4.jpg"
+    },
+    {
+      "part_key": "Gigabyte P650SS 650W Silver ATX PSU",
+      "category": "PSU",
+      "subcategory": "650W",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
       "part_key": "MSI MAG Forge 321R Airflow Mid Tower ATX Case",
       "category": "Case",
       "subcategory": "Mid Tower",
@@ -5923,6 +6122,80 @@
       "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
+      "part_key": "Lian Li Vision Compact Mid-Tower Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Lian Li Vision Compact Mid-Tower Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Lian Li Vision Compact Mid-Tower Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "PLE Computers",
+      "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
+      "price": 129.0,
+      "url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+    },
+    {
+      "part_key": "Lian Li Vector V100R Mini Compact Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Lian Li Vector V100R Mini Compact Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Lian Li Vector V100R Mini Compact Case",
+      "category": "Case",
+      "subcategory": "Full Tower",
+      "retailer": "PLE Computers",
+      "title": "Lian Li Vector V100R Mini RGB Glass Micro Tower Case (Black)",
+      "price": 105.0,
+      "url": "https://www.ple.com.au/products/679303/lian-li-vector-v100r-mini-rgb-glass-micro-tower-case-black",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+    },
+    {
       "part_key": "Deepcool CH270 Micro-ATX Case",
       "category": "Case",
       "subcategory": "Micro ATX",
@@ -5948,6 +6221,115 @@
     },
     {
       "part_key": "Deepcool CH270 Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Okinos AQUA UNO Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Okinos AQUA UNO Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "MSY",
+      "title": "Okinos Cypress 5 Air Oak Wood Mid Tower ATX Case (CAO-C5ARIR)",
+      "price": 69.0,
+      "url": "https://www.msy.com.au/product/okinos-cypress-5-air-oak-wood-mid-tower-atx-case-cao-c5arir-82265",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 82265,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-C5-Oak-Wood-Mid-Tower-ATX-Case-CAO-C5ARIR-5.jpg"
+    },
+    {
+      "part_key": "Okinos AQUA UNO Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master Elite 681 ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master Elite 681 ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master Elite 681 ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "PLE Computers",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master Elite 481 Wood M-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "Umart",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master Elite 481 Wood M-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "retailer": "MSY",
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
+    },
+    {
+      "part_key": "Cooler Master Elite 481 Wood M-ATX Case",
       "category": "Case",
       "subcategory": "Micro ATX",
       "retailer": "PLE Computers",
