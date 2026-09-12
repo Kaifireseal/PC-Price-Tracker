@@ -125,6 +125,8 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "5700x", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 7 5800X3D", "category": "CPU", "subcategory": "AM4", "socket": "AM4",
      "retailers": {"Umart": "5800x3d", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
+
+          # ============================== AM5 ==============================
     {"part_key": "AMD Ryzen 5 7500F", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"Umart": "ryzen 5 7500f", "MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 5 7500X3D", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
@@ -153,6 +155,8 @@ TRACKED_PARTS = [
      "retailers": {"MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
     {"part_key": "AMD Ryzen 9 9950X3D2", "category": "CPU", "subcategory": "AM5", "socket": "AM5",
      "retailers": {"MSY": "amd_cpu", "PLE Computers": "ple_amd_cpu"}},
+  
+          # ============================== Intel ==============================
     {"part_key": "Intel Core i5-13400F", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
      "retailers": {"Umart": "i5-13400f", "MSY": "intel_cpu", "PLE Computers": "ple_intel_cpu"}},
     {"part_key": "Intel Core i5-14400F", "category": "CPU", "subcategory": "LGA1700", "socket": "LGA1700",
@@ -170,7 +174,7 @@ TRACKED_PARTS = [
     {"part_key": "Intel Core Ultra 9 285K", "category": "CPU", "subcategory": "LGA1851", "socket": "LGA1851",
      "retailers": {"Umart": "ultra 9 285k", "MSY": "intel_cpu", "PLE Computers": "ple_intel_cpu"}},
 
-        # ============================== GPU ==============================
+        # ============================== Nvidia ==============================
     {"part_key": "NVIDIA RTX 3060", "category": "GPU", "subcategory": "RTX 30-series", "socket": None,
      "retailers": {"Umart": "rtx 3060", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "NVIDIA RTX 4060", "category": "GPU", "subcategory": "RTX 40-series", "socket": None,
@@ -189,6 +193,8 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "rtx 5080", "MSY": "gpu_rtx_5080", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "NVIDIA RTX 5090", "category": "GPU", "subcategory": "RTX 50-series", "socket": None,
      "retailers": {"Umart": "rtx 5090", "MSY": "gpu_rtx_5090", "PLE Computers": "ple_gpu_all"}},
+
+          # ============================== Radeon ==============================
     {"part_key": "AMD Radeon RX 7600", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
      "retailers": {"Umart": "rx 7600", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
     {"part_key": "AMD Radeon RX 7900 XTX", "category": "GPU", "subcategory": "RX 7000-series", "socket": None,
@@ -210,7 +216,7 @@ TRACKED_PARTS = [
     {"part_key": "Sapphire Pulse RX 9070 XT", "category": "GPU", "subcategory": "RX 9000-series", "socket": None,
      "retailers": {"Umart": "sapphire pulse rx 9070 xt", "MSY": "gpu_all", "PLE Computers": "ple_gpu_all"}},
 
-        # ============================== RAM ==============================
+        # ============================== DDR4 ==============================
     {"part_key": "Corsair Vengence 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Umart": "corsair lpx 16gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Kingston Fury Beast 16GB (2x8GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
@@ -225,6 +231,8 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "vengeance lpx 32gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200", "category": "RAM", "subcategory": "DDR4", "socket": None,
      "retailers": {"Umart": "fury beast 32gb ddr4 3200", "MSY": "ddr4_ram", "PLE Computers": "ple_ram"}},
+  
+          # ============================== DDR5 ==============================
     {"part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200", "category": "RAM", "subcategory": "DDR5", "socket": None,
      "retailers": {"Umart": "corsair 16gb ddr5 5200", "MSY": "ddr5_ram", "PLE Computers": "ple_ram"}},
     {"part_key": "Kingston 16GB (2x8GB) DDR5 6000", "category": "RAM", "subcategory": "DDR5", "socket": None,
@@ -319,6 +327,10 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "seasonic focus gx-850", "MSY": "psu", "PLE Computers": "ple_psu"}},
     {"part_key": "Cooler Master MWE V3 750W Gold ATX PSU", "category": "PSU", "subcategory": "750W", "socket": None,
      "retailers": {"Umart": "cooler master mwe v3 750w gold", "MSY": "psu", "PLE Computers": "ple_psu"}},
+    {"part_key": "MSI 750W MAG Gold ATX Modular PSU", "category": "PSU", "subcategory": "750W", "socket": None,
+     "retailers": {"Umart": "msi mag 750w gold", "MSY": "psu", "PLE Computers": "ple_psu"}},
+    {"part_key": "Gigabyte P650SS 650W Silver ATX PSU", "category": "PSU", "subcategory": "650W", "socket": None,
+     "retailers": {"Umart": "gigabyte p650ss 650w", "MSY": "psu", "PLE Computers": "ple_psu"}},
 
     # ============================== Case ==============================
     {"part_key": "MSI MAG Forge 321R Airflow Mid Tower ATX Case", "category": "Case", "subcategory": "Mid Tower", "socket": None,
@@ -331,6 +343,16 @@ TRACKED_PARTS = [
      "retailers": {"Umart": "thermaltake view 270", "MSY": "cases", "PLE Computers": "ple_cases"}},
     {"part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case", "category": "Case", "subcategory": "Full Tower", "socket": None,
      "retailers": {"Umart": "lian li o11 dynamic evo xl", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Lian Li Vision Compact Mid-Tower Case", "category": "Case", "subcategory": "Full Tower", "socket": None,
+     "retailers": {"Umart": "lian li o11 vision compact", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Lian Li Vector V100R Mini Compact Case", "category": "Case", "subcategory": "Full Tower", "socket": None,
+     "retailers": {"Umart": "lian li v100r mini compact", "MSY": "cases", "PLE Computers": "ple_cases"}},
     {"part_key": "Deepcool CH270 Micro-ATX Case", "category": "Case", "subcategory": "Micro ATX", "socket": None,
      "retailers": {"Umart": "deepcool ch270", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Okinos AQUA UNO Micro-ATX Case", "category": "Case", "subcategory": "Micro ATX", "socket": None,
+     "retailers": {"Umart": "okinos aqua uno", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Cooler Master Elite 681 ATX Case", "category": "Case", "subcategory": "Micro ATX", "socket": None,
+     "retailers": {"Umart": "cooler master elite 681", "MSY": "cases", "PLE Computers": "ple_cases"}},
+    {"part_key": "Cooler Master Elite 481 Wood M-ATX Case", "category": "Case", "subcategory": "Micro ATX", "socket": None,
+     "retailers": {"Umart": "cooler master elite 481 wood", "MSY": "cases", "PLE Computers": "ple_cases"}},
 ]
