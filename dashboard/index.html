@@ -1556,9 +1556,6 @@ function biggestDailyDiscounts(){
   });
   return results.sort((a, b) => b.pct - a.pct).slice(0, 5);
 }
-  });
-  return results.sort((a, b) => b.pct - a.pct).slice(0, 5);
-}
 function bestValueTopTier(){
   return ALL_PARTS.filter(p => {
       const t = TIERS[p.part_key];
