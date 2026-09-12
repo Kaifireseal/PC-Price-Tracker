@@ -15,8 +15,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root{
+:root{
     --bg: #12151c;
+    --bg-rgb: 18,21,28;
     --panel: #1a1f2b;
     --panel-border: #2a3140;
     --copper: #c9793d;
@@ -144,11 +145,11 @@
     margin: 0 auto;
     padding: 1.25rem 1.25rem 6.5rem;
   }
-  #bottomNav{
+#bottomNav{
     position: fixed;
     left: 0; right: 0; bottom: 0;
     z-index: 40;
-    background: rgba(18,21,28,0.95);
+    background: rgba(var(--bg-rgb), 0.95);
     backdrop-filter: blur(6px);
     border-top: 1px solid var(--panel-border);
     padding: .5rem 1rem calc(.5rem + env(safe-area-inset-bottom, 0px));
@@ -404,8 +405,9 @@
   }
   .compare-remove-btn:hover{ border-color: var(--red); color: var(--red); }
 
-  :root.light{
+:root.light{
     --bg: #f6f5f2;
+    --bg-rgb: 246,245,242;
     --panel: #ffffff;
     --panel-border: #dde1e8;
     --copper: #b8672c;
