@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:16:59.066170+00:00",
+  "generated_at": "2026-09-13T22:32:52.409178+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -867,19 +867,19 @@
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 129.0,
+      "best_price": 169.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
-      "best_title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
+      "best_url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
+      "best_title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 129.0,
-          "url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
-          "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
+          "price": 169.0,
+          "url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
+          "title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -1400,29 +1400,6 @@
       ]
     },
     {
-      "part_key": "Gigabyte Radeon RX 9070 GRE",
-      "category": "GPU",
-      "subcategory": "RX 9000-series",
-      "best_price": 949.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
-      "best_title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 949.0,
-          "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
-          "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        }
-      ]
-    },
-    {
       "part_key": "Sapphire Pulse RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
@@ -1755,6 +1732,29 @@
           "price": 159.0,
           "url": "https://www.ple.com.au/products/681912/asus-tuf-gaming-evo-750w-gold-modular-psu",
           "title": "ASUS TUF Gaming EVO 750W Gold Modular PSU",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
+      "part_key": "Cooler Master MWE V3 750W Gold ATX PSU",
+      "category": "PSU",
+      "subcategory": "750W",
+      "best_price": 109.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/673897/cooler-master-mwe-v3-750w-gold-atx-31-psu",
+      "best_title": "Cooler Master MWE V3 750W Gold ATX 3.1 PSU",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 109.0,
+          "url": "https://www.ple.com.au/products/673897/cooler-master-mwe-v3-750w-gold-atx-31-psu",
+          "title": "Cooler Master MWE V3 750W Gold ATX 3.1 PSU",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -3966,13 +3966,12 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
-      "price": 949.0,
-      "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Asus Prime RX 9070 XT",
@@ -5854,12 +5853,13 @@
       "category": "PSU",
       "subcategory": "750W",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Cooler Master MWE V3 750W Gold ATX 3.1 PSU",
+      "price": 109.0,
+      "url": "https://www.ple.com.au/products/673897/cooler-master-mwe-v3-750w-gold-atx-31-psu",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "MSI 750W MAG Gold ATX Modular PSU",
@@ -6150,9 +6150,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
-      "price": 129.0,
-      "url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
+      "title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
+      "price": 169.0,
+      "url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -6271,7 +6271,7 @@
     {
       "part_key": "Cooler Master Elite 681 ATX Case",
       "category": "Case",
-      "subcategory": "Micro ATX",
+      "subcategory": "ATX",
       "retailer": "Umart",
       "title": null,
       "price": null,
@@ -6283,7 +6283,7 @@
     {
       "part_key": "Cooler Master Elite 681 ATX Case",
       "category": "Case",
-      "subcategory": "Micro ATX",
+      "subcategory": "ATX",
       "retailer": "MSY",
       "title": null,
       "price": null,
@@ -6295,7 +6295,7 @@
     {
       "part_key": "Cooler Master Elite 681 ATX Case",
       "category": "Case",
-      "subcategory": "Micro ATX",
+      "subcategory": "ATX",
       "retailer": "PLE Computers",
       "title": null,
       "price": null,
