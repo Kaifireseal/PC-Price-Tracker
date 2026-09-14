@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:32:52.409178+00:00",
+  "generated_at": "2026-09-14T23:20:52.557632+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -1495,7 +1495,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 79275,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg",
       "offers": [
         {
@@ -1504,7 +1504,7 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": 79275,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
         }
       ]
@@ -1518,7 +1518,7 @@
       "best_url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "best_title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 82893,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg",
       "offers": [
         {
@@ -1527,7 +1527,7 @@
           "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
           "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 82893,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
         },
         {
@@ -1623,7 +1623,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 81989,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
         }
       ]
@@ -2306,23 +2306,14 @@
       "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
       "category": "SSD",
       "subcategory": "4TB",
-      "best_price": 1199.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
-      "best_title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
-      "best_stock_status": "in_stock",
+      "best_price": 1249.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
+      "best_title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
+      "best_stock_status": "unknown",
       "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg",
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 1199.0,
-          "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
-          "title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 1249.0,
@@ -2331,6 +2322,15 @@
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        },
+        {
+          "retailer": "MSY",
+          "price": 1299.0,
+          "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
+          "title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
+          "stock_status": "in_stock",
+          "stock_qty": 73118,
+          "image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg"
         }
       ]
     },
@@ -4920,11 +4920,11 @@
       "subcategory": "4TB",
       "retailer": "MSY",
       "title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
-      "price": 1199.0,
+      "price": 1299.0,
       "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 73118,
       "image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg"
     },
     {
@@ -5144,7 +5144,7 @@
       "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 82893,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
     },
     {
@@ -5182,7 +5182,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 79275,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
     },
     {
@@ -5368,7 +5368,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 81989,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
     },
     {
