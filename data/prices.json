@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:20:52.557632+00:00",
+  "generated_at": "2026-09-15T23:05:28.823424+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -867,45 +867,31 @@
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 169.0,
+      "best_price": 129.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
-      "best_title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
+      "best_url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
+      "best_title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 169.0,
-          "url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
-          "title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
+          "price": 129.0,
+          "url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
+          "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        }
-      ]
-    },
-    {
-      "part_key": "Okinos AQUA UNO Micro-ATX Case",
-      "category": "Case",
-      "subcategory": "Micro ATX",
-      "best_price": 69.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/okinos-cypress-5-air-oak-wood-mid-tower-atx-case-cao-c5arir-82265",
-      "best_title": "Okinos Cypress 5 Air Oak Wood Mid Tower ATX Case (CAO-C5ARIR)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 82265,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-C5-Oak-Wood-Mid-Tower-ATX-Case-CAO-C5ARIR-5.jpg",
-      "offers": [
+        },
         {
           "retailer": "MSY",
-          "price": 69.0,
-          "url": "https://www.msy.com.au/product/okinos-cypress-5-air-oak-wood-mid-tower-atx-case-cao-c5arir-82265",
-          "title": "Okinos Cypress 5 Air Oak Wood Mid Tower ATX Case (CAO-C5ARIR)",
+          "price": 199.0,
+          "url": "https://www.msy.com.au/product/lian-li-lancool-217-mid-tower-e-atx-case-pc-lan217x-83515",
+          "title": "Lian Li LanCool 217 Mid-Tower E-ATX Case (PC-LAN217X)",
           "stock_status": "in_stock",
-          "stock_qty": 82265,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-C5-Oak-Wood-Mid-Tower-ATX-Case-CAO-C5ARIR-5.jpg"
+          "stock_qty": 83515,
+          "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Lian-Li-Cases-Lian-Li-LANCOOL-217-Mid-Tower-E-ATX-Case-PC-LAN217X-6.jpg"
         }
       ]
     },
@@ -1078,14 +1064,23 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 749.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
-      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 82678,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Asus-Dual-GeForce-RTX-5060-Ti-O8G-Graphics-Card-DUAL-RTX5060TI-O8G-4.jpg",
+      "best_price": 699.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
+      "best_title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 699.0,
+          "url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        },
         {
           "retailer": "MSY",
           "price": 749.0,
@@ -1094,15 +1089,6 @@
           "stock_status": "in_stock",
           "stock_qty": 82678,
           "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Asus-Dual-GeForce-RTX-5060-Ti-O8G-Graphics-Card-DUAL-RTX5060TI-O8G-4.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 864.0,
-          "url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
-          "title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1238,7 +1224,7 @@
       "part_key": "AMD Radeon RX 7600",
       "category": "GPU",
       "subcategory": "RX 7000-series",
-      "best_price": 449.0,
+      "best_price": 489.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
       "best_title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
@@ -1248,7 +1234,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 449.0,
+          "price": 489.0,
           "url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
           "title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
           "stock_status": "unknown",
@@ -1364,15 +1350,6 @@
           "stock_status": "in_stock",
           "stock_qty": 81932,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Asus-Prime-Radeon-RX-9070-XT-16G-OC-Graphics-Card-PRIME-RX9070XT-O16G-7.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 1399.0,
-          "url": "https://www.ple.com.au/products/672471/asus-radeon-rx-9070-xt-tuf-gaming-oc-16gb-gddr6",
-          "title": "ASUS Radeon RX 9070 XT TUF Gaming OC 16GB GDDR6",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1510,6 +1487,29 @@
       ]
     },
     {
+      "part_key": "Asus TUF Gaming B650-Plus WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "best_price": 289.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
+      "best_title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 289.0,
+          "url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
+          "title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
@@ -1623,7 +1623,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 81989,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
         }
       ]
@@ -3567,7 +3567,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
-      "price": 864.0,
+      "price": 699.0,
       "url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3744,7 +3744,7 @@
       "subcategory": "RX 7000-series",
       "retailer": "PLE Computers",
       "title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
-      "price": 449.0,
+      "price": 489.0,
       "url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
       "status": "OK",
       "stock_status": "unknown",
@@ -4003,13 +4003,12 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "ASUS Radeon RX 9070 XT TUF Gaming OC 16GB GDDR6",
-      "price": 1399.0,
-      "url": "https://www.ple.com.au/products/672471/asus-radeon-rx-9070-xt-tuf-gaming-oc-16gb-gddr6",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Sapphire Pulse RX 9070 XT",
@@ -5115,12 +5114,13 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
+      "price": 289.0,
+      "url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "MSI B850 Gaming Plus WiFi",
@@ -5368,7 +5368,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81989,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
     },
     {
@@ -6138,21 +6138,22 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Lian Li LanCool 217 Mid-Tower E-ATX Case (PC-LAN217X)",
+      "price": 199.0,
+      "url": "https://www.msy.com.au/product/lian-li-lancool-217-mid-tower-e-atx-case-pc-lan217x-83515",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 83515,
+      "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Lian-Li-Cases-Lian-Li-LANCOOL-217-Mid-Tower-E-ATX-Case-PC-LAN217X-6.jpg"
     },
     {
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
-      "price": 169.0,
-      "url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
+      "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
+      "price": 129.0,
+      "url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -6248,13 +6249,12 @@
       "category": "Case",
       "subcategory": "Micro ATX",
       "retailer": "MSY",
-      "title": "Okinos Cypress 5 Air Oak Wood Mid Tower ATX Case (CAO-C5ARIR)",
-      "price": 69.0,
-      "url": "https://www.msy.com.au/product/okinos-cypress-5-air-oak-wood-mid-tower-atx-case-cao-c5arir-82265",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 82265,
-      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-C5-Oak-Wood-Mid-Tower-ATX-Case-CAO-C5ARIR-5.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Okinos AQUA UNO Micro-ATX Case",
