@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:05:28.823424+00:00",
+  "generated_at": "2026-09-16T23:02:47.066190+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -750,15 +750,6 @@
           "stock_status": "in_stock",
           "stock_qty": 73064,
           "image_url": "https://assets.msy.com.au/newsite/images/202310/thumb_img/Intel-CPU-Intel-Core-i9-14900K-24-Core-LGA-1700-CPU-Processor-2.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 1099.0,
-          "url": "https://www.ple.com.au/products/665344/intel-core-i9-14900ks-raptor-lake-24-core-32-thread-up-to-62ghz-lga1700-no-hsf-retail-box",
-          "title": "Intel Core i9 14900KS Raptor Lake 24 Core 32 Thread Up To 6.2GHz LGA1700 - No HSF Retail Box",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -867,23 +858,14 @@
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 129.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
-      "best_title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_price": 199.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/lian-li-lancool-217-mid-tower-e-atx-case-pc-lan217x-83515",
+      "best_title": "Lian Li LanCool 217 Mid-Tower E-ATX Case (PC-LAN217X)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 83515,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Lian-Li-Cases-Lian-Li-LANCOOL-217-Mid-Tower-E-ATX-Case-PC-LAN217X-6.jpg",
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 129.0,
-          "url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
-          "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        },
         {
           "retailer": "MSY",
           "price": 199.0,
@@ -892,6 +874,38 @@
           "stock_status": "in_stock",
           "stock_qty": 83515,
           "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Lian-Li-Cases-Lian-Li-LANCOOL-217-Mid-Tower-E-ATX-Case-PC-LAN217X-6.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 209.0,
+          "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
+          "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
+      "part_key": "Okinos AQUA UNO Micro-ATX Case",
+      "category": "Case",
+      "subcategory": "Micro ATX",
+      "best_price": 99.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/okinos-cypress-p7-genuine-walnut-wood-mid-tower-atx-case-cao-cyp7-82267",
+      "best_title": "Okinos Cypress P7 Genuine Walnut Wood Mid Tower ATX Case (CAO-CYP7)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 82267,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-Cypress-P7-Genuine-Walnut-Wood-Mid-Tower-ATX-Case-CAO-CYP7-4.jpg",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 99.0,
+          "url": "https://www.msy.com.au/product/okinos-cypress-p7-genuine-walnut-wood-mid-tower-atx-case-cao-cyp7-82267",
+          "title": "Okinos Cypress P7 Genuine Walnut Wood Mid Tower ATX Case (CAO-CYP7)",
+          "stock_status": "in_stock",
+          "stock_qty": 82267,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-Cypress-P7-Genuine-Walnut-Wood-Mid-Tower-ATX-Case-CAO-CYP7-4.jpg"
         }
       ]
     },
@@ -1192,22 +1206,22 @@
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 7999.0,
+      "best_price": 8399.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-gv-n5090aorus-m-32gd-81388",
-      "best_title": "Gigabyte Aorus GeForce RTX 5090 Master 32G Graphics Card (GV-N5090AORUS M-32GD)",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Master-32G-Graphics-Card-GV-N5090AORUS-M-32GD-7.jpg",
+      "best_url": "https://www.msy.com.au/product/asus-tuf-geforce-rtx-5090-oc-32g-gaming-graphics-card-tuf-rtx5090-o32g-gaming-81416",
+      "best_title": "Asus TUF GeForce RTX 5090 OC 32G Gaming Graphics Card (TUF-RTX5090-O32G-GAMING)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 81416,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Asus-TUF-GeForce-RTX-5090-OC-32G-Gaming-Graphics-Card-TUF-RTX5090-O32G-GAMING-9.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 7999.0,
-          "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-gv-n5090aorus-m-32gd-81388",
-          "title": "Gigabyte Aorus GeForce RTX 5090 Master 32G Graphics Card (GV-N5090AORUS M-32GD)",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Master-32G-Graphics-Card-GV-N5090AORUS-M-32GD-7.jpg"
+          "price": 8399.0,
+          "url": "https://www.msy.com.au/product/asus-tuf-geforce-rtx-5090-oc-32g-gaming-graphics-card-tuf-rtx5090-o32g-gaming-81416",
+          "title": "Asus TUF GeForce RTX 5090 OC 32G Gaming Graphics Card (TUF-RTX5090-O32G-GAMING)",
+          "stock_status": "in_stock",
+          "stock_qty": 81416,
+          "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Asus-TUF-GeForce-RTX-5090-OC-32G-Gaming-Graphics-Card-TUF-RTX5090-O32G-GAMING-9.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -1432,6 +1446,29 @@
       ]
     },
     {
+      "part_key": "ASUS ROG Swift OLED PG27UCWM",
+      "category": "Monitor",
+      "subcategory": "OLED",
+      "best_price": 1699.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/686931/asus-rog-swift-oled-pg27ucwm-27-4k-240hz1080p-480hz-003ms-dual-mode-rgb-stripe-gaming-monitor",
+      "best_title": "ASUS ROG Swift OLED PG27UCWM - 27\" 4K 240Hz/1080p 480Hz 0.03ms Dual-Mode RGB Stripe Gaming Monitor",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 1699.0,
+          "url": "https://www.ple.com.au/products/686931/asus-rog-swift-oled-pg27ucwm-27-4k-240hz1080p-480hz-003ms-dual-mode-rgb-stripe-gaming-monitor",
+          "title": "ASUS ROG Swift OLED PG27UCWM - 27\" 4K 240Hz/1080p 480Hz 0.03ms Dual-Mode RGB Stripe Gaming Monitor",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
       "subcategory": "AM4",
@@ -1472,7 +1509,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 79275,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg",
       "offers": [
         {
@@ -1481,7 +1518,7 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 79275,
           "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
         }
       ]
@@ -3280,13 +3317,12 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "PLE Computers",
-      "title": "Intel Core i9 14900KS Raptor Lake 24 Core 32 Thread Up To 6.2GHz LGA1700 - No HSF Retail Box",
-      "price": 1099.0,
-      "url": "https://www.ple.com.au/products/665344/intel-core-i9-14900ks-raptor-lake-24-core-32-thread-up-to-62ghz-lga1700-no-hsf-retail-box",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Intel Core Ultra 5 245K",
@@ -3693,13 +3729,13 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Gigabyte Aorus GeForce RTX 5090 Master 32G Graphics Card (GV-N5090AORUS M-32GD)",
-      "price": 7999.0,
-      "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-gv-n5090aorus-m-32gd-81388",
+      "title": "Asus TUF GeForce RTX 5090 OC 32G Gaming Graphics Card (TUF-RTX5090-O32G-GAMING)",
+      "price": 8399.0,
+      "url": "https://www.msy.com.au/product/asus-tuf-geforce-rtx-5090-oc-32g-gaming-graphics-card-tuf-rtx5090-o32g-gaming-81416",
       "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Master-32G-Graphics-Card-GV-N5090AORUS-M-32GD-7.jpg"
+      "stock_status": "in_stock",
+      "stock_qty": 81416,
+      "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Asus-TUF-GeForce-RTX-5090-OC-32G-Gaming-Graphics-Card-TUF-RTX5090-O32G-GAMING-9.jpg"
     },
     {
       "part_key": "NVIDIA RTX 5090",
@@ -5182,7 +5218,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 79275,
       "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
     },
     {
@@ -5630,12 +5666,13 @@
       "category": "Monitor",
       "subcategory": "OLED",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "ASUS ROG Swift OLED PG27UCWM - 27\" 4K 240Hz/1080p 480Hz 0.03ms Dual-Mode RGB Stripe Gaming Monitor",
+      "price": 1699.0,
+      "url": "https://www.ple.com.au/products/686931/asus-rog-swift-oled-pg27ucwm-27-4k-240hz1080p-480hz-003ms-dual-mode-rgb-stripe-gaming-monitor",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "Corsair RM750e 750W Gold ATX Modular PSU",
@@ -6151,9 +6188,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (Black)",
-      "price": 129.0,
-      "url": "https://www.ple.com.au/products/668585/lian-li-lancool-207-compact-mid-tower-atx-case-black",
+      "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
+      "price": 209.0,
+      "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -6249,12 +6286,13 @@
       "category": "Case",
       "subcategory": "Micro ATX",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Okinos Cypress P7 Genuine Walnut Wood Mid Tower ATX Case (CAO-CYP7)",
+      "price": 99.0,
+      "url": "https://www.msy.com.au/product/okinos-cypress-p7-genuine-walnut-wood-mid-tower-atx-case-cao-cyp7-82267",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 82267,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Okinos-Cases-Okinos-Cypress-P7-Genuine-Walnut-Wood-Mid-Tower-ATX-Case-CAO-CYP7-4.jpg"
     },
     {
       "part_key": "Okinos AQUA UNO Micro-ATX Case",
