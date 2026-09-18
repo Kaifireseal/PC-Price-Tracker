@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:03:15.284121+00:00",
+  "generated_at": "2026-09-18T22:42:52.570499+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -929,15 +929,6 @@
           "stock_status": "in_stock",
           "stock_qty": 95028,
           "image_url": "https://assets.msy.com.au/newsite/images/202607/thumb_img/Corsair-Cases-Corsair-3200D-RS-Mid-Tower-ATX-Case-Black-CC-9011334-WW-6.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 135.0,
-          "url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
-          "title": "Corsair 3200D RS Mid Tower Case (Black)",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1027,8 +1018,8 @@
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
       "best_title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 79974,
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Asus-ProArt-GeForce-RTX-4060-OC-8G-Graphics-Card-PROART-RTX4060-O8G-5.jpg",
       "offers": [
         {
@@ -1036,8 +1027,8 @@
           "price": 499.0,
           "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
           "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
-          "stock_status": "in_stock",
-          "stock_qty": 79974,
+          "stock_status": "unknown",
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Asus-ProArt-GeForce-RTX-4060-OC-8G-Graphics-Card-PROART-RTX4060-O8G-5.jpg"
         }
       ]
@@ -1142,7 +1133,7 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1698.0,
+      "best_price": 1799.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "best_title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
@@ -1152,7 +1143,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1698.0,
+          "price": 1799.0,
           "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
           "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
           "stock_status": "in_stock",
@@ -1293,22 +1284,22 @@
       "part_key": "AMD Radeon RX 9070",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 939.0,
+      "best_price": 959.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
-      "best_title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
+      "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-pure-gaming-16g-oc-graphics-card-11349-02-20g-81935",
+      "best_title": "Sapphire Radeon RX 9070 Pure Gaming 16G OC Graphics Card (11349-02-20G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81938,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Gigabyte-Radeon-RX-9070-Gaming-16G-OC-Graphics-Card-R9070GAMING-OC-16GD-7.jpg",
+      "best_stock_qty": 81935,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-Pure-Gaming-16G-OC-Graphics-Card-11349-02-20G-7.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 939.0,
-          "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
-          "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
+          "price": 959.0,
+          "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-pure-gaming-16g-oc-graphics-card-11349-02-20g-81935",
+          "title": "Sapphire Radeon RX 9070 Pure Gaming 16G OC Graphics Card (11349-02-20G)",
           "stock_status": "in_stock",
-          "stock_qty": 81938,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Gigabyte-Radeon-RX-9070-Gaming-16G-OC-Graphics-Card-R9070GAMING-OC-16GD-7.jpg"
+          "stock_qty": 81935,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-Pure-Gaming-16G-OC-Graphics-Card-11349-02-20G-7.jpg"
         }
       ]
     },
@@ -1446,29 +1437,6 @@
       ]
     },
     {
-      "part_key": "ASUS ROG Swift OLED PG27UCWM",
-      "category": "Monitor",
-      "subcategory": "OLED",
-      "best_price": 1699.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/686931/asus-rog-swift-oled-pg27ucwm-27-4k-240hz1080p-480hz-003ms-dual-mode-rgb-stripe-gaming-monitor",
-      "best_title": "ASUS ROG Swift OLED PG27UCWM - 27\" 4K 240Hz/1080p 480Hz 0.03ms Dual-Mode RGB Stripe Gaming Monitor",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 1699.0,
-          "url": "https://www.ple.com.au/products/686931/asus-rog-swift-oled-pg27ucwm-27-4k-240hz1080p-480hz-003ms-dual-mode-rgb-stripe-gaming-monitor",
-          "title": "ASUS ROG Swift OLED PG27UCWM - 27\" 4K 240Hz/1080p 480Hz 0.03ms Dual-Mode RGB Stripe Gaming Monitor",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        }
-      ]
-    },
-    {
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
       "subcategory": "AM4",
@@ -1587,7 +1555,7 @@
       "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 65571,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg",
       "offers": [
         {
@@ -1596,7 +1564,7 @@
           "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
           "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 65571,
           "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg"
         }
       ]
@@ -1995,19 +1963,19 @@
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 199.0,
+      "best_price": 209.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/676437/gskill-trident-z-rgb-16gb-kit-2x8gb-ddr4-3600-c18",
-      "best_title": "G.Skill Trident Z RGB 16GB Kit (2x8GB) DDR4-3600 C18",
+      "best_url": "https://www.ple.com.au/products/656373/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c16",
+      "best_title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C16",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 199.0,
-          "url": "https://www.ple.com.au/products/676437/gskill-trident-z-rgb-16gb-kit-2x8gb-ddr4-3600-c18",
-          "title": "G.Skill Trident Z RGB 16GB Kit (2x8GB) DDR4-3600 C18",
+          "price": 209.0,
+          "url": "https://www.ple.com.au/products/656373/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c16",
+          "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C16",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -2046,7 +2014,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 479.0,
+          "price": 474.0,
           "url": "https://www.ple.com.au/products/679946/gskill-trident-z-rgb-32gb-kit-2x16gb-ddr4-3600-c18",
           "title": "G.Skill Trident Z RGB 32GB Kit (2x16GB) DDR4-3600 C18",
           "stock_status": "unknown",
@@ -2075,6 +2043,38 @@
           "stock_status": "in_stock",
           "stock_qty": 75217,
           "image_url": "https://assets.msy.com.au/newsite/images/202312/thumb_img/Kingston-16GB-2x8GB-KF432C16BB2AK2-16-Fury-Beast-RGB-3200MHz-DDR4-RAM-2.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 219.0,
+          "url": "https://www.ple.com.au/products/663459/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
+          "title": "Kingston FURY Beast RGB 16GB Kit (2X8GB) DDR4-3200 C16",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
+      "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR4 3200",
+      "category": "RAM",
+      "subcategory": "DDR4",
+      "best_price": 649.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/652846/kingston-fury-beast-32gb-kit-2x16gb-ddr4-3200-c16",
+      "best_title": "Kingston FURY Beast 32GB Kit (2x16GB) DDR4-3200 C16",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 649.0,
+          "url": "https://www.ple.com.au/products/652846/kingston-fury-beast-32gb-kit-2x16gb-ddr4-3200-c16",
+          "title": "Kingston FURY Beast 32GB Kit (2x16GB) DDR4-3200 C16",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -2134,8 +2134,8 @@
         {
           "retailer": "PLE Computers",
           "price": 439.0,
-          "url": "https://www.ple.com.au/products/680332/corsair-vengeance-rgb-16gb-kit-2x8gb-xmp-ddr5-5200-c40",
-          "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP DDR5-5200 C40",
+          "url": "https://www.ple.com.au/products/684303/corsair-vengeance-rgb-16gb-kit-2x8gb-xmpexpo-ddr5-5200-c40-grey",
+          "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -3482,8 +3482,8 @@
       "price": 499.0,
       "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
       "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 79974,
+      "stock_status": "unknown",
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Asus-ProArt-GeForce-RTX-4060-OC-8G-Graphics-Card-PROART-RTX4060-O8G-5.jpg"
     },
     {
@@ -3654,7 +3654,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
-      "price": 1698.0,
+      "price": 1799.0,
       "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3902,13 +3902,13 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Gigabyte Radeon RX 9070 Gaming 16G OC Graphics Card (R9070GAMING-OC-16GD)",
-      "price": 939.0,
-      "url": "https://www.msy.com.au/product/gigabyte-radeon-rx-9070-gaming-16g-oc-graphics-card-r9070gaming-oc-16gd-81938",
+      "title": "Sapphire Radeon RX 9070 Pure Gaming 16G OC Graphics Card (11349-02-20G)",
+      "price": 959.0,
+      "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-pure-gaming-16g-oc-graphics-card-11349-02-20g-81935",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81938,
-      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Gigabyte-Radeon-RX-9070-Gaming-16G-OC-Graphics-Card-R9070GAMING-OC-16GD-7.jpg"
+      "stock_qty": 81935,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-Pure-Gaming-16G-OC-Graphics-Card-11349-02-20G-7.jpg"
     },
     {
       "part_key": "AMD Radeon RX 9070",
@@ -4151,12 +4151,13 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Kingston FURY Beast RGB 16GB Kit (2X8GB) DDR4-3200 C16",
+      "price": 219.0,
+      "url": "https://www.ple.com.au/products/663459/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr4-3200-c16",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "G.Skill Ripjaws V 16GB (2x8GB) DDR4 3600",
@@ -4188,9 +4189,9 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": "G.Skill Trident Z RGB 16GB Kit (2x8GB) DDR4-3600 C18",
-      "price": 199.0,
-      "url": "https://www.ple.com.au/products/676437/gskill-trident-z-rgb-16gb-kit-2x8gb-ddr4-3600-c18",
+      "title": "G.Skill Ripjaws V 16GB Kit (2x8GB) DDR4-3600 C16",
+      "price": 209.0,
+      "url": "https://www.ple.com.au/products/656373/gskill-ripjaws-v-16gb-kit-2x8gb-ddr4-3600-c16",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4252,7 +4253,7 @@
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
       "title": "G.Skill Trident Z RGB 32GB Kit (2x16GB) DDR4-3600 C18",
-      "price": 479.0,
+      "price": 474.0,
       "url": "https://www.ple.com.au/products/679946/gskill-trident-z-rgb-32gb-kit-2x16gb-ddr4-3600-c18",
       "status": "OK",
       "stock_status": "unknown",
@@ -4325,12 +4326,13 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Kingston FURY Beast 32GB Kit (2x16GB) DDR4-3200 C16",
+      "price": 649.0,
+      "url": "https://www.ple.com.au/products/652846/kingston-fury-beast-32gb-kit-2x16gb-ddr4-3200-c16",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "Corsair Vengence 16GB (2x8GB) DDR5 5200",
@@ -4362,9 +4364,9 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "PLE Computers",
-      "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP DDR5-5200 C40",
+      "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
       "price": 439.0,
-      "url": "https://www.ple.com.au/products/680332/corsair-vengeance-rgb-16gb-kit-2x8gb-xmp-ddr5-5200-c40",
+      "url": "https://www.ple.com.au/products/684303/corsair-vengeance-rgb-16gb-kit-2x8gb-xmpexpo-ddr5-5200-c40-grey",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -5107,7 +5109,7 @@
       "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 65571,
       "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg"
     },
     {
@@ -5666,13 +5668,12 @@
       "category": "Monitor",
       "subcategory": "OLED",
       "retailer": "PLE Computers",
-      "title": "ASUS ROG Swift OLED PG27UCWM - 27\" 4K 240Hz/1080p 480Hz 0.03ms Dual-Mode RGB Stripe Gaming Monitor",
-      "price": 1699.0,
-      "url": "https://www.ple.com.au/products/686931/asus-rog-swift-oled-pg27ucwm-27-4k-240hz1080p-480hz-003ms-dual-mode-rgb-stripe-gaming-monitor",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Corsair RM750e 750W Gold ATX Modular PSU",
@@ -6039,13 +6040,12 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": "Corsair 3200D RS Mid Tower Case (Black)",
-      "price": 135.0,
-      "url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
