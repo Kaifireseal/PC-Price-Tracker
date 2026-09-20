@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:32:33.407138+00:00",
+  "generated_at": "2026-09-20T22:36:29.991059+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -961,6 +961,15 @@
           "stock_status": "in_stock",
           "stock_qty": 82003,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011291-WW-4.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 189.0,
+          "url": "https://www.ple.com.au/products/672735/corsair-frame-4000d-rs-argb-mid-tower-case-black",
+          "title": "Corsair Frame 4000D RS ARGB Mid Tower Case (Black)",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1449,7 +1458,7 @@
       "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
       "category": "Monitor",
       "subcategory": "1440p",
-      "best_price": 249.0,
+      "best_price": 299.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
       "best_title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
@@ -1459,7 +1468,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 249.0,
+          "price": 299.0,
           "url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
           "title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
           "stock_status": "unknown",
@@ -1555,7 +1564,7 @@
       "best_url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "best_title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 82893,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg",
       "offers": [
         {
@@ -1564,7 +1573,7 @@
           "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
           "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 82893,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
         },
         {
@@ -1816,23 +1825,14 @@
       "part_key": "Corsair RM750e 750W Gold ATX Modular PSU",
       "category": "PSU",
       "subcategory": "750W",
-      "best_price": 149.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-750w-rm750e-cybenetics-gold-fully-modular-atx-3-1-power-supply-white-cp-9020292-au-85145",
-      "best_title": "Corsair 750W RM750e Cybenetics Gold Fully Modular ATX 3.1 Power Supply - White (CP-9020292-AU)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 85145,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202507/thumb_img/Power-Supply-PSU-Corsair-750W-RM750e-Cybenetics-Gold-Fully-Modular-ATX-3-1-Power-Supply-White-CP-9020292-AU-5.jpg",
+      "best_price": 169.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/672028/corsair-rm750e-750w-gold-atx-31-modular-psu",
+      "best_title": "Corsair RM750e - 750W Gold ATX 3.1 Modular PSU",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 149.0,
-          "url": "https://www.msy.com.au/product/corsair-750w-rm750e-cybenetics-gold-fully-modular-atx-3-1-power-supply-white-cp-9020292-au-85145",
-          "title": "Corsair 750W RM750e Cybenetics Gold Fully Modular ATX 3.1 Power Supply - White (CP-9020292-AU)",
-          "stock_status": "in_stock",
-          "stock_qty": 85145,
-          "image_url": "https://assets.msy.com.au/newsite/images/202507/thumb_img/Power-Supply-PSU-Corsair-750W-RM750e-Cybenetics-Gold-Fully-Modular-ATX-3-1-Power-Supply-White-CP-9020292-AU-5.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 169.0,
@@ -1841,6 +1841,15 @@
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        },
+        {
+          "retailer": "MSY",
+          "price": 179.0,
+          "url": "https://www.msy.com.au/product/corsair-750w-rm750e-cybenetics-gold-fully-modular-atx-3-1-power-supply-white-cp-9020292-au-85145",
+          "title": "Corsair 750W RM750e Cybenetics Gold Fully Modular ATX 3.1 Power Supply - White (CP-9020292-AU)",
+          "stock_status": "in_stock",
+          "stock_qty": 85145,
+          "image_url": "https://assets.msy.com.au/newsite/images/202507/thumb_img/Power-Supply-PSU-Corsair-750W-RM750e-Cybenetics-Gold-Fully-Modular-ATX-3-1-Power-Supply-White-CP-9020292-AU-5.jpg"
         }
       ]
     },
@@ -1903,14 +1912,23 @@
       "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
       "category": "PSU",
       "subcategory": "850W",
-      "best_price": 199.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/672029/corsair-rm850e-850w-gold-atx-31-modular-psu",
-      "best_title": "Corsair RM850e - 850W Gold ATX 3.1 Modular PSU",
-      "best_stock_status": "unknown",
+      "best_price": 129.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
+      "best_title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-BK-1.jpg",
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 129.0,
+          "url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
+          "title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-BK-1.jpg"
+        },
         {
           "retailer": "PLE Computers",
           "price": 199.0,
@@ -5206,7 +5224,7 @@
       "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 82893,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
     },
     {
@@ -5547,7 +5565,7 @@
       "subcategory": "1440p",
       "retailer": "PLE Computers",
       "title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
-      "price": 249.0,
+      "price": 299.0,
       "url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
       "status": "OK",
       "stock_status": "unknown",
@@ -5716,7 +5734,7 @@
       "subcategory": "750W",
       "retailer": "MSY",
       "title": "Corsair 750W RM750e Cybenetics Gold Fully Modular ATX 3.1 Power Supply - White (CP-9020292-AU)",
-      "price": 149.0,
+      "price": 179.0,
       "url": "https://www.msy.com.au/product/corsair-750w-rm750e-cybenetics-gold-fully-modular-atx-3-1-power-supply-white-cp-9020292-au-85145",
       "status": "OK",
       "stock_status": "in_stock",
@@ -5865,12 +5883,13 @@
       "category": "PSU",
       "subcategory": "850W",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
+      "price": 129.0,
+      "url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": null,
+      "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-BK-1.jpg"
     },
     {
       "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
@@ -6101,12 +6120,13 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Corsair Frame 4000D RS ARGB Mid Tower Case (Black)",
+      "price": 189.0,
+      "url": "https://www.ple.com.au/products/672735/corsair-frame-4000d-rs-argb-mid-tower-case-black",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "Thermaltake View 270 Mid Tower ATX Case",
