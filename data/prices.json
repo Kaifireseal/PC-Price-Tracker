@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T23:08:41.466623+00:00",
+  "generated_at": "2026-09-24T23:25:58.048681+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -38,14 +38,23 @@
       "part_key": "AMD Ryzen 5 5500GT",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 189.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
-      "best_title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_price": 178.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+      "best_title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 75737,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202402/thumb_img/AMD-CPU-AMD-Ryzen-5-5500GT-6-Core-AM4-4-40GHz-CPU-Processor-3.jpg",
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 178.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+          "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+          "stock_status": "in_stock",
+          "stock_qty": 75737,
+          "image_url": "https://assets.msy.com.au/newsite/images/202402/thumb_img/AMD-CPU-AMD-Ryzen-5-5500GT-6-Core-AM4-4-40GHz-CPU-Processor-3.jpg"
+        },
         {
           "retailer": "PLE Computers",
           "price": 189.0,
@@ -505,23 +514,14 @@
       "part_key": "AMD Ryzen 9 9900X3D",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 885.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
-      "best_title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
-      "best_stock_status": "in_stock",
+      "best_price": 888.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/673965/amd-ryzen-9-9900x3d-12-core-24-thread-up-to-55ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 9 9900X3D 12 Core 24 Thread Up To 5.5GHz AM5 - No HSF Retail Box",
+      "best_stock_status": "unknown",
       "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X3D-12-Core-AM5-5-5GHz-CPU-Processor-100-100001368WOF-1.jpg",
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 885.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
-          "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X3D-12-Core-AM5-5-5GHz-CPU-Processor-100-100001368WOF-1.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 888.0,
@@ -530,6 +530,15 @@
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        },
+        {
+          "retailer": "MSY",
+          "price": 929.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
+          "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 82018,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X3D-12-Core-AM5-5-5GHz-CPU-Processor-100-100001368WOF-1.jpg"
         }
       ]
     },
@@ -943,15 +952,6 @@
           "stock_status": "in_stock",
           "stock_qty": 82003,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011291-WW-4.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 189.0,
-          "url": "https://www.ple.com.au/products/672735/corsair-frame-4000d-rs-argb-mid-tower-case-black",
-          "title": "Corsair Frame 4000D RS ARGB Mid Tower Case (Black)",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1133,31 +1133,31 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1859.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/672376/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16gb-gddr7",
-      "best_title": "Gigabyte GeForce RTX 5070 Ti Eagle OC SFF 16GB GDDR7",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_price": 1799.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-aero-oc-16g-graphics-card-gv-n507taero-oc-16gd-81795",
+      "best_title": "Gigabyte GeForce RTX 5070 Ti Aero OC 16G Graphics Card (GV-N507TAERO OC-16GD)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 81795,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Aero-OC-16G-Graphics-Card-GV-N507TAERO-OC-16GD-7.jpg",
       "offers": [
         {
+          "retailer": "MSY",
+          "price": 1799.0,
+          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-aero-oc-16g-graphics-card-gv-n507taero-oc-16gd-81795",
+          "title": "Gigabyte GeForce RTX 5070 Ti Aero OC 16G Graphics Card (GV-N507TAERO OC-16GD)",
+          "stock_status": "in_stock",
+          "stock_qty": 81795,
+          "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Aero-OC-16G-Graphics-Card-GV-N507TAERO-OC-16GD-7.jpg"
+        },
+        {
           "retailer": "PLE Computers",
-          "price": 1859.0,
-          "url": "https://www.ple.com.au/products/672376/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16gb-gddr7",
-          "title": "Gigabyte GeForce RTX 5070 Ti Eagle OC SFF 16GB GDDR7",
+          "price": 2249.0,
+          "url": "https://www.ple.com.au/products/686222/gigabyte-geforce-rtx-5070-ti-aorus-infinity-16gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5070 Ti AORUS Infinity 16GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        },
-        {
-          "retailer": "MSY",
-          "price": 1899.0,
-          "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
-          "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
-          "stock_status": "in_stock",
-          "stock_qty": 81687,
-          "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Asus-Prime-GeForce-RTX-5070-Ti-OC-16G-Graphics-Card-PRIME-RTX5070TI-O16G-9.jpg"
         }
       ]
     },
@@ -1197,7 +1197,7 @@
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 8899.0,
+      "best_price": 9499.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-32g-graphics-card-gv-n5090aorusx-w-32gd-81385",
       "best_title": "Gigabyte Aorus GeForce RTX 5090 Xtreme WaterForce 32G Graphics Card (GV-N5090AORUSX W-32GD)",
@@ -1207,7 +1207,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 8899.0,
+          "price": 9499.0,
           "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-32g-graphics-card-gv-n5090aorusx-w-32gd-81385",
           "title": "Gigabyte Aorus GeForce RTX 5090 Xtreme WaterForce 32G Graphics Card (GV-N5090AORUSX W-32GD)",
           "stock_status": "unknown",
@@ -1307,7 +1307,7 @@
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 1229.0,
+      "best_price": 1199.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "best_title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
@@ -1317,7 +1317,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1229.0,
+          "price": 1199.0,
           "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
           "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
           "stock_status": "in_stock",
@@ -1408,7 +1408,7 @@
       "part_key": "Sapphire Pulse RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 1229.0,
+      "best_price": 1199.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "best_title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
@@ -1418,7 +1418,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1229.0,
+          "price": 1199.0,
           "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
           "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
           "stock_status": "in_stock",
@@ -1427,7 +1427,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1299.0,
+          "price": 1239.0,
           "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
           "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
           "stock_status": "unknown",
@@ -1633,7 +1633,7 @@
       "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "best_title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 81989,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg",
       "offers": [
         {
@@ -1642,7 +1642,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 81989,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
         }
       ]
@@ -2000,9 +2000,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 504.0,
-          "url": "https://www.ple.com.au/products/636989/gskill-trident-z-neo-rgb-32gb-kit-2x16gb-ddr4-3600-c16",
-          "title": "G.Skill Trident Z Neo RGB 32GB Kit (2x16GB) DDR4-3600 C16",
+          "price": 474.0,
+          "url": "https://www.ple.com.au/products/679946/gskill-trident-z-rgb-32gb-kit-2x16gb-ddr4-3600-c18",
+          "title": "G.Skill Trident Z RGB 32GB Kit (2x16GB) DDR4-3600 C18",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -2132,22 +2132,22 @@
       "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 729.0,
+      "best_price": 749.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-cl36-6000mhz-ddr5-ram-black-kf560c36bbe2k2-32-80698",
-      "best_title": "Kingston 32GB (2x16GB) Fury Beast CL36 6000MHz DDR5 RAM - Black (KF560C36BBE2K2-32)",
+      "best_url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-rgb-cl36-6000mhz-ddr5-ram-white-kf560c36bwe2ak2-32-80861",
+      "best_title": "Kingston 32GB (2x16GB) Fury Beast RGB CL36 6000MHz DDR5 RAM - White (KF560C36BWE2AK2-32)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 80698,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-CL36-6000MHz-DDR5-RAM-KF560C36BBE2K2-32-2.jpg",
+      "best_stock_qty": 80861,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-White-KF560C36BWE2AK2-32-2.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 729.0,
-          "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-cl36-6000mhz-ddr5-ram-black-kf560c36bbe2k2-32-80698",
-          "title": "Kingston 32GB (2x16GB) Fury Beast CL36 6000MHz DDR5 RAM - Black (KF560C36BBE2K2-32)",
+          "price": 749.0,
+          "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-rgb-cl36-6000mhz-ddr5-ram-white-kf560c36bwe2ak2-32-80861",
+          "title": "Kingston 32GB (2x16GB) Fury Beast RGB CL36 6000MHz DDR5 RAM - White (KF560C36BWE2AK2-32)",
           "stock_status": "in_stock",
-          "stock_qty": 80698,
-          "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-CL36-6000MHz-DDR5-RAM-KF560C36BBE2K2-32-2.jpg"
+          "stock_qty": 80861,
+          "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-White-KF560C36BWE2AK2-32-2.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -2376,12 +2376,13 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "AMD Ryzen 5 5500GT 6 Core AM4 4.40GHz CPU Processor (100-100001489BOX)",
+      "price": 178.0,
+      "url": "https://www.msy.com.au/product/amd-ryzen-5-5500gt-6-core-am4-4-40ghz-cpu-processor-100-100001489box-75737",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 75737,
+      "image_url": "https://assets.msy.com.au/newsite/images/202402/thumb_img/AMD-CPU-AMD-Ryzen-5-5500GT-6-Core-AM4-4-40GHz-CPU-Processor-3.jpg"
     },
     {
       "part_key": "AMD Ryzen 5 5500GT",
@@ -2994,11 +2995,11 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
-      "price": 885.0,
+      "price": 929.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 82018,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X3D-12-Core-AM5-5-5GHz-CPU-Processor-100-100001368WOF-1.jpg"
     },
     {
@@ -3607,22 +3608,22 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Asus Prime GeForce RTX 5070 Ti OC 16G Graphics Card (PRIME-RTX5070TI-O16G)",
-      "price": 1899.0,
-      "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-ti-oc-16g-graphics-card-prime-rtx5070ti-o16g-81687",
+      "title": "Gigabyte GeForce RTX 5070 Ti Aero OC 16G Graphics Card (GV-N507TAERO OC-16GD)",
+      "price": 1799.0,
+      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-aero-oc-16g-graphics-card-gv-n507taero-oc-16gd-81795",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81687,
-      "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Asus-Prime-GeForce-RTX-5070-Ti-OC-16G-Graphics-Card-PRIME-RTX5070TI-O16G-9.jpg"
+      "stock_qty": 81795,
+      "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Aero-OC-16G-Graphics-Card-GV-N507TAERO-OC-16GD-7.jpg"
     },
     {
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte GeForce RTX 5070 Ti Eagle OC SFF 16GB GDDR7",
-      "price": 1859.0,
-      "url": "https://www.ple.com.au/products/672376/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16gb-gddr7",
+      "title": "Gigabyte GeForce RTX 5070 Ti AORUS Infinity 16GB GDDR7",
+      "price": 2249.0,
+      "url": "https://www.ple.com.au/products/686222/gigabyte-geforce-rtx-5070-ti-aorus-infinity-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -3684,7 +3685,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
       "title": "Gigabyte Aorus GeForce RTX 5090 Xtreme WaterForce 32G Graphics Card (GV-N5090AORUSX W-32GD)",
-      "price": 8899.0,
+      "price": 9499.0,
       "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-32g-graphics-card-gv-n5090aorusx-w-32gd-81385",
       "status": "OK",
       "stock_status": "unknown",
@@ -3919,7 +3920,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
-      "price": 1229.0,
+      "price": 1199.0,
       "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4019,7 +4020,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
-      "price": 1229.0,
+      "price": 1199.0,
       "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4032,7 +4033,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
       "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
-      "price": 1299.0,
+      "price": 1239.0,
       "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
@@ -4206,9 +4207,9 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "PLE Computers",
-      "title": "G.Skill Trident Z Neo RGB 32GB Kit (2x16GB) DDR4-3600 C16",
-      "price": 504.0,
-      "url": "https://www.ple.com.au/products/636989/gskill-trident-z-neo-rgb-32gb-kit-2x16gb-ddr4-3600-c16",
+      "title": "G.Skill Trident Z RGB 32GB Kit (2x16GB) DDR4-3600 C18",
+      "price": 474.0,
+      "url": "https://www.ple.com.au/products/679946/gskill-trident-z-rgb-32gb-kit-2x16gb-ddr4-3600-c18",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4453,13 +4454,13 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Kingston 32GB (2x16GB) Fury Beast CL36 6000MHz DDR5 RAM - Black (KF560C36BBE2K2-32)",
-      "price": 729.0,
-      "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-cl36-6000mhz-ddr5-ram-black-kf560c36bbe2k2-32-80698",
+      "title": "Kingston 32GB (2x16GB) Fury Beast RGB CL36 6000MHz DDR5 RAM - White (KF560C36BWE2AK2-32)",
+      "price": 749.0,
+      "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-rgb-cl36-6000mhz-ddr5-ram-white-kf560c36bwe2ak2-32-80861",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 80698,
-      "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-CL36-6000MHz-DDR5-RAM-KF560C36BBE2K2-32-2.jpg"
+      "stock_qty": 80861,
+      "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-White-KF560C36BWE2AK2-32-2.jpg"
     },
     {
       "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR5 6000",
@@ -5359,7 +5360,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 81989,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
     },
     {
@@ -6029,13 +6030,12 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": "Corsair Frame 4000D RS ARGB Mid Tower Case (Black)",
-      "price": 189.0,
-      "url": "https://www.ple.com.au/products/672735/corsair-frame-4000d-rs-argb-mid-tower-case-black",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Thermaltake View 270 Mid Tower ATX Case",
