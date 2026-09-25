@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T23:25:58.048681+00:00",
+  "generated_at": "2026-09-25T23:29:02.730658+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -910,29 +910,6 @@
       ]
     },
     {
-      "part_key": "Corsair 3200D RS Mid Tower ATX Case",
-      "category": "Case",
-      "subcategory": "Mid Tower",
-      "best_price": 135.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
-      "best_title": "Corsair 3200D RS Mid Tower Case (Black)",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 135.0,
-          "url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
-          "title": "Corsair 3200D RS Mid Tower Case (Black)",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        }
-      ]
-    },
-    {
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
       "category": "Case",
       "subcategory": "Mid Tower",
@@ -952,6 +929,15 @@
           "stock_status": "in_stock",
           "stock_qty": 82003,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011291-WW-4.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 189.0,
+          "url": "https://www.ple.com.au/products/672735/corsair-frame-4000d-rs-argb-mid-tower-case-black",
+          "title": "Corsair Frame 4000D RS ARGB Mid Tower Case (Black)",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1201,8 +1187,8 @@
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-32g-graphics-card-gv-n5090aorusx-w-32gd-81385",
       "best_title": "Gigabyte Aorus GeForce RTX 5090 Xtreme WaterForce 32G Graphics Card (GV-N5090AORUSX W-32GD)",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 81385,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-XTreme-WaterForce-32G-Graphics-Card-GV-N5090AORUSX-W-32GD-8.jpg",
       "offers": [
         {
@@ -1210,8 +1196,8 @@
           "price": 9499.0,
           "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-32g-graphics-card-gv-n5090aorusx-w-32gd-81385",
           "title": "Gigabyte Aorus GeForce RTX 5090 Xtreme WaterForce 32G Graphics Card (GV-N5090AORUSX W-32GD)",
-          "stock_status": "unknown",
-          "stock_qty": null,
+          "stock_status": "in_stock",
+          "stock_qty": 81385,
           "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-XTreme-WaterForce-32G-Graphics-Card-GV-N5090AORUSX-W-32GD-8.jpg"
         },
         {
@@ -1326,9 +1312,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1349.0,
-          "url": "https://www.ple.com.au/products/673935/sapphire-nitro-radeon-rx-9070-xt-16gb-gddr6",
-          "title": "SAPPHIRE NITRO+ Radeon RX 9070 XT 16GB GDDR6",
+          "price": 1299.0,
+          "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
+          "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -1427,7 +1413,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1239.0,
+          "price": 1299.0,
           "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
           "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
           "stock_status": "unknown",
@@ -2064,9 +2050,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 789.0,
-          "url": "https://www.ple.com.au/products/684167/corsair-vengeance-32gb-kit-2x16gb-xmp-ddr5-6000-c38",
-          "title": "Corsair Vengeance 32GB Kit (2x16GB) XMP DDR5-6000 C38",
+          "price": 799.0,
+          "url": "https://www.ple.com.au/products/683827/corsair-vengeance-rgb-32gb-kit-2x16gb-xmpexpo-ddr5-6000-c38-grey-",
+          "title": "Corsair Vengeance RGB 32GB Kit (2x16GB) XMP/EXPO DDR5-6000 C38 (Grey)",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -2109,19 +2095,19 @@
       "part_key": "Kingston 16GB (2x8GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 579.0,
+      "best_price": 429.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
-      "best_title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
+      "best_url": "https://www.ple.com.au/products/658162/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr5-6000-c36",
+      "best_title": "Kingston FURY Beast RGB 16GB Kit (2x8GB) DDR5-6000 C36",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 579.0,
-          "url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
-          "title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
+          "price": 429.0,
+          "url": "https://www.ple.com.au/products/658162/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr5-6000-c36",
+          "title": "Kingston FURY Beast RGB 16GB Kit (2x8GB) DDR5-6000 C36",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -3688,8 +3674,8 @@
       "price": 9499.0,
       "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-32g-graphics-card-gv-n5090aorusx-w-32gd-81385",
       "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
+      "stock_status": "in_stock",
+      "stock_qty": 81385,
       "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-XTreme-WaterForce-32G-Graphics-Card-GV-N5090AORUSX-W-32GD-8.jpg"
     },
     {
@@ -3932,9 +3918,9 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "SAPPHIRE NITRO+ Radeon RX 9070 XT 16GB GDDR6",
-      "price": 1349.0,
-      "url": "https://www.ple.com.au/products/673935/sapphire-nitro-radeon-rx-9070-xt-16gb-gddr6",
+      "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
+      "price": 1299.0,
+      "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4033,7 +4019,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
       "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
-      "price": 1239.0,
+      "price": 1299.0,
       "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
@@ -4355,9 +4341,9 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "PLE Computers",
-      "title": "Kingston FURY Beast 16GB Kit (2x8GB) DDR5-6000 C36",
-      "price": 579.0,
-      "url": "https://www.ple.com.au/products/658161/kingston-fury-beast-16gb-kit-2x8gb-ddr5-6000-c36",
+      "title": "Kingston FURY Beast RGB 16GB Kit (2x8GB) DDR5-6000 C36",
+      "price": 429.0,
+      "url": "https://www.ple.com.au/products/658162/kingston-fury-beast-rgb-16gb-kit-2x8gb-ddr5-6000-c36",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4429,9 +4415,9 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "PLE Computers",
-      "title": "Corsair Vengeance 32GB Kit (2x16GB) XMP DDR5-6000 C38",
-      "price": 789.0,
-      "url": "https://www.ple.com.au/products/684167/corsair-vengeance-32gb-kit-2x16gb-xmp-ddr5-6000-c38",
+      "title": "Corsair Vengeance RGB 32GB Kit (2x16GB) XMP/EXPO DDR5-6000 C38 (Grey)",
+      "price": 799.0,
+      "url": "https://www.ple.com.au/products/683827/corsair-vengeance-rgb-32gb-kit-2x16gb-xmpexpo-ddr5-6000-c38-grey-",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -5992,13 +5978,12 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": "Corsair 3200D RS Mid Tower Case (Black)",
-      "price": 135.0,
-      "url": "https://www.ple.com.au/products/684727/corsair-3200d-rs-mid-tower-case-black",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
@@ -6030,12 +6015,13 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Corsair Frame 4000D RS ARGB Mid Tower Case (Black)",
+      "price": 189.0,
+      "url": "https://www.ple.com.au/products/672735/corsair-frame-4000d-rs-argb-mid-tower-case-black",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "Thermaltake View 270 Mid Tower ATX Case",
