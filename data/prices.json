@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:54:02.646432+00:00",
+  "generated_at": "2026-10-03T23:02:51.159832+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -798,19 +798,19 @@
       "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 129.0,
+      "best_price": 399.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/683994/lian-li-o11-vision-m-micro-tower-case-black",
-      "best_title": "Lian Li O11 Vision-M Micro Tower Case (Black)",
+      "best_url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
+      "best_title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 129.0,
-          "url": "https://www.ple.com.au/products/683994/lian-li-o11-vision-m-micro-tower-case-black",
-          "title": "Lian Li O11 Vision-M Micro Tower Case (Black)",
+          "price": 399.0,
+          "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
+          "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -973,7 +973,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 559.0,
+          "price": 589.0,
           "url": "https://www.ple.com.au/products/647132/asus-geforce-rtx-3060-dual-oc-lhr-12gb-gddr6",
           "title": "ASUS GeForce RTX 3060 Dual OC LHR 12GB GDDR6",
           "stock_status": "unknown",
@@ -1009,23 +1009,14 @@
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 619.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/675435/asus-geforce-rtx-5060-dual-oc-8gb-gddr7",
-      "best_title": "ASUS GeForce RTX 5060 Dual OC 8GB GDDR7",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_price": 659.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
+      "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 83402,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg",
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 619.0,
-          "url": "https://www.ple.com.au/products/675435/asus-geforce-rtx-5060-dual-oc-8gb-gddr7",
-          "title": "ASUS GeForce RTX 5060 Dual OC 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        },
         {
           "retailer": "MSY",
           "price": 659.0,
@@ -1034,6 +1025,15 @@
           "stock_status": "in_stock",
           "stock_qty": 83402,
           "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 699.0,
+          "url": "https://www.ple.com.au/products/675435/asus-geforce-rtx-5060-dual-oc-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Dual OC 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1041,7 +1041,7 @@
       "part_key": "NVIDIA RTX 5060 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 699.0,
+      "best_price": 719.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
       "best_title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
@@ -1051,7 +1051,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 699.0,
+          "price": 719.0,
           "url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
           "title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
           "stock_status": "unknown",
@@ -1188,12 +1188,12 @@
         },
         {
           "retailer": "MSY",
-          "price": 9399.0,
-          "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-gv-n5090aorus-m-32gd-81388",
-          "title": "Gigabyte Aorus GeForce RTX 5090 Master 32G Graphics Card (GV-N5090AORUS M-32GD)",
+          "price": 9499.0,
+          "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-infinity-32g-graphics-card-gv-n5090aorus-if-32gd-95798",
+          "title": "Gigabyte Aorus GeForce RTX 5090 Infinity 32G Graphics Card (GV-N5090AORUS IF-32GD)",
           "stock_status": "in_stock",
-          "stock_qty": 81388,
-          "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Master-32G-Graphics-Card-GV-N5090AORUS-M-32GD-7.jpg"
+          "stock_qty": 95798,
+          "image_url": "https://assets.msy.com.au/newsite/images/202608/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Infinity-32G-Graphics-Card-GV-N5090AORUS-IF-32GD-8.jpg"
         }
       ]
     },
@@ -1243,7 +1243,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 759.0,
+          "price": 799.0,
           "url": "https://www.ple.com.au/products/683131/asus-radeon-rx-9060-xt-dual-16gb-gddr6",
           "title": "ASUS Radeon RX 9060 XT Dual 16GB GDDR6",
           "stock_status": "unknown",
@@ -1356,6 +1356,29 @@
           "price": 1359.0,
           "url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
           "title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
+      "part_key": "MSI MAG 275QF-E20 WQHD Monitor",
+      "category": "Monitor",
+      "subcategory": "1440p",
+      "best_price": 299.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
+      "best_title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 299.0,
+          "url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
+          "title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -1957,7 +1980,7 @@
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 689.0,
+      "best_price": 729.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
       "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
@@ -1967,7 +1990,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 689.0,
+          "price": 729.0,
           "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
           "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
           "stock_status": "in_stock",
@@ -2009,8 +2032,8 @@
         {
           "retailer": "PLE Computers",
           "price": 439.0,
-          "url": "https://www.ple.com.au/products/680332/corsair-vengeance-rgb-16gb-kit-2x8gb-xmp-ddr5-5200-c40",
-          "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP DDR5-5200 C40",
+          "url": "https://www.ple.com.au/products/684303/corsair-vengeance-rgb-16gb-kit-2x8gb-xmpexpo-ddr5-5200-c40-grey",
+          "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -3320,7 +3343,7 @@
       "subcategory": "RTX 30-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 3060 Dual OC LHR 12GB GDDR6",
-      "price": 559.0,
+      "price": 589.0,
       "url": "https://www.ple.com.au/products/647132/asus-geforce-rtx-3060-dual-oc-lhr-12gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
@@ -3431,7 +3454,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 5060 Dual OC 8GB GDDR7",
-      "price": 619.0,
+      "price": 699.0,
       "url": "https://www.ple.com.au/products/675435/asus-geforce-rtx-5060-dual-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3469,7 +3492,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "ASUS GeForce RTX 5060 Ti Prime 8GB GDDR7",
-      "price": 699.0,
+      "price": 719.0,
       "url": "https://www.ple.com.au/products/674699/asus-geforce-rtx-5060-ti-prime-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -3595,13 +3618,13 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Gigabyte Aorus GeForce RTX 5090 Master 32G Graphics Card (GV-N5090AORUS M-32GD)",
-      "price": 9399.0,
-      "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-gv-n5090aorus-m-32gd-81388",
+      "title": "Gigabyte Aorus GeForce RTX 5090 Infinity 32G Graphics Card (GV-N5090AORUS IF-32GD)",
+      "price": 9499.0,
+      "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-infinity-32g-graphics-card-gv-n5090aorus-if-32gd-95798",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81388,
-      "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Master-32G-Graphics-Card-GV-N5090AORUS-M-32GD-7.jpg"
+      "stock_qty": 95798,
+      "image_url": "https://assets.msy.com.au/newsite/images/202608/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Infinity-32G-Graphics-Card-GV-N5090AORUS-IF-32GD-8.jpg"
     },
     {
       "part_key": "NVIDIA RTX 5090",
@@ -3744,7 +3767,7 @@
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
       "title": "ASUS Radeon RX 9060 XT Dual 16GB GDDR6",
-      "price": 759.0,
+      "price": 799.0,
       "url": "https://www.ple.com.au/products/683131/asus-radeon-rx-9060-xt-dual-16gb-gddr6",
       "status": "OK",
       "stock_status": "unknown",
@@ -4228,9 +4251,9 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "PLE Computers",
-      "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP DDR5-5200 C40",
+      "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
       "price": 439.0,
-      "url": "https://www.ple.com.au/products/680332/corsair-vengeance-rgb-16gb-kit-2x8gb-xmp-ddr5-5200-c40",
+      "url": "https://www.ple.com.au/products/684303/corsair-vengeance-rgb-16gb-kit-2x8gb-xmpexpo-ddr5-5200-c40-grey",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4327,7 +4350,7 @@
       "subcategory": "DDR5",
       "retailer": "MSY",
       "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
-      "price": 689.0,
+      "price": 729.0,
       "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
       "status": "OK",
       "stock_status": "in_stock",
@@ -5386,12 +5409,13 @@
       "category": "Monitor",
       "subcategory": "1440p",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "MSI MAG 275QF E20 - 27\" 1440p 200Hz 0.5ms Rapid IPS Gaming Monitor",
+      "price": 299.0,
+      "url": "https://www.ple.com.au/products/681570/msi-mag-275qf-e20-27-1440p-200hz-05ms-rapid-ips-gaming-monitor",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "ASUS TUF 27in QHD 210Hz Fast IPS Monitor (VG27AQ5A)",
@@ -6012,9 +6036,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Vision-M Micro Tower Case (Black)",
-      "price": 129.0,
-      "url": "https://www.ple.com.au/products/683994/lian-li-o11-vision-m-micro-tower-case-black",
+      "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
+      "price": 399.0,
+      "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
