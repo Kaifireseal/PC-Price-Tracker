@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T23:11:10.536725+00:00",
+  "generated_at": "2026-10-06T01:30:23.543661+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -896,10 +896,33 @@
       ]
     },
     {
+      "part_key": "Corsair 3200D RS Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "best_price": 149.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/684730/corsair-3200d-rs-argb-mid-tower-case-black",
+      "best_title": "Corsair 3200D RS ARGB Mid Tower Case (Black)",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 149.0,
+          "url": "https://www.ple.com.au/products/684730/corsair-3200d-rs-argb-mid-tower-case-black",
+          "title": "Corsair 3200D RS ARGB Mid Tower Case (Black)",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
       "category": "Case",
       "subcategory": "Mid Tower",
-      "best_price": 99.0,
+      "best_price": 149.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
       "best_title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
@@ -909,7 +932,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 99.0,
+          "price": 149.0,
           "url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
           "title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
           "stock_status": "in_stock",
@@ -1215,21 +1238,21 @@
       "part_key": "AMD Radeon RX 9060 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 749.0,
+      "best_price": 729.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
       "best_title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 90401,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 749.0,
+          "price": 729.0,
           "url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
           "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
           "stock_status": "in_stock",
-          "stock_qty": 90401,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg"
         },
         {
@@ -1412,7 +1435,7 @@
       "part_key": "Asus Prime X870-P WiFi CSM",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 339.0,
+      "best_price": 369.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
@@ -1422,7 +1445,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 339.0,
+          "price": 369.0,
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
@@ -1435,14 +1458,23 @@
       "part_key": "Asus TUF Gaming B650-Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 289.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
-      "best_title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
-      "best_stock_status": "unknown",
+      "best_price": 229.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b650em-plus-wifi-am5-matx-motherboard-tuf-gaming-b650em-plus-wifi-90136",
+      "best_title": "Asus TUF Gaming B650EM-PLUS WiFi AM5 mATX Motherboard (TUF GAMING B650EM-PLUS WIFI)",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/AMD-AM5-Asus-TUF-Gaming-B650EM-PLUS-WiFi-AM5-mATX-Motherboard-TUF-GAMING-B650EM-PLUS-WIFI-9.jpg",
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 229.0,
+          "url": "https://www.msy.com.au/product/asus-tuf-gaming-b650em-plus-wifi-am5-matx-motherboard-tuf-gaming-b650em-plus-wifi-90136",
+          "title": "Asus TUF Gaming B650EM-PLUS WiFi AM5 mATX Motherboard (TUF GAMING B650EM-PLUS WIFI)",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/AMD-AM5-Asus-TUF-Gaming-B650EM-PLUS-WiFi-AM5-mATX-Motherboard-TUF-GAMING-B650EM-PLUS-WIFI-9.jpg"
+        },
         {
           "retailer": "PLE Computers",
           "price": 289.0,
@@ -1463,7 +1495,7 @@
       "best_url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "best_title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 82893,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg",
       "offers": [
         {
@@ -1472,7 +1504,7 @@
           "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
           "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 82893,
           "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
         },
         {
@@ -1490,7 +1522,7 @@
       "part_key": "MSI MAG B650 Tomahawk WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 278.0,
+      "best_price": 299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
@@ -1500,7 +1532,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 278.0,
+          "price": 299.0,
           "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
           "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
           "stock_status": "in_stock",
@@ -1564,7 +1596,7 @@
         },
         {
           "retailer": "MSY",
-          "price": 309.0,
+          "price": 339.0,
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
@@ -1719,31 +1751,31 @@
       "part_key": "MSI 750W MAG Gold ATX Modular PSU",
       "category": "PSU",
       "subcategory": "750W",
-      "best_price": 89.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-mag-750w-a750gn-pcie5-80-gold-non-modular-pcie-5-1-atx-3-1-black-power-supply-oem-mag-a750gn-pcie5-bulk-94964",
-      "best_title": "MSI MAG 750W A750GN PCIE5 80+ Gold Non-Modular PCIe 5.1 ATX 3.1 Black Power Supply - OEM (MAG A750GN PCIE5 BULK)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 94964,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202607/thumb_img/Power-Supply-PSU-MSI-MAG-750W-A750GN-PCIE5-80-Gold-Non-Modular-PCIe-5-1-ATX-3-1-Black-Power-Supply-Bulk-Pack-MAG-A750GN-PCIE5-BULK-6.jpg",
+      "best_price": 84.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/683067/msi-mag-a750bn-pcie5-iii-750w-bronze-pcie-51-atx-31-psu",
+      "best_title": "MSI MAG A750BN PCIE5 III - 750W Bronze PCIe 5.1 ATX 3.1 PSU",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
         {
+          "retailer": "PLE Computers",
+          "price": 84.0,
+          "url": "https://www.ple.com.au/products/683067/msi-mag-a750bn-pcie5-iii-750w-bronze-pcie-51-atx-31-psu",
+          "title": "MSI MAG A750BN PCIE5 III - 750W Bronze PCIe 5.1 ATX 3.1 PSU",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        },
+        {
           "retailer": "MSY",
-          "price": 89.0,
+          "price": 99.0,
           "url": "https://www.msy.com.au/product/msi-mag-750w-a750gn-pcie5-80-gold-non-modular-pcie-5-1-atx-3-1-black-power-supply-oem-mag-a750gn-pcie5-bulk-94964",
           "title": "MSI MAG 750W A750GN PCIE5 80+ Gold Non-Modular PCIe 5.1 ATX 3.1 Black Power Supply - OEM (MAG A750GN PCIE5 BULK)",
           "stock_status": "in_stock",
           "stock_qty": 94964,
           "image_url": "https://assets.msy.com.au/newsite/images/202607/thumb_img/Power-Supply-PSU-MSI-MAG-750W-A750GN-PCIE5-80-Gold-Non-Modular-PCIe-5-1-ATX-3-1-Black-Power-Supply-Bulk-Pack-MAG-A750GN-PCIE5-BULK-6.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 139.0,
-          "url": "https://www.ple.com.au/products/686598/msi-mag-a750gls-750w-gold-pcie-51-atx-31-modular-psu",
-          "title": "MSI MAG A750GLS - 750W Gold PCIe 5.1 ATX 3.1 Modular PSU",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -2145,7 +2177,7 @@
       "part_key": "Samsung 990 Pro 1TB NVMe SSD",
       "category": "SSD",
       "subcategory": "1TB",
-      "best_price": 399.0,
+      "best_price": 419.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/655566/samsung-990-pro-pcie-gen4-nvme-m2-ssd-1tb",
       "best_title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 1TB",
@@ -2155,7 +2187,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 399.0,
+          "price": 419.0,
           "url": "https://www.ple.com.au/products/655566/samsung-990-pro-pcie-gen4-nvme-m2-ssd-1tb",
           "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 1TB",
           "stock_status": "unknown",
@@ -2223,23 +2255,14 @@
       "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
       "category": "SSD",
       "subcategory": "4TB",
-      "best_price": 1249.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
-      "best_title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_price": 1299.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
+      "best_title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 73118,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg",
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 1249.0,
-          "url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
-          "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        },
         {
           "retailer": "MSY",
           "price": 1299.0,
@@ -2248,6 +2271,15 @@
           "stock_status": "in_stock",
           "stock_qty": 73118,
           "image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 1439.0,
+          "url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
+          "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -3744,11 +3776,11 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
-      "price": 749.0,
+      "price": 729.0,
       "url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 90401,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg"
     },
     {
@@ -4733,7 +4765,7 @@
       "subcategory": "1TB",
       "retailer": "PLE Computers",
       "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 1TB",
-      "price": 399.0,
+      "price": 419.0,
       "url": "https://www.ple.com.au/products/655566/samsung-990-pro-pcie-gen4-nvme-m2-ssd-1tb",
       "status": "OK",
       "stock_status": "unknown",
@@ -4846,7 +4878,7 @@
       "subcategory": "4TB",
       "retailer": "PLE Computers",
       "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
-      "price": 1249.0,
+      "price": 1439.0,
       "url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
       "status": "OK",
       "stock_status": "unknown",
@@ -4981,7 +5013,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "price": 278.0,
+      "price": 299.0,
       "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "status": "OK",
       "stock_status": "in_stock",
@@ -5017,12 +5049,13 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Asus TUF Gaming B650EM-PLUS WiFi AM5 mATX Motherboard (TUF GAMING B650EM-PLUS WIFI)",
+      "price": 229.0,
+      "url": "https://www.msy.com.au/product/asus-tuf-gaming-b650em-plus-wifi-am5-matx-motherboard-tuf-gaming-b650em-plus-wifi-90136",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": null,
+      "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/AMD-AM5-Asus-TUF-Gaming-B650EM-PLUS-WiFi-AM5-mATX-Motherboard-TUF-GAMING-B650EM-PLUS-WIFI-9.jpg"
     },
     {
       "part_key": "Asus TUF Gaming B650-Plus WiFi",
@@ -5059,7 +5092,7 @@
       "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 82893,
       "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
     },
     {
@@ -5093,7 +5126,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
-      "price": 339.0,
+      "price": 369.0,
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
@@ -5278,7 +5311,7 @@
       "subcategory": "LGA1851",
       "retailer": "MSY",
       "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
-      "price": 309.0,
+      "price": 339.0,
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
@@ -5794,7 +5827,7 @@
       "subcategory": "750W",
       "retailer": "MSY",
       "title": "MSI MAG 750W A750GN PCIE5 80+ Gold Non-Modular PCIe 5.1 ATX 3.1 Black Power Supply - OEM (MAG A750GN PCIE5 BULK)",
-      "price": 89.0,
+      "price": 99.0,
       "url": "https://www.msy.com.au/product/msi-mag-750w-a750gn-pcie5-80-gold-non-modular-pcie-5-1-atx-3-1-black-power-supply-oem-mag-a750gn-pcie5-bulk-94964",
       "status": "OK",
       "stock_status": "in_stock",
@@ -5806,9 +5839,9 @@
       "category": "PSU",
       "subcategory": "750W",
       "retailer": "PLE Computers",
-      "title": "MSI MAG A750GLS - 750W Gold PCIe 5.1 ATX 3.1 Modular PSU",
-      "price": 139.0,
-      "url": "https://www.ple.com.au/products/686598/msi-mag-a750gls-750w-gold-pcie-51-atx-31-modular-psu",
+      "title": "MSI MAG A750BN PCIE5 III - 750W Bronze PCIe 5.1 ATX 3.1 PSU",
+      "price": 84.0,
+      "url": "https://www.ple.com.au/products/683067/msi-mag-a750bn-pcie5-iii-750w-bronze-pcie-51-atx-31-psu",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -5915,12 +5948,13 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Corsair 3200D RS ARGB Mid Tower Case (Black)",
+      "price": 149.0,
+      "url": "https://www.ple.com.au/products/684730/corsair-3200d-rs-argb-mid-tower-case-black",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
@@ -5940,7 +5974,7 @@
       "subcategory": "Mid Tower",
       "retailer": "MSY",
       "title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
-      "price": 99.0,
+      "price": 149.0,
       "url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
       "status": "OK",
       "stock_status": "in_stock",
