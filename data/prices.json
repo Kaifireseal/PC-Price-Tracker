@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T00:22:12.872457+00:00",
+  "generated_at": "2026-10-09T00:31:50.250570+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -404,7 +404,7 @@
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 547.0,
+      "best_price": 604.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
       "best_title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
@@ -414,7 +414,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 547.0,
+          "price": 604.0,
           "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
           "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
           "stock_status": "in_stock",
@@ -1032,23 +1032,14 @@
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 649.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
-      "best_title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_price": 659.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
+      "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 83402,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg",
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 649.0,
-          "url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
-          "title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        },
         {
           "retailer": "MSY",
           "price": 659.0,
@@ -1057,6 +1048,15 @@
           "stock_status": "in_stock",
           "stock_qty": 83402,
           "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 699.0,
+          "url": "https://www.ple.com.au/products/675435/asus-geforce-rtx-5060-dual-oc-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Dual OC 8GB GDDR7",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1568,7 +1568,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 81989,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
         }
       ]
@@ -1930,7 +1930,7 @@
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 729.0,
+      "best_price": 749.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
       "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
@@ -1940,7 +1940,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 729.0,
+          "price": 749.0,
           "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
           "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
           "stock_status": "in_stock",
@@ -2019,20 +2019,20 @@
       "subcategory": "DDR5",
       "best_price": 749.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-rgb-cl36-6000mhz-ddr5-ram-white-kf560c36bwe2ak2-32-80861",
-      "best_title": "Kingston 32GB (2x16GB) Fury Beast RGB CL36 6000MHz DDR5 RAM - White (KF560C36BWE2AK2-32)",
+      "best_url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf560c36bbe2ak2-32-fury-beast-rgb-6000mhz-cl36-ddr5-ram-80407",
+      "best_title": "Kingston 32GB (2x16GB) KF560C36BBE2AK2-32 Fury Beast RGB 6000MHz CL36 DDR5 RAM",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 80861,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-White-KF560C36BWE2AK2-32-2.jpg",
+      "best_stock_qty": 80407,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202411/thumb_img/Kingston-32GB-2x16GB-KF560C36BBE2AK2-32-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-2.jpg",
       "offers": [
         {
           "retailer": "MSY",
           "price": 749.0,
-          "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-rgb-cl36-6000mhz-ddr5-ram-white-kf560c36bwe2ak2-32-80861",
-          "title": "Kingston 32GB (2x16GB) Fury Beast RGB CL36 6000MHz DDR5 RAM - White (KF560C36BWE2AK2-32)",
+          "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf560c36bbe2ak2-32-fury-beast-rgb-6000mhz-cl36-ddr5-ram-80407",
+          "title": "Kingston 32GB (2x16GB) KF560C36BBE2AK2-32 Fury Beast RGB 6000MHz CL36 DDR5 RAM",
           "stock_status": "in_stock",
-          "stock_qty": 80861,
-          "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-White-KF560C36BWE2AK2-32-2.jpg"
+          "stock_qty": 80407,
+          "image_url": "https://assets.msy.com.au/newsite/images/202411/thumb_img/Kingston-32GB-2x16GB-KF560C36BBE2AK2-32-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-2.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -2766,7 +2766,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
-      "price": 547.0,
+      "price": 604.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3403,9 +3403,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte GeForce RTX 5060 Eagle OC 8GB GDDR7",
-      "price": 649.0,
-      "url": "https://www.ple.com.au/products/675867/gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
+      "title": "ASUS GeForce RTX 5060 Dual OC 8GB GDDR7",
+      "price": 699.0,
+      "url": "https://www.ple.com.au/products/675435/asus-geforce-rtx-5060-dual-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4298,7 +4298,7 @@
       "subcategory": "DDR5",
       "retailer": "MSY",
       "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
-      "price": 729.0,
+      "price": 749.0,
       "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4335,13 +4335,13 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Kingston 32GB (2x16GB) Fury Beast RGB CL36 6000MHz DDR5 RAM - White (KF560C36BWE2AK2-32)",
+      "title": "Kingston 32GB (2x16GB) KF560C36BBE2AK2-32 Fury Beast RGB 6000MHz CL36 DDR5 RAM",
       "price": 749.0,
-      "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-fury-beast-rgb-cl36-6000mhz-ddr5-ram-white-kf560c36bwe2ak2-32-80861",
+      "url": "https://www.msy.com.au/product/kingston-32gb-2x16gb-kf560c36bbe2ak2-32-fury-beast-rgb-6000mhz-cl36-ddr5-ram-80407",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 80861,
-      "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/Kingston-32GB-2x16GB-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-White-KF560C36BWE2AK2-32-2.jpg"
+      "stock_qty": 80407,
+      "image_url": "https://assets.msy.com.au/newsite/images/202411/thumb_img/Kingston-32GB-2x16GB-KF560C36BBE2AK2-32-Fury-Beast-RGB-6000MHz-CL36-DDR5-RAM-2.jpg"
     },
     {
       "part_key": "Kingston Fury Beast 32GB (2x16GB) DDR5 6000",
@@ -5239,7 +5239,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 81989,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
     },
     {
