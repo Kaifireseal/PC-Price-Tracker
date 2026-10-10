@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:10:28.136463+00:00",
+  "generated_at": "2026-10-10T23:38:13.418224+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -597,7 +597,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1389.0,
+          "price": 1379.0,
           "url": "https://www.ple.com.au/products/683663/amd-ryzen-9-9950x3d2-dual-edition-16-core-32-thread-up-to-56ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 9 9950X3D2 Dual Edition 16 Core 32 Thread Up to 5.6GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
@@ -1455,6 +1455,29 @@
       ]
     },
     {
+      "part_key": "Asus TUF Gaming B650-Plus WiFi",
+      "category": "Motherboard",
+      "subcategory": "AM5",
+      "best_price": 289.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
+      "best_title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 289.0,
+          "url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
+          "title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        }
+      ]
+    },
+    {
       "part_key": "MSI B850 Gaming Plus WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
@@ -1641,14 +1664,23 @@
       "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
       "category": "PSU",
       "subcategory": "750W",
-      "best_price": 159.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-750w-80-gold-pcie-5-1-atx-3-1-power-supply-tuf-gaming-750g-evo-96079",
-      "best_title": "Asus TUF Gaming 750W 80+ Gold PCIe 5.1 ATX 3.1 Power Supply (TUF-GAMING-750G-EVO)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 96079,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202609/thumb_img/Power-Supply-PSU-Asus-TUF-Gaming-750W-80-Gold-PCIe-5-1-ATX-3-1-Power-Supply-TUF-GAMING-750G-EVO-8.jpg",
+      "best_price": 139.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/681914/asus-prime-750w-gold-atx-31-modular-psu",
+      "best_title": "ASUS PRIME- 750W Gold ATX 3.1 Modular PSU",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 139.0,
+          "url": "https://www.ple.com.au/products/681914/asus-prime-750w-gold-atx-31-modular-psu",
+          "title": "ASUS PRIME- 750W Gold ATX 3.1 Modular PSU",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+        },
         {
           "retailer": "MSY",
           "price": 159.0,
@@ -2005,8 +2037,8 @@
         {
           "retailer": "PLE Computers",
           "price": 439.0,
-          "url": "https://www.ple.com.au/products/684303/corsair-vengeance-rgb-16gb-kit-2x8gb-xmpexpo-ddr5-5200-c40-grey",
-          "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
+          "url": "https://www.ple.com.au/products/680332/corsair-vengeance-rgb-16gb-kit-2x8gb-xmp-ddr5-5200-c40",
+          "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP DDR5-5200 C40",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -3004,7 +3036,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 9 9950X3D2 Dual Edition 16 Core 32 Thread Up to 5.6GHz AM5 - No HSF Retail Box",
-      "price": 1389.0,
+      "price": 1379.0,
       "url": "https://www.ple.com.au/products/683663/amd-ryzen-9-9950x3d2-dual-edition-16-core-32-thread-up-to-56ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "unknown",
@@ -4222,9 +4254,9 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "PLE Computers",
-      "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP/EXPO DDR5-5200 C40 (Grey)",
+      "title": "Corsair Vengeance RGB 16GB Kit (2x8GB) XMP DDR5-5200 C40",
       "price": 439.0,
-      "url": "https://www.ple.com.au/products/684303/corsair-vengeance-rgb-16gb-kit-2x8gb-xmpexpo-ddr5-5200-c40-grey",
+      "url": "https://www.ple.com.au/products/680332/corsair-vengeance-rgb-16gb-kit-2x8gb-xmp-ddr5-5200-c40",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -5010,12 +5042,13 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "ASUS TUF Gaming B650EM-Plus WiFi AM5 mATX Desktop Motherboard",
+      "price": 289.0,
+      "url": "https://www.ple.com.au/products/676580/asus-tuf-gaming-b650em-plus-wifi-am5-matx-desktop-motherboard",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "MSI B850 Gaming Plus WiFi",
@@ -5674,12 +5707,13 @@
       "category": "PSU",
       "subcategory": "750W",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "ASUS PRIME- 750W Gold ATX 3.1 Modular PSU",
+      "price": 139.0,
+      "url": "https://www.ple.com.au/products/681914/asus-prime-750w-gold-atx-31-modular-psu",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
     },
     {
       "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
