@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T23:38:13.418224+00:00",
+  "generated_at": "2026-10-11T23:49:48.304766+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -498,15 +498,6 @@
           "stock_status": "in_stock",
           "stock_qty": 82018,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X3D-12-Core-AM5-5-5GHz-CPU-Processor-100-100001368WOF-1.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 888.0,
-          "url": "https://www.ple.com.au/products/673965/amd-ryzen-9-9900x3d-12-core-24-thread-up-to-55ghz-am5-no-hsf-retail-box",
-          "title": "AMD Ryzen 9 9900X3D 12 Core 24 Thread Up To 5.5GHz AM5 - No HSF Retail Box",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1009,22 +1000,22 @@
       "part_key": "NVIDIA RTX 4060",
       "category": "GPU",
       "subcategory": "RTX 40-series",
-      "best_price": 499.0,
+      "best_price": 479.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
-      "best_title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
+      "best_url": "https://www.msy.com.au/product/asus-geforce-rtx-4060-dual-8g-v2-oc-graphics-card-dual-rtx4060-o8g-v2-79315",
+      "best_title": "Asus GeForce RTX 4060 Dual 8G V2 OC Graphics Card (DUAL-RTX4060-O8G-V2)",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Asus-ProArt-GeForce-RTX-4060-OC-8G-Graphics-Card-PROART-RTX4060-O8G-5.jpg",
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/Asus-GeForce-RTX-4060-Dual-8G-V2-OC-Graphics-Card-DUAL-RTX4060-O8G-V2-6.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 499.0,
-          "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
-          "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
+          "price": 479.0,
+          "url": "https://www.msy.com.au/product/asus-geforce-rtx-4060-dual-8g-v2-oc-graphics-card-dual-rtx4060-o8g-v2-79315",
+          "title": "Asus GeForce RTX 4060 Dual 8G V2 OC Graphics Card (DUAL-RTX4060-O8G-V2)",
           "stock_status": "unknown",
           "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Asus-ProArt-GeForce-RTX-4060-OC-8G-Graphics-Card-PROART-RTX4060-O8G-5.jpg"
+          "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/Asus-GeForce-RTX-4060-Dual-8G-V2-OC-Graphics-Card-DUAL-RTX4060-O8G-V2-6.jpg"
         }
       ]
     },
@@ -2945,13 +2936,12 @@
       "category": "CPU",
       "subcategory": "AM5",
       "retailer": "PLE Computers",
-      "title": "AMD Ryzen 9 9900X3D 12 Core 24 Thread Up To 5.5GHz AM5 - No HSF Retail Box",
-      "price": 888.0,
-      "url": "https://www.ple.com.au/products/673965/amd-ryzen-9-9900x3d-12-core-24-thread-up-to-55ghz-am5-no-hsf-retail-box",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 9 9950X",
@@ -3372,13 +3362,13 @@
       "category": "GPU",
       "subcategory": "RTX 40-series",
       "retailer": "MSY",
-      "title": "Asus ProArt GeForce RTX 4060 OC 8G Graphics Card (PROART-RTX4060-O8G)",
-      "price": 499.0,
-      "url": "https://www.msy.com.au/product/asus-proart-geforce-rtx-4060-oc-8g-graphics-card-proart-rtx4060-o8g-79974",
+      "title": "Asus GeForce RTX 4060 Dual 8G V2 OC Graphics Card (DUAL-RTX4060-O8G-V2)",
+      "price": 479.0,
+      "url": "https://www.msy.com.au/product/asus-geforce-rtx-4060-dual-8g-v2-oc-graphics-card-dual-rtx4060-o8g-v2-79315",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
-      "image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Asus-ProArt-GeForce-RTX-4060-OC-8G-Graphics-Card-PROART-RTX4060-O8G-5.jpg"
+      "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/Asus-GeForce-RTX-4060-Dual-8G-V2-OC-Graphics-Card-DUAL-RTX4060-O8G-V2-6.jpg"
     },
     {
       "part_key": "NVIDIA RTX 4060",
