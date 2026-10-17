@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T22:58:24.675285+00:00",
+  "generated_at": "2026-10-17T22:20:14.441249+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -135,7 +135,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 244.0,
+          "price": 279.0,
           "url": "https://www.ple.com.au/products/643561/amd-ryzen-5-5600x-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
           "title": "AMD Ryzen 5 5600X 6 Core 12 Thread Up To 4.6Ghz AM4 - With Wraith Stealth Cooler",
           "stock_status": "unknown",
@@ -437,7 +437,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 609.0,
+          "price": 699.0,
           "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
@@ -469,7 +469,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 709.0,
+          "price": 784.0,
           "url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
@@ -588,7 +588,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1039.0,
+          "price": 1159.0,
           "url": "https://www.ple.com.au/products/673964/amd-ryzen-9-9950x3d-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 9 9950X3D 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
           "stock_status": "unknown",
@@ -830,19 +830,19 @@
       "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 399.0,
+      "best_price": 289.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
-      "best_title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
+      "best_url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
+      "best_title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 399.0,
-          "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
-          "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
+          "price": 289.0,
+          "url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
+          "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
@@ -1469,15 +1469,6 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202506/thumb_img/Intel-LGA-1700-MSI-Pro-B760M-A-WiFi-LGA-1700-mATX-Motherboard-PRO-B760M-A-WIFI-6.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 199.0,
-          "url": "https://www.ple.com.au/products/657179/msi-pro-b760m-a-wifi-ddr4-lga1700-matx-desktop-motherboard",
-          "title": "MSI PRO B760M-A WIFI DDR4 LGA1700 mATX Desktop Motherboard",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -1679,29 +1670,6 @@
       ]
     },
     {
-      "part_key": "MSI 750W MAG Gold ATX Modular PSU",
-      "category": "PSU",
-      "subcategory": "750W",
-      "best_price": 84.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/683067/msi-mag-a750bn-pcie5-iii-750w-bronze-pcie-51-atx-31-psu",
-      "best_title": "MSI MAG A750BN PCIE5 III - 750W Bronze PCIe 5.1 ATX 3.1 PSU",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 84.0,
-          "url": "https://www.ple.com.au/products/683067/msi-mag-a750bn-pcie5-iii-750w-bronze-pcie-51-atx-31-psu",
-          "title": "MSI MAG A750BN PCIE5 III - 750W Bronze PCIe 5.1 ATX 3.1 PSU",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        }
-      ]
-    },
-    {
       "part_key": "Corsair RM850e 850W Gold ATX Modular PSU",
       "category": "PSU",
       "subcategory": "850W",
@@ -1728,23 +1696,14 @@
       "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
       "category": "PSU",
       "subcategory": "850W",
-      "best_price": 125.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
-      "best_title": "SilverStone Triton Rx 850W Gold ATX PSU",
-      "best_stock_status": "unknown",
+      "best_price": 128.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
+      "best_title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg",
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-BK-1.jpg",
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 125.0,
-          "url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
-          "title": "SilverStone Triton Rx 850W Gold ATX PSU",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
-        },
         {
           "retailer": "MSY",
           "price": 128.0,
@@ -1753,6 +1712,15 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-BK-1.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 269.0,
+          "url": "https://www.ple.com.au/products/668777/seasonic-focus-v4-gx-850w-gold-pcie-51-atx-31-modular-psu",
+          "title": "Seasonic FOCUS V4 GX 850W Gold PCIe 5.1 ATX 3.1 Modular PSU",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
         }
       ]
     },
@@ -2411,7 +2379,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 5600X 6 Core 12 Thread Up To 4.6Ghz AM4 - With Wraith Stealth Cooler",
-      "price": 244.0,
+      "price": 279.0,
       "url": "https://www.ple.com.au/products/643561/amd-ryzen-5-5600x-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
       "status": "OK",
       "stock_status": "unknown",
@@ -2765,7 +2733,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
-      "price": 609.0,
+      "price": 699.0,
       "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "unknown",
@@ -2803,7 +2771,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
-      "price": 709.0,
+      "price": 784.0,
       "url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "unknown",
@@ -2942,7 +2910,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 9 9950X3D 16 Core 32 Thread Up To 5.7GHz AM5 - No HSF Retail Box",
-      "price": 1039.0,
+      "price": 1159.0,
       "url": "https://www.ple.com.au/products/673964/amd-ryzen-9-9950x3d-16-core-32-thread-up-to-57ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "unknown",
@@ -5157,13 +5125,12 @@
       "category": "Motherboard",
       "subcategory": "LGA1700",
       "retailer": "PLE Computers",
-      "title": "MSI PRO B760M-A WIFI DDR4 LGA1700 mATX Desktop Motherboard",
-      "price": 199.0,
-      "url": "https://www.ple.com.au/products/657179/msi-pro-b760m-a-wifi-ddr4-lga1700-matx-desktop-motherboard",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Gigabyte B860M Eagle WiFi6",
@@ -5674,9 +5641,9 @@
       "category": "PSU",
       "subcategory": "850W",
       "retailer": "PLE Computers",
-      "title": "SilverStone Triton Rx 850W Gold ATX PSU",
-      "price": 125.0,
-      "url": "https://www.ple.com.au/products/673090/silverstone-triton-rx-850w-gold-atx-psu",
+      "title": "Seasonic FOCUS V4 GX 850W Gold PCIe 5.1 ATX 3.1 Modular PSU",
+      "price": 269.0,
+      "url": "https://www.ple.com.au/products/668777/seasonic-focus-v4-gx-850w-gold-pcie-51-atx-31-modular-psu",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -5748,13 +5715,12 @@
       "category": "PSU",
       "subcategory": "750W",
       "retailer": "PLE Computers",
-      "title": "MSI MAG A750BN PCIE5 III - 750W Bronze PCIe 5.1 ATX 3.1 PSU",
-      "price": 84.0,
-      "url": "https://www.ple.com.au/products/683067/msi-mag-a750bn-pcie5-iii-750w-bronze-pcie-51-atx-31-psu",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1005156-caret-down.svg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Gigabyte P650SS 650W Silver ATX PSU",
@@ -5969,9 +5935,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
-      "price": 399.0,
-      "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
+      "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
+      "price": 289.0,
+      "url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
