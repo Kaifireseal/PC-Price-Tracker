@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T23:45:30.590247+00:00",
+  "generated_at": "2026-10-20T23:23:47.256441+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -740,6 +740,29 @@
       ]
     },
     {
+      "part_key": "Intel Core i9-14900K",
+      "category": "CPU",
+      "subcategory": "LGA1700",
+      "best_price": 739.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
+      "best_title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 73064,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202310/thumb_img/Intel-CPU-Intel-Core-i9-14900K-24-Core-LGA-1700-CPU-Processor-2.jpg",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 739.0,
+          "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
+          "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
+          "stock_status": "in_stock",
+          "stock_qty": 73064,
+          "image_url": "https://assets.msy.com.au/newsite/images/202310/thumb_img/Intel-CPU-Intel-Core-i9-14900K-24-Core-LGA-1700-CPU-Processor-2.jpg"
+        }
+      ]
+    },
+    {
       "part_key": "Intel Core Ultra 5 245K",
       "category": "CPU",
       "subcategory": "LGA1851",
@@ -807,19 +830,19 @@
       "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 399.0,
+      "best_price": 289.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
-      "best_title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
+      "best_url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
+      "best_title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 399.0,
-          "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
-          "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
+          "price": 289.0,
+          "url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
+          "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
@@ -959,9 +982,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 589.0,
-          "url": "https://www.ple.com.au/products/647132/asus-geforce-rtx-3060-dual-oc-lhr-12gb-gddr6",
-          "title": "ASUS GeForce RTX 3060 Dual OC LHR 12GB GDDR6",
+          "price": 749.0,
+          "url": "https://www.ple.com.au/products/645328/msi-geforce-rtx-3060-12gb-gddr6-ventus-2x-oc",
+          "title": "MSI GeForce RTX 3060 12GB GDDR6 VENTUS 2X OC",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
@@ -1122,29 +1145,6 @@
           "price": 3349.0,
           "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
           "title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
-        }
-      ]
-    },
-    {
-      "part_key": "NVIDIA RTX 5090",
-      "category": "GPU",
-      "subcategory": "RTX 50-series",
-      "best_price": 12999.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/679013/asus-geforce-rtx-5090-rog-astral-oc-32gb-gddr7-white",
-      "best_title": "ASUS GeForce RTX 5090 ROG Astral OC 32GB GDDR7 (White)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 12999.0,
-          "url": "https://www.ple.com.au/products/679013/asus-geforce-rtx-5090-rog-astral-oc-32gb-gddr7-white",
-          "title": "ASUS GeForce RTX 5090 ROG Astral OC 32GB GDDR7 (White)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
@@ -1343,14 +1343,23 @@
       "part_key": "Gigabyte B550M K",
       "category": "Motherboard",
       "subcategory": "AM4",
-      "best_price": 109.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-b550m-k-matx-am4-motherboard-ga-b550m-k-69093",
-      "best_title": "Gigabyte B550M K mATX AM4 Motherboard (GA-B550M-K)",
+      "best_price": 99.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/683443/gigabyte-b550m-h-argb-am4-matx-desktop-motherboard",
+      "best_title": "Gigabyte B550M H ARGB AM4 mATX Desktop Motherboard",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 69093,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202303/thumb_img/AMD-AM4-Gigabyte-B550M-K-mATX-AM4-Motherboard-4.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 99.0,
+          "url": "https://www.ple.com.au/products/683443/gigabyte-b550m-h-argb-am4-matx-desktop-motherboard",
+          "title": "Gigabyte B550M H ARGB AM4 mATX Desktop Motherboard",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
+        },
         {
           "retailer": "MSY",
           "price": 109.0,
@@ -1359,15 +1368,6 @@
           "stock_status": "in_stock",
           "stock_qty": 69093,
           "image_url": "https://assets.msy.com.au/newsite/images/202303/thumb_img/AMD-AM4-Gigabyte-B550M-K-mATX-AM4-Motherboard-4.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 119.0,
-          "url": "https://www.ple.com.au/products/683443/gigabyte-b550m-h-argb-am4-matx-desktop-motherboard",
-          "title": "Gigabyte B550M H ARGB AM4 mATX Desktop Motherboard",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
         }
       ]
     },
@@ -1380,7 +1380,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 79275,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg",
       "offers": [
         {
@@ -1389,7 +1389,7 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": 79275,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
         }
       ]
@@ -1422,30 +1422,30 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "best_price": 299.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
-      "best_title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/672077/msi-b850-gaming-plus-wifi-am5-atx-desktop-motherboard",
+      "best_title": "MSI B850 Gaming Plus WiFi AM5 ATX Desktop Motherboard",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg",
+      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
         {
-          "retailer": "MSY",
-          "price": 299.0,
-          "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
-          "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
-        },
-        {
           "retailer": "PLE Computers",
-          "price": 369.0,
-          "url": "https://www.ple.com.au/products/679545/msi-b850-gaming-plus-wifi-pz-am5-atx-desktop-motherboard",
-          "title": "MSI B850 Gaming Plus WiFi PZ AM5 ATX Desktop Motherboard",
+          "price": 299.0,
+          "url": "https://www.ple.com.au/products/672077/msi-b850-gaming-plus-wifi-am5-atx-desktop-motherboard",
+          "title": "MSI B850 Gaming Plus WiFi AM5 ATX Desktop Motherboard",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
+        },
+        {
+          "retailer": "MSY",
+          "price": 329.0,
+          "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
+          "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
+          "stock_status": "in_stock",
+          "stock_qty": 82893,
+          "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
         }
       ]
     },
@@ -1458,7 +1458,7 @@
       "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 65571,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg",
       "offers": [
         {
@@ -1467,7 +1467,7 @@
           "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
           "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 65571,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg"
         }
       ]
@@ -1522,7 +1522,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 81989,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
         }
       ]
@@ -2081,7 +2081,7 @@
       "part_key": "Kingston NV3 1TB NVMe SSD",
       "category": "SSD",
       "subcategory": "1TB",
-      "best_price": 229.0,
+      "best_price": 225.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
       "best_title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
@@ -2091,7 +2091,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 229.0,
+          "price": 225.0,
           "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
           "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
           "stock_status": "in_stock",
@@ -3153,13 +3153,13 @@
       "category": "CPU",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "ERROR",
-      "error": "MSY failed after 3 attempts: HTTPSConnectionPool(host='www.msy.com.au', port=443): Read timed out. (read timeout=15)",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Intel Core i9 14900K 24 Core LGA 1700 CPU Processor (BX8071514900K)",
+      "price": 739.0,
+      "url": "https://www.msy.com.au/product/intel-core-i9-14900k-24-core-lga-1700-cpu-processor-bx8071514900k-73064",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 73064,
+      "image_url": "https://assets.msy.com.au/newsite/images/202310/thumb_img/Intel-CPU-Intel-Core-i9-14900K-24-Core-LGA-1700-CPU-Processor-2.jpg"
     },
     {
       "part_key": "Intel Core i9-14900K",
@@ -3303,9 +3303,9 @@
       "category": "GPU",
       "subcategory": "RTX 30-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 3060 Dual OC LHR 12GB GDDR6",
-      "price": 589.0,
-      "url": "https://www.ple.com.au/products/647132/asus-geforce-rtx-3060-dual-oc-lhr-12gb-gddr6",
+      "title": "MSI GeForce RTX 3060 12GB GDDR6 VENTUS 2X OC",
+      "price": 749.0,
+      "url": "https://www.ple.com.au/products/645328/msi-geforce-rtx-3060-12gb-gddr6-ventus-2x-oc",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
@@ -3590,13 +3590,12 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "ASUS GeForce RTX 5090 ROG Astral OC 32GB GDDR7 (White)",
-      "price": 12999.0,
-      "url": "https://www.ple.com.au/products/679013/asus-geforce-rtx-5090-rog-astral-oc-32gb-gddr7-white",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Radeon RX 7600",
@@ -4652,7 +4651,7 @@
       "subcategory": "1TB",
       "retailer": "MSY",
       "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
-      "price": 229.0,
+      "price": 225.0,
       "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4889,7 +4888,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "Gigabyte B550M H ARGB AM4 mATX Desktop Motherboard",
-      "price": 119.0,
+      "price": 99.0,
       "url": "https://www.ple.com.au/products/683443/gigabyte-b550m-h-argb-am4-matx-desktop-motherboard",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4954,7 +4953,7 @@
       "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 65571,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg"
     },
     {
@@ -5024,11 +5023,11 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
-      "price": 299.0,
+      "price": 329.0,
       "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 82893,
       "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
     },
     {
@@ -5036,9 +5035,9 @@
       "category": "Motherboard",
       "subcategory": "AM5",
       "retailer": "PLE Computers",
-      "title": "MSI B850 Gaming Plus WiFi PZ AM5 ATX Desktop Motherboard",
-      "price": 369.0,
-      "url": "https://www.ple.com.au/products/679545/msi-b850-gaming-plus-wifi-pz-am5-atx-desktop-motherboard",
+      "title": "MSI B850 Gaming Plus WiFi AM5 ATX Desktop Motherboard",
+      "price": 299.0,
+      "url": "https://www.ple.com.au/products/672077/msi-b850-gaming-plus-wifi-am5-atx-desktop-motherboard",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
@@ -5066,7 +5065,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 79275,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
     },
     {
@@ -5250,7 +5249,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81989,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
     },
     {
@@ -5994,9 +5993,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
-      "price": 399.0,
-      "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
+      "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
+      "price": 289.0,
+      "url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
@@ -6060,7 +6059,8 @@
       "title": null,
       "price": null,
       "url": null,
-      "status": "NO_MATCH",
+      "status": "ERROR",
+      "error": "MSY failed after 3 attempts: HTTPSConnectionPool(host='www.msy.com.au', port=443): Read timed out. (read timeout=15)",
       "stock_status": null,
       "stock_qty": null
     },
@@ -6096,7 +6096,8 @@
       "title": null,
       "price": null,
       "url": null,
-      "status": "NO_MATCH",
+      "status": "ERROR",
+      "error": "MSY failed after 3 attempts: HTTPSConnectionPool(host='www.msy.com.au', port=443): Read timed out. (read timeout=15)",
       "stock_status": null,
       "stock_qty": null
     },
