@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:16:04.885272+00:00",
+  "generated_at": "2026-10-24T22:36:41.484813+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -830,19 +830,19 @@
       "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 289.0,
+      "best_price": 399.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
-      "best_title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
+      "best_url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
+      "best_title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 289.0,
-          "url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
-          "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
+          "price": 399.0,
+          "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
+          "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
@@ -895,9 +895,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 209.0,
-          "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
-          "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
+          "price": 169.0,
+          "url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
+          "title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
@@ -924,6 +924,29 @@
           "stock_status": "in_stock",
           "stock_qty": 91592,
           "image_url": "https://assets.msy.com.au/newsite/images/202512/thumb_img/Okinos-Cases-Okinos-Air-Cross-TG-Mid-Tower-ATX-Case-AIR-CROSS-8.jpg"
+        }
+      ]
+    },
+    {
+      "part_key": "Corsair 3200D RS Mid Tower ATX Case",
+      "category": "Case",
+      "subcategory": "Mid Tower",
+      "best_price": 149.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/684731/corsair-3200d-rs-argb-mid-tower-case-white",
+      "best_title": "Corsair 3200D RS ARGB Mid Tower Case (White)",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max",
+      "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 149.0,
+          "url": "https://www.ple.com.au/products/684731/corsair-3200d-rs-argb-mid-tower-case-white",
+          "title": "Corsair 3200D RS ARGB Mid Tower Case (White)",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
         }
       ]
     },
@@ -5909,12 +5932,13 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Corsair 3200D RS ARGB Mid Tower Case (White)",
+      "price": 149.0,
+      "url": "https://www.ple.com.au/products/684731/corsair-3200d-rs-argb-mid-tower-case-white",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
     },
     {
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
@@ -6020,9 +6044,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
-      "price": 289.0,
-      "url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
+      "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
+      "price": 399.0,
+      "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
@@ -6058,9 +6082,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
-      "price": 209.0,
-      "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
+      "title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
+      "price": 169.0,
+      "url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
