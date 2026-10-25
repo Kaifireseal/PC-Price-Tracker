@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T22:36:41.484813+00:00",
+  "generated_at": "2026-10-25T22:42:09.146676+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -895,9 +895,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 169.0,
-          "url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
-          "title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
+          "price": 209.0,
+          "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
+          "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
@@ -1646,7 +1646,7 @@
       "part_key": "MSI MAG A650BN 650W Bronze ATX PSU",
       "category": "PSU",
       "subcategory": "650W",
-      "best_price": 59.0,
+      "best_price": 65.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-650w-mag-a650bn-80-bronze-atx-power-supply-mag-a650bn-61593",
       "best_title": "MSI 650W MAG A650BN 80+ Bronze ATX Power Supply (MAG A650BN)",
@@ -1656,7 +1656,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 59.0,
+          "price": 65.0,
           "url": "https://www.msy.com.au/product/msi-650w-mag-a650bn-80-bronze-atx-power-supply-mag-a650bn-61593",
           "title": "MSI 650W MAG A650BN 80+ Bronze ATX Power Supply (MAG A650BN)",
           "stock_status": "in_stock",
@@ -5661,7 +5661,7 @@
       "subcategory": "650W",
       "retailer": "MSY",
       "title": "MSI 650W MAG A650BN 80+ Bronze ATX Power Supply (MAG A650BN)",
-      "price": 59.0,
+      "price": 65.0,
       "url": "https://www.msy.com.au/product/msi-650w-mag-a650bn-80-bronze-atx-power-supply-mag-a650bn-61593",
       "status": "OK",
       "stock_status": "in_stock",
@@ -6082,9 +6082,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11D Mini V2 Flow 45L Compact - Mid Tower Case (Black)",
-      "price": 169.0,
-      "url": "https://www.ple.com.au/products/676177/lian-li-o11d-mini-v2-flow-45l-compact-mid-tower-case-black",
+      "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
+      "price": 209.0,
+      "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
