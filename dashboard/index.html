@@ -13,7 +13,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
     --bg: #12151c;
@@ -555,6 +555,14 @@
     font-size: 1.8rem;
     filter: grayscale(1) opacity(0.5);
   }
+
+:root{--bg:#0e1116;--bg-rgb:14,17,22;--panel:#161b22;--panel-border:#282f39;--copper:#72e5b5;--copper-bright:#8eebc5;--teal:#83e8bb;--text-main:#edf0f4;--text-dim:#89929f}
+body{background:var(--bg);font-family:'Space Grotesk',sans-serif}header{background:var(--bg)!important}header>div{max-width:none!important;padding:22px 36px!important}header .trace{display:none}.chip-badge{background:#83e8bb;border:0;border-radius:10px!important}.chip-badge img{display:none}.chip-badge:before{content:'↗';position:static;background:none;color:#10221a;font-size:28px;height:auto}.chip-badge:after{display:none}.au-tag{font-size:10px;vertical-align:middle;margin-left:9px;border:1px solid var(--panel-border);border-radius:4px;padding:2px 5px;color:var(--text-dim)}#lastUpdated{font-family:inherit;font-size:10px;margin-top:3px}.theme-toggle-btn{border-radius:8px}.screen-panel{padding-bottom:40px}#homeScreen,#buildScreen,#compareScreen{padding:30px 36px 60px!important}.page-intro{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}.eyebrow{font-size:10px;letter-spacing:1.8px;font-weight:600;color:var(--teal)}.page-intro h2{font-size:25px;font-weight:600;letter-spacing:-.7px;margin:8px 0}.page-intro p,.section-heading p{font-size:12px;color:var(--text-dim)}.live-pill{font-size:11px;padding:8px 12px;border:1px solid var(--panel-border);border-radius:30px;color:var(--text-dim);white-space:nowrap}.live-pill i{display:inline-block;width:6px;height:6px;background:var(--teal);border-radius:50%;margin-right:6px}.discovery-hero{display:flex;position:relative;overflow:hidden;background:radial-gradient(ellipse at 85% 65%,#254a3a70,transparent 60%),#171e23;border:1px solid #304139;border-radius:16px;min-height:316px;margin-bottom:30px}.hero-copy{padding:32px;z-index:1;width:68%}.hero-copy h2{font-size:42px;line-height:1.12;letter-spacing:-1.6px;font-weight:600;margin:14px 0}.hero-copy em{font-style:normal;color:var(--teal)}.hero-copy p{font-size:12px;line-height:1.8;color:#a5aeb5}#heroSearch{display:flex;align-items:center;background:#0e1519;border:1px solid #3b4845;border-radius:8px;padding:6px;margin-top:21px;max-width:470px;gap:10px}#heroSearch>span{font-size:24px;margin-left:6px;color:#86968e}#heroQuery{background:transparent;min-width:0;flex:1;font-size:12px;outline:none}#heroSearch button{background:var(--teal);color:#11251b;border-radius:5px;padding:10px 14px;font-size:11px;font-weight:700;white-space:nowrap}.hero-foot{display:flex;align-items:center;gap:15px;font-size:8px;color:#82928b;margin-top:17px;letter-spacing:.7px}.hero-foot span{font-size:10px;font-weight:600;letter-spacing:0;color:#bac5c0}.hero-foot span:last-child{font-weight:400;color:#82928b}.chip-art{position:absolute;right:0;top:0;width:36%;height:100%;display:flex;align-items:center;justify-content:center;background-image:linear-gradient(#76d7a908 1px,transparent 1px),linear-gradient(90deg,#76d7a908 1px,transparent 1px);background-size:28px 28px;transform:rotate(-12deg)}.processor{width:167px;height:167px;background:linear-gradient(135deg,#344c43,#111e19);border:5px solid #546c60;box-shadow:0 0 0 8px #1b2b24,0 0 0 10px #436451,15px 24px 40px #0008,inset 0 0 25px #8ce7b51a;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center}.processor>span,.processor small{font-size:8px;color:#97b4a4;letter-spacing:1px}.processor strong{font-size:74px;line-height:1.4;color:#b5f3cd;letter-spacing:-10px}.processor strong span{font-size:48px}.orbit{position:absolute;border:1px solid #60887438;width:260px;height:260px;border-radius:30px;transform:rotate(30deg)}.orbit.two{width:320px;height:320px}.float-label{position:absolute;bottom:32px;font-size:10px;padding:8px 12px;background:#1b2c24;border:1px solid #496d55;border-radius:6px;color:#bcdfc8;transform:rotate(12deg)}.section-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:17px}.section-heading h2{font-size:18px;font-weight:600;margin-bottom:4px}.section-heading button{font-size:11px;color:var(--teal)}#homeCategories{display:grid;grid-template-columns:repeat(8,1fr);gap:10px;margin-bottom:24px}.home-cat{background:var(--panel);border:1px solid var(--panel-border);padding:18px 4px;border-radius:10px;text-align:center;transition:.2s}.home-cat:hover{border-color:var(--teal);transform:translateY(-3px)}.home-cat b{display:block;color:#b6c5c1;font-size:25px;margin-bottom:9px;font-weight:400}.home-cat span{font-size:11px}.home-cat small{display:block;color:var(--text-dim);font-size:9px;margin-top:5px}.market-stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--panel-border);border-radius:10px;margin-bottom:30px;padding:18px 0}.market-stats>div{display:flex;align-items:center;gap:13px;padding:0 20px;border-right:1px solid var(--panel-border)}.market-stats>div:last-child{border:0}.stat-icon{color:var(--teal);font-size:24px}.market-stats strong{display:block;font-size:14px;font-weight:500}.market-stats small{display:block;font-size:10px;color:var(--text-dim);margin-top:3px}#homeScreen>div>h2{font-size:18px}#highlightsContent{gap:18px}.highlight-quadrant{border-radius:12px;padding:20px;background:var(--panel)}.highlight-section h4{font-size:14px;padding-bottom:10px}.highlight-row{padding:13px 0;font-size:12px}.highlight-buy{border-radius:6px;padding:5px 8px;font-size:9px}.highlight-rank{color:#586577}.mono{font-family:inherit}.card{border-radius:14px!important;padding:22px!important}.card:hover{border-color:var(--teal);transform:translateY(-2px)}button:focus-visible,a:focus-visible{outline:2px solid var(--teal);outline-offset:4px}.trace{background:var(--panel-border)}.tab-btn.active{background:#83e8bb13;color:var(--teal)}
+@media(min-width:1050px){body{padding-left:210px!important}#bottomNav{left:0;top:0;bottom:0;right:auto;width:210px;border-top:0;border-right:1px solid var(--panel-border);padding:115px 16px 20px;background:#11151b}.bottom-nav-inner{display:flex;flex-direction:column;align-items:stretch;gap:8px}.tab-btn{flex:none;flex-direction:row;gap:13px;border-radius:7px;padding:13px 16px}.tab-btn .tab-label{font-size:12px}.tab-btn .tab-icon{font-size:20px}#bottomNav:before{content:'WORKSPACE';position:absolute;top:83px;left:32px;font-size:9px;letter-spacing:1.7px;color:var(--text-dim)}#bottomNav:after{content:'Made for better builds.
+Australian prices. Real savings.';white-space:pre-line;position:absolute;bottom:30px;left:28px;font-size:10px;line-height:1.9;color:var(--text-dim)}header{position:relative!important}header>div{height:82px}#logoHomeBtn{position:fixed;left:24px;top:24px;z-index:50}#logoHomeBtn h1{font-size:21px}#lastUpdated{position:fixed;left:246px;top:34px;font-size:11px}#themeToggleBtn{margin-left:auto}#screensViewport{max-width:1440px;margin:auto}}
+@media(max-width:760px){#homeScreen,#buildScreen,#compareScreen{padding:22px 18px 40px!important}header>div{padding:16px 18px!important}.page-intro h2{font-size:21px}.live-pill{display:none}.hero-copy{padding:25px;width:100%}.hero-copy h2{font-size:35px}.chip-art{opacity:.17;width:55%;right:-40px;pointer-events:none}.hero-copy p{color:#b7c6be}.hero-foot{gap:9px;flex-wrap:wrap}#homeCategories{grid-template-columns:repeat(4,1fr)}.market-stats{grid-template-columns:repeat(2,1fr);gap:20px}.market-stats>div:nth-child(2){border:0}.market-stats>div{padding:0 12px}.page-intro .eyebrow{font-size:8px}#heroSearch button{padding:10px}.section-heading button{font-size:10px}.section-heading p{font-size:10px}}
+:root.light{--bg:#f3f6f5;--bg-rgb:243,246,245;--panel:#fff;--panel-border:#dce4e0;--text-main:#172c24;--text-dim:#667b72;--teal:#20835d;--copper:#20835d;--copper-bright:#20835d}:root.light .discovery-hero{--teal:#83e8bb;color:#edf0f4}:root.light #heroQuery{color:white}:root.light #bottomNav{background:var(--panel)}
+
 </style>
 </head>
 <body class="pb-28">
@@ -566,7 +574,7 @@
           <img src="icons/logo-header.png" alt="PC Part Price Tracker logo" class="w-7 h-7 object-contain" />
         </div>
         <div>
-          <h1 class="text-lg font-semibold leading-tight">PC Part Price Tracker</h1>
+          <h1 class="text-lg font-semibold leading-tight">part<span style="color:var(--teal)">scope</span><span class="au-tag">AU</span></h1>
           <p class="text-xs text-[var(--text-dim)] mono" id="lastUpdated">Loading last update time…</p>
         </div>
       </div>
@@ -579,6 +587,11 @@
   <div id="screensWrapper">
 
   <div id="homeScreen" class="screen-panel">
+    <div class="page-intro"><div><div class="eyebrow">YOUR NEXT BUILD STARTS HERE</div><h2>The parts. The prices. The possibilities.</h2><p>A clearer view of the Australian PC parts market.</p></div><span class="live-pill"><i></i> Daily price tracking</span></div>
+    <section class="discovery-hero"><div class="hero-copy"><span class="eyebrow">LESS SEARCHING. MORE BUILDING.</span><h2>Great builds start<br>with <em>better prices.</em></h2><p>Compare local retailers. Find your next upgrade.<br>Keep your dream build on budget.</p><form id="heroSearch"><span>⌕</span><input id="heroQuery" aria-label="Search PC parts" placeholder="Search a part, brand or model…"><button>Find parts ↗</button></form><div class="hero-foot">AUSTRALIAN RETAILERS <span>MSY</span><span>PLE Computers</span><span>Prices in AUD</span></div></div><div class="chip-art" aria-hidden="true"><div class="orbit one"></div><div class="orbit two"></div><div class="processor"><span>BUILD SMARTER</span><strong>p<span>↗</span></strong><small>PAY LESS. PLAY MORE.</small></div><span class="float-label">↓ Your next upgrade, for less</span></div></section>
+    <div class="section-heading"><div><h2>Explore by category</h2><p>Every component. One place to compare.</p></div><button onclick="showParts()">Browse all parts ↗</button></div><div id="homeCategories"></div>
+    <div class="market-stats"><div><span class="stat-icon">▦</span><span><strong id="partCount">—</strong><small>Parts tracked</small></span></div><div><span class="stat-icon">⇄</span><span><strong id="offerCount">—</strong><small>Retailer offers</small></span></div><div><span class="stat-icon">◷</span><span><strong>Every 24 hours</strong><small>Fresh price checks</small></span></div><div><span class="stat-icon">◎</span><span><strong>100% free</strong><small>Built for PC enthusiasts</small></span></div></div>
+
     <div id="recentlyViewedWrap" class="hidden mb-6">
       <div class="flex items-center justify-between gap-3 mb-3 mt-2">
         <h2 class="text-lg font-bold leading-tight">🕒 Recently Viewed</h2>
@@ -588,14 +601,14 @@
     </div>
 
     <div class="flex items-center justify-between gap-3 mb-3 mt-2">
-      <h2 class="text-2xl font-bold leading-tight">⭐ Watchlist</h2>
-      <p class="text-xs text-[var(--text-dim)] mono">parts you've starred</p>
+      <h2 class="text-2xl font-bold leading-tight">Your watchlist</h2>
+      <p class="text-xs text-[var(--text-dim)] mono">Your saved upgrades, at a glance</p>
     </div>
     <div id="watchlistContent" class="highlight-quadrant mb-6"></div>
 
     <div class="flex items-center justify-between gap-3 mb-3">
-      <h2 class="text-2xl font-bold leading-tight">🏆 Highlights</h2>
-      <p class="text-xs text-[var(--text-dim)] mono">updated with today's data</p>
+      <h2 class="text-2xl font-bold leading-tight">Market highlights</h2>
+      <p class="text-xs text-[var(--text-dim)] mono">The standouts in your next build</p>
     </div>
     <div id="highlightsContent" class="grid grid-cols-1 md:grid-cols-2 gap-4 items-start"></div>
   </div>
@@ -675,10 +688,10 @@
 
   <nav id="bottomNav">
     <div class="bottom-nav-inner">
-      <button id="tabHomeBtn" class="tab-btn"><span class="tab-icon">🏠</span><span class="tab-label">Home</span></button>
-      <button id="tabBuildBtn" class="tab-btn"><span class="tab-icon">🛠️</span><span class="tab-label">Build</span></button>
-      <button id="tabCompareBtn" class="tab-btn"><span class="tab-icon">⚖️</span><span class="tab-label">Compare</span></button>
-      <button id="tabPartsBtn" class="tab-btn"><span class="tab-icon">🖥️</span><span class="tab-label">PC Parts</span></button>
+      <button id="tabHomeBtn" class="tab-btn"><span class="tab-icon">▦</span><span class="tab-label">Overview</span></button>
+      <button id="tabBuildBtn" class="tab-btn"><span class="tab-icon">⊞</span><span class="tab-label">Build</span></button>
+      <button id="tabCompareBtn" class="tab-btn"><span class="tab-icon">⇄</span><span class="tab-label">Compare</span></button>
+      <button id="tabPartsBtn" class="tab-btn"><span class="tab-icon">▣</span><span class="tab-label">PC Parts</span></button>
     </div>
   </nav>
 
@@ -1725,11 +1738,17 @@ async function init(){
     sortSelect.addEventListener('change', () => { activeSortMode = sortSelect.value; renderAll(); });
     renderAll();
     renderCategoryPicker();
+    const catGlyphs=['▦','▣','▤','▰','⌘','▱','▥','▯'];
+    document.getElementById('homeCategories').innerHTML=categoryOrder.slice(1).map((cat,i)=>`<button class="home-cat" data-category="${cat}"><b>${catGlyphs[i]}</b><span>${cat}</span><small>${ALL_PARTS.filter(p=>p.category===cat).length} parts</small></button>`).join('');
+    document.querySelectorAll('.home-cat').forEach(btn=>btn.addEventListener('click',()=>{showParts();activeCategory=btn.dataset.category;showPartsResults();}));
+    document.getElementById('partCount').textContent=ALL_PARTS.length.toLocaleString();
+    document.getElementById('offerCount').textContent=ALL_PARTS.reduce((n,p)=>n+(p.offers||[]).length,0).toLocaleString();
     showHome();
   } catch (err){
     document.getElementById('loadingState').textContent = 'Could not load prices.json — has the scraper run yet? (' + err.message + ')';
   }
 }
+document.getElementById('heroSearch').addEventListener('submit',e=>{e.preventDefault();showParts();document.getElementById('searchInput').value=document.getElementById('heroQuery').value;showPartsResults();});
 init();
 if ('serviceWorker' in navigator){
   window.addEventListener('load', () => {
