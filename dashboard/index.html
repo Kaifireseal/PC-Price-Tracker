@@ -570,6 +570,12 @@ body{background:var(--bg);font-family:'Space Grotesk',sans-serif}header{backgrou
 @media(max-width:1200px){.build-workspace{grid-template-columns:minmax(0,1fr) 260px;gap:16px}.build-slot-row{padding:14px;gap:10px}.slot-icon{width:38px;height:42px}.choose-part{padding:9px}.component-heading span:last-child{display:none}.category-tile{padding:18px}}
 @media(max-width:760px){#buildScreen>div:first-child{flex-direction:column;gap:2px}#buildScreen>div:first-child h2{font-size:26px}#buildScreen>div:first-child p{padding:0}.build-workspace{display:flex;flex-direction:column-reverse}#buildSummary{position:static;width:100%;padding:19px}.summary-top h3{font-size:20px}.summary-top .eyebrow,.summary-note,.compat-note{display:none}.summary-top p{font-size:10px}.build-progress{margin:12px 0}.summary-cost strong{font-size:30px}.summary-browse{margin-top:15px;padding:10px}.build-workspace>div{width:100%}.build-slot-row{min-height:94px}.slot-price{font-size:12px}.slot-info strong{font-size:11px}.build-slot-empty{font-size:10px}.choose-part{font-size:9px;padding:9px 7px}#partsPicker{padding:28px 18px 45px}.parts-intro h2{font-size:30px}.parts-intro p{font-size:11px;line-height:1.8}.parts-intro .eyebrow{font-size:9px}#categoryPicker{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.category-tile{min-height:175px;padding:18px}.cat-description{font-size:9px}.results-intro{padding:25px 18px 0}.results-intro h2{font-size:28px}#partsResults>.max-w-6xl{padding-left:18px;padding-right:18px}#partsResults>main{padding:20px 18px}.product-card .card-thumb{width:66px;height:66px}.product-card h3{font-size:16px}.product-card{padding:19px!important}}
 
+
+/* Personal collections and market panels */
+#recentlyViewedWrap{margin:32px 0!important}#recentlyViewedWrap h2{font-size:19px;letter-spacing:-.4px}#clearRecentBtn{font-size:10px;border:1px solid var(--panel-border);padding:7px 11px;border-radius:6px}#recentlyViewedContent{gap:14px;scroll-snap-type:x mandatory;padding-bottom:10px}.recent-item{width:260px;min-width:260px;background:var(--panel);border:1px solid var(--panel-border);padding:17px;border-radius:12px;text-align:left;scroll-snap-align:start;transition:.2s;cursor:pointer}.recent-item:hover{border-color:var(--teal);transform:translateY(-2px)}.recent-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.mini-category{font-size:9px;letter-spacing:1.1px;color:var(--teal);background:#83e8bb0b;border:1px solid #83e8bb24;padding:4px 7px;border-radius:4px}.recent-arrow{color:var(--text-dim);font-size:16px}.recent-product{display:flex;gap:12px;align-items:center}.recent-title{font-size:12px;line-height:1.6;font-weight:500;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:38px}.recent-retailer{font-size:9px;color:var(--text-dim)}.recent-thumb,.watch-thumb{width:48px;height:48px;flex-shrink:0;border-radius:8px;background:white;overflow:hidden;display:flex;align-items:center;justify-content:center}.recent-thumb img,.watch-thumb img{width:100%;height:100%;object-fit:contain;padding:5px}.recent-thumb.thumb-fallback,.watch-thumb.thumb-fallback{background:var(--bg);border:1px solid var(--panel-border)}.recent-thumb.thumb-fallback:after,.watch-thumb.thumb-fallback:after{content:'▦';color:var(--text-dim);font-size:25px}.recent-bottom{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--panel-border);margin-top:17px;padding-top:12px}.recent-price{font-size:19px;color:var(--teal);font-weight:600;font-family:inherit}.recent-bottom>span{font-size:9px;color:var(--text-dim)}.recent-empty{width:100%;display:flex;align-items:center;gap:18px;border:1px dashed var(--panel-border);border-radius:11px;padding:20px;color:var(--text-dim)}.recent-empty>span{font-size:29px;color:var(--teal)}.recent-empty strong{font-size:12px;font-weight:500;color:var(--text-main)}.recent-empty p{font-size:10px;margin-top:4px}.recent-empty button{margin-left:auto;font-size:11px;color:var(--teal)}#watchlistContent{margin-bottom:34px}.watchlist-welcome{padding:29px;display:flex;align-items:center;gap:24px;border:1px solid var(--panel-border);border-radius:14px;background:radial-gradient(ellipse at 0% 100%,#83e8bb0c,transparent 75%),var(--panel)}.watch-empty-icon{width:65px;height:65px;display:flex;align-items:center;justify-content:center;border:1px solid #83e8bb38;border-radius:16px;background:#83e8bb08;color:var(--teal);font-size:40px;flex-shrink:0;transform:rotate(-8deg)}.watchlist-welcome .eyebrow{font-size:8px}.watchlist-welcome h3{font-size:23px;letter-spacing:-.7px;font-weight:500;margin:8px 0}.watchlist-welcome p{font-size:11px;line-height:1.8;color:var(--text-dim);max-width:440px}.watchlist-welcome button{margin-left:auto;background:var(--teal);color:var(--bg);font-size:11px;font-weight:600;padding:12px 16px;border-radius:8px;white-space:nowrap}.watchlist-toolbar{display:flex;justify-content:space-between;align-items:center;margin:15px 0;font-size:11px;color:var(--text-dim)}.watchlist-toolbar b{color:var(--text-main);font-weight:500}.watchlist-toolbar button{color:var(--teal)}.watch-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.watch-card{padding:19px;background:var(--panel);border:1px solid var(--panel-border);border-radius:12px;cursor:pointer;transition:.2s}.watch-card:hover{border-color:var(--teal);transform:translateY(-2px)}.watch-card:focus-visible,.highlight-row:focus-visible{outline:2px solid var(--teal);outline-offset:3px}.watch-card-top{display:flex;align-items:center;gap:8px;margin-bottom:20px}.watch-card-top .star-btn{margin-left:auto;font-size:23px}.watch-product{display:flex;align-items:center;gap:12px}.watch-product h3{font-size:13px;font-weight:500;line-height:1.6}.watch-product p{font-size:9px;line-height:1.7;margin-top:5px;color:var(--text-dim)}.watch-price-row{display:flex;align-items:flex-end;justify-content:space-between;margin:20px 0}.watch-price-row small{display:block;color:var(--text-dim);font-size:9px}.watch-price-row strong{display:block;font-size:25px;letter-spacing:-.8px;font-weight:600;color:var(--teal);margin-top:3px}.watch-card-footer{padding-top:13px;border-top:1px solid var(--panel-border);display:flex;justify-content:space-between;font-size:9px;color:var(--text-dim)}.watch-card-footer>span:last-child{color:var(--teal)}#highlightsContent{gap:18px}.highlight-section{padding:22px;overflow:hidden}.market-panel-heading{display:flex;gap:13px;align-items:center;border-bottom:1px solid var(--panel-border);padding-bottom:20px;margin-bottom:5px}.market-panel-icon{width:38px;height:38px;background:#83e8bb0a;color:var(--teal);border:1px solid #83e8bb20;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:23px;flex-shrink:0}.market-panel-heading h4{padding:0;margin:0;font-size:15px;letter-spacing:-.2px;font-weight:500}.market-panel-heading p{font-size:9px;color:var(--text-dim);margin-top:5px}.highlight-row{padding:16px 0;gap:11px;transition:background .2s}.highlight-row:hover{background:#83e8bb05}.highlight-rank{font-size:10px;width:22px;color:var(--text-dim);font-family:inherit}.highlight-rank.first-rank{color:var(--teal)}.market-product{flex:1;min-width:0}.market-product strong{font-size:11px;font-weight:500;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.market-product>span{display:block;font-size:9px;color:var(--text-dim);margin-top:5px}.market-value{flex-shrink:0}.market-value .text-xs{font-size:11px}.highlight-buy{width:27px;height:27px;display:flex;align-items:center;justify-content:center;font-size:15px;border-radius:6px;padding:0}.market-value .tier-badge{font-size:10px}#homeScreen>div:has(>h2){margin-bottom:16px!important}#homeScreen>div>h2{font-size:19px;letter-spacing:-.3px}
+@media(max-width:1100px){.watch-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.watchlist-welcome{gap:17px;padding:23px}.watch-empty-icon{width:48px;height:48px;font-size:31px}.watchlist-welcome h3{font-size:20px}.watchlist-welcome p{max-width:330px}.highlight-section{padding:18px}.market-panel-heading p{font-size:8px}.market-product strong{font-size:10px}}
+@media(max-width:760px){.watchlist-welcome{display:grid;grid-template-columns:45px 1fr;padding:20px;gap:15px}.watchlist-welcome button{grid-column:2;margin:0;justify-self:start;padding:11px 13px}.watchlist-welcome h3{font-size:20px}.watchlist-welcome p{font-size:10px}.watchlist-welcome .eyebrow{font-size:7px}.watch-empty-icon{width:43px;height:48px}.watch-grid{grid-template-columns:1fr}.watch-card{padding:18px}.watch-product h3{font-size:14px}.watch-product p{font-size:10px}.watch-price-row strong{font-size:27px}.recent-item{min-width:245px;width:245px}.recent-empty{gap:12px;padding:17px;flex-wrap:wrap}.recent-empty button{margin-left:40px;font-size:10px}.market-product strong{font-size:11px}.market-panel-heading p{font-size:9px}.highlight-section{padding:18px}#homeScreen>div:has(>h2){align-items:flex-start;gap:8px}#homeScreen>div:has(>h2)>p{max-width:130px;text-align:right;font-size:9px}#recentlyViewedWrap h2{font-size:17px}#clearRecentBtn{font-size:9px}.market-value .text-xs{font-size:10px}}
+
 </style>
 </head>
 <body class="pb-28">
@@ -601,8 +607,8 @@ body{background:var(--bg);font-family:'Space Grotesk',sans-serif}header{backgrou
 
     <div id="recentlyViewedWrap" class="hidden mb-6">
       <div class="flex items-center justify-between gap-3 mb-3 mt-2">
-        <h2 class="text-lg font-bold leading-tight">🕒 Recently Viewed</h2>
-        <button id="clearRecentBtn" class="text-xs text-[var(--text-dim)] mono hover:text-[var(--copper-bright)]">clear</button>
+        <h2 class="text-lg font-bold leading-tight">Pick up where you left off</h2>
+        <button id="clearRecentBtn" class="text-xs text-[var(--text-dim)] mono hover:text-[var(--copper-bright)]">Clear history</button>
       </div>
       <div id="recentlyViewedContent" class="flex gap-3 overflow-x-auto pb-1"></div>
     </div>
@@ -611,7 +617,7 @@ body{background:var(--bg);font-family:'Space Grotesk',sans-serif}header{backgrou
       <h2 class="text-2xl font-bold leading-tight">Your watchlist</h2>
       <p class="text-xs text-[var(--text-dim)] mono">Your saved upgrades, at a glance</p>
     </div>
-    <div id="watchlistContent" class="highlight-quadrant mb-6"></div>
+    <div id="watchlistContent" class="mb-6"></div>
 
     <div class="flex items-center justify-between gap-3 mb-3">
       <h2 class="text-2xl font-bold leading-tight">Market highlights</h2>
@@ -808,7 +814,7 @@ function productThumbHtml(part, sizeClass){
   }
   return `<div class="${sizeClass}">
       <img src="${url}" alt="" loading="lazy"
-        onerror="this.remove(); this.parentElement.classList.add('thumb-fallback');" />
+        onerror="this.parentElement.classList.add('thumb-fallback'); this.remove();" />
     </div>`;
 }
 
@@ -841,14 +847,9 @@ function renderRecentlyViewed(){
   const content = document.getElementById('recentlyViewedContent');
   const items = RECENTLY_VIEWED.map(key => ALL_PARTS.find(p => p.part_key === key)).filter(Boolean);
 
-  if (!items.length){ wrap.classList.add('hidden'); return; }
   wrap.classList.remove('hidden');
-
-  content.innerHTML = items.map(part => `
-    <div class="recent-item" data-part-key="${part.part_key}">
-      <div class="recent-title">${part.part_key}</div>
-      <div class="recent-price">${formatPrice(part.best_price)}</div>
-    </div>`).join('');
+  content.innerHTML = items.length ? items.map(part => `
+    <button class="recent-item" data-part-key="${part.part_key}"><div class="recent-top"><span class="mini-category">${part.category}</span><span class="recent-arrow">↗</span></div><div class="recent-product">${productThumbHtml(part,'recent-thumb')}<div><div class="recent-title">${part.part_key}</div><span class="recent-retailer">${part.best_retailer}</span></div></div><div class="recent-bottom"><div class="recent-price">${formatPrice(part.best_price)}</div><span>View details →</span></div></button>`).join('') : `<div class="recent-empty"><span>◷</span><div><strong>Your next upgrade is waiting.</strong><p>Open a part to keep it handy here.</p></div><button onclick="showParts()">Explore parts ↗</button></div>`;
 
   content.querySelectorAll('.recent-item').forEach(el => {
     el.addEventListener('click', () => openModal(el.dataset.partKey));
@@ -1537,12 +1538,8 @@ document.getElementById('modalOverlay').addEventListener('click', (e) => { if (e
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape'){ closeModal(); closeFilterPanel(); } });
 
 function highlightRow(rank, label, valueHtml, buyUrl){
-  return `<div class="highlight-row">
-      <span class="highlight-rank">#${rank}</span>
-      <span class="flex-1 min-w-0 text-sm truncate">${label}</span>
-      ${valueHtml}
-      <a href="${buyUrl}" target="_blank" rel="noopener" class="highlight-buy" onclick="event.stopPropagation()">Buy →</a>
-    </div>`;
+  const part=ALL_PARTS.find(p=>p.part_key===label);
+  return `<div class="highlight-row"><span class="highlight-rank ${rank===1?'first-rank':''}">${String(rank).padStart(2,'0')}</span><div class="market-product"><strong>${label}</strong><span>${part?part.best_retailer+' · '+formatPrice(part.best_price):''}</span></div><span class="market-value">${valueHtml}</span><a href="${buyUrl}" target="_blank" rel="noopener" class="highlight-buy" aria-label="Visit retailer for ${label}" onclick="event.stopPropagation()">↗</a></div>`;
 }
 function bestByCategory(category){
   return ALL_PARTS.filter(p => p.category === category && TIERS[p.part_key] && TIERS[p.part_key].tier)
@@ -1593,33 +1590,29 @@ function renderHighlights(){
   const bestValue = bestValueTopTier();
   const section = (title, rowsHtml, emptyMsg) => `
     <div class="highlight-section highlight-quadrant">
-      <h4 class="mono">${title}</h4>
+      <div class="market-panel-heading"><div class="market-panel-icon">${title.includes('CPU')?'▦':title.includes('GPU')?'▣':title.includes('Discount')?'↘':'✧'}</div><div><h4>${title}</h4><p>${title.includes('CPU')?'Performance leaders for your next build':title.includes('GPU')?'The graphics cards setting the pace':title.includes('Discount')?'Below the highest tracked price in 30 days':'S+, S and A+ tiers, sorted by price'}</p></div></div>
       <div class="flex-1 min-h-0">${rowsHtml.length ? rowsHtml.join('') : `<p class="text-xs text-[var(--text-dim)] mono py-3">${emptyMsg}</p>`}</div>
     </div>`;
   content.innerHTML =
     section('Top 5 CPUs', bestCpus.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="tier-badge ${tierClass(x.tier)}">${x.tier}</span>`, x.part.best_url)), 'no CPU tiers rated yet') +
     section('Top 5 GPUs', bestGpus.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="tier-badge ${tierClass(x.tier)}">${x.tier}</span>`, x.part.best_url)), 'no GPU tiers rated yet') +
-    section("Biggest Discounts", discounts.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="mono text-xs best-price font-semibold">-${x.pct.toFixed(0)}%</span>`, x.part.best_url)), 'no price drops recorded since yesterday') +
-    section('Best Value (S+ / S / A+ tier)', bestValue.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="mono text-xs">${formatPrice(x.part.best_price)}</span>`, x.part.best_url)), 'no top-tier parts rated yet');
+    section("Biggest Discounts", discounts.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="mono text-xs best-price font-semibold">-${x.pct.toFixed(0)}%</span>`, x.part.best_url)), 'No discounts against the tracked 30-day high yet.') +
+    section('Top-tier value', bestValue.map((x, i) => highlightRow(i + 1, x.part.part_key, `<span class="mono text-xs">${formatPrice(x.part.best_price)}</span>`, x.part.best_url)), 'no top-tier parts rated yet');
   content.querySelectorAll('.highlight-row').forEach((row, idx) => {
     const allRows = [...bestCpus, ...bestGpus, ...discounts, ...bestValue];
     const target = allRows[idx];
-    if (target){ row.style.cursor = 'pointer'; row.addEventListener('click', () => openModal(target.part.part_key)); }
+    if (target){ row.style.cursor = 'pointer'; row.tabIndex=0;row.setAttribute('role','button');row.addEventListener('click', () => openModal(target.part.part_key));row.addEventListener('keydown',e=>{if(e.target===row && (e.key==='Enter'||e.key===' ')){e.preventDefault();openModal(target.part.part_key);}}); }
   });
 }
 function renderWatchlist(){
   const content = document.getElementById('watchlistContent');
   const items = WATCHLIST.map(key => ALL_PARTS.find(p => p.part_key === key)).filter(Boolean);
-  if (!items.length){ content.innerHTML = `<p class="watchlist-empty mono">tap the ☆ on any part to pin it here</p>`; return; }
-  content.innerHTML = items.map(part => `
-    <div class="highlight-row" data-part-key="${part.part_key}" style="cursor:pointer;">
-      <span class="flex-1 min-w-0 text-sm truncate">${part.part_key}</span>
-      ${tierBadge(part.part_key, part.category)}
-      <span class="mono text-xs best-price font-semibold">${formatPrice(part.best_price)}</span>
-      ${starButton(part.part_key)}
-    </div>`).join('');
+  if (!items.length){ content.innerHTML = `<div class="watchlist-welcome"><div class="watch-empty-icon">☆</div><div><span class="eyebrow">GOOD PARTS ARE WORTH SAVING</span><h3>Your shortlist starts here.</h3><p>Star a part to save it. Come back to compare prices and plan your next upgrade.</p></div><button onclick="showParts()">Find your favourites ↗</button></div>`; return; }
+  content.innerHTML = `<div class="watchlist-toolbar"><span><b>${items.length}</b> saved ${items.length===1?'part':'parts'}</span><button onclick="showParts()">+ Discover more</button></div><div class="watch-grid">`+items.map(part => `
+    <div class="watch-card" data-part-key="${part.part_key}" tabindex="0" role="button" aria-label="View ${part.part_key}"><div class="watch-card-top"><span class="mini-category">${part.category}</span>${tierBadge(part.part_key,part.category)}${starButton(part.part_key)}</div><div class="watch-product">${productThumbHtml(part,'watch-thumb')}<div><h3>${part.part_key}</h3><p>${part.best_retailer} · Best available offer</p></div></div><div class="watch-price-row"><div><small>Best price</small><strong>${formatPrice(part.best_price)}</strong></div>${stockBadge(part.best_stock_status)}</div><div class="watch-card-footer"><span>${part.offers.length} retailer ${part.offers.length===1?'offer':'offers'}</span><span>Price history ↗</span></div></div>`).join('')+`</div>`;
   content.querySelectorAll('[data-part-key]').forEach(row => {
     row.addEventListener('click', (e) => { if (e.target.closest('.star-btn')) return; openModal(row.dataset.partKey); });
+    row.addEventListener('keydown',e=>{if(e.target===row && (e.key==='Enter'||e.key===' ')){e.preventDefault();openModal(row.dataset.partKey);}});
   });
 }
 function showHome(){
