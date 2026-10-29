@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T23:57:46.654160+00:00",
+  "generated_at": "2026-10-29T00:15:47.548201+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -437,7 +437,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 609.0,
+          "price": 549.0,
           "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
           "stock_status": "in_stock",
@@ -506,22 +506,13 @@
       "category": "CPU",
       "subcategory": "AM5",
       "best_price": 884.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
-      "best_title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/673965/amd-ryzen-9-9900x3d-12-core-24-thread-up-to-55ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 9 9900X3D 12 Core 24 Thread Up To 5.5GHz AM5 - No HSF Retail Box",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 82018,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X3D-12-Core-AM5-5-5GHz-CPU-Processor-100-100001368WOF-1.jpg",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 884.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
-          "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": 82018,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X3D-12-Core-AM5-5-5GHz-CPU-Processor-100-100001368WOF-1.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 884.0,
@@ -530,6 +521,15 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 929.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
+          "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 82018,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X3D-12-Core-AM5-5-5GHz-CPU-Processor-100-100001368WOF-1.jpg"
         }
       ]
     },
@@ -560,7 +560,7 @@
           "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
           "title": "AMD Ryzen 9 9950X 16-Core AM5 5.7 GHz CPU Processor (100-100001277WOF)",
           "stock_status": "in_stock",
-          "stock_qty": 78838,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202408/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X-16-Core-AM5-5-7-GHz-CPU-Processor-100-100001277WOF-1.jpg"
         }
       ]
@@ -876,19 +876,19 @@
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 209.0,
+      "best_price": 99.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
-      "best_title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
+      "best_url": "https://www.ple.com.au/products/668586/lian-li-lancool-207-compact-mid-tower-atx-case-white",
+      "best_title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (White)",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 209.0,
-          "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
-          "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
+          "price": 99.0,
+          "url": "https://www.ple.com.au/products/668586/lian-li-lancool-207-compact-mid-tower-atx-case-white",
+          "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (White)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
@@ -1009,23 +1009,14 @@
       "part_key": "NVIDIA RTX 5060",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 659.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
-      "best_title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
+      "best_price": 789.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/675854/msi-geforce-rtx-5060-gaming-oc-8gb-gddr7",
+      "best_title": "MSI GeForce RTX 5060 Gaming OC 8GB GDDR7",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 83402,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 659.0,
-          "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
-          "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
-          "stock_status": "in_stock",
-          "stock_qty": 83402,
-          "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 789.0,
@@ -1043,20 +1034,20 @@
       "subcategory": "RTX 50-series",
       "best_price": 749.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
-      "best_title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5060-ti-windforce-oc-8g-graphics-card-gv-n506twf2oc-8gd-82695",
+      "best_title": "Gigabyte GeForce RTX 5060 Ti WindForce OC 8G Graphics Card (GV-N506TWF2OC-8GD)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 82678,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Asus-Dual-GeForce-RTX-5060-Ti-O8G-Graphics-Card-DUAL-RTX5060TI-O8G-4.jpg",
+      "best_stock_qty": 82695,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Gigabyte-GeForce-RTX-5060-Ti-WindForce-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-7.jpg",
       "offers": [
         {
           "retailer": "MSY",
           "price": 749.0,
-          "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
-          "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5060-ti-windforce-oc-8g-graphics-card-gv-n506twf2oc-8gd-82695",
+          "title": "Gigabyte GeForce RTX 5060 Ti WindForce OC 8G Graphics Card (GV-N506TWF2OC-8GD)",
           "stock_status": "in_stock",
-          "stock_qty": 82678,
-          "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Asus-Dual-GeForce-RTX-5060-Ti-O8G-Graphics-Card-DUAL-RTX5060TI-O8G-4.jpg"
+          "stock_qty": 82695,
+          "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Gigabyte-GeForce-RTX-5060-Ti-WindForce-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-7.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -1073,23 +1064,14 @@
       "part_key": "NVIDIA RTX 5070",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1349.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
-      "best_title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
+      "best_price": 1499.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/672374/gigabyte-geforce-rtx-5070-gaming-oc-12gb-gddr7",
+      "best_title": "Gigabyte GeForce RTX 5070 Gaming OC 12GB GDDR7",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81985,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Asus-Prime-GeForce-RTX-5070-12G-Graphics-Card-PRIME-RTX5070-12G-8.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 1349.0,
-          "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
-          "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
-          "stock_status": "in_stock",
-          "stock_qty": 81985,
-          "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Asus-Prime-GeForce-RTX-5070-12G-Graphics-Card-PRIME-RTX5070-12G-8.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 1499.0,
@@ -1105,20 +1087,20 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 1999.0,
+      "best_price": 2299.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/672777/pny-geforce-rtx-5070-ti-argb-oc-16gb",
-      "best_title": "PNY GeForce RTX 5070 Ti ARGB OC 16GB",
-      "best_stock_status": "unknown",
+      "best_url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
+      "best_title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 1999.0,
-          "url": "https://www.ple.com.au/products/672777/pny-geforce-rtx-5070-ti-argb-oc-16gb",
-          "title": "PNY GeForce RTX 5070 Ti ARGB OC 16GB",
-          "stock_status": "unknown",
+          "price": 2299.0,
+          "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
+          "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
+          "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
         }
@@ -1128,54 +1110,22 @@
       "part_key": "NVIDIA RTX 5080",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 2999.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-oc-graphics-card-prime-rtx5080-o16g-81332",
-      "best_title": "Asus PRIME GeForce RTX 5080 16G OC Graphics Card (PRIME-RTX5080-O16G)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 81332,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Asus-PRIME-GeForce-RTX-5080-16G-OC-Graphics-Card-PRIME-RTX5080-O16G-7.jpg",
+      "best_price": 3599.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
+      "best_title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
+      "best_stock_status": "unknown",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 2999.0,
-          "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-oc-graphics-card-prime-rtx5080-o16g-81332",
-          "title": "Asus PRIME GeForce RTX 5080 16G OC Graphics Card (PRIME-RTX5080-O16G)",
-          "stock_status": "in_stock",
-          "stock_qty": 81332,
-          "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Asus-PRIME-GeForce-RTX-5080-16G-OC-Graphics-Card-PRIME-RTX5080-O16G-7.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 3599.0,
           "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
           "title": "Gigabyte GeForce RTX 5080 Gaming OC 16GB GDDR7",
-          "stock_status": "in_stock",
+          "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
-        }
-      ]
-    },
-    {
-      "part_key": "NVIDIA RTX 5090",
-      "category": "GPU",
-      "subcategory": "RTX 50-series",
-      "best_price": 13999.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-gv-n5090aorus-m-32gd-81388",
-      "best_title": "Gigabyte Aorus GeForce RTX 5090 Master 32G Graphics Card (GV-N5090AORUS M-32GD)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 81388,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Master-32G-Graphics-Card-GV-N5090AORUS-M-32GD-7.jpg",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 13999.0,
-          "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-gv-n5090aorus-m-32gd-81388",
-          "title": "Gigabyte Aorus GeForce RTX 5090 Master 32G Graphics Card (GV-N5090AORUS M-32GD)",
-          "stock_status": "in_stock",
-          "stock_qty": 81388,
-          "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Master-32G-Graphics-Card-GV-N5090AORUS-M-32GD-7.jpg"
         }
       ]
     },
@@ -1183,14 +1133,23 @@
       "part_key": "AMD Radeon RX 7600",
       "category": "GPU",
       "subcategory": "RX 7000-series",
-      "best_price": 479.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/660329/xfx-speedster-swft-210-radeon-rx-7600-core-edition-8gb-gddr6-",
-      "best_title": "XFX SPEEDSTER SWFT 210 Radeon RX 7600 Core Edition 8GB GDDR6",
+      "best_price": 469.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/xfx-speedster-swft-210-amd-radeon-rx-7600-core-edition-8g-graphics-card-rx-76pswftfy-85579",
+      "best_title": "XFX Speedster SWFT 210 AMD Radeon RX 7600 Core Edition 8G Graphics Card (RX-76PSWFTFY)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
+      "best_stock_qty": 85579,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202508/thumb_img/XFX-Speedster-SWFT-210-AMD-Radeon-RX-7600-Core-Edition-8G-Graphics-Card-RX-76PSWFTFY-7.jpg",
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 469.0,
+          "url": "https://www.msy.com.au/product/xfx-speedster-swft-210-amd-radeon-rx-7600-core-edition-8g-graphics-card-rx-76pswftfy-85579",
+          "title": "XFX Speedster SWFT 210 AMD Radeon RX 7600 Core Edition 8G Graphics Card (RX-76PSWFTFY)",
+          "stock_status": "in_stock",
+          "stock_qty": 85579,
+          "image_url": "https://assets.msy.com.au/newsite/images/202508/thumb_img/XFX-Speedster-SWFT-210-AMD-Radeon-RX-7600-Core-Edition-8G-Graphics-Card-RX-76PSWFTFY-7.jpg"
+        },
         {
           "retailer": "PLE Computers",
           "price": 479.0,
@@ -1206,23 +1165,14 @@
       "part_key": "AMD Radeon RX 9060 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 799.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
-      "best_title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
+      "best_price": 859.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/676091/sapphire-nitro-radeon-rx-9060-xt-16gb-gddr6",
+      "best_title": "SAPPHIRE NITRO+ Radeon RX 9060 XT 16GB GDDR6",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 90401,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 799.0,
-          "url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
-          "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
-          "stock_status": "in_stock",
-          "stock_qty": 90401,
-          "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 859.0,
@@ -1261,23 +1211,14 @@
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 1299.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
-      "best_title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
+      "best_price": 1499.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/673936/sapphire-pure-radeon-rx-9070-xt-16gb-gddr6",
+      "best_title": "SAPPHIRE PURE Radeon RX 9070 XT 16GB GDDR6",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81940,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 1299.0,
-          "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
-          "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
-          "stock_status": "in_stock",
-          "stock_qty": 81940,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 1499.0,
@@ -1286,29 +1227,6 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
-        }
-      ]
-    },
-    {
-      "part_key": "Asus Prime RX 9070 XT",
-      "category": "GPU",
-      "subcategory": "RX 9000-series",
-      "best_price": 1349.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-radeon-rx-9070-xt-oc-16g-graphics-card-tuf-rx9070xt-o16g-gaming-90053",
-      "best_title": "Asus TUF Gaming Radeon RX 9070 XT OC 16G Graphics Card (TUF-RX9070XT-O16G-GAMING)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": 90053,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/ASUS-TUF-Gaming-Radeon-RX-9070-XT-OC-Edition-16GB-TUF-RX9070XT-O16G-GAMING-9.jpg",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 1349.0,
-          "url": "https://www.msy.com.au/product/asus-tuf-gaming-radeon-rx-9070-xt-oc-16g-graphics-card-tuf-rx9070xt-o16g-gaming-90053",
-          "title": "Asus TUF Gaming Radeon RX 9070 XT OC 16G Graphics Card (TUF-RX9070XT-O16G-GAMING)",
-          "stock_status": "in_stock",
-          "stock_qty": 90053,
-          "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/ASUS-TUF-Gaming-Radeon-RX-9070-XT-OC-Edition-16GB-TUF-RX9070XT-O16G-GAMING-9.jpg"
         }
       ]
     },
@@ -1362,23 +1280,14 @@
       "part_key": "Sapphire Pulse RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 1249.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
-      "best_title": "Sapphire Radeon RX 9070 XT Pulse Gaming 16G OC Graphics Card (11348-03-20G)",
+      "best_price": 1529.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/673937/sapphire-pulse-radeon-rx-9070-xt-16gb-gddr6",
+      "best_title": "SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81933,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 1249.0,
-          "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
-          "title": "Sapphire Radeon RX 9070 XT Pulse Gaming 16G OC Graphics Card (11348-03-20G)",
-          "stock_status": "in_stock",
-          "stock_qty": 81933,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 1529.0,
@@ -1578,7 +1487,7 @@
       "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "best_title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 81989,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg",
       "offers": [
         {
@@ -1587,7 +1496,7 @@
           "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
           "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 81989,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
         }
       ]
@@ -1674,22 +1583,22 @@
       "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
       "category": "PSU",
       "subcategory": "750W",
-      "best_price": 79.0,
+      "best_price": 139.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-750w-80-bronze-atx-power-supply-black-prime-750b-black-85490",
-      "best_title": "Asus Prime 750W 80+ Bronze ATX Power Supply - Black (PRIME-750B-BLACK)",
+      "best_url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
+      "best_title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 85490,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202507/thumb_img/Power-Supply-PSU-Asus-Prime-750W-80-Bronze-ATX-Power-Supply-Black-PRIME-750B-BLACK-7.jpg",
+      "best_stock_qty": 72896,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 79.0,
-          "url": "https://www.msy.com.au/product/asus-prime-750w-80-bronze-atx-power-supply-black-prime-750b-black-85490",
-          "title": "Asus Prime 750W 80+ Bronze ATX Power Supply - Black (PRIME-750B-BLACK)",
+          "price": 139.0,
+          "url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
+          "title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
           "stock_status": "in_stock",
-          "stock_qty": 85490,
-          "image_url": "https://assets.msy.com.au/newsite/images/202507/thumb_img/Power-Supply-PSU-Asus-Prime-750W-80-Bronze-ATX-Power-Supply-Black-PRIME-750B-BLACK-7.jpg"
+          "stock_qty": 72896,
+          "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg"
         }
       ]
     },
@@ -1798,22 +1707,22 @@
       "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
       "category": "PSU",
       "subcategory": "850W",
-      "best_price": 119.0,
+      "best_price": 128.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gamemax-gx-850-pro-white-850w-80-gold-fully-modular-power-supply-atx-3-0-pcie-5-0-ready-native-12vhpwr-white-cable-rtx-40-series-compatible-72948",
-      "best_title": "GameMax GX-850 PRO White 850W 80+ Gold Fully Modular Power Supply - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR White Cable, RTX 40 Series Compatible",
+      "best_url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
+      "best_title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-WT-1.jpg",
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-BK-1.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 119.0,
-          "url": "https://www.msy.com.au/product/gamemax-gx-850-pro-white-850w-80-gold-fully-modular-power-supply-atx-3-0-pcie-5-0-ready-native-12vhpwr-white-cable-rtx-40-series-compatible-72948",
-          "title": "GameMax GX-850 PRO White 850W 80+ Gold Fully Modular Power Supply - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR White Cable, RTX 40 Series Compatible",
+          "price": 128.0,
+          "url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
+          "title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
           "stock_status": "in_stock",
           "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-WT-1.jpg"
+          "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-BK-1.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -2100,7 +2009,7 @@
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/685922/lexar-thor-g2-32gb-kit-2x16gb-ddr5-6000-c38",
       "best_title": "Lexar THOR G2 32GB Kit (2x16GB) DDR5-6000 C38",
-      "best_stock_status": "unknown",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1695347-472721-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
@@ -2109,7 +2018,7 @@
           "price": 649.0,
           "url": "https://www.ple.com.au/products/685922/lexar-thor-g2-32gb-kit-2x16gb-ddr5-6000-c38",
           "title": "Lexar THOR G2 32GB Kit (2x16GB) DDR5-6000 C38",
-          "stock_status": "unknown",
+          "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695347-472721-light.png?auto=format&w=96&h=96&fit=max"
         }
@@ -2234,7 +2143,7 @@
       "best_url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
       "best_title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 73118,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg",
       "offers": [
         {
@@ -2243,7 +2152,7 @@
           "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
           "title": "Samsung 990 Pro 4TB PCIe 4.0 M.2 2280 NVMe SSD (MZ-V9P4T0BW)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 73118,
           "image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg"
         },
         {
@@ -2266,7 +2175,7 @@
       "best_url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
       "best_title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 80980,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/SSD-Hard-Drives-Kingston-500GB-NV3-PCIe-Gen4-M-2-2280-NVMe-SSD-SNV3S-500G-2.jpg",
       "offers": [
         {
@@ -2275,7 +2184,7 @@
           "url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
           "title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 80980,
           "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/SSD-Hard-Drives-Kingston-500GB-NV3-PCIe-Gen4-M-2-2280-NVMe-SSD-SNV3S-500G-2.jpg"
         },
         {
@@ -2826,7 +2735,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
-      "price": 609.0,
+      "price": 549.0,
       "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2926,7 +2835,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 9 9900X3D 12 Core AM5 5.5GHz CPU Processor (100-100001368WOF)",
-      "price": 884.0,
+      "price": 929.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-9-9900x3d-12-core-am5-5-5ghz-cpu-processor-100-100001368wof-82018",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2968,7 +2877,7 @@
       "url": "https://www.msy.com.au/product/amd-ryzen-9-9950x-16-core-am5-5-7-ghz-cpu-processor-100-100001277wof-78838",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 78838,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202408/thumb_img/AMD-CPU-AMD-Ryzen-9-9950X-16-Core-AM5-5-7-GHz-CPU-Processor-100-100001277WOF-1.jpg"
     },
     {
@@ -3438,13 +3347,12 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Asus Dual GeForce RTX 5060 8GB OC Graphics Card (DUAL-RTX5060-O8G)",
-      "price": 659.0,
-      "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-8gb-oc-graphics-card-dual-rtx5060-o8g-83402",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 83402,
-      "image_url": "https://assets.msy.com.au/newsite/images/202505/thumb_img/Asus-Dual-GeForce-RTX-5060-8GB-OC-Graphics-Card-DUAL-RTX5060-O8G-9.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "NVIDIA RTX 5060",
@@ -3476,13 +3384,13 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Asus Dual GeForce RTX 5060 Ti O8G Graphics Card (DUAL-RTX5060TI-O8G)",
+      "title": "Gigabyte GeForce RTX 5060 Ti WindForce OC 8G Graphics Card (GV-N506TWF2OC-8GD)",
       "price": 749.0,
-      "url": "https://www.msy.com.au/product/asus-dual-geforce-rtx-5060-ti-o8g-graphics-card-dual-rtx5060ti-o8g-82678",
+      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5060-ti-windforce-oc-8g-graphics-card-gv-n506twf2oc-8gd-82695",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 82678,
-      "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Asus-Dual-GeForce-RTX-5060-Ti-O8G-Graphics-Card-DUAL-RTX5060TI-O8G-4.jpg"
+      "stock_qty": 82695,
+      "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/Gigabyte-GeForce-RTX-5060-Ti-WindForce-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-7.jpg"
     },
     {
       "part_key": "NVIDIA RTX 5060 Ti",
@@ -3502,13 +3410,12 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Asus Prime GeForce RTX 5070 12G Graphics Card (PRIME-RTX5070-12G)",
-      "price": 1349.0,
-      "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5070-12g-graphics-card-prime-rtx5070-12g-81985",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 81985,
-      "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Asus-Prime-GeForce-RTX-5070-12G-Graphics-Card-PRIME-RTX5070-12G-8.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "NVIDIA RTX 5070",
@@ -3552,11 +3459,11 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "PNY GeForce RTX 5070 Ti ARGB OC 16GB",
-      "price": 1999.0,
-      "url": "https://www.ple.com.au/products/672777/pny-geforce-rtx-5070-ti-argb-oc-16gb",
+      "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
+      "price": 2299.0,
+      "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
       "status": "OK",
-      "stock_status": "unknown",
+      "stock_status": "in_stock",
       "stock_qty": null,
       "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
     },
@@ -3577,13 +3484,12 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Asus PRIME GeForce RTX 5080 16G OC Graphics Card (PRIME-RTX5080-O16G)",
-      "price": 2999.0,
-      "url": "https://www.msy.com.au/product/asus-prime-geforce-rtx-5080-16g-oc-graphics-card-prime-rtx5080-o16g-81332",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 81332,
-      "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Asus-PRIME-GeForce-RTX-5080-16G-OC-Graphics-Card-PRIME-RTX5080-O16G-7.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "NVIDIA RTX 5080",
@@ -3594,7 +3500,7 @@
       "price": 3599.0,
       "url": "https://www.ple.com.au/products/672372/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7",
       "status": "OK",
-      "stock_status": "in_stock",
+      "stock_status": "unknown",
       "stock_qty": null,
       "image_url": "https://plecom.imgix.net/bo-88552-120189-light.png?auto=format&w=96&h=96&fit=max"
     },
@@ -3615,13 +3521,12 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Gigabyte Aorus GeForce RTX 5090 Master 32G Graphics Card (GV-N5090AORUS M-32GD)",
-      "price": 13999.0,
-      "url": "https://www.msy.com.au/product/gigabyte-aorus-geforce-rtx-5090-master-32g-graphics-card-gv-n5090aorus-m-32gd-81388",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 81388,
-      "image_url": "https://assets.msy.com.au/newsite/images/202501/thumb_img/Gigabyte-Aorus-GeForce-RTX-5090-Master-32G-Graphics-Card-GV-N5090AORUS-M-32GD-7.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "NVIDIA RTX 5090",
@@ -3652,12 +3557,13 @@
       "category": "GPU",
       "subcategory": "RX 7000-series",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "XFX Speedster SWFT 210 AMD Radeon RX 7600 Core Edition 8G Graphics Card (RX-76PSWFTFY)",
+      "price": 469.0,
+      "url": "https://www.msy.com.au/product/xfx-speedster-swft-210-amd-radeon-rx-7600-core-edition-8g-graphics-card-rx-76pswftfy-85579",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 85579,
+      "image_url": "https://assets.msy.com.au/newsite/images/202508/thumb_img/XFX-Speedster-SWFT-210-AMD-Radeon-RX-7600-Core-Edition-8G-Graphics-Card-RX-76PSWFTFY-7.jpg"
     },
     {
       "part_key": "AMD Radeon RX 7600",
@@ -3749,13 +3655,12 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
-      "price": 799.0,
-      "url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 90401,
-      "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Radeon RX 9060 XT",
@@ -3849,13 +3754,12 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
-      "price": 1299.0,
-      "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 81940,
-      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Radeon RX 9070 XT",
@@ -3912,13 +3816,12 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Asus TUF Gaming Radeon RX 9070 XT OC 16G Graphics Card (TUF-RX9070XT-O16G-GAMING)",
-      "price": 1349.0,
-      "url": "https://www.msy.com.au/product/asus-tuf-gaming-radeon-rx-9070-xt-oc-16g-graphics-card-tuf-rx9070xt-o16g-gaming-90053",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 90053,
-      "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/ASUS-TUF-Gaming-Radeon-RX-9070-XT-OC-Edition-16GB-TUF-RX9070XT-O16G-GAMING-9.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Asus Prime RX 9070 XT",
@@ -3949,13 +3852,12 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Sapphire Radeon RX 9070 XT Pulse Gaming 16G OC Graphics Card (11348-03-20G)",
-      "price": 1249.0,
-      "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 81933,
-      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Sapphire Pulse RX 9070 XT",
@@ -4425,7 +4327,7 @@
       "price": 649.0,
       "url": "https://www.ple.com.au/products/685922/lexar-thor-g2-32gb-kit-2x16gb-ddr5-6000-c38",
       "status": "OK",
-      "stock_status": "unknown",
+      "stock_status": "in_stock",
       "stock_qty": null,
       "image_url": "https://plecom.imgix.net/bo-1695347-472721-light.png?auto=format&w=96&h=96&fit=max"
     },
@@ -4619,7 +4521,7 @@
       "url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 80980,
       "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/SSD-Hard-Drives-Kingston-500GB-NV3-PCIe-Gen4-M-2-2280-NVMe-SSD-SNV3S-500G-2.jpg"
     },
     {
@@ -4843,7 +4745,7 @@
       "url": "https://www.msy.com.au/product/samsung-990-pro-4tb-pcie-4-0-m-2-2280-nvme-ssd-mz-v9p4t0bw-73118",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 73118,
       "image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/SSD-Hard-Drives-Samsung-990-Pro-4TB-PCIe-4-0-M-2-2280-NVMe-SSD-MZ-V9P4T0BW-8.jpg"
     },
     {
@@ -5287,7 +5189,7 @@
       "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 81989,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
     },
     {
@@ -5684,13 +5586,13 @@
       "category": "PSU",
       "subcategory": "750W",
       "retailer": "MSY",
-      "title": "Asus Prime 750W 80+ Bronze ATX Power Supply - Black (PRIME-750B-BLACK)",
-      "price": 79.0,
-      "url": "https://www.msy.com.au/product/asus-prime-750w-80-bronze-atx-power-supply-black-prime-750b-black-85490",
+      "title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
+      "price": 139.0,
+      "url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 85490,
-      "image_url": "https://assets.msy.com.au/newsite/images/202507/thumb_img/Power-Supply-PSU-Asus-Prime-750W-80-Bronze-ATX-Power-Supply-Black-PRIME-750B-BLACK-7.jpg"
+      "stock_qty": 72896,
+      "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg"
     },
     {
       "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
@@ -5721,13 +5623,13 @@
       "category": "PSU",
       "subcategory": "850W",
       "retailer": "MSY",
-      "title": "GameMax GX-850 PRO White 850W 80+ Gold Fully Modular Power Supply - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR White Cable, RTX 40 Series Compatible",
-      "price": 119.0,
-      "url": "https://www.msy.com.au/product/gamemax-gx-850-pro-white-850w-80-gold-fully-modular-power-supply-atx-3-0-pcie-5-0-ready-native-12vhpwr-white-cable-rtx-40-series-compatible-72948",
+      "title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
+      "price": 128.0,
+      "url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
-      "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-WT-1.jpg"
+      "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-Gamemax-850W-Power-Supply-ATX3-0-PCIE5-0-1-5M-Australian-Power-cord-GX-850-PRO-BK-1.jpg"
     },
     {
       "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
@@ -6066,9 +5968,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
-      "price": 209.0,
-      "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
+      "title": "Lian Li LANCOOL 207 - Compact Mid Tower ATX Case (White)",
+      "price": 99.0,
+      "url": "https://www.ple.com.au/products/668586/lian-li-lancool-207-compact-mid-tower-atx-case-white",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
