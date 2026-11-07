@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:24:44.622945+00:00",
+  "generated_at": "2026-11-07T23:46:48.943183+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -809,29 +809,6 @@
       ]
     },
     {
-      "part_key": "Lian Li Vector V100R Mini Compact Case",
-      "category": "Case",
-      "subcategory": "Full Tower",
-      "best_price": 105.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/679303/lian-li-vector-v100r-mini-rgb-glass-micro-tower-case-black",
-      "best_title": "Lian Li Vector V100R Mini RGB Glass Micro Tower Case (Black)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max",
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 105.0,
-          "url": "https://www.ple.com.au/products/679303/lian-li-vector-v100r-mini-rgb-glass-micro-tower-case-black",
-          "title": "Lian Li Vector V100R Mini RGB Glass Micro Tower Case (Black)",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
-        }
-      ]
-    },
-    {
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
@@ -1087,7 +1064,7 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 2299.0,
+      "best_price": 2199.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
       "best_title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
@@ -1097,7 +1074,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 2299.0,
+          "price": 2199.0,
           "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
           "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
           "stock_status": "unknown",
@@ -3555,7 +3532,7 @@
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
       "title": "Gigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7",
-      "price": 2299.0,
+      "price": 2199.0,
       "url": "https://www.ple.com.au/products/672373/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
@@ -6107,13 +6084,12 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li Vector V100R Mini RGB Glass Micro Tower Case (Black)",
-      "price": 105.0,
-      "url": "https://www.ple.com.au/products/679303/lian-li-vector-v100r-mini-rgb-glass-micro-tower-case-black",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Deepcool CH270 Micro-ATX Case",
