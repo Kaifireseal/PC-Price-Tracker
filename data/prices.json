@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:46:48.943183+00:00",
+  "generated_at": "2026-11-08T23:47:26.904541+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -25,32 +25,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 179.0,
+          "price": 149.0,
           "url": "https://www.ple.com.au/products/687958/amd-ryzen-5-5500f-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
           "title": "AMD Ryzen 5 5500F 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "part_key": "AMD Ryzen 5 5500GT",
-      "category": "CPU",
-      "subcategory": "AM4",
-      "best_price": 189.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
-      "best_title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": null,
-      "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 189.0,
-          "url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
-          "title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": null
@@ -80,7 +57,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 219.0,
+          "price": 189.0,
           "url": "https://www.ple.com.au/products/651834/amd-ryzen-5-5600-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
           "title": "AMD Ryzen 5 5600 6 Core 12 Thread Up To 4.4Ghz AM4 - With Wraith Stealth Cooler",
           "stock_status": "in_stock",
@@ -112,7 +89,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 259.0,
+          "price": 244.0,
           "url": "https://www.ple.com.au/products/643561/amd-ryzen-5-5600x-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
           "title": "AMD Ryzen 5 5600X 6 Core 12 Thread Up To 4.6Ghz AM4 - With Wraith Stealth Cooler",
           "stock_status": "in_stock",
@@ -125,14 +102,23 @@
       "part_key": "AMD Ryzen 7 5700X",
       "category": "CPU",
       "subcategory": "AM4",
-      "best_price": 318.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-5700x-8-core-am4-4-6ghz-cpu-processor-100-100000926wof-62627",
-      "best_title": "AMD Ryzen 7 5700X 8 Core AM4 4.6GHz CPU Processor (100-100000926WOF)",
+      "best_price": 309.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/651833/amd-ryzen-7-5700x-8-core-16-thread-up-to-46ghz-am4-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 7 5700X 8 Core 16 Thread Up To 4.6Ghz AM4 - No HSF Retail Box",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202408/thumb_img/AMD-CPU-AMD-Ryzen-7-5700X-8-Core-AM4-4-6GHz-CPU-Processor-100-100000926WOF-4.jpg",
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 309.0,
+          "url": "https://www.ple.com.au/products/651833/amd-ryzen-7-5700x-8-core-16-thread-up-to-46ghz-am4-no-hsf-retail-box",
+          "title": "AMD Ryzen 7 5700X 8 Core 16 Thread Up To 4.6Ghz AM4 - No HSF Retail Box",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": null
+        },
         {
           "retailer": "MSY",
           "price": 318.0,
@@ -141,15 +127,6 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202408/thumb_img/AMD-CPU-AMD-Ryzen-7-5700X-8-Core-AM4-4-6GHz-CPU-Processor-100-100000926WOF-4.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 319.0,
-          "url": "https://www.ple.com.au/products/651833/amd-ryzen-7-5700x-8-core-16-thread-up-to-46ghz-am4-no-hsf-retail-box",
-          "title": "AMD Ryzen 7 5700X 8 Core 16 Thread Up To 4.6Ghz AM4 - No HSF Retail Box",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": null
         }
       ]
     },
@@ -267,7 +244,7 @@
       "part_key": "AMD Ryzen 5 7600X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 349.0,
+      "best_price": 319.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
       "best_title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
@@ -277,7 +254,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 349.0,
+          "price": 319.0,
           "url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
           "stock_status": "in_stock",
@@ -395,14 +372,23 @@
       "part_key": "AMD Ryzen 7 7800X3D",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 649.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
-      "best_title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
+      "best_price": 599.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 69583,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202304/thumb_img/AMD-CPU-AMD-Ryzen-7-7800X3D-8-Core-AM5-4-2GHz-CPU-Processor-3.jpg",
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 599.0,
+          "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": null
+        },
         {
           "retailer": "MSY",
           "price": 649.0,
@@ -411,15 +397,6 @@
           "stock_status": "in_stock",
           "stock_qty": 69583,
           "image_url": "https://assets.msy.com.au/newsite/images/202304/thumb_img/AMD-CPU-AMD-Ryzen-7-7800X3D-8-Core-AM5-4-2GHz-CPU-Processor-3.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 649.0,
-          "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
-          "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": null
         }
       ]
     },
@@ -427,7 +404,7 @@
       "part_key": "AMD Ryzen 7 9800X3D",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 719.0,
+      "best_price": 709.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
       "best_title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
@@ -437,7 +414,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 719.0,
+          "price": 709.0,
           "url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
           "stock_status": "in_stock",
@@ -1486,21 +1463,21 @@
       "part_key": "MSI MAG B650 Tomahawk WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 279.0,
+      "best_price": 299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 65571,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 279.0,
+          "price": 299.0,
           "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
           "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 65571,
           "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg"
         }
       ]
@@ -1789,7 +1766,7 @@
       "part_key": "Seasonic Focus GX-850 850W Gold ATX PSU",
       "category": "PSU",
       "subcategory": "850W",
-      "best_price": 128.0,
+      "best_price": 92.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
       "best_title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
@@ -1799,7 +1776,7 @@
       "offers": [
         {
           "retailer": "MSY",
-          "price": 128.0,
+          "price": 92.0,
           "url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
           "title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
           "stock_status": "in_stock",
@@ -2302,13 +2279,12 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "PLE Computers",
-      "title": "AMD Ryzen 5 5500GT 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
-      "price": 189.0,
-      "url": "https://www.ple.com.au/products/664869/amd-ryzen-5-5500gt-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": null,
-      "image_url": null
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 5 5600GT",
@@ -2377,7 +2353,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 5500F 6 Core 12 Thread Up To 4.4GHz AM4 - With Wraith Stealth Cooler",
-      "price": 179.0,
+      "price": 149.0,
       "url": "https://www.ple.com.au/products/687958/amd-ryzen-5-5500f-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2415,7 +2391,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 5600 6 Core 12 Thread Up To 4.4Ghz AM4 - With Wraith Stealth Cooler",
-      "price": 219.0,
+      "price": 189.0,
       "url": "https://www.ple.com.au/products/651834/amd-ryzen-5-5600-6-core-12-thread-up-to-44ghz-am4-with-wraith-stealth-cooler",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2453,7 +2429,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 5600X 6 Core 12 Thread Up To 4.6Ghz AM4 - With Wraith Stealth Cooler",
-      "price": 259.0,
+      "price": 244.0,
       "url": "https://www.ple.com.au/products/643561/amd-ryzen-5-5600x-6-core-12-thread-up-to-46ghz-am4-with-wraith-stealth-cooler",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2491,7 +2467,7 @@
       "subcategory": "AM4",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 7 5700X 8 Core 16 Thread Up To 4.6Ghz AM4 - No HSF Retail Box",
-      "price": 319.0,
+      "price": 309.0,
       "url": "https://www.ple.com.au/products/651833/amd-ryzen-7-5700x-8-core-16-thread-up-to-46ghz-am4-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2655,7 +2631,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
-      "price": 349.0,
+      "price": 319.0,
       "url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2807,7 +2783,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
-      "price": 649.0,
+      "price": 599.0,
       "url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2844,7 +2820,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 7 9800X3D 8 Core 16 Thread Up to 5.20GHz AM5 - No HSF Retail Box",
-      "price": 719.0,
+      "price": 709.0,
       "url": "https://www.ple.com.au/products/670425/amd-ryzen-7-9800x3d-8-core-16-thread-up-to-520ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4965,11 +4941,11 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "price": 279.0,
+      "price": 299.0,
       "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 65571,
       "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg"
     },
     {
@@ -5702,7 +5678,7 @@
       "subcategory": "850W",
       "retailer": "MSY",
       "title": "GameMax GX-850 PRO 850W 80+ Gold Fully Modular PSU - ATX 3.0 & PCIe 5.0 Ready, Native 12VHPWR for RTX 4080/4090, High Performance Gaming Power Supply",
-      "price": 128.0,
+      "price": 92.0,
       "url": "https://www.msy.com.au/product/gamemax-gx-850-pro-850w-80-gold-fully-modular-psu-atx-3-0-pcie-5-0-ready-native-12vhpwr-for-rtx-4080-4090-high-performance-gaming-power-supply-72947",
       "status": "OK",
       "stock_status": "in_stock",
