@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T02:08:16.440426+00:00",
+  "generated_at": "2026-11-13T01:17:05.161000+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -387,13 +387,22 @@
       "category": "CPU",
       "subcategory": "AM5",
       "best_price": 599.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
-      "best_title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
+      "best_title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 69583,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202304/thumb_img/AMD-CPU-AMD-Ryzen-7-7800X3D-8-Core-AM5-4-2GHz-CPU-Processor-3.jpg",
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 599.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
+          "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 69583,
+          "image_url": "https://assets.msy.com.au/newsite/images/202304/thumb_img/AMD-CPU-AMD-Ryzen-7-7800X3D-8-Core-AM5-4-2GHz-CPU-Processor-3.jpg"
+        },
         {
           "retailer": "PLE Computers",
           "price": 599.0,
@@ -402,15 +411,6 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": null
-        },
-        {
-          "retailer": "MSY",
-          "price": 649.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
-          "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": 69583,
-          "image_url": "https://assets.msy.com.au/newsite/images/202304/thumb_img/AMD-CPU-AMD-Ryzen-7-7800X3D-8-Core-AM5-4-2GHz-CPU-Processor-3.jpg"
         }
       ]
     },
@@ -789,19 +789,19 @@
       "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 289.0,
+      "best_price": 209.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
-      "best_title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
+      "best_url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
+      "best_title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 289.0,
-          "url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
-          "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
+          "price": 209.0,
+          "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
+          "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
@@ -1064,22 +1064,22 @@
       "part_key": "NVIDIA RTX 5070 Ti",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 2199.0,
+      "best_price": 2198.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-aero-oc-16g-graphics-card-gv-n507taero-oc-16gd-81795",
-      "best_title": "Gigabyte GeForce RTX 5070 Ti Aero OC 16G Graphics Card (GV-N507TAERO OC-16GD)",
+      "best_url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-graphics-card-gv-n507teagle-oc-16gd-81796",
+      "best_title": "Gigabyte GeForce RTX 5070 Ti Eagle OC SFF 16G Graphics Card (GV-N507TEAGLE OC-16GD)",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Aero-OC-16G-Graphics-Card-GV-N507TAERO-OC-16GD-7.jpg",
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Eagle-OC-SFF-16G-Graphics-Card-GV-N507TEAGLE-OC-16GD-8.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 2199.0,
-          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-aero-oc-16g-graphics-card-gv-n507taero-oc-16gd-81795",
-          "title": "Gigabyte GeForce RTX 5070 Ti Aero OC 16G Graphics Card (GV-N507TAERO OC-16GD)",
+          "price": 2198.0,
+          "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-graphics-card-gv-n507teagle-oc-16gd-81796",
+          "title": "Gigabyte GeForce RTX 5070 Ti Eagle OC SFF 16G Graphics Card (GV-N507TEAGLE OC-16GD)",
           "stock_status": "in_stock",
           "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Aero-OC-16G-Graphics-Card-GV-N507TAERO-OC-16GD-7.jpg"
+          "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Eagle-OC-SFF-16G-Graphics-Card-GV-N507TEAGLE-OC-16GD-8.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -1128,19 +1128,19 @@
       "part_key": "NVIDIA RTX 5090",
       "category": "GPU",
       "subcategory": "RTX 50-series",
-      "best_price": 13999.0,
+      "best_price": 15999.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/672364/gigabyte-geforce-rtx-5090-aorus-master-32gb-gddr7",
-      "best_title": "Gigabyte GeForce RTX 5090 Aorus Master 32GB GDDR7",
+      "best_url": "https://www.ple.com.au/products/679013/asus-geforce-rtx-5090-rog-astral-oc-32gb-gddr7-white",
+      "best_title": "ASUS GeForce RTX 5090 ROG Astral OC 32GB GDDR7 (White)",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-2281275-bo-2281266-intel-bonus-games-transparent-150x50.png?auto=format&fit=max&w=300&h=104",
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 13999.0,
-          "url": "https://www.ple.com.au/products/672364/gigabyte-geforce-rtx-5090-aorus-master-32gb-gddr7",
-          "title": "Gigabyte GeForce RTX 5090 Aorus Master 32GB GDDR7",
+          "price": 15999.0,
+          "url": "https://www.ple.com.au/products/679013/asus-geforce-rtx-5090-rog-astral-oc-32gb-gddr7-white",
+          "title": "ASUS GeForce RTX 5090 ROG Astral OC 32GB GDDR7 (White)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-2281275-bo-2281266-intel-bonus-games-transparent-150x50.png?auto=format&fit=max&w=300&h=104"
@@ -1220,7 +1220,7 @@
       "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "best_title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 81940,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg",
       "offers": [
         {
@@ -1229,7 +1229,7 @@
           "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
           "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 81940,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg"
         },
         {
@@ -1298,7 +1298,7 @@
       "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
       "best_title": "Sapphire Radeon RX 9070 XT Pulse Gaming 16G OC Graphics Card (11348-03-20G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 81933,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg",
       "offers": [
         {
@@ -1307,7 +1307,7 @@
           "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
           "title": "Sapphire Radeon RX 9070 XT Pulse Gaming 16G OC Graphics Card (11348-03-20G)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 81933,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg"
         },
         {
@@ -1497,29 +1497,6 @@
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-2317819-bo-2317810-gigabyte-intel-bonus-game-thumbnail-150x50.png?auto=format&fit=max&w=300&h=104"
-        }
-      ]
-    },
-    {
-      "part_key": "Asus Prime Z790-P WiFi CSM",
-      "category": "Motherboard",
-      "subcategory": "LGA1700",
-      "best_price": 239.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
-      "best_title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
-      "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/Intel-LGA-1700-ASUS-Prime-Z790-P-LGA-1700-WiFi-ATX-Motherboard-6.jpg",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 239.0,
-          "url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
-          "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/Intel-LGA-1700-ASUS-Prime-Z790-P-LGA-1700-WiFi-ATX-Motherboard-6.jpg"
         }
       ]
     },
@@ -1972,22 +1949,22 @@
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
       "category": "RAM",
       "subcategory": "DDR5",
-      "best_price": 759.0,
+      "best_price": 749.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2d6000z38-cl38-6000mhz-rgb-intel-xmp-amd-expo-ddr5-ram-grey-95498",
-      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2D6000Z38 CL38 6000MHz RGB Intel XMP AMD EXPO DDR5 RAM - Grey",
+      "best_url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
+      "best_title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202608/thumb_img/Corsair-32GB-2x16GB-CMH32GX5M2D6000Z38-CL38-6000MHz-Intel-XMP-AMD-EXPO-DDR5-RAM-Grey-1.jpg",
+      "best_stock_qty": 92533,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202602/thumb_img/Corsair-32GB-2x16GB-CMH32GX5M2B6000Z38-Vengeance-RGB-6000MHz-DDR5-RAM-Grey-2.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 759.0,
-          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2d6000z38-cl38-6000mhz-rgb-intel-xmp-amd-expo-ddr5-ram-grey-95498",
-          "title": "Corsair 32GB (2x16GB) CMH32GX5M2D6000Z38 CL38 6000MHz RGB Intel XMP AMD EXPO DDR5 RAM - Grey",
+          "price": 749.0,
+          "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
+          "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
           "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202608/thumb_img/Corsair-32GB-2x16GB-CMH32GX5M2D6000Z38-CL38-6000MHz-Intel-XMP-AMD-EXPO-DDR5-RAM-Grey-1.jpg"
+          "stock_qty": 92533,
+          "image_url": "https://assets.msy.com.au/newsite/images/202602/thumb_img/Corsair-32GB-2x16GB-CMH32GX5M2B6000Z38-Vengeance-RGB-6000MHz-DDR5-RAM-Grey-2.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -1997,6 +1974,29 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695347-472721-light.png?auto=format&w=96&h=96&fit=max"
+        }
+      ]
+    },
+    {
+      "part_key": "Corsair Vengeance 64GB (2x32GB) DDR5 6000",
+      "category": "RAM",
+      "subcategory": "DDR5",
+      "best_price": 1499.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/corsair-64gb-2x32gb-cmh64gx5m2d6000z40-vengeance-rgb-intel-xmp-amd-expo-cl40-6000mhz-ddr5-ram-grey-91301",
+      "best_title": "Corsair 64GB (2x32GB) CMH64GX5M2D6000Z40 Vengeance RGB Intel XMP AMD EXPO CL40 6000MHz DDR5 RAM - Grey",
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 91301,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202512/thumb_img/Corsair-64GB-2x32GB-CMH64GX5M2D6000Z40-Vengeance-RGB-Intel-XMP-AMD-EXPO-CL40-6000MHz-DDR5-RAM-Grey-4.jpg",
+      "offers": [
+        {
+          "retailer": "MSY",
+          "price": 1499.0,
+          "url": "https://www.msy.com.au/product/corsair-64gb-2x32gb-cmh64gx5m2d6000z40-vengeance-rgb-intel-xmp-amd-expo-cl40-6000mhz-ddr5-ram-grey-91301",
+          "title": "Corsair 64GB (2x32GB) CMH64GX5M2D6000Z40 Vengeance RGB Intel XMP AMD EXPO CL40 6000MHz DDR5 RAM - Grey",
+          "stock_status": "in_stock",
+          "stock_qty": 91301,
+          "image_url": "https://assets.msy.com.au/newsite/images/202512/thumb_img/Corsair-64GB-2x32GB-CMH64GX5M2D6000Z40-Vengeance-RGB-Intel-XMP-AMD-EXPO-CL40-6000MHz-DDR5-RAM-Grey-4.jpg"
         }
       ]
     },
@@ -2806,7 +2806,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
-      "price": 649.0,
+      "price": 599.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3532,13 +3532,13 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "MSY",
-      "title": "Gigabyte GeForce RTX 5070 Ti Aero OC 16G Graphics Card (GV-N507TAERO OC-16GD)",
-      "price": 2199.0,
-      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-aero-oc-16g-graphics-card-gv-n507taero-oc-16gd-81795",
+      "title": "Gigabyte GeForce RTX 5070 Ti Eagle OC SFF 16G Graphics Card (GV-N507TEAGLE OC-16GD)",
+      "price": 2198.0,
+      "url": "https://www.msy.com.au/product/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-graphics-card-gv-n507teagle-oc-16gd-81796",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
-      "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Aero-OC-16G-Graphics-Card-GV-N507TAERO-OC-16GD-7.jpg"
+      "image_url": "https://assets.msy.com.au/newsite/images/202502/thumb_img/Gigabyte-GeForce-RTX-5070-Ti-Eagle-OC-SFF-16G-Graphics-Card-GV-N507TEAGLE-OC-16GD-8.jpg"
     },
     {
       "part_key": "NVIDIA RTX 5070 Ti",
@@ -3621,9 +3621,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte GeForce RTX 5090 Aorus Master 32GB GDDR7",
-      "price": 13999.0,
-      "url": "https://www.ple.com.au/products/672364/gigabyte-geforce-rtx-5090-aorus-master-32gb-gddr7",
+      "title": "ASUS GeForce RTX 5090 ROG Astral OC 32GB GDDR7 (White)",
+      "price": 15999.0,
+      "url": "https://www.ple.com.au/products/679013/asus-geforce-rtx-5090-rog-astral-oc-32gb-gddr7-white",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
@@ -3846,7 +3846,7 @@
       "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 81940,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg"
     },
     {
@@ -3946,7 +3946,7 @@
       "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 81933,
       "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg"
     },
     {
@@ -4340,13 +4340,13 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": "Corsair 32GB (2x16GB) CMH32GX5M2D6000Z38 CL38 6000MHz RGB Intel XMP AMD EXPO DDR5 RAM - Grey",
-      "price": 759.0,
-      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2d6000z38-cl38-6000mhz-rgb-intel-xmp-amd-expo-ddr5-ram-grey-95498",
+      "title": "Corsair 32GB (2x16GB) CMH32GX5M2B6000Z38 Vengeance RGB 6000MHz DDR5 RAM - Grey",
+      "price": 749.0,
+      "url": "https://www.msy.com.au/product/corsair-32gb-2x16gb-cmh32gx5m2b6000z38-vengeance-rgb-6000mhz-ddr5-ram-grey-92533",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
-      "image_url": "https://assets.msy.com.au/newsite/images/202608/thumb_img/Corsair-32GB-2x16GB-CMH32GX5M2D6000Z38-CL38-6000MHz-Intel-XMP-AMD-EXPO-DDR5-RAM-Grey-1.jpg"
+      "stock_qty": 92533,
+      "image_url": "https://assets.msy.com.au/newsite/images/202602/thumb_img/Corsair-32GB-2x16GB-CMH32GX5M2B6000Z38-Vengeance-RGB-6000MHz-DDR5-RAM-Grey-2.jpg"
     },
     {
       "part_key": "Corsair Vengeance 32GB (2x16GB) DDR5 6000",
@@ -4464,12 +4464,13 @@
       "category": "RAM",
       "subcategory": "DDR5",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Corsair 64GB (2x32GB) CMH64GX5M2D6000Z40 Vengeance RGB Intel XMP AMD EXPO CL40 6000MHz DDR5 RAM - Grey",
+      "price": 1499.0,
+      "url": "https://www.msy.com.au/product/corsair-64gb-2x32gb-cmh64gx5m2d6000z40-vengeance-rgb-intel-xmp-amd-expo-cl40-6000mhz-ddr5-ram-grey-91301",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 91301,
+      "image_url": "https://assets.msy.com.au/newsite/images/202512/thumb_img/Corsair-64GB-2x32GB-CMH64GX5M2D6000Z40-Vengeance-RGB-Intel-XMP-AMD-EXPO-CL40-6000MHz-DDR5-RAM-Grey-4.jpg"
     },
     {
       "part_key": "Corsair Vengeance 64GB (2x32GB) DDR5 6000",
@@ -4873,7 +4874,8 @@
       "title": null,
       "price": null,
       "url": null,
-      "status": "NO_MATCH",
+      "status": "ERROR",
+      "error": "MSY failed after 3 attempts: HTTPSConnectionPool(host='www.msy.com.au', port=443): Read timed out. (read timeout=15)",
       "stock_status": null,
       "stock_qty": null
     },
@@ -4897,7 +4899,8 @@
       "title": null,
       "price": null,
       "url": null,
-      "status": "NO_MATCH",
+      "status": "ERROR",
+      "error": "Umart failed after 3 attempts: HTTPSConnectionPool(host='www.umart.com.au', port=443): Read timed out. (read timeout=15)",
       "stock_status": null,
       "stock_qty": null
     },
@@ -5166,13 +5169,12 @@
       "category": "Motherboard",
       "subcategory": "LGA1700",
       "retailer": "MSY",
-      "title": "ASUS Prime Z790-P LGA 1700 WiFi ATX Motherboard (PRIME Z790-P WIFI-CSM)",
-      "price": 239.0,
-      "url": "https://www.msy.com.au/product/asus-prime-z790-p-lga-1700-wifi-atx-motherboard-prime-z790-p-wifi-csm-65510",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": null,
-      "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/Intel-LGA-1700-ASUS-Prime-Z790-P-LGA-1700-WiFi-ATX-Motherboard-6.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Asus Prime Z790-P WiFi CSM",
@@ -6025,9 +6027,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (Black)",
-      "price": 289.0,
-      "url": "https://www.ple.com.au/products/663777/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-black",
+      "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (White)",
+      "price": 209.0,
+      "url": "https://www.ple.com.au/products/668225/lian-li-o11-vision-compact-mid-tower-atx-case-white",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
