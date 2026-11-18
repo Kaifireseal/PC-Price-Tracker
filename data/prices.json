@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T03:06:59.135359+00:00",
+  "generated_at": "2026-11-18T02:32:58.919944+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -86,29 +86,6 @@
           "stock_status": "in_stock",
           "stock_qty": 57284,
           "image_url": "https://assets.msy.com.au/newsite/images/202408/thumb_img/AMD-CPU-AMD-Ryzen-5-5600X-6-Core-AM4-4-6GHz-CPU-Processor-100-100000065BOX-2.jpg"
-        }
-      ]
-    },
-    {
-      "part_key": "AMD Ryzen 5 5600GT",
-      "category": "CPU",
-      "subcategory": "AM4",
-      "best_price": 195.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
-      "best_title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202402/thumb_img/AMD-CPU-AMD-Ryzen-5-5600GT-6-Core-AM4-4-60GHz-CPU-Processor-2.jpg",
-      "offers": [
-        {
-          "retailer": "MSY",
-          "price": 195.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
-          "title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202402/thumb_img/AMD-CPU-AMD-Ryzen-5-5600GT-6-Core-AM4-4-60GHz-CPU-Processor-2.jpg"
         }
       ]
     },
@@ -290,7 +267,7 @@
       "part_key": "AMD Ryzen 5 7600X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 299.0,
+      "best_price": 279.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
       "best_title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
@@ -300,7 +277,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 299.0,
+          "price": 279.0,
           "url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
           "stock_status": "in_stock",
@@ -345,14 +322,23 @@
       "part_key": "AMD Ryzen 5 9600X",
       "category": "CPU",
       "subcategory": "AM5",
-      "best_price": 349.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-5-9600x-6-core-am5-5-40ghz-cpu-processor-100-100001405wof-78588",
-      "best_title": "AMD Ryzen 5 9600X 6 Core AM5 5.40GHz CPU Processor (100-100001405WOF)",
+      "best_price": 346.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/667598/amd-ryzen-5-9600x-6-core-12-thread-up-to-54ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/AMD-CPU-AMD-Ryzen-5-9600X-6-Core-AM5-5-40GHz-CPU-Processor-100-100001405WOF-1.jpg",
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 346.0,
+          "url": "https://www.ple.com.au/products/667598/amd-ryzen-5-9600x-6-core-12-thread-up-to-54ghz-am5-no-hsf-retail-box",
+          "title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": null
+        },
         {
           "retailer": "MSY",
           "price": 349.0,
@@ -361,15 +347,6 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202407/thumb_img/AMD-CPU-AMD-Ryzen-5-9600X-6-Core-AM5-5-40GHz-CPU-Processor-100-100001405WOF-1.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 349.0,
-          "url": "https://www.ple.com.au/products/667598/amd-ryzen-5-9600x-6-core-12-thread-up-to-54ghz-am5-no-hsf-retail-box",
-          "title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": null
         }
       ]
     },
@@ -477,7 +454,7 @@
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/654579/amd-ryzen-9-7900x-12-core-24-thread-up-to-56ghz-am5-no-hsf-retail-box",
       "best_title": "AMD Ryzen 9 7900X 12 Core 24 Thread Up To 5.6GHz AM5 - No HSF Retail Box",
-      "best_stock_status": "unknown",
+      "best_stock_status": "in_stock",
       "best_stock_qty": null,
       "best_image_url": null,
       "offers": [
@@ -486,7 +463,7 @@
           "price": 589.0,
           "url": "https://www.ple.com.au/products/654579/amd-ryzen-9-7900x-12-core-24-thread-up-to-56ghz-am5-no-hsf-retail-box",
           "title": "AMD Ryzen 9 7900X 12 Core 24 Thread Up To 5.6GHz AM5 - No HSF Retail Box",
-          "stock_status": "unknown",
+          "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": null
         }
@@ -812,23 +789,14 @@
       "part_key": "Lian Li O11 Dynamic EVO XL Full Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 209.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/668224/lian-li-o11-vision-compact-mid-tower-atx-case-black",
-      "best_title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (Black)",
+      "best_price": 245.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/lian-li-o11-dynamic-evo-rgb-tg-mid-tower-e-atx-case-black-o11dergbx-75661",
+      "best_title": "Lian Li O11 Dynamic EVO RGB TG Mid-Tower E-ATX Case - Black (O11DERGBX)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max",
+      "best_stock_qty": 75661,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202401/thumb_img/Lian-Li-Cases-Lian-Li-O11-Dynamic-EVO-RGB-TG-Mid-Tower-E-ATX-Case-Black-6.jpg",
       "offers": [
-        {
-          "retailer": "PLE Computers",
-          "price": 209.0,
-          "url": "https://www.ple.com.au/products/668224/lian-li-o11-vision-compact-mid-tower-atx-case-black",
-          "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (Black)",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
-        },
         {
           "retailer": "MSY",
           "price": 245.0,
@@ -837,6 +805,15 @@
           "stock_status": "in_stock",
           "stock_qty": 75661,
           "image_url": "https://assets.msy.com.au/newsite/images/202401/thumb_img/Lian-Li-Cases-Lian-Li-O11-Dynamic-EVO-RGB-TG-Mid-Tower-E-ATX-Case-Black-6.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 289.0,
+          "url": "https://www.ple.com.au/products/663779/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-white",
+          "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (White)",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
         }
       ]
     },
@@ -961,6 +938,15 @@
           "stock_status": "in_stock",
           "stock_qty": 82005,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-RS-ARGB-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011297-WW-4.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 165.0,
+          "url": "https://www.ple.com.au/products/672031/corsair-frame-4000d-rs-mid-tower-case-black",
+          "title": "Corsair Frame 4000D RS Mid Tower Case (Black)",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
         }
       ]
     },
@@ -1238,21 +1224,21 @@
       "part_key": "AMD Radeon RX 9060 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 789.0,
+      "best_price": 779.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
       "best_title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 90401,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 789.0,
+          "price": 779.0,
           "url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
           "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
           "stock_status": "in_stock",
-          "stock_qty": 90401,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg"
         },
         {
@@ -1396,20 +1382,20 @@
       "subcategory": "RX 9000-series",
       "best_price": 1399.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
-      "best_title": "Sapphire Radeon RX 9070 XT Pulse Gaming 16G OC Graphics Card (11348-03-20G)",
+      "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
+      "best_title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81933,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg",
+      "best_stock_qty": 81940,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg",
       "offers": [
         {
           "retailer": "MSY",
           "price": 1399.0,
-          "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
-          "title": "Sapphire Radeon RX 9070 XT Pulse Gaming 16G OC Graphics Card (11348-03-20G)",
+          "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
+          "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
           "stock_status": "in_stock",
-          "stock_qty": 81933,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg"
+          "stock_qty": 81940,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -1486,7 +1472,7 @@
       "best_url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "best_title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 79275,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg",
       "offers": [
         {
@@ -1495,7 +1481,7 @@
           "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
           "title": "Asus Prime X870-P WiFi CSM AM5 ATX Motherboard (PRIME X870-P WIFI-CSM)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 79275,
           "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
         }
       ]
@@ -1532,7 +1518,7 @@
       "best_url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "best_title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 82893,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg",
       "offers": [
         {
@@ -1541,7 +1527,7 @@
           "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
           "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 82893,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
         },
         {
@@ -1610,7 +1596,7 @@
       "best_url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
       "best_title": "MSI Pro B760M-A WiFi DDR5 LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 84138,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202506/thumb_img/Intel-LGA-1700-MSI-Pro-B760M-A-WiFi-LGA-1700-mATX-Motherboard-PRO-B760M-A-WIFI-6.jpg",
       "offers": [
         {
@@ -1619,7 +1605,7 @@
           "url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
           "title": "MSI Pro B760M-A WiFi DDR5 LGA 1700 mATX Motherboard (PRO B760M-A WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 84138,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202506/thumb_img/Intel-LGA-1700-MSI-Pro-B760M-A-WiFi-LGA-1700-mATX-Motherboard-PRO-B760M-A-WIFI-6.jpg"
         },
         {
@@ -1637,14 +1623,23 @@
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
       "category": "Motherboard",
       "subcategory": "LGA1851",
-      "best_price": 309.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
-      "best_title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
+      "best_price": 279.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
+      "best_title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
       "best_stock_status": "in_stock",
       "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg",
+      "best_image_url": "https://plecom.imgix.net/bo-2317819-bo-2317810-gigabyte-intel-bonus-game-thumbnail-150x50.png?auto=format&fit=max&w=300&h=104",
       "offers": [
+        {
+          "retailer": "PLE Computers",
+          "price": 279.0,
+          "url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
+          "title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
+          "stock_status": "in_stock",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-2317819-bo-2317810-gigabyte-intel-bonus-game-thumbnail-150x50.png?auto=format&fit=max&w=300&h=104"
+        },
         {
           "retailer": "MSY",
           "price": 309.0,
@@ -1653,15 +1648,6 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 319.0,
-          "url": "https://www.ple.com.au/products/672008/asus-tuf-gaming-b860-plus-wifi-lga1851-atx-desktop-motherboard",
-          "title": "ASUS TUF Gaming B860-Plus WiFi LGA1851 ATX Desktop Motherboard",
-          "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-2317819-bo-2317810-gigabyte-intel-bonus-game-thumbnail-150x50.png?auto=format&fit=max&w=300&h=104"
         }
       ]
     },
@@ -1972,23 +1958,14 @@
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
       "category": "RAM",
       "subcategory": "DDR4",
-      "best_price": 419.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c16d-32gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-72183",
-      "best_title": "G.Skill 32GB (2x16GB) F4-3600C16D-32GVKC RipJaws V 3600MHz CL16 DDR4 RAM",
+      "best_price": 449.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/643326/gskill-ripjaws-v-32gb-kit-2x16gb-ddr4-3600-c18",
+      "best_title": "G.Skill Ripjaws V 32GB Kit (2x16GB) DDR4-3600 C18",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 72183,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202308/thumb_img/DDR4-RAM-G-Skill-32GB-2x16GB-F4-3600C16D-32GVKC-RipJaws-V-3600MHz-DDR4-5.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1695347-472721-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 419.0,
-          "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c16d-32gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-72183",
-          "title": "G.Skill 32GB (2x16GB) F4-3600C16D-32GVKC RipJaws V 3600MHz CL16 DDR4 RAM",
-          "stock_status": "in_stock",
-          "stock_qty": 72183,
-          "image_url": "https://assets.msy.com.au/newsite/images/202308/thumb_img/DDR4-RAM-G-Skill-32GB-2x16GB-F4-3600C16D-32GVKC-RipJaws-V-3600MHz-DDR4-5.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 449.0,
@@ -2174,7 +2151,7 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 1274.0,
+          "price": 999.0,
           "url": "https://www.ple.com.au/products/670441/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr5-6000-c36",
           "title": "Kingston FURY Beast RGB 32GB Kit (2x16GB) DDR5-6000 C36",
           "stock_status": "in_stock",
@@ -2210,21 +2187,21 @@
       "part_key": "Kingston NV3 1TB NVMe SSD",
       "category": "SSD",
       "subcategory": "1TB",
-      "best_price": 219.0,
+      "best_price": 199.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
       "best_title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 80519,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202411/thumb_img/SSD-Hard-Drives-Kingston-1TB-SNV3S-1000G-NVMe-PCIe-Gen4-NVMe-M-2-SSD-2.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 219.0,
+          "price": 199.0,
           "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
           "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
           "stock_status": "in_stock",
-          "stock_qty": 80519,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202411/thumb_img/SSD-Hard-Drives-Kingston-1TB-SNV3S-1000G-NVMe-PCIe-Gen4-NVMe-M-2-SSD-2.jpg"
         },
         {
@@ -2343,21 +2320,21 @@
       "part_key": "Kingston NV3 500GB NVMe SSD",
       "category": "SSD",
       "subcategory": "500GB",
-      "best_price": 168.0,
+      "best_price": 159.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
       "best_title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 80980,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/SSD-Hard-Drives-Kingston-500GB-NV3-PCIe-Gen4-M-2-2280-NVMe-SSD-SNV3S-500G-2.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 168.0,
+          "price": 159.0,
           "url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
           "title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)",
           "stock_status": "in_stock",
-          "stock_qty": 80980,
+          "stock_qty": null,
           "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/SSD-Hard-Drives-Kingston-500GB-NV3-PCIe-Gen4-M-2-2280-NVMe-SSD-SNV3S-500G-2.jpg"
         },
         {
@@ -2427,13 +2404,12 @@
       "category": "CPU",
       "subcategory": "AM4",
       "retailer": "MSY",
-      "title": "AMD Ryzen 5 5600GT 6 Core AM4 4.60GHz CPU Processor (100-100001488BOX)",
-      "price": 195.0,
-      "url": "https://www.msy.com.au/product/amd-ryzen-5-5600gt-6-core-am4-4-60ghz-cpu-processor-100-100001488box-75736",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://assets.msy.com.au/newsite/images/202402/thumb_img/AMD-CPU-AMD-Ryzen-5-5600GT-6-Core-AM4-4-60GHz-CPU-Processor-2.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "AMD Ryzen 5 5600GT",
@@ -2755,7 +2731,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 7600X 6 Core 12 Thread Up To 5.3GHz AM5 - No HSF Retail Box",
-      "price": 299.0,
+      "price": 279.0,
       "url": "https://www.ple.com.au/products/654581/amd-ryzen-5-7600x-6-core-12-thread-up-to-53ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2831,7 +2807,7 @@
       "subcategory": "AM5",
       "retailer": "PLE Computers",
       "title": "AMD Ryzen 5 9600X 6 Core 12 Thread Up To 5.4GHz AM5 - No HSF Retail Box",
-      "price": 349.0,
+      "price": 346.0,
       "url": "https://www.ple.com.au/products/667598/amd-ryzen-5-9600x-6-core-12-thread-up-to-54ghz-am5-no-hsf-retail-box",
       "status": "OK",
       "stock_status": "in_stock",
@@ -2985,7 +2961,7 @@
       "price": 589.0,
       "url": "https://www.ple.com.au/products/654579/amd-ryzen-9-7900x-12-core-24-thread-up-to-56ghz-am5-no-hsf-retail-box",
       "status": "OK",
-      "stock_status": "unknown",
+      "stock_status": "in_stock",
       "stock_qty": null,
       "image_url": null
     },
@@ -3832,11 +3808,11 @@
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
       "title": "Asus Dual Radeon RX 9060 XT 16G Graphics Card (DUAL-RX9060XT-16G)",
-      "price": 789.0,
+      "price": 779.0,
       "url": "https://www.msy.com.au/product/asus-dual-radeon-rx-9060-xt-16g-graphics-card-dual-rx9060xt-16g-90401",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 90401,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/Asus-Dual-Radeon-RX-9060-XT-16G-Graphics-Card-DUAL-RX9060XT-16G-9.jpg"
     },
     {
@@ -4031,13 +4007,13 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Sapphire Radeon RX 9070 XT Pulse Gaming 16G OC Graphics Card (11348-03-20G)",
+      "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
       "price": 1399.0,
-      "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pulse-gaming-16g-oc-graphics-card-11348-03-20g-81933",
+      "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81933,
-      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pulse-Gaming-16G-OC-Graphics-Card-11348-03-20G-6.jpg"
+      "stock_qty": 81940,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg"
     },
     {
       "part_key": "Sapphire Pulse RX 9070 XT",
@@ -4207,13 +4183,12 @@
       "category": "RAM",
       "subcategory": "DDR4",
       "retailer": "MSY",
-      "title": "G.Skill 32GB (2x16GB) F4-3600C16D-32GVKC RipJaws V 3600MHz CL16 DDR4 RAM",
-      "price": 419.0,
-      "url": "https://www.msy.com.au/product/g-skill-32gb-2x16gb-f4-3600c16d-32gvkc-ripjaws-v-3600mhz-cl16-ddr4-ram-72183",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 72183,
-      "image_url": "https://assets.msy.com.au/newsite/images/202308/thumb_img/DDR4-RAM-G-Skill-32GB-2x16GB-F4-3600C16D-32GVKC-RipJaws-V-3600MHz-DDR4-5.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600",
@@ -4482,7 +4457,7 @@
       "subcategory": "DDR5",
       "retailer": "PLE Computers",
       "title": "Kingston FURY Beast RGB 32GB Kit (2x16GB) DDR5-6000 C36",
-      "price": 1274.0,
+      "price": 999.0,
       "url": "https://www.ple.com.au/products/670441/kingston-fury-beast-rgb-32gb-kit-2x16gb-ddr5-6000-c36",
       "status": "OK",
       "stock_status": "in_stock",
@@ -4701,11 +4676,11 @@
       "subcategory": "500GB",
       "retailer": "MSY",
       "title": "Kingston 500GB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/500G)",
-      "price": 168.0,
+      "price": 159.0,
       "url": "https://www.msy.com.au/product/kingston-500gb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-500g-80980",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 80980,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202412/thumb_img/SSD-Hard-Drives-Kingston-500GB-NV3-PCIe-Gen4-M-2-2280-NVMe-SSD-SNV3S-500G-2.jpg"
     },
     {
@@ -4775,11 +4750,11 @@
       "subcategory": "1TB",
       "retailer": "MSY",
       "title": "Kingston 1TB NV3 PCIe Gen4 M.2 2280 NVMe SSD (SNV3S/1000G)",
-      "price": 219.0,
+      "price": 199.0,
       "url": "https://www.msy.com.au/product/kingston-1tb-nv3-pcie-gen4-m-2-2280-nvme-ssd-snv3s-1000g-80519",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 80519,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202411/thumb_img/SSD-Hard-Drives-Kingston-1TB-SNV3S-1000G-NVMe-PCIe-Gen4-NVMe-M-2-SSD-2.jpg"
     },
     {
@@ -5150,7 +5125,7 @@
       "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 82893,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
     },
     {
@@ -5188,7 +5163,7 @@
       "url": "https://www.msy.com.au/product/asus-prime-x870-p-wifi-csm-am5-atx-motherboard-prime-x870-p-wifi-csm-79275",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 79275,
       "image_url": "https://assets.msy.com.au/newsite/images/202409/thumb_img/AMD-AM5-Asus-Prime-X870-P-WiFi-CSM-AM5-ATX-Motherboard-PRIME-X870-P-WIFI-CSM-6.jpg"
     },
     {
@@ -5298,7 +5273,7 @@
       "url": "https://www.msy.com.au/product/msi-pro-b760m-a-wifi-ddr5-lga-1700-matx-motherboard-pro-b760m-a-wifi-84138",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 84138,
+      "stock_qty": null,
       "image_url": "https://assets.msy.com.au/newsite/images/202506/thumb_img/Intel-LGA-1700-MSI-Pro-B760M-A-WiFi-LGA-1700-mATX-Motherboard-PRO-B760M-A-WIFI-6.jpg"
     },
     {
@@ -5382,9 +5357,9 @@
       "category": "Motherboard",
       "subcategory": "LGA1851",
       "retailer": "PLE Computers",
-      "title": "ASUS TUF Gaming B860-Plus WiFi LGA1851 ATX Desktop Motherboard",
-      "price": 319.0,
-      "url": "https://www.ple.com.au/products/672008/asus-tuf-gaming-b860-plus-wifi-lga1851-atx-desktop-motherboard",
+      "title": "ASUS TUF Gaming B860M-PLUS WiFi LGA1851 mATX Desktop Motherboard",
+      "price": 279.0,
+      "url": "https://www.ple.com.au/products/672006/asus-tuf-gaming-b860m-plus-wifi-lga1851-matx-desktop-motherboard",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
@@ -6042,12 +6017,13 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Corsair Frame 4000D RS Mid Tower Case (Black)",
+      "price": 165.0,
+      "url": "https://www.ple.com.au/products/672031/corsair-frame-4000d-rs-mid-tower-case-black",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
     },
     {
       "part_key": "Thermaltake View 270 Mid Tower ATX Case",
@@ -6116,9 +6092,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Vision Compact - Mid Tower ATX Case (Black)",
-      "price": 209.0,
-      "url": "https://www.ple.com.au/products/668224/lian-li-o11-vision-compact-mid-tower-atx-case-black",
+      "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (White)",
+      "price": 289.0,
+      "url": "https://www.ple.com.au/products/663779/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-white",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
