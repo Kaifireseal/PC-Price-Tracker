@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T02:06:25.047870+00:00",
+  "generated_at": "2026-11-20T02:01:10.369577+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -387,22 +387,13 @@
       "category": "CPU",
       "subcategory": "AM5",
       "best_price": 599.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
-      "best_title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/657776/amd-ryzen-7-7800x3d-8-core-16-thread-up-to-50ghz-am5-no-hsf-retail-box",
+      "best_title": "AMD Ryzen 7 7800X3D 8 Core 16 Thread Up To 5.0GHz AM5 - No HSF Retail Box",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 69583,
+      "best_stock_qty": null,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202304/thumb_img/AMD-CPU-AMD-Ryzen-7-7800X3D-8-Core-AM5-4-2GHz-CPU-Processor-3.jpg",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 599.0,
-          "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
-          "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
-          "stock_status": "in_stock",
-          "stock_qty": 69583,
-          "image_url": "https://assets.msy.com.au/newsite/images/202304/thumb_img/AMD-CPU-AMD-Ryzen-7-7800X3D-8-Core-AM5-4-2GHz-CPU-Processor-3.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 599.0,
@@ -411,6 +402,15 @@
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": null
+        },
+        {
+          "retailer": "MSY",
+          "price": 649.0,
+          "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
+          "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
+          "stock_status": "in_stock",
+          "stock_qty": 69583,
+          "image_url": "https://assets.msy.com.au/newsite/images/202304/thumb_img/AMD-CPU-AMD-Ryzen-7-7800X3D-8-Core-AM5-4-2GHz-CPU-Processor-3.jpg"
         }
       ]
     },
@@ -922,22 +922,22 @@
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
       "category": "Case",
       "subcategory": "Mid Tower",
-      "best_price": 135.0,
+      "best_price": 129.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/corsair-frame-4000d-rs-argb-tg-mid-tower-modular-e-atx-case-white-cc-9011297-ww-82005",
-      "best_title": "Corsair Frame 4000D RS ARGB TG Mid-Tower Modular E-ATX Case - White (CC-9011297-WW)",
+      "best_url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
+      "best_title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 82005,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-RS-ARGB-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011297-WW-4.jpg",
+      "best_stock_qty": 82003,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011291-WW-4.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 135.0,
-          "url": "https://www.msy.com.au/product/corsair-frame-4000d-rs-argb-tg-mid-tower-modular-e-atx-case-white-cc-9011297-ww-82005",
-          "title": "Corsair Frame 4000D RS ARGB TG Mid-Tower Modular E-ATX Case - White (CC-9011297-WW)",
+          "price": 129.0,
+          "url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
+          "title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
           "stock_status": "in_stock",
-          "stock_qty": 82005,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-RS-ARGB-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011297-WW-4.jpg"
+          "stock_qty": 82003,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011291-WW-4.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -982,7 +982,7 @@
       "best_url": "https://www.msy.com.au/product/asus-geforce-rtx-3060-dual-v2-oc-12g-lhr-graphics-card-dual-rtx3060-o12g-v2-59529",
       "best_title": "Asus GeForce RTX 3060 Dual V2 OC 12G LHR Graphics Card (DUAL-RTX3060-O12G-V2)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 59529,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202106/thumb_img/59529_thumb_G_1624583005596.jpg",
       "offers": [
         {
@@ -991,7 +991,7 @@
           "url": "https://www.msy.com.au/product/asus-geforce-rtx-3060-dual-v2-oc-12g-lhr-graphics-card-dual-rtx3060-o12g-v2-59529",
           "title": "Asus GeForce RTX 3060 Dual V2 OC 12G LHR Graphics Card (DUAL-RTX3060-O12G-V2)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 59529,
           "image_url": "https://assets.msy.com.au/newsite/images/202106/thumb_img/59529_thumb_G_1624583005596.jpg"
         },
         {
@@ -1043,8 +1043,8 @@
       "subcategory": "RTX 50-series",
       "best_price": 749.0,
       "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/674495/palit-geforce-rtx-5060-ti-dual-8gb-gddr7",
-      "best_title": "Palit GeForce RTX 5060 Ti Dual 8GB GDDR7",
+      "best_url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
+      "best_title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
       "best_stock_status": "unknown",
       "best_stock_qty": null,
       "best_image_url": "https://plecom.imgix.net/bo-2281275-bo-2281266-intel-bonus-games-transparent-150x50.png?auto=format&fit=max&w=300&h=104",
@@ -1052,8 +1052,8 @@
         {
           "retailer": "PLE Computers",
           "price": 749.0,
-          "url": "https://www.ple.com.au/products/674495/palit-geforce-rtx-5060-ti-dual-8gb-gddr7",
-          "title": "Palit GeForce RTX 5060 Ti Dual 8GB GDDR7",
+          "url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
+          "title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
           "stock_status": "unknown",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-2281275-bo-2281266-intel-bonus-games-transparent-150x50.png?auto=format&fit=max&w=300&h=104"
@@ -1527,7 +1527,7 @@
       "best_url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "best_title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 82893,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg",
       "offers": [
         {
@@ -1536,7 +1536,7 @@
           "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
           "title": "MSI B850 GAMING PLUS WIFI AM5 ATX Motherboard (B850 GAMING PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 82893,
           "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
         },
         {
@@ -1651,12 +1651,12 @@
         },
         {
           "retailer": "MSY",
-          "price": 309.0,
-          "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
-          "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
+          "price": 319.0,
+          "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860m-plus-wifi-lga-1851-matx-motherboard-tuf-gaming-b860m-plus-wifi-81991",
+          "title": "Asus TUF Gaming B860M-PLUS WIFI LGA 1851 mATX Motherboard (TUF GAMING B860M-PLUS WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": 81989,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
+          "stock_qty": null,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860M-PLUS-WIFI-LGA-1851-mATX-Motherboard-TUF-GAMING-B860M-PLUS-WIFI-4.jpg"
         }
       ]
     },
@@ -2306,7 +2306,7 @@
       "part_key": "Samsung 990 Pro 4TB PCIe 4.0 NVMe SSD",
       "category": "SSD",
       "subcategory": "4TB",
-      "best_price": 1439.0,
+      "best_price": 1399.0,
       "best_retailer": "PLE Computers",
       "best_url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
       "best_title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
@@ -2316,7 +2316,7 @@
       "offers": [
         {
           "retailer": "PLE Computers",
-          "price": 1439.0,
+          "price": 1399.0,
           "url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
           "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
           "stock_status": "in_stock",
@@ -2879,7 +2879,7 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "AMD Ryzen 7 7800X3D 8 Core AM5 5GHz CPU Processor (100-100000910WOF)",
-      "price": 599.0,
+      "price": 649.0,
       "url": "https://www.msy.com.au/product/amd-ryzen-7-7800x3d-8-core-am5-5ghz-cpu-processor-100-100000910wof-69583",
       "status": "OK",
       "stock_status": "in_stock",
@@ -3398,7 +3398,7 @@
       "url": "https://www.msy.com.au/product/asus-geforce-rtx-3060-dual-v2-oc-12g-lhr-graphics-card-dual-rtx3060-o12g-v2-59529",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 59529,
       "image_url": "https://assets.msy.com.au/newsite/images/202106/thumb_img/59529_thumb_G_1624583005596.jpg"
     },
     {
@@ -3554,9 +3554,9 @@
       "category": "GPU",
       "subcategory": "RTX 50-series",
       "retailer": "PLE Computers",
-      "title": "Palit GeForce RTX 5060 Ti Dual 8GB GDDR7",
+      "title": "ASUS GeForce RTX 5060 Ti Dual OC 8GB GDDR7",
       "price": 749.0,
-      "url": "https://www.ple.com.au/products/674495/palit-geforce-rtx-5060-ti-dual-8gb-gddr7",
+      "url": "https://www.ple.com.au/products/674698/asus-geforce-rtx-5060-ti-dual-oc-8gb-gddr7",
       "status": "OK",
       "stock_status": "unknown",
       "stock_qty": null,
@@ -4922,7 +4922,7 @@
       "subcategory": "4TB",
       "retailer": "PLE Computers",
       "title": "Samsung 990 Pro PCIe Gen4 NVMe M.2 SSD - 4TB",
-      "price": 1439.0,
+      "price": 1399.0,
       "url": "https://www.ple.com.au/products/662396/samsung-990-pro-pcie-gen4-nvme-m2-ssd-4tb",
       "status": "OK",
       "stock_status": "in_stock",
@@ -5135,7 +5135,7 @@
       "url": "https://www.msy.com.au/product/msi-b850-gaming-plus-wifi-am5-atx-motherboard-b850-gaming-plus-wifi-82893",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 82893,
       "image_url": "https://assets.msy.com.au/newsite/images/202504/thumb_img/AMD-AM5-MSI-B850-GAMING-PLUS-WIFI-AM5-ATX-Motherboard-B850-GAMING-PLUS-WIFI-5.jpg"
     },
     {
@@ -5354,13 +5354,13 @@
       "category": "Motherboard",
       "subcategory": "LGA1851",
       "retailer": "MSY",
-      "title": "Asus TUF Gaming B860-PLUS WIFI LGA 1851 ATX Motherboard (TUF GAMING B860-PLUS WIFI)",
-      "price": 309.0,
-      "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860-plus-wifi-lga-1851-atx-motherboard-tuf-gaming-b860-plus-wifi-81989",
+      "title": "Asus TUF Gaming B860M-PLUS WIFI LGA 1851 mATX Motherboard (TUF GAMING B860M-PLUS WIFI)",
+      "price": 319.0,
+      "url": "https://www.msy.com.au/product/asus-tuf-gaming-b860m-plus-wifi-lga-1851-matx-motherboard-tuf-gaming-b860m-plus-wifi-81991",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81989,
-      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860-PLUS-WIFI-LGA-1851-ATX-Motherboard-TUF-GAMING-B860-PLUS-WIFI-9.jpg"
+      "stock_qty": null,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Intel-LGA-1851-Asus-TUF-Gaming-B860M-PLUS-WIFI-LGA-1851-mATX-Motherboard-TUF-GAMING-B860M-PLUS-WIFI-4.jpg"
     },
     {
       "part_key": "Asus TUF Gaming B860-Plus WiFi",
@@ -6014,13 +6014,13 @@
       "category": "Case",
       "subcategory": "Mid Tower",
       "retailer": "MSY",
-      "title": "Corsair Frame 4000D RS ARGB TG Mid-Tower Modular E-ATX Case - White (CC-9011297-WW)",
-      "price": 135.0,
-      "url": "https://www.msy.com.au/product/corsair-frame-4000d-rs-argb-tg-mid-tower-modular-e-atx-case-white-cc-9011297-ww-82005",
+      "title": "Corsair Frame 4000D TG Mid-Tower Modular E-ATX Case - White (CC-9011291-WW)",
+      "price": 129.0,
+      "url": "https://www.msy.com.au/product/corsair-frame-4000d-tg-mid-tower-modular-e-atx-case-white-cc-9011291-ww-82003",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 82005,
-      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-RS-ARGB-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011297-WW-4.jpg"
+      "stock_qty": 82003,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Corsair-Cases-Corsair-Frame-4000D-TG-Mid-Tower-Modular-E-ATX-Case-White-CC-9011291-WW-4.jpg"
     },
     {
       "part_key": "Corsair Frame 4000D Mid Tower ATX Case",
