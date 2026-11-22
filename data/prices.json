@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T01:27:44.808793+00:00",
+  "generated_at": "2026-11-22T00:28:54.616426+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -817,9 +817,9 @@
         },
         {
           "retailer": "PLE Computers",
-          "price": 289.0,
-          "url": "https://www.ple.com.au/products/663779/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-white",
-          "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (White)",
+          "price": 399.0,
+          "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
+          "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
           "stock_status": "in_stock",
           "stock_qty": null,
           "image_url": "https://plecom.imgix.net/bo-1695302-472697-light.png?auto=format&w=96&h=96&fit=max"
@@ -853,22 +853,22 @@
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 158.0,
+      "best_price": 149.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/lian-li-lancool-216rx-rgb-mid-tower-atx-case-black-pc-lan216rx-66309",
-      "best_title": "Lian Li LanCool 216RX RGB Mid Tower ATX Case - Black (PC-LAN216RX)",
+      "best_url": "https://www.msy.com.au/product/lian-li-lancool-216x-mid-tower-atx-case-black-pc-lan216x-66308",
+      "best_title": "Lian Li LanCool 216X Mid Tower ATX Case - Black (PC-LAN216X)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 66309,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LandCool-216RX-RGB-Mid-Tower-ATX-Case-Black-4.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LanCool-216X-Mid-Tower-ATX-Case-Black-4.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 158.0,
-          "url": "https://www.msy.com.au/product/lian-li-lancool-216rx-rgb-mid-tower-atx-case-black-pc-lan216rx-66309",
-          "title": "Lian Li LanCool 216RX RGB Mid Tower ATX Case - Black (PC-LAN216RX)",
+          "price": 149.0,
+          "url": "https://www.msy.com.au/product/lian-li-lancool-216x-mid-tower-atx-case-black-pc-lan216x-66308",
+          "title": "Lian Li LanCool 216X Mid Tower ATX Case - Black (PC-LAN216X)",
           "stock_status": "in_stock",
-          "stock_qty": 66309,
-          "image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LandCool-216RX-RGB-Mid-Tower-ATX-Case-Black-4.jpg"
+          "stock_qty": null,
+          "image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LanCool-216X-Mid-Tower-ATX-Case-Black-4.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -1382,15 +1382,6 @@
           "stock_status": "in_stock",
           "stock_qty": 94447,
           "image_url": "https://assets.msy.com.au/newsite/images/202606/thumb_img/Gigabyte-Radeon-RX-9070-GRE-Gaming-OC-12G-Graphics-Card-GV-R907GREGAMING-OC-12GD-10.jpg"
-        },
-        {
-          "retailer": "PLE Computers",
-          "price": 949.0,
-          "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
-          "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
-          "stock_status": "unknown",
-          "stock_qty": null,
-          "image_url": "https://plecom.imgix.net/bo-2281275-bo-2281266-intel-bonus-games-transparent-150x50.png?auto=format&fit=max&w=300&h=104"
         }
       ]
     },
@@ -1705,23 +1696,14 @@
       "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
       "category": "PSU",
       "subcategory": "750W",
-      "best_price": 139.0,
-      "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
-      "best_title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
+      "best_price": 159.0,
+      "best_retailer": "PLE Computers",
+      "best_url": "https://www.ple.com.au/products/681912/asus-tuf-gaming-evo-750w-gold-modular-psu",
+      "best_title": "ASUS TUF Gaming EVO 750W Gold Modular PSU",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 72896,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://plecom.imgix.net/bo-1695347-472721-light.png?auto=format&w=96&h=96&fit=max",
       "offers": [
-        {
-          "retailer": "MSY",
-          "price": 139.0,
-          "url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
-          "title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
-          "stock_status": "in_stock",
-          "stock_qty": 72896,
-          "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg"
-        },
         {
           "retailer": "PLE Computers",
           "price": 159.0,
@@ -3942,13 +3924,12 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
-      "price": 949.0,
-      "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
-      "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
-      "image_url": "https://plecom.imgix.net/bo-2281275-bo-2281266-intel-bonus-games-transparent-150x50.png?auto=format&fit=max&w=300&h=104"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Asus Prime RX 9070 XT",
@@ -5741,13 +5722,12 @@
       "category": "PSU",
       "subcategory": "750W",
       "retailer": "MSY",
-      "title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
-      "price": 139.0,
-      "url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
-      "status": "OK",
-      "stock_status": "in_stock",
-      "stock_qty": 72896,
-      "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg"
+      "title": null,
+      "price": null,
+      "url": null,
+      "status": "NO_MATCH",
+      "stock_status": null,
+      "stock_qty": null
     },
     {
       "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
@@ -6088,9 +6068,9 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "PLE Computers",
-      "title": "Lian Li O11 Dynamic EVO RGB - Mid Tower ATX Case (White)",
-      "price": 289.0,
-      "url": "https://www.ple.com.au/products/663779/lian-li-o11-dynamic-evo-rgb-mid-tower-atx-case-white",
+      "title": "Lian Li O11 Dynamic EVO XL - Full Tower Case (Black)",
+      "price": 399.0,
+      "url": "https://www.ple.com.au/products/661574/lian-li-o11-dynamic-evo-xl-full-tower-case-black",
       "status": "OK",
       "stock_status": "in_stock",
       "stock_qty": null,
@@ -6113,13 +6093,13 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "MSY",
-      "title": "Lian Li LanCool 216RX RGB Mid Tower ATX Case - Black (PC-LAN216RX)",
-      "price": 158.0,
-      "url": "https://www.msy.com.au/product/lian-li-lancool-216rx-rgb-mid-tower-atx-case-black-pc-lan216rx-66309",
+      "title": "Lian Li LanCool 216X Mid Tower ATX Case - Black (PC-LAN216X)",
+      "price": 149.0,
+      "url": "https://www.msy.com.au/product/lian-li-lancool-216x-mid-tower-atx-case-black-pc-lan216x-66308",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 66309,
-      "image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LandCool-216RX-RGB-Mid-Tower-ATX-Case-Black-4.jpg"
+      "stock_qty": null,
+      "image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LanCool-216X-Mid-Tower-ATX-Case-Black-4.jpg"
     },
     {
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
