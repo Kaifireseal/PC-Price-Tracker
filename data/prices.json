@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:28:54.616426+00:00",
+  "generated_at": "2026-11-23T00:57:13.115631+00:00",
   "currency": "AUD",
   "parts": [
     {
@@ -656,21 +656,21 @@
       "part_key": "Intel Core i5-14400F",
       "category": "CPU",
       "subcategory": "LGA1700",
-      "best_price": 229.0,
+      "best_price": 245.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/intel-core-i5-14400f-10-core-4-70-ghz-lga-1700-boxed-cpu-processor-bx8071514400f-75272",
       "best_title": "Intel Core i5-14400F 10 Core 4.70 GHz LGA 1700 Boxed CPU Processor (BX8071514400F)",
-      "best_stock_status": "unknown",
-      "best_stock_qty": null,
+      "best_stock_status": "in_stock",
+      "best_stock_qty": 75272,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202401/thumb_img/Intel-CPU-Intel-Core-i5-14400F-10-Core-4-70-GHz-LGA-1700-CPU-Processor-1.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 229.0,
+          "price": 245.0,
           "url": "https://www.msy.com.au/product/intel-core-i5-14400f-10-core-4-70-ghz-lga-1700-boxed-cpu-processor-bx8071514400f-75272",
           "title": "Intel Core i5-14400F 10 Core 4.70 GHz LGA 1700 Boxed CPU Processor (BX8071514400F)",
-          "stock_status": "unknown",
-          "stock_qty": null,
+          "stock_status": "in_stock",
+          "stock_qty": 75272,
           "image_url": "https://assets.msy.com.au/newsite/images/202401/thumb_img/Intel-CPU-Intel-Core-i5-14400F-10-Core-4-70-GHz-LGA-1700-CPU-Processor-1.jpg"
         },
         {
@@ -853,22 +853,22 @@
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
       "category": "Case",
       "subcategory": "Full Tower",
-      "best_price": 149.0,
+      "best_price": 179.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/lian-li-lancool-216x-mid-tower-atx-case-black-pc-lan216x-66308",
-      "best_title": "Lian Li LanCool 216X Mid Tower ATX Case - Black (PC-LAN216X)",
+      "best_url": "https://www.msy.com.au/product/lian-li-o11-vision-compact-mid-tower-atx-case-black-pc-o11vpx-79549",
+      "best_title": "Lian Li O11 Vision Compact Mid-Tower ATX Case - Black (PC-O11VPX)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LanCool-216X-Mid-Tower-ATX-Case-Black-4.jpg",
+      "best_stock_qty": 79549,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Lian-Li-Cases-Lian-Li-O11-Vision-Compact-Mid-Tower-ATX-Case-Black-PC-O11VPX-8.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 149.0,
-          "url": "https://www.msy.com.au/product/lian-li-lancool-216x-mid-tower-atx-case-black-pc-lan216x-66308",
-          "title": "Lian Li LanCool 216X Mid Tower ATX Case - Black (PC-LAN216X)",
+          "price": 179.0,
+          "url": "https://www.msy.com.au/product/lian-li-o11-vision-compact-mid-tower-atx-case-black-pc-o11vpx-79549",
+          "title": "Lian Li O11 Vision Compact Mid-Tower ATX Case - Black (PC-O11VPX)",
           "stock_status": "in_stock",
-          "stock_qty": null,
-          "image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LanCool-216X-Mid-Tower-ATX-Case-Black-4.jpg"
+          "stock_qty": 79549,
+          "image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Lian-Li-Cases-Lian-Li-O11-Vision-Compact-Mid-Tower-ATX-Case-Black-PC-O11VPX-8.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -1288,22 +1288,22 @@
       "part_key": "AMD Radeon RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 1369.0,
+      "best_price": 1339.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
-      "best_title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
+      "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+      "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 81940,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Asus-Prime-Radeon-RX-9070-XT-16G-OC-Graphics-Card-PRIME-RX9070XT-O16G-7.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1369.0,
-          "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
-          "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
+          "price": 1339.0,
+          "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+          "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
           "stock_status": "in_stock",
-          "stock_qty": 81940,
-          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg"
+          "stock_qty": null,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Asus-Prime-Radeon-RX-9070-XT-16G-OC-Graphics-Card-PRIME-RX9070XT-O16G-7.jpg"
         },
         {
           "retailer": "PLE Computers",
@@ -1320,22 +1320,22 @@
       "part_key": "Asus Prime RX 9070 XT",
       "category": "GPU",
       "subcategory": "RX 9000-series",
-      "best_price": 1349.0,
+      "best_price": 1339.0,
       "best_retailer": "MSY",
-      "best_url": "https://www.msy.com.au/product/asus-tuf-gaming-radeon-rx-9070-xt-oc-16g-graphics-card-tuf-rx9070xt-o16g-gaming-90053",
-      "best_title": "Asus TUF Gaming Radeon RX 9070 XT OC 16G Graphics Card (TUF-RX9070XT-O16G-GAMING)",
+      "best_url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+      "best_title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": 90053,
-      "best_image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/ASUS-TUF-Gaming-Radeon-RX-9070-XT-OC-Edition-16GB-TUF-RX9070XT-O16G-GAMING-9.jpg",
+      "best_stock_qty": null,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Asus-Prime-Radeon-RX-9070-XT-16G-OC-Graphics-Card-PRIME-RX9070XT-O16G-7.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 1349.0,
-          "url": "https://www.msy.com.au/product/asus-tuf-gaming-radeon-rx-9070-xt-oc-16g-graphics-card-tuf-rx9070xt-o16g-gaming-90053",
-          "title": "Asus TUF Gaming Radeon RX 9070 XT OC 16G Graphics Card (TUF-RX9070XT-O16G-GAMING)",
+          "price": 1339.0,
+          "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
+          "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
           "stock_status": "in_stock",
-          "stock_qty": 90053,
-          "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/ASUS-TUF-Gaming-Radeon-RX-9070-XT-OC-Edition-16GB-TUF-RX9070XT-O16G-GAMING-9.jpg"
+          "stock_qty": null,
+          "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Asus-Prime-Radeon-RX-9070-XT-16G-OC-Graphics-Card-PRIME-RX9070XT-O16G-7.jpg"
         }
       ]
     },
@@ -1382,6 +1382,15 @@
           "stock_status": "in_stock",
           "stock_qty": 94447,
           "image_url": "https://assets.msy.com.au/newsite/images/202606/thumb_img/Gigabyte-Radeon-RX-9070-GRE-Gaming-OC-12G-Graphics-Card-GV-R907GREGAMING-OC-12GD-10.jpg"
+        },
+        {
+          "retailer": "PLE Computers",
+          "price": 949.0,
+          "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
+          "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
+          "stock_status": "unknown",
+          "stock_qty": null,
+          "image_url": "https://plecom.imgix.net/bo-2281275-bo-2281266-intel-bonus-games-transparent-150x50.png?auto=format&fit=max&w=300&h=104"
         }
       ]
     },
@@ -1554,21 +1563,21 @@
       "part_key": "MSI MAG B650 Tomahawk WiFi",
       "category": "Motherboard",
       "subcategory": "AM5",
-      "best_price": 279.0,
+      "best_price": 299.0,
       "best_retailer": "MSY",
       "best_url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "best_title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
+      "best_stock_qty": 65571,
       "best_image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg",
       "offers": [
         {
           "retailer": "MSY",
-          "price": 279.0,
+          "price": 299.0,
           "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
           "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
           "stock_status": "in_stock",
-          "stock_qty": null,
+          "stock_qty": 65571,
           "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg"
         }
       ]
@@ -1696,14 +1705,23 @@
       "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
       "category": "PSU",
       "subcategory": "750W",
-      "best_price": 159.0,
-      "best_retailer": "PLE Computers",
-      "best_url": "https://www.ple.com.au/products/681912/asus-tuf-gaming-evo-750w-gold-modular-psu",
-      "best_title": "ASUS TUF Gaming EVO 750W Gold Modular PSU",
+      "best_price": 139.0,
+      "best_retailer": "MSY",
+      "best_url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
+      "best_title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
       "best_stock_status": "in_stock",
-      "best_stock_qty": null,
-      "best_image_url": "https://plecom.imgix.net/bo-1695347-472721-light.png?auto=format&w=96&h=96&fit=max",
+      "best_stock_qty": 72896,
+      "best_image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg",
       "offers": [
+        {
+          "retailer": "MSY",
+          "price": 139.0,
+          "url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
+          "title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
+          "stock_status": "in_stock",
+          "stock_qty": 72896,
+          "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg"
+        },
         {
           "retailer": "PLE Computers",
           "price": 159.0,
@@ -3127,11 +3145,11 @@
       "subcategory": "LGA1700",
       "retailer": "MSY",
       "title": "Intel Core i5-14400F 10 Core 4.70 GHz LGA 1700 Boxed CPU Processor (BX8071514400F)",
-      "price": 229.0,
+      "price": 245.0,
       "url": "https://www.msy.com.au/product/intel-core-i5-14400f-10-core-4-70-ghz-lga-1700-boxed-cpu-processor-bx8071514400f-75272",
       "status": "OK",
-      "stock_status": "unknown",
-      "stock_qty": null,
+      "stock_status": "in_stock",
+      "stock_qty": 75272,
       "image_url": "https://assets.msy.com.au/newsite/images/202401/thumb_img/Intel-CPU-Intel-Core-i5-14400F-10-Core-4-70-GHz-LGA-1700-CPU-Processor-1.jpg"
     },
     {
@@ -3885,13 +3903,13 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Sapphire Radeon RX 9070 XT Pure Gaming 16G OC Graphics Card (11348-02-20G)",
-      "price": 1369.0,
-      "url": "https://www.msy.com.au/product/sapphire-radeon-rx-9070-xt-pure-gaming-16g-oc-graphics-card-11348-02-20g-81940",
+      "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
+      "price": 1339.0,
+      "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 81940,
-      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Sapphire-Radeon-RX-9070-XT-Pure-Gaming-16G-OC-Graphics-Card-11348-02-20G-8.jpg"
+      "stock_qty": null,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Asus-Prime-Radeon-RX-9070-XT-16G-OC-Graphics-Card-PRIME-RX9070XT-O16G-7.jpg"
     },
     {
       "part_key": "AMD Radeon RX 9070 XT",
@@ -3924,12 +3942,13 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "PLE Computers",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "Gigabyte Radeon RX 9070 GRE Gaming OC 12GB GDDR6",
+      "price": 949.0,
+      "url": "https://www.ple.com.au/products/685112/gigabyte-radeon-rx-9070-gre-gaming-oc-12gb-gddr6",
+      "status": "OK",
+      "stock_status": "unknown",
+      "stock_qty": null,
+      "image_url": "https://plecom.imgix.net/bo-2281275-bo-2281266-intel-bonus-games-transparent-150x50.png?auto=format&fit=max&w=300&h=104"
     },
     {
       "part_key": "Asus Prime RX 9070 XT",
@@ -3948,13 +3967,13 @@
       "category": "GPU",
       "subcategory": "RX 9000-series",
       "retailer": "MSY",
-      "title": "Asus TUF Gaming Radeon RX 9070 XT OC 16G Graphics Card (TUF-RX9070XT-O16G-GAMING)",
-      "price": 1349.0,
-      "url": "https://www.msy.com.au/product/asus-tuf-gaming-radeon-rx-9070-xt-oc-16g-graphics-card-tuf-rx9070xt-o16g-gaming-90053",
+      "title": "Asus Prime Radeon RX 9070 XT 16G OC Graphics Card (PRIME-RX9070XT-O16G)",
+      "price": 1339.0,
+      "url": "https://www.msy.com.au/product/asus-prime-radeon-rx-9070-xt-16g-oc-graphics-card-prime-rx9070xt-o16g-81932",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": 90053,
-      "image_url": "https://assets.msy.com.au/newsite/images/202510/thumb_img/ASUS-TUF-Gaming-Radeon-RX-9070-XT-OC-Edition-16GB-TUF-RX9070XT-O16G-GAMING-9.jpg"
+      "stock_qty": null,
+      "image_url": "https://assets.msy.com.au/newsite/images/202503/thumb_img/Asus-Prime-Radeon-RX-9070-XT-16G-OC-Graphics-Card-PRIME-RX9070XT-O16G-7.jpg"
     },
     {
       "part_key": "Asus Prime RX 9070 XT",
@@ -5024,11 +5043,11 @@
       "subcategory": "AM5",
       "retailer": "MSY",
       "title": "MSI MAG B650 Tomahawk WiFi AM5 ATX Motherboard (MAG B650 TOMAHAWK WIFI)",
-      "price": 279.0,
+      "price": 299.0,
       "url": "https://www.msy.com.au/product/msi-mag-b650-tomahawk-wifi-am5-atx-motherboard-mag-b650-tomahawk-wifi-65571",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
+      "stock_qty": 65571,
       "image_url": "https://assets.msy.com.au/newsite/images/202210/thumb_img/AMD-AM5-MSI-MAG-B650-Tomahawk-WiFi-AM5-ATX-Motherboard-5.jpg"
     },
     {
@@ -5722,12 +5741,13 @@
       "category": "PSU",
       "subcategory": "750W",
       "retailer": "MSY",
-      "title": null,
-      "price": null,
-      "url": null,
-      "status": "NO_MATCH",
-      "stock_status": null,
-      "stock_qty": null
+      "title": "ASUS 750W TUF Gaming 80+ Gold Rated Power Supply (TUF-GAMING-750G)",
+      "price": 139.0,
+      "url": "https://www.msy.com.au/product/asus-750w-tuf-gaming-80-gold-rated-power-supply-tuf-gaming-750g-72896",
+      "status": "OK",
+      "stock_status": "in_stock",
+      "stock_qty": 72896,
+      "image_url": "https://assets.msy.com.au/newsite/images/202309/thumb_img/Power-Supply-PSU-ASUS-750W-TUF-Gaming-80-Gold-Rated-Power-Supply-6.jpg"
     },
     {
       "part_key": "Asus TUF Gaming 750W Bronze ATX PSU",
@@ -6093,13 +6113,13 @@
       "category": "Case",
       "subcategory": "Full Tower",
       "retailer": "MSY",
-      "title": "Lian Li LanCool 216X Mid Tower ATX Case - Black (PC-LAN216X)",
-      "price": 149.0,
-      "url": "https://www.msy.com.au/product/lian-li-lancool-216x-mid-tower-atx-case-black-pc-lan216x-66308",
+      "title": "Lian Li O11 Vision Compact Mid-Tower ATX Case - Black (PC-O11VPX)",
+      "price": 179.0,
+      "url": "https://www.msy.com.au/product/lian-li-o11-vision-compact-mid-tower-atx-case-black-pc-o11vpx-79549",
       "status": "OK",
       "stock_status": "in_stock",
-      "stock_qty": null,
-      "image_url": "https://assets.msy.com.au/newsite/images/202211/thumb_img/Lian-Li-Cases-Lian-Li-LanCool-216X-Mid-Tower-ATX-Case-Black-4.jpg"
+      "stock_qty": 79549,
+      "image_url": "https://assets.msy.com.au/newsite/images/202410/thumb_img/Lian-Li-Cases-Lian-Li-O11-Vision-Compact-Mid-Tower-ATX-Case-Black-PC-O11VPX-8.jpg"
     },
     {
       "part_key": "Lian Li Vision Compact Mid-Tower Case",
